@@ -1,18 +1,29 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+const int btnPINs[ 5 ] = {12, 13, 14, 15, 23};
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+void setup()
+{
+    Serial.begin( 115200 );
+
+    for ( int i = 0; i < 5; i++ )
+    {
+        pinMode( btnPINs[ i ], INPUT_PULLUP );
+    }
+
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
+void loop()
+{
+    for ( int i = 0; i < 5; i++ )
+    {
+        if( !digitalRead( btnPINs[ i ] ) )
+        {
+            Serial.print( "Gumb " );
+            Serial.print( i + 1 );
+            Serial.print( " ukljucen!!\n" );
+        }
+    }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+    delay( 200 );
 }
