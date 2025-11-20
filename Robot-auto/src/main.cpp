@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-const int btnPINs[ 5 ] = {12, 13, 14, 15, 23};
+const int ledPINs[ 5 ] = {12, 13, 14, 15, 23};
 
 void setup()
 {
@@ -8,22 +8,15 @@ void setup()
 
     for ( int i = 0; i < 5; i++ )
     {
-        pinMode( btnPINs[ i ], INPUT_PULLUP );
+        pinMode( ledPINs[ i ], OUTPUT );
     }
 
 }
 
 void loop()
 {
-    for ( int i = 0; i < 5; i++ )
-    {
-        if( !digitalRead( btnPINs[ i ] ) )
-        {
-            Serial.print( "Gumb " );
-            Serial.print( i + 1 );
-            Serial.print( " ukljucen!!\n" );
-        }
-    }
-
+    digitalWrite( ledPINs[ 0 ], HIGH );
+    delay( 200 );
+    digitalWrite( ledPINs[ 0 ], LOW );
     delay( 200 );
 }
