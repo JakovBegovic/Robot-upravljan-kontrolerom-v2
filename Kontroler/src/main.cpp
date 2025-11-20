@@ -1,11 +1,23 @@
 #include <Arduino.h>
 #include <WiFi.h>
-#include <esp_wifi.h>
+#include <esp_now.h>
 
-const uint8_t macAdressRobotCar[] = {0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8};
-const uint8_t macAdressController[] = {0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24};
+const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
+const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
-const int btnPINs[ 5 ] = {12, 13, 14, 15, 23};
+const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
+
+esp_now_peer_info_t espNowPeerInfo;
+
+struct
+{
+    int command;
+} outgoingMessage;
+
+void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status );
+
+unsigned long lastTimeSent = 0;
+
 
 void setup()
 {
@@ -15,19 +27,63 @@ void setup()
     {
         pinMode( btnPINs[ i ], INPUT_PULLUP );
     }
+
+
+    WiFi.mode( WIFI_STA );
+
+    if ( esp_now_init() != ESP_OK )
+    {
+        Serial.println( "Error initializing ESP-NOW" );
+        return;
+    }
+
+    memcpy( espNowPeerInfo.peer_addr, macAdressRobotCar, 6 );
+    espNowPeerInfo.channel = 0;
+    espNowPeerInfo.encrypt = false;
+
+    if ( esp_now_add_peer( &espNowPeerInfo ) != ESP_OK )
+    {
+        Serial.println( "Failed to add peer" );
+        return;
+    }
+
+    esp_now_register_send_cb( onDataSent );
 }
 
 void loop()
 {
-    for ( int i = 0; i < 5; i++ )
+    if( !digitalRead( btnPINs[ 3 ] ) )
     {
-        if( !digitalRead( btnPINs[ i ] ) )
-        {
-            Serial.print( "Gumb " );
-            Serial.print( i + 1 );
-            Serial.print( " ukljucen!!\n" );
-        }
+        outgoingMessage.command = 4;
+    }
+    else if( !digitalRead( btnPINs[ 2 ] ) )
+    {
+        outgoingMessage.command = 3;
+    }
+    else if( !digitalRead( btnPINs[ 1 ] ) )
+    {
+        outgoingMessage.command = 2;
+    }
+    else if( !digitalRead( btnPINs[ 0 ] ) )
+    {
+        outgoingMessage.command = 1;
+    }
+    else
+    {
+        outgoingMessage.command = 0;
     }
 
-    delay( 200 );
+    //Serial.println(outgoingMessage.command);
+
+    if( millis() - lastTimeSent > 50 )
+    {
+        lastTimeSent = millis();
+
+        esp_err_t result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
+    }
+}
+
+void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status )
+{
+    Serial.println( status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail" );
 }
