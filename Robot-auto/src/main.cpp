@@ -15,8 +15,10 @@ void setup()
 
 void loop()
 {
-    digitalWrite( ledPINs[ 0 ], HIGH );
-    delay( 200 );
-    digitalWrite( ledPINs[ 0 ], LOW );
-    delay( 200 );
+    for ( int i = 0; i < 5; i++ )
+    {
+        digitalWrite( ledPINs[ i ], HIGH );
+        digitalWrite( ledPINs[ ( i - 1 + 5 ) % 5 ], LOW );
+        delay( 200 );
+    }
 }
