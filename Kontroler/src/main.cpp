@@ -11,7 +11,7 @@ esp_now_peer_info_t espNowPeerInfo;
 
 struct
 {
-    int command;
+    uint8_t command;
 } outgoingMessage;
 
 void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status );
