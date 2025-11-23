@@ -7,8 +7,6 @@ const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
 const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
 
-esp_now_peer_info_t espNowPeerInfo;
-
 struct
 {
     uint8_t command;
@@ -35,6 +33,7 @@ void setup()
         return;
     }
 
+    esp_now_peer_info_t espNowPeerInfo;
     memcpy( espNowPeerInfo.peer_addr, macAdressRobotCar, 6 );
     espNowPeerInfo.channel = 0;
     espNowPeerInfo.encrypt = false;
