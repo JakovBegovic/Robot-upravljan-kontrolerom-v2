@@ -28,6 +28,7 @@ void setup()
     for ( int i = 0; i < 5; i++ )
     {
         pinMode( ledPINs[ i ], OUTPUT );
+        digitalWrite( ledPINs[ i ], LOW );
     }
 
 
@@ -50,11 +51,6 @@ void setup()
     }
 
     esp_now_register_recv_cb( onDataRecv );
-
-    for ( int i = 0; i < 5; i++ )
-    {
-        digitalWrite( ledPINs[ i ], LOW );
-    }
 }
 
 void loop()
