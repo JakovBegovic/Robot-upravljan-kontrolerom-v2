@@ -53,6 +53,7 @@ void setup()
 void loop()
 {
     static int messageToSend = 0;
+    static int lastMessageSent = 0;
 
     if( !digitalRead( btnPINs[ 3 ] ) )
     {
@@ -75,11 +76,21 @@ void loop()
         messageToSend = 0;
     }
 
-    if( sendMessage( messageToSend ) == ESP_FAIL )
+    if( messageToSend != lastMessageSent )
     {
-        // send message or trigger watchdog
-        do {}
-        while( sendMessage( messageToSend ) == ESP_FAIL );
+        esp_err_t result = sendMessage( messageToSend );
+
+        if( result == ESP_OK )
+        {
+            lastMessageSent = messageToSend;
+        }
+        else // send message or trigger watchdog
+        {
+            do
+            {
+                result = sendMessage( messageToSend );
+            } while( result == ESP_FAIL );
+        }
     }
 }
 
