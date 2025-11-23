@@ -14,7 +14,7 @@ struct
 
 esp_now_peer_info_t espNowPeerInfo;
 
-void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status );
+void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status );
 
 esp_err_t sendMessage( uint8_t message );
 
@@ -94,7 +94,7 @@ void loop()
     }
 }
 
-void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status )
+void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
 {
     Serial.println( status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail" );
 }

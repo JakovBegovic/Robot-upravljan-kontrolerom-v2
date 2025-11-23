@@ -12,11 +12,11 @@ uint8_t recievedCommand = 0;
 struct
 {
     uint8_t command;
-} incomingMessage;
+} recievedMessage;
 
 esp_now_peer_info_t espNowPeerInfo;
 
-void onDataRecv( const uint8_t * macAddr, const uint8_t *incomingData, int len );
+void onDataRecieved( const uint8_t * macAddress, const uint8_t *recievedData, int length );
 
 void controlLEDs( uint8_t ledNumber );
 
@@ -50,18 +50,18 @@ void setup()
         return;
     }
 
-    esp_now_register_recv_cb( onDataRecv );
+    esp_now_register_recv_cb( onDataRecieved );
 }
 
 void loop()
 {
 }
 
-void onDataRecv( const uint8_t *macAddr, const uint8_t *incomingData, int len )
+void onDataRecieved( const uint8_t *macAddress, const uint8_t *recievedData, int length )
 {
-    memcpy( &incomingMessage, incomingData, sizeof( incomingMessage ) );
+    memcpy( &recievedMessage, recievedData, sizeof( recievedMessage ) );
 
-    recievedCommand = incomingMessage.command;
+    recievedCommand = recievedMessage.command;
 
     controlLEDs( recievedCommand );
 }
