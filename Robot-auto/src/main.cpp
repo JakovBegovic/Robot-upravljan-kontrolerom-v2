@@ -7,7 +7,7 @@ const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
 const uint8_t ledPINs[ 5 ] = { 12, 13, 14, 15, 23 };
 
-int recievedCommand = 0;
+uint8_t recievedCommand = 0;
 
 struct
 {
