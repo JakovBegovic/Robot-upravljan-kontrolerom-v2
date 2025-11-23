@@ -18,6 +18,8 @@ esp_now_peer_info_t espNowPeerInfo;
 
 void onDataRecv( const uint8_t * macAddr, const uint8_t *incomingData, int len );
 
+void controlLEDs( uint8_t ledNumber );
+
 
 void setup()
 {
@@ -65,10 +67,15 @@ void onDataRecv( const uint8_t *macAddr, const uint8_t *incomingData, int len )
 
     recievedCommand = incomingMessage.command;
 
+    controlLEDs( recievedCommand );
+}
+
+void controlLEDs( uint8_t ledNumber )
+{
     for ( int i = 0; i < 5; i++ )
     {
         digitalWrite( ledPINs[ i ], LOW );
     }
 
-    digitalWrite( ledPINs[ recievedCommand ], HIGH );
+    digitalWrite( ledPINs[ ledNumber ], HIGH );
 }
