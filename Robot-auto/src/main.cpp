@@ -2,10 +2,10 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
+const uint8_t ledPINs[ 5 ] = { 12, 13, 14, 15, 23 };
+
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
 const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
-
-const uint8_t ledPINs[ 5 ] = { 12, 13, 14, 15, 23 };
 
 uint8_t recievedCommand = 0;
 
