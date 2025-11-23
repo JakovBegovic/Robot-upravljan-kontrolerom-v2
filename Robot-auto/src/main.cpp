@@ -48,18 +48,15 @@ void setup()
     }
 
     esp_now_register_recv_cb( onDataRecv );
-}
 
-void loop()
-{
     for ( int i = 0; i < 5; i++ )
     {
         digitalWrite( ledPINs[ i ], LOW );
     }
+}
 
-    delay( 200 );
-    digitalWrite( ledPINs[ recievedCommand ], HIGH );
-    delay( 200 );
+void loop()
+{
 }
 
 void onDataRecv( const uint8_t *macAddr, const uint8_t *incomingData, int len )
@@ -67,4 +64,11 @@ void onDataRecv( const uint8_t *macAddr, const uint8_t *incomingData, int len )
     memcpy( &incomingMessage, incomingData, sizeof( incomingMessage ) );
 
     recievedCommand = incomingMessage.command;
+
+    for ( int i = 0; i < 5; i++ )
+    {
+        digitalWrite( ledPINs[ i ], LOW );
+    }
+
+    digitalWrite( ledPINs[ recievedCommand ], HIGH );
 }
