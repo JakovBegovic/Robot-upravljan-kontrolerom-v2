@@ -12,7 +12,11 @@ struct
     uint8_t command;
 } outgoingMessage;
 
+esp_now_peer_info_t espNowPeerInfo;
+
 void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status );
+
+void sendMessage( uint8_t message );
 
 
 void setup()
@@ -33,7 +37,6 @@ void setup()
         return;
     }
 
-    esp_now_peer_info_t espNowPeerInfo;
     memcpy( espNowPeerInfo.peer_addr, macAdressRobotCar, 6 );
     espNowPeerInfo.channel = 0;
     espNowPeerInfo.encrypt = false;
@@ -51,26 +54,36 @@ void loop()
 {
     if( !digitalRead( btnPINs[ 3 ] ) )
     {
-        outgoingMessage.command = 4;
+        sendMessage( 4 );
     }
     else if( !digitalRead( btnPINs[ 2 ] ) )
     {
-        outgoingMessage.command = 3;
+        sendMessage( 3 );
     }
     else if( !digitalRead( btnPINs[ 1 ] ) )
     {
-        outgoingMessage.command = 2;
+        sendMessage( 2 );
     }
     else if( !digitalRead( btnPINs[ 0 ] ) )
     {
-        outgoingMessage.command = 1;
+        sendMessage( 1 );
     }
     else
     {
-        outgoingMessage.command = 0;
+        sendMessage( 0 );
     }
 
     //Serial.println(outgoingMessage.command);
+}
+
+void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status )
+{
+    Serial.println( status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail" );
+}
+
+void sendMessage( uint8_t message )
+{
+    outgoingMessage.command = message;
 
     static unsigned long lastTimeSent = 0;
 
@@ -80,9 +93,4 @@ void loop()
 
         esp_err_t result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
     }
-}
-
-void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status )
-{
-    Serial.println( status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail" );
 }

@@ -14,6 +14,8 @@ struct
     uint8_t command;
 } incomingMessage;
 
+esp_now_peer_info_t espNowPeerInfo;
+
 void onDataRecv( const uint8_t * macAddr, const uint8_t *incomingData, int len );
 
 
@@ -35,7 +37,6 @@ void setup()
         return;
     }
 
-    esp_now_peer_info_t espNowPeerInfo;
     memcpy( espNowPeerInfo.peer_addr, macAdressController, 6 );
     espNowPeerInfo.channel = 0;
     espNowPeerInfo.encrypt = false;
