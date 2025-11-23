@@ -16,8 +16,6 @@ struct
 
 void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status );
 
-unsigned long lastTimeSent = 0;
-
 
 void setup()
 {
@@ -74,6 +72,8 @@ void loop()
     }
 
     //Serial.println(outgoingMessage.command);
+
+    static unsigned long lastTimeSent = 0;
 
     if( millis() - lastTimeSent > 50 )
     {
