@@ -16,7 +16,7 @@ esp_now_peer_info_t espNowPeerInfo;
 
 void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status );
 
-void sendMessage( uint8_t message );
+esp_err_t sendMessage( uint8_t message );
 
 
 void setup()
@@ -52,28 +52,35 @@ void setup()
 
 void loop()
 {
+    static int messageToSend = 0;
+
     if( !digitalRead( btnPINs[ 3 ] ) )
     {
-        sendMessage( 4 );
+        messageToSend = 4;
     }
     else if( !digitalRead( btnPINs[ 2 ] ) )
     {
-        sendMessage( 3 );
+        messageToSend = 3;
     }
     else if( !digitalRead( btnPINs[ 1 ] ) )
     {
-        sendMessage( 2 );
+        messageToSend = 2;
     }
     else if( !digitalRead( btnPINs[ 0 ] ) )
     {
-        sendMessage( 1 );
+        messageToSend = 1;
     }
     else
     {
-        sendMessage( 0 );
+        messageToSend = 0;
     }
 
-    //Serial.println(outgoingMessage.command);
+    if( sendMessage( messageToSend ) == ESP_FAIL )
+    {
+        // send message or trigger watchdog
+        do {}
+        while( sendMessage( messageToSend ) == ESP_FAIL );
+    }
 }
 
 void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status )
@@ -81,16 +88,19 @@ void onDataSent( const uint8_t *macAddr, esp_now_send_status_t status )
     Serial.println( status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail" );
 }
 
-void sendMessage( uint8_t message )
+esp_err_t sendMessage( uint8_t message )
 {
     outgoingMessage.command = message;
 
     static unsigned long lastTimeSent = 0;
+    esp_err_t result;
 
     if( millis() - lastTimeSent > 50 )
     {
         lastTimeSent = millis();
 
-        esp_err_t result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
+        result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
     }
+
+    return result;
 }
