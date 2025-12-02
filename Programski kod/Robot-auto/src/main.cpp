@@ -67,7 +67,6 @@ void loop()
 {
     if( recievedCommand != 0 && millis() - lastTimeRcvdMsg > 750 )
     {
-        Serial.println( "yes" );
         recievedCommand = STOP;
         controlLEDs( recievedCommand );
     }
