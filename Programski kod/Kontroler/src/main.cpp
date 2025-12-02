@@ -16,6 +16,8 @@ enum
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
 const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
+unsigned long lastTimeMsgSent = 0;
+
 struct
 {
     uint8_t command;
@@ -102,6 +104,10 @@ void loop()
             } while( result == ESP_FAIL );
         }
     }
+    else if( millis() - lastTimeMsgSent > 500 )
+    {
+        sendMessage( messageToSend );
+    }
 }
 
 void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
@@ -111,12 +117,11 @@ void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
 
 esp_err_t sendMessage( uint8_t message )
 {
-    static unsigned long lastTimeSent = 0;
-    esp_err_t result;
+    static esp_err_t result;
 
-    if( millis() - lastTimeSent > 50 )
+    if( millis() - lastTimeMsgSent > 50 )
     {
-        lastTimeSent = millis();
+        lastTimeMsgSent = millis();
 
         outgoingMessage.command = message;
         result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
