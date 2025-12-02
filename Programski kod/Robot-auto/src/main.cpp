@@ -56,6 +56,13 @@ void setup()
 
 void loop()
 {
+    if( recievedCommand != 0 && millis() - lastTimeRcvdMsg > 750 )
+    {
+        Serial.println( "yes" );
+        recievedCommand = 0;
+        controlLEDs( recievedCommand );
+    }
+
 }
 
 void onDataRecieved( const uint8_t *macAddress, const uint8_t *recievedData, int length )
@@ -64,7 +71,7 @@ void onDataRecieved( const uint8_t *macAddress, const uint8_t *recievedData, int
     recievedCommand = recievedMessage.command;
 
     lastTimeRcvdMsg = millis();
-    // TODO: napravi task koji se okine za 200 ms da ako nije dosla poruka da promijeni LED-icu koja svijetli
+
     controlLEDs( recievedCommand );
 }
 
