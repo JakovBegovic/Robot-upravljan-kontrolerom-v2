@@ -4,10 +4,19 @@
 
 const uint8_t ledPINs[ 5 ] = { 12, 13, 14, 15, 23 };
 
+enum
+{
+    STOP = 0,
+    LEFT,
+    RIGHT,
+    FRWRD,
+    BCKWRD
+};
+
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
 const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
-uint8_t recievedCommand = 0;
+uint8_t recievedCommand = STOP;
 unsigned long lastTimeRcvdMsg = 0;
 
 struct
@@ -59,7 +68,7 @@ void loop()
     if( recievedCommand != 0 && millis() - lastTimeRcvdMsg > 750 )
     {
         Serial.println( "yes" );
-        recievedCommand = 0;
+        recievedCommand = STOP;
         controlLEDs( recievedCommand );
     }
 
