@@ -4,6 +4,15 @@
 
 const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
 
+enum
+{
+    STOP = 0,
+    LEFT,
+    RIGHT,
+    FRWRD,
+    BCKWRD
+};
+
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
 const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
@@ -53,28 +62,28 @@ void setup()
 
 void loop()
 {
-    static int messageToSend = 0;
-    static int lastMessageSent = 0;
+    static int messageToSend = STOP;
+    static int lastMessageSent = STOP;
 
     if( !digitalRead( btnPINs[ 3 ] ) )
     {
-        messageToSend = 4;
+        messageToSend = BCKWRD;
     }
     else if( !digitalRead( btnPINs[ 2 ] ) )
     {
-        messageToSend = 3;
+        messageToSend = FRWRD;
     }
     else if( !digitalRead( btnPINs[ 1 ] ) )
     {
-        messageToSend = 2;
+        messageToSend = RIGHT;
     }
     else if( !digitalRead( btnPINs[ 0 ] ) )
     {
-        messageToSend = 1;
+        messageToSend = LEFT;
     }
     else
     {
-        messageToSend = 0;
+        messageToSend = STOP;
     }
 
     if( messageToSend != lastMessageSent )
