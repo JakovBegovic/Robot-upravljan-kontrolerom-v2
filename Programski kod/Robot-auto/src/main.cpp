@@ -8,6 +8,7 @@ const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
 const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
 uint8_t recievedCommand = 0;
+unsigned long lastTimeRcvdMsg = 0;
 
 struct
 {
@@ -60,9 +61,10 @@ void loop()
 void onDataRecieved( const uint8_t *macAddress, const uint8_t *recievedData, int length )
 {
     memcpy( &recievedMessage, recievedData, sizeof( recievedMessage ) );
-
     recievedCommand = recievedMessage.command;
 
+    lastTimeRcvdMsg = millis();
+    // TODO: napravi task koji se okine za 200 ms da ako nije dosla poruka da promijeni LED-icu koja svijetli
     controlLEDs( recievedCommand );
 }
 

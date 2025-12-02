@@ -13,6 +13,7 @@ struct
 } outgoingMessage;
 
 esp_now_peer_info_t espNowPeerInfo;
+esp_now_send_status_t lastMsgStatus = ESP_NOW_SEND_FAIL;
 
 void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status );
 
@@ -96,13 +97,11 @@ void loop()
 
 void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
 {
-    Serial.println( status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail" );
+    lastMsgStatus = status;
 }
 
 esp_err_t sendMessage( uint8_t message )
 {
-    outgoingMessage.command = message;
-
     static unsigned long lastTimeSent = 0;
     esp_err_t result;
 
@@ -110,6 +109,7 @@ esp_err_t sendMessage( uint8_t message )
     {
         lastTimeSent = millis();
 
+        outgoingMessage.command = message;
         result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
     }
 
