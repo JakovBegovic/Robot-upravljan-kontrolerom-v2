@@ -65,7 +65,7 @@ void setup()
 
 void loop()
 {
-    if( recievedCommand != 0 && millis() - lastTimeRcvdMsg > 750 )
+    if( recievedCommand != STOP && millis() - lastTimeRcvdMsg > 750 )
     {
         recievedCommand = STOP;
         controlLEDs( recievedCommand );
