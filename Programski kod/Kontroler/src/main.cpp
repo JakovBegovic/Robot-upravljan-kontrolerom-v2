@@ -104,7 +104,7 @@ void loop()
             } while( result == ESP_FAIL );
         }
     }
-    else if( millis() - lastTimeMsgSent > 500 )
+    else if( lastMessageSent != STOP && millis() - lastTimeMsgSent > 500 )
     {
         sendMessage( messageToSend );
     }
