@@ -35,7 +35,6 @@ void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status );
 esp_err_t sendMessage( uint8_t message );
 
 
-
 void setup()
 {
     Serial.begin( 115200 );
@@ -74,24 +73,26 @@ void loop()
 
     messageToSend = readInputs();
 
-    if( messageToSend != lastMessageSent || lastMsgStatus == ESP_NOW_SEND_FAIL )
+    esp_err_t result;
+
+    if( messageToSend != lastMessageSent ||
+        lastMsgStatus == ESP_NOW_SEND_FAIL ||
+        ( messageToSend != STOP &&
+          millis() - lastTimeMsgSent > 500 )
+      )
     {
-        esp_err_t result = sendMessage( messageToSend );
+        result = sendMessage( messageToSend );
 
         if( result == ESP_OK )
         {
             lastMessageSent = messageToSend;
         }
     }
-    else if( lastMessageSent != STOP && millis() - lastTimeMsgSent > 500 )
-    {
-        sendMessage( messageToSend );
-    }
 }
 
 uint8_t readInputs()
 {
-    static uint8_t messageToSend;
+    uint8_t messageToSend;
 
     if( !digitalRead( btnPINs[ 3 ] ) )
     {
@@ -141,7 +142,7 @@ void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
 
 esp_err_t sendMessage( uint8_t message )
 {
-    static esp_err_t result;
+    esp_err_t result;
 
     if( millis() - lastTimeMsgSent > timeBetweenMsgs )
     {
