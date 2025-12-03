@@ -65,8 +65,8 @@ void setup()
 
 void loop()
 {
-    static int messageToSend = STOP;
-    static int lastMessageSent = STOP;
+    static uint8_t messageToSend = STOP;
+    static uint8_t lastMessageSent = STOP;
 
     if( !digitalRead( btnPINs[ 3 ] ) )
     {
