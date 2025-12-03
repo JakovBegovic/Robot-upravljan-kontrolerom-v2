@@ -13,6 +13,9 @@ enum
     BCKWRD
 };
 
+uint8_t readInputs();
+
+
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
 const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
@@ -30,6 +33,7 @@ esp_now_send_status_t lastMsgStatus = ESP_NOW_SEND_FAIL;
 void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status );
 
 esp_err_t sendMessage( uint8_t message );
+
 
 
 void setup()
@@ -68,6 +72,27 @@ void loop()
     static uint8_t messageToSend = STOP;
     static uint8_t lastMessageSent = STOP;
 
+    messageToSend = readInputs();
+
+    if( messageToSend != lastMessageSent || lastMsgStatus == ESP_NOW_SEND_FAIL )
+    {
+        esp_err_t result = sendMessage( messageToSend );
+
+        if( result == ESP_OK )
+        {
+            lastMessageSent = messageToSend;
+        }
+    }
+    else if( lastMessageSent != STOP && millis() - lastTimeMsgSent > 500 )
+    {
+        sendMessage( messageToSend );
+    }
+}
+
+uint8_t readInputs()
+{
+    static uint8_t messageToSend;
+
     if( !digitalRead( btnPINs[ 3 ] ) )
     {
         messageToSend = BCKWRD;
@@ -89,19 +114,7 @@ void loop()
         messageToSend = STOP;
     }
 
-    if( messageToSend != lastMessageSent || lastMsgStatus == ESP_NOW_SEND_FAIL )
-    {
-        esp_err_t result = sendMessage( messageToSend );
-
-        if( result == ESP_OK )
-        {
-            lastMessageSent = messageToSend;
-        }
-    }
-    else if( lastMessageSent != STOP && millis() - lastTimeMsgSent > 500 )
-    {
-        sendMessage( messageToSend );
-    }
+    return messageToSend;
 }
 
 void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
