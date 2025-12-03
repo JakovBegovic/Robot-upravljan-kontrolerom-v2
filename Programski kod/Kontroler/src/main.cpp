@@ -88,20 +88,13 @@ void loop()
         messageToSend = STOP;
     }
 
-    if( messageToSend != lastMessageSent )
+    if( messageToSend != lastMessageSent || lastMsgStatus == ESP_NOW_SEND_FAIL )
     {
         esp_err_t result = sendMessage( messageToSend );
 
         if( result == ESP_OK )
         {
             lastMessageSent = messageToSend;
-        }
-        else // send message or trigger watchdog
-        {
-            do
-            {
-                result = sendMessage( messageToSend );
-            } while( result == ESP_FAIL );
         }
     }
     else if( lastMessageSent != STOP && millis() - lastTimeMsgSent > 500 )
@@ -125,6 +118,10 @@ esp_err_t sendMessage( uint8_t message )
 
         outgoingMessage.command = message;
         result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
+    }
+    else
+    {
+        result = ESP_FAIL;
     }
 
     return result;
