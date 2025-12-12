@@ -2,18 +2,20 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
+// forward, backward, right, left, music
 const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
 
-enum
+
+struct msgStruct
 {
-    STOP = 0,
-    LEFT,
-    RIGHT,
-    FRWRD,
-    BCKWRD
+    int8_t moveDirection = 0; // 0 stop, 1 forward, -1 backward
+    int8_t rotation = 0; // 0 no rotation, 1 right, -1 left
+    int16_t speed = 2048; // 0 to 4096
 };
 
-uint8_t readInputs();
+bool operator!=( const msgStruct& a, const msgStruct& b );
+
+void constructMsg( msgStruct* msgToConstruct );
 
 
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
@@ -22,17 +24,12 @@ const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 unsigned long lastTimeMsgSent = 0;
 unsigned long timeBetweenMsgs = 50; // in miliseconds
 
-struct
-{
-    uint8_t command;
-} outgoingMessage;
-
 esp_now_peer_info_t espNowPeerInfo;
 esp_now_send_status_t lastMsgStatus = ESP_NOW_SEND_FAIL;
 
-void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status );
+void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status );
 
-esp_err_t sendMessage( uint8_t message );
+esp_err_t sendMessage( const msgStruct* msgToConstruct );
 
 
 void setup()
@@ -68,20 +65,22 @@ void setup()
 
 void loop()
 {
-    static uint8_t messageToSend = STOP;
-    static uint8_t lastMessageSent = STOP;
+    static msgStruct messageToSend;
+    static msgStruct lastMessageSent;
 
-    messageToSend = readInputs();
+    constructMsg( &messageToSend );
 
     esp_err_t result;
 
     if( messageToSend != lastMessageSent ||
         lastMsgStatus == ESP_NOW_SEND_FAIL ||
-        ( messageToSend != STOP &&
-          millis() - lastTimeMsgSent > 500 )
+        (
+            ( messageToSend.moveDirection != 0 ||
+              messageToSend.rotation != 0 ) &&
+            millis() - lastTimeMsgSent > 500 )
       )
     {
-        result = sendMessage( messageToSend );
+        result = sendMessage( &messageToSend );
 
         if( result == ESP_OK )
         {
@@ -90,35 +89,34 @@ void loop()
     }
 }
 
-uint8_t readInputs()
+void constructMsg( msgStruct* msgToConstruct )
 {
-    uint8_t messageToSend;
+    // digitalRead returns 0 for pressed button and 1 for unpressed button
 
-    if( !digitalRead( btnPINs[ 3 ] ) )
+    msgToConstruct->moveDirection = !digitalRead( btnPINs[ 0 ] ) - !digitalRead( btnPINs[ 1 ] );
+    msgToConstruct->rotation = !digitalRead( btnPINs[ 2 ] ) - !digitalRead( btnPINs[ 3 ] );
+    msgToConstruct->speed = 2048;
+}
+
+esp_err_t sendMessage( const msgStruct* outgoingMessage )
+{
+    esp_err_t result;
+
+    if( millis() - lastTimeMsgSent > timeBetweenMsgs )
     {
-        messageToSend = BCKWRD;
-    }
-    else if( !digitalRead( btnPINs[ 2 ] ) )
-    {
-        messageToSend = FRWRD;
-    }
-    else if( !digitalRead( btnPINs[ 1 ] ) )
-    {
-        messageToSend = RIGHT;
-    }
-    else if( !digitalRead( btnPINs[ 0 ] ) )
-    {
-        messageToSend = LEFT;
+        lastTimeMsgSent = millis();
+
+        result = esp_now_send( macAdressRobotCar, ( uint8_t* ) outgoingMessage, sizeof( *outgoingMessage ) );
     }
     else
     {
-        messageToSend = STOP;
+        result = ESP_FAIL;
     }
 
-    return messageToSend;
+    return result;
 }
 
-void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
+void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status )
 {
     lastMsgStatus = status;
 
@@ -140,21 +138,9 @@ void onDataSent( const uint8_t *macAddress, esp_now_send_status_t status )
     }
 }
 
-esp_err_t sendMessage( uint8_t message )
+bool operator!=( const msgStruct& a, const msgStruct& b )
 {
-    esp_err_t result;
-
-    if( millis() - lastTimeMsgSent > timeBetweenMsgs )
-    {
-        lastTimeMsgSent = millis();
-
-        outgoingMessage.command = message;
-        result = esp_now_send( macAdressRobotCar, ( uint8_t * ) &outgoingMessage, sizeof( outgoingMessage ) );
-    }
-    else
-    {
-        result = ESP_FAIL;
-    }
-
-    return result;
+    return a.moveDirection != b.moveDirection ||
+           a.rotation != b.rotation ||
+           a.speed != b.speed;
 }

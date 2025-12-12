@@ -2,15 +2,15 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
-const uint8_t ledPINs[ 5 ] = { 12, 13, 14, 15, 23 };
+const uint8_t ledPINs[ 6 ] = { 12, 13, 14, 15, 23, 19 };
 
 enum
 {
     STOP = 0,
-    LEFT,
-    RIGHT,
     FRWRD,
-    BCKWRD
+    BCKWRD,
+    RIGHT,
+    LEFT
 };
 
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
@@ -21,21 +21,23 @@ unsigned long lastTimeRcvdMsg = 0;
 
 struct
 {
-    uint8_t command;
+    int8_t moveDirection = 0; // 0 stop, 1 forward, -1 backward
+    int8_t rotation = 0; // 0 no rotation, 1 right, -1 left
+    int16_t speed = 2048; // 0 to 4096
 } recievedMessage;
 
 esp_now_peer_info_t espNowPeerInfo;
 
 void onDataRecieved( const uint8_t * macAddress, const uint8_t *recievedData, int length );
 
-void controlLEDs( uint8_t ledNumber );
+void controlLEDs( int8_t moveDirection, int8_t rotation );
 
 
 void setup()
 {
     Serial.begin( 115200 );
 
-    for ( int i = 0; i < 5; i++ )
+    for ( int i = 0; i < 6; i++ )
     {
         pinMode( ledPINs[ i ], OUTPUT );
         digitalWrite( ledPINs[ i ], LOW );
@@ -65,30 +67,32 @@ void setup()
 
 void loop()
 {
-    if( recievedCommand != STOP && millis() - lastTimeRcvdMsg > 750 )
+    if( ( recievedMessage.moveDirection != 0 || recievedMessage.rotation != 0 ) && millis() - lastTimeRcvdMsg > 750 )
     {
-        recievedCommand = STOP;
-        controlLEDs( recievedCommand );
-    }
+        recievedMessage.moveDirection = 0;
+        recievedMessage.rotation = 0;
 
+        controlLEDs( recievedMessage.moveDirection, recievedMessage.rotation );
+    }
 }
 
 void onDataRecieved( const uint8_t *macAddress, const uint8_t *recievedData, int length )
 {
     memcpy( &recievedMessage, recievedData, sizeof( recievedMessage ) );
-    recievedCommand = recievedMessage.command;
 
     lastTimeRcvdMsg = millis();
 
-    controlLEDs( recievedCommand );
+    controlLEDs( recievedMessage.moveDirection, recievedMessage.rotation );
 }
 
-void controlLEDs( uint8_t ledNumber )
+void controlLEDs( int8_t moveDirection, int8_t rotation )
 {
-    for ( int i = 0; i < 5; i++ )
+    for ( int i = 0; i < 6; i++ )
     {
         digitalWrite( ledPINs[ i ], LOW );
     }
 
-    digitalWrite( ledPINs[ ledNumber ], HIGH );
+    digitalWrite( ledPINs[ 1 + moveDirection ], HIGH );
+
+    digitalWrite( ledPINs[ 4 + rotation ], HIGH );
 }
