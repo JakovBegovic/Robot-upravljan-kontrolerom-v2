@@ -2,6 +2,8 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
+#define DEBUG 0
+
 // forward, backward, right, left, music
 const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
 
@@ -34,7 +36,10 @@ esp_err_t sendMessage( const msgStruct* msgToConstruct );
 
 void setup()
 {
-    Serial.begin( 115200 );
+    if( DEBUG )
+    {
+        Serial.begin( 115200 );
+    }
 
     for ( int i = 0; i < 5; i++ )
     {
@@ -46,7 +51,11 @@ void setup()
 
     if ( esp_now_init() != ESP_OK )
     {
-        Serial.println( "Error initializing ESP-NOW" );
+        if( DEBUG )
+        {
+            Serial.println( "Error initializing ESP-NOW" );
+        }
+
         return;
     }
 
@@ -56,7 +65,11 @@ void setup()
 
     if ( esp_now_add_peer( &espNowPeerInfo ) != ESP_OK )
     {
-        Serial.println( "Failed to add peer" );
+        if( DEBUG )
+        {
+            Serial.println( "Failed to add peer" );
+        }
+
         return;
     }
 
@@ -107,6 +120,12 @@ esp_err_t sendMessage( const msgStruct* outgoingMessage )
         lastTimeMsgSent = millis();
 
         result = esp_now_send( macAdressRobotCar, ( uint8_t* ) outgoingMessage, sizeof( *outgoingMessage ) );
+
+        if( DEBUG )
+        {
+            Serial.print( "Sent " );
+            Serial.println( ( double )millis() / 1000 );
+        }
     }
     else
     {
