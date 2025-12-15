@@ -27,7 +27,7 @@ unsigned long lastTimeMsgSent = 0;
 unsigned long timeBetweenMsgs = 50; // in miliseconds
 
 esp_now_peer_info_t espNowPeerInfo;
-esp_now_send_status_t lastMsgStatus = ESP_NOW_SEND_FAIL;
+esp_now_send_status_t lastMsgStatus = ESP_NOW_SEND_SUCCESS;
 
 void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status );
 
@@ -97,7 +97,9 @@ void loop()
 
         if( result == ESP_OK )
         {
-            lastMessageSent = messageToSend;
+            lastMessageSent.moveDirection = messageToSend.moveDirection;
+            lastMessageSent.rotation = messageToSend.rotation;
+            lastMessageSent.speed = messageToSend.speed;
         }
     }
 }
