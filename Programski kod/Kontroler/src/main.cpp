@@ -85,12 +85,23 @@ void loop()
 
     esp_err_t result;
 
-    if( messageToSend != lastMessageSent ||
-        lastMsgStatus == ESP_NOW_SEND_FAIL ||
+    if( (
+            (
+                messageToSend != lastMessageSent ||
+                lastMsgStatus == ESP_NOW_SEND_FAIL
+            )
+            &&
+            millis() - lastTimeMsgSent > 50
+        )
+        ||
         (
-            ( messageToSend.moveDirection != 0 ||
-              messageToSend.rotation != 0 ) &&
-            millis() - lastTimeMsgSent > 500 )
+            (
+                messageToSend.moveDirection != 0 ||
+                messageToSend.rotation != 0
+            )
+            &&
+            millis() - lastTimeMsgSent > 500
+        )
       )
     {
         result = sendMessage( &messageToSend );
@@ -117,21 +128,14 @@ esp_err_t sendMessage( const msgStruct* outgoingMessage )
 {
     esp_err_t result;
 
-    if( millis() - lastTimeMsgSent > timeBetweenMsgs )
-    {
-        lastTimeMsgSent = millis();
+    result = esp_now_send( macAdressRobotCar, ( uint8_t* ) outgoingMessage, sizeof( *outgoingMessage ) );
 
-        result = esp_now_send( macAdressRobotCar, ( uint8_t* ) outgoingMessage, sizeof( *outgoingMessage ) );
+    lastTimeMsgSent = millis();
 
-        if( DEBUG )
-        {
-            Serial.print( "Sent " );
-            Serial.println( ( double )millis() / 1000 );
-        }
-    }
-    else
+    if( DEBUG )
     {
-        result = ESP_FAIL;
+        Serial.print( "Sent " );
+        Serial.println( ( double )millis() / 1000 );
     }
 
     return result;
