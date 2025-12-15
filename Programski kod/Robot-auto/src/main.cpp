@@ -35,8 +35,9 @@ void setup()
     for ( int i = 0; i < 6; i++ )
     {
         pinMode( ledPINs[ i ], OUTPUT );
-        digitalWrite( ledPINs[ i ], LOW );
     }
+
+    controlLEDs( recievedMessage.moveDirection, recievedMessage.rotation );
 
 
     WiFi.mode( WIFI_STA );
