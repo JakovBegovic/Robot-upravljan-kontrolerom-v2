@@ -2,6 +2,8 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
+#define DEBUG 0
+
 const uint8_t ledPINs[ 6 ] = { 12, 13, 14, 15, 23, 19 };
 
 const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
@@ -25,7 +27,10 @@ void controlLEDs( int8_t moveDirection, int8_t rotation );
 
 void setup()
 {
-    Serial.begin( 115200 );
+    if( DEBUG )
+    {
+        Serial.begin( 115200 );
+    }
 
     for ( int i = 0; i < 6; i++ )
     {
@@ -38,7 +43,11 @@ void setup()
 
     if ( esp_now_init() != ESP_OK )
     {
-        Serial.println( "Error initializing ESP-NOW" );
+        if( DEBUG )
+        {
+            Serial.println( "Error initializing ESP-NOW" );
+        }
+
         return;
     }
 
@@ -48,7 +57,11 @@ void setup()
 
     if ( esp_now_add_peer(&espNowPeerInfo ) != ESP_OK )
     {
-        Serial.println( "Failed to add peer" );
+        if( DEBUG )
+        {
+            Serial.println( "Failed to add peer" );
+        }
+
         return;
     }
 
