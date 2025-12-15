@@ -24,10 +24,9 @@ const uint8_t macAdressRobotCar[] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
 const uint8_t macAdressController[] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
 
 unsigned long lastTimeMsgSent = 0;
-unsigned long timeBetweenMsgs = 50; // in miliseconds
+uint8_t failedMsgsInARow = 0;
 
 esp_now_peer_info_t espNowPeerInfo;
-esp_now_send_status_t lastMsgStatus = ESP_NOW_SEND_SUCCESS;
 
 void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status );
 
@@ -88,7 +87,8 @@ void loop()
     if( (
             (
                 messageToSend != lastMessageSent ||
-                lastMsgStatus == ESP_NOW_SEND_FAIL
+                failedMsgsInARow > 0 &&
+                failedMsgsInARow < 20
             )
             &&
             millis() - lastTimeMsgSent > 50
@@ -143,23 +143,13 @@ esp_err_t sendMessage( const msgStruct* outgoingMessage )
 
 void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status )
 {
-    lastMsgStatus = status;
-
-    static uint8_t failedInARow = 0;
-
-    if( lastMsgStatus == ESP_NOW_SEND_FAIL )
+    if( status == ESP_NOW_SEND_FAIL )
     {
-        ++failedInARow;
-
-        if( failedInARow == 10 )
-        {
-            timeBetweenMsgs = 500;
-        }
+        failedMsgsInARow++;
     }
     else
     {
-        failedInARow = 0;
-        timeBetweenMsgs = 50;
+        failedMsgsInARow = 0;
     }
 }
 
