@@ -71,7 +71,14 @@ void setup()
 
 void loop()
 {
-    if( ( recievedMessage.moveDirection != 0 || recievedMessage.rotation != 0 ) && millis() - lastTimeRcvdMsg > 600 )
+    if(
+        (
+            recievedMessage.moveDirection != 0 ||
+            recievedMessage.rotation != 0
+        )
+        &&
+        millis() - lastTimeRcvdMsg > 600
+    )
     {
         recievedMessage.moveDirection = 0;
         recievedMessage.rotation = 0;
