@@ -15,7 +15,7 @@ struct
 {
     int8_t moveDirection = 0; // 0 stop, 1 forward, -1 backward
     int8_t rotation = 0; // 0 no rotation, 1 right, -1 left
-    int16_t speed = 2048; // 0 to 4096
+    uint16_t speed = 2048; // 0 to 4095
 } recievedMessage;
 
 esp_now_peer_info_t espNowPeerInfo;

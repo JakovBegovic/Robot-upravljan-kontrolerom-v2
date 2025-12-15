@@ -6,13 +6,14 @@
 
 // forward, backward, right, left, music
 const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
+const uint8_t potentioPIN = 35;
 
 
 struct msgStruct
 {
     int8_t moveDirection = 0; // 0 stop, 1 forward, -1 backward
     int8_t rotation = 0; // 0 no rotation, 1 right, -1 left
-    int16_t speed = 2048; // 0 to 4096
+    uint16_t speed = 2048; // 0 to 4095
 };
 
 bool operator!=( const msgStruct& a, const msgStruct& b );
@@ -44,6 +45,8 @@ void setup()
     {
         pinMode( btnPINs[ i ], INPUT_PULLUP );
     }
+
+    analogReadResolution( 12 );
 
 
     WiFi.mode( WIFI_STA );
@@ -121,7 +124,7 @@ void constructMsg( msgStruct* msgToConstruct )
 
     msgToConstruct->moveDirection = !digitalRead( btnPINs[ 0 ] ) - !digitalRead( btnPINs[ 1 ] );
     msgToConstruct->rotation = !digitalRead( btnPINs[ 2 ] ) - !digitalRead( btnPINs[ 3 ] );
-    msgToConstruct->speed = 2048;
+    msgToConstruct->speed = analogRead( potentioPIN );
 }
 
 esp_err_t sendMessage( const msgStruct* outgoingMessage )
@@ -135,6 +138,8 @@ esp_err_t sendMessage( const msgStruct* outgoingMessage )
     if( DEBUG )
     {
         Serial.print( "Sent " );
+        Serial.print( outgoingMessage->speed );
+        Serial.print( "  " );
         Serial.println( ( double )millis() / 1000 );
     }
 
@@ -157,5 +162,8 @@ bool operator!=( const msgStruct& a, const msgStruct& b )
 {
     return a.moveDirection != b.moveDirection ||
            a.rotation != b.rotation ||
-           a.speed != b.speed;
+           !(
+               a.speed - 200 <= b.speed &&
+               a.speed + 200 >= b.speed
+           );
 }
