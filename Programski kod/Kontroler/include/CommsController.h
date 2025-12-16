@@ -4,7 +4,7 @@
 #include <esp_now.h>
 #include "MsgStruct.h"
 
-class MessageSender
+class CommsController
 {
 private:
     const uint8_t macAdressRobotCar[ 6 ] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };

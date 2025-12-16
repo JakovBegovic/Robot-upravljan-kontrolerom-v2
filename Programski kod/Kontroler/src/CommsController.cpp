@@ -1,13 +1,13 @@
-#include "MessageSender.h"
+#include "CommsController.h"
 
-esp_err_t MessageSender::setupWiFi()
+esp_err_t CommsController::setupWiFi()
 {
     WiFi.mode( WIFI_STA );
 
     return esp_now_init();
 }
 
-esp_err_t MessageSender::setupEspNow()
+esp_err_t CommsController::setupEspNow()
 {
     memcpy( espNowPeerInfo.peer_addr, macAdressRobotCar, 6 );
     espNowPeerInfo.channel = 0;
@@ -16,11 +16,11 @@ esp_err_t MessageSender::setupEspNow()
     return esp_now_add_peer( &espNowPeerInfo );
 }
 
-esp_err_t MessageSender::setup()
+esp_err_t CommsController::setup()
 {
     if(
-        MessageSender::setupWiFi() == ESP_OK &&
-        MessageSender::setupEspNow() == ESP_OK
+        CommsController::setupWiFi() == ESP_OK &&
+        CommsController::setupEspNow() == ESP_OK
     )
     {
         return ESP_OK;
@@ -31,7 +31,7 @@ esp_err_t MessageSender::setup()
     }
 }
 
-esp_err_t MessageSender::sendMessage( const msgStruct* outgoingMessage )
+esp_err_t CommsController::sendMessage( const msgStruct* outgoingMessage )
 {
     lastTimeMsgSent = millis();
 

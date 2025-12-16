@@ -3,14 +3,14 @@
 #include <esp_now.h>
 
 #include "HardwareReader.h"
-#include "MessageSender.h"
+#include "CommsController.h"
 #include "MsgStruct.h"
 
 #define DEBUG 0
 
 HardwareReader hardwareReader;
 
-MessageSender messageSender;
+CommsController commsController;
 
 void constructMsg( msgStruct* msgToConstruct );
 
@@ -31,7 +31,7 @@ void setup()
 
     hardwareReader.setup();
 
-    messageSender.setup();
+    commsController.setup();
 
     esp_now_register_send_cb( onDataSent );
 }
@@ -52,7 +52,7 @@ void loop()
                 failedMsgsInARow < 20
             )
             &&
-            millis() - messageSender.lastTimeMsgSent > 50
+            millis() - commsController.lastTimeMsgSent > 50
         )
         ||
         (
@@ -61,11 +61,11 @@ void loop()
                 messageToSend.rotation != 0
             )
             &&
-            millis() - messageSender.lastTimeMsgSent > 500
+            millis() - commsController.lastTimeMsgSent > 500
         )
       )
     {
-        result = messageSender.sendMessage( &messageToSend );
+        result = commsController.sendMessage( &messageToSend );
 
         if( DEBUG )
         {
