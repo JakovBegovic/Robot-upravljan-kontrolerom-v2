@@ -15,8 +15,6 @@ CommsController commsController;
 void constructMsg( msgStruct* msgToConstruct );
 
 
-uint8_t failedMsgsInARow = 0;
-
 
 void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status );
 
@@ -48,8 +46,8 @@ void loop()
     if( (
             (
                 messageToSend != lastMessageSent ||
-                failedMsgsInARow > 0 &&
-                failedMsgsInARow < 20
+                commsController.failedMsgsInARow > 0 &&
+                commsController.failedMsgsInARow < 20
             )
             &&
             millis() - commsController.lastTimeMsgSent > 50
@@ -95,10 +93,10 @@ void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status )
 {
     if( status == ESP_NOW_SEND_FAIL )
     {
-        failedMsgsInARow++;
+        commsController.failedMsgsInARow++;
     }
     else
     {
-        failedMsgsInARow = 0;
+        commsController.failedMsgsInARow = 0;
     }
 }

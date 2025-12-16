@@ -15,6 +15,8 @@ private:
 public:
     unsigned long lastTimeMsgSent = 0;
 
+    uint8_t failedMsgsInARow = 0;
+
 
 private:
     esp_err_t setupWiFi();
