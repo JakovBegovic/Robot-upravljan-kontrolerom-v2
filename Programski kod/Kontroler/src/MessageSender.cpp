@@ -7,7 +7,6 @@ esp_err_t MessageSender::setupWiFi()
     return esp_now_init();
 }
 
-
 esp_err_t MessageSender::setupEspNow()
 {
     memcpy( espNowPeerInfo.peer_addr, macAdressRobotCar, 6 );

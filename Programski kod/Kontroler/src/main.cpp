@@ -67,6 +67,14 @@ void loop()
     {
         result = messageSender.sendMessage( &messageToSend );
 
+        if( DEBUG )
+        {
+            Serial.print( "Sent " );
+            Serial.print( messageToSend.speed );
+            Serial.print( "   time: " );
+            Serial.println( ( double )millis() / 1000 );
+        }
+
         if( result == ESP_OK )
         {
             lastMessageSent.moveDirection = messageToSend.moveDirection;
