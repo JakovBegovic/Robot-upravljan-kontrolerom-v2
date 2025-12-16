@@ -1,16 +1,16 @@
 #include "HardwareReader.h"
 
-void HardwareReader::setupADC()
-{
-    analogReadResolution( 12 );
-}
-
 void HardwareReader::setupBTNs()
 {
     for ( int i = 0; i < sizeof( btnPINs ) / sizeof( uint8_t ); i++ )
     {
         pinMode( btnPINs[ i ], INPUT_PULLUP );
     }
+}
+
+void HardwareReader::setupADC()
+{
+    analogReadResolution( 12 );
 }
 
 void HardwareReader::setup()
