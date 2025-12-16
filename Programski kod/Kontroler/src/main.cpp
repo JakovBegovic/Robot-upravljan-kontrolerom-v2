@@ -2,12 +2,11 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
-#define DEBUG 0
+#include "HardwareReader.h"
 
-// forward, backward, right, left, music
-const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
-const uint8_t potentioPIN = 35;
+#define DEBUG 1
 
+HardwareReader hardwareReader;
 
 struct msgStruct
 {
@@ -41,13 +40,7 @@ void setup()
         Serial.begin( 115200 );
     }
 
-    for ( int i = 0; i < 5; i++ )
-    {
-        pinMode( btnPINs[ i ], INPUT_PULLUP );
-    }
-
-    analogReadResolution( 12 );
-
+    hardwareReader.setup();
 
     WiFi.mode( WIFI_STA );
 
@@ -122,9 +115,9 @@ void constructMsg( msgStruct* msgToConstruct )
 {
     // digitalRead returns 0 for pressed button and 1 for unpressed button
 
-    msgToConstruct->moveDirection = !digitalRead( btnPINs[ 0 ] ) - !digitalRead( btnPINs[ 1 ] );
-    msgToConstruct->rotation = !digitalRead( btnPINs[ 2 ] ) - !digitalRead( btnPINs[ 3 ] );
-    msgToConstruct->speed = analogRead( potentioPIN );
+    msgToConstruct->moveDirection = hardwareReader.getMoveDir();
+    msgToConstruct->rotation = hardwareReader.getRotation();
+    msgToConstruct->speed = hardwareReader.getSpeed();
 }
 
 esp_err_t sendMessage( const msgStruct* outgoingMessage )
