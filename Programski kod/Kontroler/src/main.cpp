@@ -6,7 +6,7 @@
 #include "CommsController.h"
 #include "MsgStruct.h"
 
-#define DEBUG 0
+#define DEBUG 1
 
 HardwareReader hardwareReader;
 
@@ -16,7 +16,7 @@ void constructMsg( msgStruct* msgToConstruct );
 
 
 
-void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status );
+void dataSentCb( const uint8_t* macAddress, esp_now_send_status_t status );
 
 
 
@@ -31,7 +31,7 @@ void setup()
 
     commsController.setup();
 
-    esp_now_register_send_cb( onDataSent );
+    esp_now_register_send_cb( dataSentCb );
 }
 
 void loop()
@@ -89,7 +89,7 @@ void constructMsg( msgStruct* msgToConstruct )
     msgToConstruct->speed = hardwareReader.getSpeed();
 }
 
-void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status )
+void dataSentCb( const uint8_t* macAddress, esp_now_send_status_t status )
 {
     if( status == ESP_NOW_SEND_FAIL )
     {
