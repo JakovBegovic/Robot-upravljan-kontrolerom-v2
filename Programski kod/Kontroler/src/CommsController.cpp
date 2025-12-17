@@ -72,9 +72,9 @@ bool CommsController::shouldSendMsg()
            shouldSendReconnectMsg();
 }
 
-esp_err_t CommsController::sendMessage( const msgStruct* outgoingMessage )
+esp_err_t CommsController::sendConstructedMessage()
 {
     lastTimeMsgSent = millis();
 
-    return esp_now_send( macAdressRobotCar, ( uint8_t* ) outgoingMessage, sizeof( *outgoingMessage ) );
+    return esp_now_send( macAdressRobotCar, ( uint8_t* ) &constructedMsg, sizeof( constructedMsg ) );
 }

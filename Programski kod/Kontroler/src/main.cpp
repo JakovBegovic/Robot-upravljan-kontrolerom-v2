@@ -38,7 +38,7 @@ void loop()
 
     if( commsController.shouldSendMsg() )
     {
-        result = commsController.sendMessage( &commsController.constructedMsg );
+        result = commsController.sendConstructedMessage( );
 
         if( DEBUG )
         {
