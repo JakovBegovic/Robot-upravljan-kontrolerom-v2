@@ -34,11 +34,9 @@ void loop()
 {
     commsController.constructMsg( hardwareReader );
 
-    esp_err_t result;
-
     if( commsController.shouldSendMsg() )
     {
-        result = commsController.sendConstructedMessage();
+        esp_err_t result = commsController.sendConstructedMessage();
 
         if( DEBUG )
         {
