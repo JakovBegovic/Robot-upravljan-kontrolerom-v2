@@ -48,6 +48,11 @@ void CommsController::confirmSuccessfulSend()
     lastMessageSent.speed = constructedMsg.speed;
 }
 
+msgStruct CommsController::getConstructedMsg()
+{
+    return constructedMsg;
+}
+
 esp_err_t CommsController::setup()
 {
     if(

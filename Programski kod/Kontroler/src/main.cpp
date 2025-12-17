@@ -41,7 +41,7 @@ void loop()
         if( DEBUG )
         {
             Serial.print( "Sent " );
-            Serial.print( commsController.constructedMsg.speed );
+            Serial.print( commsController.getConstructedMsg().speed );
             Serial.print( "   time: " );
             Serial.println( ( double )millis() / 1000 );
         }

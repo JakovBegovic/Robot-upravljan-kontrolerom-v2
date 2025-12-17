@@ -15,9 +15,9 @@ private:
 
     unsigned long lastTimeMsgSent = 0;
     msgStruct lastMessageSent;
+    msgStruct constructedMsg;
 
 public:
-    msgStruct constructedMsg;
     uint8_t failedMsgsInARow = 0;
 
 
@@ -32,6 +32,9 @@ private:
     void confirmSuccessfulSend();
 
 public:
+
+    msgStruct getConstructedMsg();
+
     esp_err_t setup();
 
     /**
