@@ -1,4 +1,4 @@
-#include "MsgStruct.h"
+#include "msgStruct.h"
 
 bool operator!=( const msgStruct& a, const msgStruct& b )
 {

@@ -2,7 +2,7 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <esp_now.h>
-#include "MsgStruct.h"
+#include "msgStruct.h"
 #include "HardwareReader.h"
 
 namespace CommsController
