@@ -13,7 +13,7 @@ HardwareReader hardwareReader;
 CommsController commsController;
 
 
-void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status );
+void dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status );
 
 
 void setup()
@@ -27,7 +27,7 @@ void setup()
 
     commsController.setup();
 
-    esp_now_register_send_cb( onDataSent );
+    esp_now_register_send_cb( dataRecievedInfo );
 }
 
 void loop()
@@ -49,7 +49,7 @@ void loop()
 }
 
 
-void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status )
+void dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status )
 {
     if( status == ESP_NOW_SEND_FAIL )
     {
