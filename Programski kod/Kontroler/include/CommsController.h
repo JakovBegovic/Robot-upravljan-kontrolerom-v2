@@ -26,6 +26,10 @@ private:
     esp_err_t setupWiFi();
     esp_err_t setupEspNow();
 
+    bool shouldSendUpdateMsg();
+    bool shouldSendRenewMsg();
+    bool shouldSendReconnectMsg();
+
 public:
     esp_err_t setup();
 

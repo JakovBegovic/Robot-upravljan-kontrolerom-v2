@@ -16,6 +16,31 @@ esp_err_t CommsController::setupEspNow()
     return esp_now_add_peer( &espNowPeerInfo );
 }
 
+bool CommsController::shouldSendUpdateMsg()
+{
+    return millis() - lastTimeMsgSent > 50
+           &&
+           constructedMsg != lastMessageSent;
+}
+
+bool CommsController::shouldSendRenewMsg()
+{
+    return millis() - lastTimeMsgSent > 500 &&
+           (
+               constructedMsg.moveDirection != 0 ||
+               constructedMsg.rotation != 0
+           );
+}
+
+bool CommsController::shouldSendReconnectMsg()
+{
+    return millis() - lastTimeMsgSent > 50 &&
+           (
+               failedMsgsInARow > 0 &&
+               failedMsgsInARow < 20
+           );
+}
+
 esp_err_t CommsController::setup()
 {
     if(
@@ -40,24 +65,11 @@ void CommsController::constructMsg( HardwareReader hrdwrReader )
 
 bool CommsController::shouldSendMsg()
 {
-    return (
-               (
-                   constructedMsg != lastMessageSent ||
-                   failedMsgsInARow > 0 &&
-                   failedMsgsInARow < 20
-               )
-               &&
-               millis() - lastTimeMsgSent > 50
-           )
+    return shouldSendUpdateMsg()
            ||
-           (
-               (
-                   constructedMsg.moveDirection != 0 ||
-                   constructedMsg.rotation != 0
-               )
-               &&
-               millis() - lastTimeMsgSent > 500
-           );
+           shouldSendRenewMsg()
+           ||
+           shouldSendReconnectMsg();
 }
 
 esp_err_t CommsController::sendMessage( const msgStruct* outgoingMessage )
