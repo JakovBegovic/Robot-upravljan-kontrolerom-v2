@@ -3,6 +3,10 @@
 
 namespace HardwareReader
 {
+    /*
+    * HardwareReader public functions and variables
+    */
+
     /**
      * @brief   Setup communication with hardware pheripherals
      */
@@ -36,3 +40,27 @@ namespace HardwareReader
     */
     uint16_t getSpeed();
 };
+
+namespace
+{
+    /*
+    * HardwareReader private functions and variables
+    */
+
+    // forward, backward, right, left, music
+    const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
+    const uint8_t potentioPIN = 35;
+
+    void setupBTNs()
+    {
+        for ( int i = 0; i < sizeof( btnPINs ) / sizeof( uint8_t ); i++ )
+        {
+            pinMode( btnPINs[ i ], INPUT_PULLUP );
+        }
+    }
+
+    void setupADC()
+    {
+        analogReadResolution( 12 );
+    }
+}
