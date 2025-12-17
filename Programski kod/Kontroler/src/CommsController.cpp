@@ -74,7 +74,16 @@ bool CommsController::shouldSendMsg()
 
 esp_err_t CommsController::sendConstructedMessage()
 {
+    esp_err_t result = esp_now_send( macAdressRobotCar, ( uint8_t* ) &constructedMsg, sizeof( constructedMsg ) );
+
     lastTimeMsgSent = millis();
 
-    return esp_now_send( macAdressRobotCar, ( uint8_t* ) &constructedMsg, sizeof( constructedMsg ) );
+    if( result == ESP_OK )
+    {
+        lastMessageSent.moveDirection = constructedMsg.moveDirection;
+        lastMessageSent.rotation = constructedMsg.rotation;
+        lastMessageSent.speed = constructedMsg.speed;
+    }
+
+    return result;
 }

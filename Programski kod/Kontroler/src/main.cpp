@@ -38,7 +38,7 @@ void loop()
 
     if( commsController.shouldSendMsg() )
     {
-        result = commsController.sendConstructedMessage( );
+        result = commsController.sendConstructedMessage();
 
         if( DEBUG )
         {
@@ -46,13 +46,6 @@ void loop()
             Serial.print( commsController.constructedMsg.speed );
             Serial.print( "   time: " );
             Serial.println( ( double )millis() / 1000 );
-        }
-
-        if( result == ESP_OK )
-        {
-            commsController.lastMessageSent.moveDirection = commsController.constructedMsg.moveDirection;
-            commsController.lastMessageSent.rotation = commsController.constructedMsg.rotation;
-            commsController.lastMessageSent.speed = commsController.constructedMsg.speed;
         }
     }
 }
