@@ -41,6 +41,13 @@ bool CommsController::shouldSendReconnectMsg()
            );
 }
 
+void CommsController::confirmSuccessfulSend()
+{
+    lastMessageSent.moveDirection = constructedMsg.moveDirection;
+    lastMessageSent.rotation = constructedMsg.rotation;
+    lastMessageSent.speed = constructedMsg.speed;
+}
+
 esp_err_t CommsController::setup()
 {
     if(
@@ -80,9 +87,7 @@ esp_err_t CommsController::sendConstructedMessage()
 
     if( result == ESP_OK )
     {
-        lastMessageSent.moveDirection = constructedMsg.moveDirection;
-        lastMessageSent.rotation = constructedMsg.rotation;
-        lastMessageSent.speed = constructedMsg.speed;
+        confirmSuccessfulSend();
     }
 
     return result;

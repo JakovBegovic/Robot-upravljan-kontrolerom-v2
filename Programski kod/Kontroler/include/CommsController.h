@@ -29,6 +29,8 @@ private:
     bool shouldSendRenewMsg();
     bool shouldSendReconnectMsg();
 
+    void confirmSuccessfulSend();
+
 public:
     esp_err_t setup();
 
