@@ -4,7 +4,6 @@
 
 #include "HardwareReader.h"
 #include "CommsController.h"
-#include "MsgStruct.h"
 
 #define DEBUG 1
 
@@ -45,7 +44,6 @@ void loop()
         }
     }
 }
-
 
 void dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status )
 {
