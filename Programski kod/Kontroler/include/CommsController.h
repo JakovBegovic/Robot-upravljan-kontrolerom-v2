@@ -5,33 +5,12 @@
 #include "MsgStruct.h"
 #include "HardwareReader.h"
 
-class CommsController
+namespace CommsController
 {
-private:
-    const uint8_t macAdressRobotCar[ 6 ] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
-    const uint8_t macAdressController[ 6 ] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
+    /*
+    *   CommsController public functions
+    */
 
-    esp_now_peer_info_t espNowPeerInfo;
-
-    unsigned long lastTimeMsgSent = 0;
-    msgStruct lastMsgSuccessfullySent;
-    msgStruct constructedMsg;
-
-public:
-    uint8_t failedMsgsInARow = 0;
-
-
-private:
-    esp_err_t setupWiFi();
-    esp_err_t setupEspNow();
-
-    bool shouldSendUpdateMsg();
-    bool shouldSendRenewMsg();
-    bool shouldSendReconnectMsg();
-
-    void confirmSuccessfulSend();
-
-public:
     /**
      * @brief   Getter for constructedMsg variable
      */
@@ -68,4 +47,6 @@ public:
      *          - ESP_ERR_ESPNOW_EXIST : peer has existed
      */
     esp_err_t sendConstructedMsg();
+
+    void setFailedMsgsInARow( esp_now_send_status_t status );
 };

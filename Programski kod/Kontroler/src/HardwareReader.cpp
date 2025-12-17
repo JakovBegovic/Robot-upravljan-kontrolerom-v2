@@ -3,7 +3,7 @@
 namespace
 {
     /*
-    * HardwareReader private functions and variables
+    *   HardwareReader private functions and variables
     */
 
     // forward, backward, right, left, music

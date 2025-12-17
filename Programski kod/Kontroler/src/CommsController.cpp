@@ -1,53 +1,73 @@
 #include "CommsController.h"
 #include "HardwareReader.h"
 
-esp_err_t CommsController::setupWiFi()
+namespace
 {
-    WiFi.mode( WIFI_STA );
+    /*
+    *   CommsController private variables and functions
+    */
 
-    return esp_now_init();
+    const uint8_t macAdressRobotCar[ 6 ] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
+    const uint8_t macAdressController[ 6 ] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
+
+    esp_now_peer_info_t espNowPeerInfo;
+
+    unsigned long lastTimeMsgSent = 0;
+    msgStruct lastMsgSuccessfullySent;
+    msgStruct constructedMsg;
+
+    uint8_t failedMsgsInARow = 0;
+
+
+    esp_err_t setupWiFi()
+    {
+        WiFi.mode( WIFI_STA );
+
+        return esp_now_init();
+    }
+
+    esp_err_t setupEspNow()
+    {
+        memcpy( espNowPeerInfo.peer_addr, macAdressRobotCar, 6 );
+        espNowPeerInfo.channel = 0;
+        espNowPeerInfo.encrypt = false;
+
+        return esp_now_add_peer( &espNowPeerInfo );
+    }
+
+    bool shouldSendUpdateMsg()
+    {
+        return millis() - lastTimeMsgSent > 50
+               &&
+               constructedMsg != lastMsgSuccessfullySent;
+    }
+
+    bool shouldSendRenewMsg()
+    {
+        return millis() - lastTimeMsgSent > 500 &&
+               (
+                   constructedMsg.moveDirection != 0 ||
+                   constructedMsg.rotation != 0
+               );
+    }
+
+    bool shouldSendReconnectMsg()
+    {
+        return millis() - lastTimeMsgSent > 50 &&
+               (
+                   failedMsgsInARow > 0 &&
+                   failedMsgsInARow < 20
+               );
+    }
+
+    void confirmSuccessfulSend()
+    {
+        lastMsgSuccessfullySent.moveDirection = constructedMsg.moveDirection;
+        lastMsgSuccessfullySent.rotation = constructedMsg.rotation;
+        lastMsgSuccessfullySent.speed = constructedMsg.speed;
+    }
 }
 
-esp_err_t CommsController::setupEspNow()
-{
-    memcpy( espNowPeerInfo.peer_addr, macAdressRobotCar, 6 );
-    espNowPeerInfo.channel = 0;
-    espNowPeerInfo.encrypt = false;
-
-    return esp_now_add_peer( &espNowPeerInfo );
-}
-
-bool CommsController::shouldSendUpdateMsg()
-{
-    return millis() - lastTimeMsgSent > 50
-           &&
-           constructedMsg != lastMsgSuccessfullySent;
-}
-
-bool CommsController::shouldSendRenewMsg()
-{
-    return millis() - lastTimeMsgSent > 500 &&
-           (
-               constructedMsg.moveDirection != 0 ||
-               constructedMsg.rotation != 0
-           );
-}
-
-bool CommsController::shouldSendReconnectMsg()
-{
-    return millis() - lastTimeMsgSent > 50 &&
-           (
-               failedMsgsInARow > 0 &&
-               failedMsgsInARow < 20
-           );
-}
-
-void CommsController::confirmSuccessfulSend()
-{
-    lastMsgSuccessfullySent.moveDirection = constructedMsg.moveDirection;
-    lastMsgSuccessfullySent.rotation = constructedMsg.rotation;
-    lastMsgSuccessfullySent.speed = constructedMsg.speed;
-}
 
 msgStruct CommsController::getConstructedMsg()
 {
@@ -57,8 +77,8 @@ msgStruct CommsController::getConstructedMsg()
 esp_err_t CommsController::setup()
 {
     if(
-        CommsController::setupWiFi() == ESP_OK &&
-        CommsController::setupEspNow() == ESP_OK
+        setupWiFi() == ESP_OK &&
+        setupEspNow() == ESP_OK
     )
     {
         return ESP_OK;
@@ -97,4 +117,16 @@ esp_err_t CommsController::sendConstructedMsg()
     }
 
     return result;
+}
+
+void CommsController::setFailedMsgsInARow( esp_now_send_status_t status )
+{
+    if( status == ESP_NOW_SEND_FAIL )
+    {
+        failedMsgsInARow++;
+    }
+    else
+    {
+        failedMsgsInARow = 0;
+    }
 }

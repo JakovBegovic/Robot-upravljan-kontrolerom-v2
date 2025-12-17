@@ -7,8 +7,6 @@
 
 #define DEBUG 1
 
-CommsController commsController;
-
 
 void dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status );
 
@@ -22,23 +20,23 @@ void setup()
 
     HardwareReader::setup();
 
-    commsController.setup();
+    CommsController::setup();
 
     esp_now_register_send_cb( dataRecievedInfo );
 }
 
 void loop()
 {
-    commsController.constructMsg();
+    CommsController::constructMsg();
 
-    if( commsController.shouldSendMsg() )
+    if( CommsController::shouldSendMsg() )
     {
-        esp_err_t result = commsController.sendConstructedMsg();
+        esp_err_t result = CommsController::sendConstructedMsg();
 
         if( DEBUG )
         {
             Serial.print( "Sent " );
-            Serial.print( commsController.getConstructedMsg().speed );
+            Serial.print( CommsController::getConstructedMsg().speed );
             Serial.print( "   time: " );
             Serial.println( ( double )millis() / 1000 );
         }
@@ -47,12 +45,5 @@ void loop()
 
 void dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status )
 {
-    if( status == ESP_NOW_SEND_FAIL )
-    {
-        commsController.failedMsgsInARow++;
-    }
-    else
-    {
-        commsController.failedMsgsInARow = 0;
-    }
+    CommsController::setFailedMsgsInARow( status );
 }
