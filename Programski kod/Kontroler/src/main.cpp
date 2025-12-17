@@ -36,7 +36,7 @@ void loop()
 
     if( commsController.shouldSendMsg() )
     {
-        esp_err_t result = commsController.sendConstructedMessage();
+        esp_err_t result = commsController.sendConstructedMsg();
 
         if( DEBUG )
         {

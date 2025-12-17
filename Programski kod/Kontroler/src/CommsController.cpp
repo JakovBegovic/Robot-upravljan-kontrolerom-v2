@@ -79,7 +79,7 @@ bool CommsController::shouldSendMsg()
            shouldSendReconnectMsg();
 }
 
-esp_err_t CommsController::sendConstructedMessage()
+esp_err_t CommsController::sendConstructedMsg()
 {
     esp_err_t result = esp_now_send( macAdressRobotCar, ( uint8_t* ) &constructedMsg, sizeof( constructedMsg ) );
 

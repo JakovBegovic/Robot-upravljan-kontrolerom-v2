@@ -59,5 +59,5 @@ public:
      *          - ESP_ERR_ESPNOW_NO_MEM : out of memory
      *          - ESP_ERR_ESPNOW_EXIST : peer has existed
      */
-    esp_err_t sendConstructedMessage();
+    esp_err_t sendConstructedMsg();
 };
