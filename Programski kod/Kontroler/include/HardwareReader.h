@@ -4,7 +4,7 @@
 namespace HardwareReader
 {
     /*
-    * HardwareReader public functions and variables
+    *   HardwareReader public functions
     */
 
     /**
