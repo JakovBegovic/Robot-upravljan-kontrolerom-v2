@@ -12,12 +12,8 @@ HardwareReader hardwareReader;
 
 CommsController commsController;
 
-void constructMsg( msgStruct* msgToConstruct );
 
-
-
-void dataSentCb( const uint8_t* macAddress, esp_now_send_status_t status );
-
+void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status );
 
 
 void setup()
@@ -31,7 +27,7 @@ void setup()
 
     commsController.setup();
 
-    esp_now_register_send_cb( dataSentCb );
+    esp_now_register_send_cb( onDataSent );
 }
 
 void loop()
@@ -39,7 +35,7 @@ void loop()
     static msgStruct messageToSend;
     static msgStruct lastMessageSent;
 
-    constructMsg( &messageToSend );
+    commsController.constructMsg( &messageToSend, hardwareReader );
 
     esp_err_t result;
 
@@ -82,14 +78,8 @@ void loop()
     }
 }
 
-void constructMsg( msgStruct* msgToConstruct )
-{
-    msgToConstruct->moveDirection = hardwareReader.getMoveDir();
-    msgToConstruct->rotation = hardwareReader.getRotation();
-    msgToConstruct->speed = hardwareReader.getSpeed();
-}
 
-void dataSentCb( const uint8_t* macAddress, esp_now_send_status_t status )
+void onDataSent( const uint8_t* macAddress, esp_now_send_status_t status )
 {
     if( status == ESP_NOW_SEND_FAIL )
     {

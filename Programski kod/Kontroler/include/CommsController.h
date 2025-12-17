@@ -3,6 +3,7 @@
 #include <WiFi.h>
 #include <esp_now.h>
 #include "MsgStruct.h"
+#include "HardwareReader.h"
 
 class CommsController
 {
@@ -24,6 +25,8 @@ private:
 
 public:
     esp_err_t setup();
+
+    void constructMsg( msgStruct* msgToConstruct, HardwareReader hrdwrReader );
 
     /**
      * @brief   Send message using ESP NOW protocol
