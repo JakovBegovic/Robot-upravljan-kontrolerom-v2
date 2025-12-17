@@ -20,7 +20,7 @@ bool CommsController::shouldSendUpdateMsg()
 {
     return millis() - lastTimeMsgSent > 50
            &&
-           constructedMsg != lastMessageSent;
+           constructedMsg != lastMsgSuccessfullySent;
 }
 
 bool CommsController::shouldSendRenewMsg()
@@ -43,9 +43,9 @@ bool CommsController::shouldSendReconnectMsg()
 
 void CommsController::confirmSuccessfulSend()
 {
-    lastMessageSent.moveDirection = constructedMsg.moveDirection;
-    lastMessageSent.rotation = constructedMsg.rotation;
-    lastMessageSent.speed = constructedMsg.speed;
+    lastMsgSuccessfullySent.moveDirection = constructedMsg.moveDirection;
+    lastMsgSuccessfullySent.rotation = constructedMsg.rotation;
+    lastMsgSuccessfullySent.speed = constructedMsg.speed;
 }
 
 msgStruct CommsController::getConstructedMsg()

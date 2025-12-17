@@ -14,7 +14,7 @@ private:
     esp_now_peer_info_t espNowPeerInfo;
 
     unsigned long lastTimeMsgSent = 0;
-    msgStruct lastMessageSent;
+    msgStruct lastMsgSuccessfullySent;
     msgStruct constructedMsg;
 
 public:
@@ -32,9 +32,14 @@ private:
     void confirmSuccessfulSend();
 
 public:
-
+    /**
+     * @brief   Getter for constructedMsg variable
+     */
     msgStruct getConstructedMsg();
 
+    /**
+     * @brief   Enable and setup ESP NOW communication
+     */
     esp_err_t setup();
 
     /**
