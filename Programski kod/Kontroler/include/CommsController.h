@@ -25,5 +25,8 @@ private:
 public:
     esp_err_t setup();
 
+    /**
+     * @brief   Send message using ESP NOW protocol
+     */
     esp_err_t sendMessage( const msgStruct *outgoingMessage );
 };
