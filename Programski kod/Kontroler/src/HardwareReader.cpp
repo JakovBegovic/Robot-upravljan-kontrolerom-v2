@@ -3,12 +3,17 @@
 namespace
 {
     /*
-    *   HardwareReader private functions and variables
+    *   HardwareReader private variables
     */
 
     // forward, backward, right, left, music
     const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
     const uint8_t potentioPIN = 35;
+
+
+    /*
+    *   HardwareReader private functions
+    */
 
     void setupBTNs()
     {

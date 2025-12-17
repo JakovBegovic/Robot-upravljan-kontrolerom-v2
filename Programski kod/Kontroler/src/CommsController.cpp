@@ -4,20 +4,24 @@
 namespace
 {
     /*
-    *   CommsController private variables and functions
+    *   CommsController private variables
     */
 
     const uint8_t macAdressRobotCar[ 6 ] = { 0x7C, 0x87, 0xCE, 0xF8, 0xCA, 0xE8 };
     const uint8_t macAdressController[ 6 ] = { 0x94, 0xE6, 0x86, 0xA8, 0x61, 0x24 };
-
     esp_now_peer_info_t espNowPeerInfo;
 
-    unsigned long lastTimeMsgSent = 0;
     msgStruct lastMsgSuccessfullySent;
     msgStruct constructedMsg;
 
+    unsigned long lastTimeMsgSent = 0;
+
     uint8_t failedMsgsInARow = 0;
 
+
+    /*
+    *   CommsController private functions
+    */
 
     esp_err_t setupWiFi()
     {
