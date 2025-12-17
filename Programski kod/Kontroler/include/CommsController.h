@@ -48,5 +48,8 @@ namespace CommsController
      */
     esp_err_t sendConstructedMsg();
 
-    void setFailedMsgsInARow( esp_now_send_status_t status );
+    /**
+     * @brief   Callback function called on recieved ACK packet from robot-car
+     */
+    void dataRecievedInfo( const uint8_t *macAddress, esp_now_send_status_t status );
 };

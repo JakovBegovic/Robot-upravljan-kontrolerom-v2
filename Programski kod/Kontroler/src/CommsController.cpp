@@ -76,10 +76,11 @@ msgStruct CommsController::getConstructedMsg()
 
 esp_err_t CommsController::setup()
 {
-    if(
-        setupWiFi() == ESP_OK &&
-        setupEspNow() == ESP_OK
-    )
+    esp_err_t resultSetupWiFi = setupWiFi();
+    esp_err_t resultSetupEspNow = setupEspNow();
+    esp_err_t resultRegisterSendCb = esp_now_register_send_cb( dataRecievedInfo );
+
+    if ( resultSetupWiFi + resultSetupEspNow + resultRegisterSendCb == ESP_OK )
     {
         return ESP_OK;
     }
@@ -119,7 +120,7 @@ esp_err_t CommsController::sendConstructedMsg()
     return result;
 }
 
-void CommsController::setFailedMsgsInARow( esp_now_send_status_t status )
+void CommsController::dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status )
 {
     if( status == ESP_NOW_SEND_FAIL )
     {

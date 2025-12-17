@@ -7,10 +7,6 @@
 
 #define DEBUG 1
 
-
-void dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status );
-
-
 void setup()
 {
     if( DEBUG )
@@ -22,7 +18,6 @@ void setup()
 
     CommsController::setup();
 
-    esp_now_register_send_cb( dataRecievedInfo );
 }
 
 void loop()
@@ -41,9 +36,4 @@ void loop()
             Serial.println( ( double )millis() / 1000 );
         }
     }
-}
-
-void dataRecievedInfo( const uint8_t* macAddress, esp_now_send_status_t status )
-{
-    CommsController::setFailedMsgsInARow( status );
 }
