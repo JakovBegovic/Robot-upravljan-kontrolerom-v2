@@ -38,14 +38,22 @@ public:
     /**
      * @brief   Checks conditions for sending message over ESP NOW protocol
      *
-     * @returns
+     * @return
      *          true : conditions for sending message are met
      *          false : conditions for sending message are not met
      */
     bool shouldSendMsg();
 
     /**
-     * @brief   Send message using ESP NOW protocol
+     * @brief   Send message already constructed using ESP NOW protocol
+     *
+     * @return
+     *          - ESP_OK : succeed
+     *          - ESP_ERR_ESPNOW_NOT_INIT : ESPNOW is not initialized
+     *          - ESP_ERR_ESPNOW_ARG : invalid argument
+     *          - ESP_ERR_ESPNOW_FULL : peer list is full
+     *          - ESP_ERR_ESPNOW_NO_MEM : out of memory
+     *          - ESP_ERR_ESPNOW_EXIST : peer has existed
      */
-    esp_err_t sendConstructedMessage( );
+    esp_err_t sendConstructedMessage();
 };
