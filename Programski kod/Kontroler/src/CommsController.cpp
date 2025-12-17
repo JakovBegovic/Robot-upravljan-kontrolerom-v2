@@ -1,4 +1,5 @@
 #include "CommsController.h"
+#include "HardwareReader.h"
 
 esp_err_t CommsController::setupWiFi()
 {
@@ -68,11 +69,11 @@ esp_err_t CommsController::setup()
     }
 }
 
-void CommsController::constructMsg( HardwareReader hrdwrReader )
+void CommsController::constructMsg()
 {
-    constructedMsg.moveDirection = hrdwrReader.getMoveDir();
-    constructedMsg.rotation = hrdwrReader.getRotation();
-    constructedMsg.speed = hrdwrReader.getSpeed();
+    constructedMsg.moveDirection = HardwareReader::getMoveDir();
+    constructedMsg.rotation = HardwareReader::getRotation();
+    constructedMsg.speed = HardwareReader::getSpeed();
 }
 
 bool CommsController::shouldSendMsg()

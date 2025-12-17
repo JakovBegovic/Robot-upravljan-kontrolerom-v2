@@ -45,7 +45,7 @@ public:
     /**
      * @brief   Construct message from user input to be sent using ESP NOW protocol
      */
-    void constructMsg( HardwareReader hrdwrReader );
+    void constructMsg();
 
     /**
      * @brief   Checks conditions for sending message over ESP NOW protocol

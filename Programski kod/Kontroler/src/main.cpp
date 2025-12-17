@@ -8,8 +8,6 @@
 
 #define DEBUG 1
 
-HardwareReader hardwareReader;
-
 CommsController commsController;
 
 
@@ -23,7 +21,7 @@ void setup()
         Serial.begin( 115200 );
     }
 
-    hardwareReader.setup();
+    HardwareReader::setup();
 
     commsController.setup();
 
@@ -32,7 +30,7 @@ void setup()
 
 void loop()
 {
-    commsController.constructMsg( hardwareReader );
+    commsController.constructMsg();
 
     if( commsController.shouldSendMsg() )
     {
