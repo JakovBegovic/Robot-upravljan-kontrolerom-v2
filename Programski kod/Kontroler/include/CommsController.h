@@ -32,6 +32,15 @@ public:
     void constructMsg( HardwareReader hrdwrReader );
 
     /**
+     * @brief   Checks conditions for sending message over ESP NOW protocol
+     *
+     * @returns
+     *          true : conditions for sending message are met
+     *          false : conditions for sending message are not met
+     */
+    bool shouldSendMsg();
+
+    /**
      * @brief   Send message using ESP NOW protocol
      */
     esp_err_t sendMessage( const msgStruct *outgoingMessage );

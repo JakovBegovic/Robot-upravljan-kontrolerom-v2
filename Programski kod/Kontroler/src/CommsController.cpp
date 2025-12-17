@@ -38,6 +38,28 @@ void CommsController::constructMsg( HardwareReader hrdwrReader )
     constructedMsg.speed = hrdwrReader.getSpeed();
 }
 
+bool CommsController::shouldSendMsg()
+{
+    return (
+               (
+                   constructedMsg != lastMessageSent ||
+                   failedMsgsInARow > 0 &&
+                   failedMsgsInARow < 20
+               )
+               &&
+               millis() - lastTimeMsgSent > 50
+           )
+           ||
+           (
+               (
+                   constructedMsg.moveDirection != 0 ||
+                   constructedMsg.rotation != 0
+               )
+               &&
+               millis() - lastTimeMsgSent > 500
+           );
+}
+
 esp_err_t CommsController::sendMessage( const msgStruct* outgoingMessage )
 {
     lastTimeMsgSent = millis();

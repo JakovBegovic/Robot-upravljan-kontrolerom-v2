@@ -36,25 +36,7 @@ void loop()
 
     esp_err_t result;
 
-    if( (
-            (
-                commsController.constructedMsg != commsController.lastMessageSent ||
-                commsController.failedMsgsInARow > 0 &&
-                commsController.failedMsgsInARow < 20
-            )
-            &&
-            millis() - commsController.lastTimeMsgSent > 50
-        )
-        ||
-        (
-            (
-                commsController.constructedMsg.moveDirection != 0 ||
-                commsController.constructedMsg.rotation != 0
-            )
-            &&
-            millis() - commsController.lastTimeMsgSent > 500
-        )
-      )
+    if( commsController.shouldSendMsg() )
     {
         result = commsController.sendMessage( &commsController.constructedMsg );
 
