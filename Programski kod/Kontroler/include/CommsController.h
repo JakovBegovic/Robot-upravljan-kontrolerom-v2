@@ -13,9 +13,12 @@ private:
 
     esp_now_peer_info_t espNowPeerInfo;
 
+
 public:
+    msgStruct constructedMsg;
     unsigned long lastTimeMsgSent = 0;
 
+    msgStruct lastMessageSent;
     uint8_t failedMsgsInARow = 0;
 
 
@@ -26,7 +29,7 @@ private:
 public:
     esp_err_t setup();
 
-    void constructMsg( msgStruct* msgToConstruct, HardwareReader hrdwrReader );
+    void constructMsg( HardwareReader hrdwrReader );
 
     /**
      * @brief   Send message using ESP NOW protocol

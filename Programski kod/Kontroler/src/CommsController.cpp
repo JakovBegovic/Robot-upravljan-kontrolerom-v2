@@ -31,11 +31,11 @@ esp_err_t CommsController::setup()
     }
 }
 
-void CommsController::constructMsg( msgStruct *msgToConstruct, HardwareReader hrdwrReader )
+void CommsController::constructMsg( HardwareReader hrdwrReader )
 {
-    msgToConstruct->moveDirection = hrdwrReader.getMoveDir();
-    msgToConstruct->rotation = hrdwrReader.getRotation();
-    msgToConstruct->speed = hrdwrReader.getSpeed();
+    constructedMsg.moveDirection = hrdwrReader.getMoveDir();
+    constructedMsg.rotation = hrdwrReader.getRotation();
+    constructedMsg.speed = hrdwrReader.getSpeed();
 }
 
 esp_err_t CommsController::sendMessage( const msgStruct* outgoingMessage )

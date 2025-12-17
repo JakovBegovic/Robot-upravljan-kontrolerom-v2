@@ -32,16 +32,13 @@ void setup()
 
 void loop()
 {
-    static msgStruct messageToSend;
-    static msgStruct lastMessageSent;
-
-    commsController.constructMsg( &messageToSend, hardwareReader );
+    commsController.constructMsg( hardwareReader );
 
     esp_err_t result;
 
     if( (
             (
-                messageToSend != lastMessageSent ||
+                commsController.constructedMsg != commsController.lastMessageSent ||
                 commsController.failedMsgsInARow > 0 &&
                 commsController.failedMsgsInARow < 20
             )
@@ -51,29 +48,29 @@ void loop()
         ||
         (
             (
-                messageToSend.moveDirection != 0 ||
-                messageToSend.rotation != 0
+                commsController.constructedMsg.moveDirection != 0 ||
+                commsController.constructedMsg.rotation != 0
             )
             &&
             millis() - commsController.lastTimeMsgSent > 500
         )
       )
     {
-        result = commsController.sendMessage( &messageToSend );
+        result = commsController.sendMessage( &commsController.constructedMsg );
 
         if( DEBUG )
         {
             Serial.print( "Sent " );
-            Serial.print( messageToSend.speed );
+            Serial.print( commsController.constructedMsg.speed );
             Serial.print( "   time: " );
             Serial.println( ( double )millis() / 1000 );
         }
 
         if( result == ESP_OK )
         {
-            lastMessageSent.moveDirection = messageToSend.moveDirection;
-            lastMessageSent.rotation = messageToSend.rotation;
-            lastMessageSent.speed = messageToSend.speed;
+            commsController.lastMessageSent.moveDirection = commsController.constructedMsg.moveDirection;
+            commsController.lastMessageSent.rotation = commsController.constructedMsg.rotation;
+            commsController.lastMessageSent.speed = commsController.constructedMsg.speed;
         }
     }
 }
