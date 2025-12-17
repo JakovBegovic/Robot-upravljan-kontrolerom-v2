@@ -13,12 +13,11 @@ private:
 
     esp_now_peer_info_t espNowPeerInfo;
 
+    unsigned long lastTimeMsgSent = 0;
+    msgStruct lastMessageSent;
 
 public:
     msgStruct constructedMsg;
-    unsigned long lastTimeMsgSent = 0;
-
-    msgStruct lastMessageSent;
     uint8_t failedMsgsInARow = 0;
 
 
