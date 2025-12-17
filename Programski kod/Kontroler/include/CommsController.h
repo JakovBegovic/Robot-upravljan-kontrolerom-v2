@@ -34,6 +34,9 @@ private:
 public:
     esp_err_t setup();
 
+    /**
+     * @brief   Construct message from user input to be sent using ESP NOW protocol
+     */
     void constructMsg( HardwareReader hrdwrReader );
 
     /**
