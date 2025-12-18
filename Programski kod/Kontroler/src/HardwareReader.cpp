@@ -29,6 +29,11 @@ namespace
     }
 }
 
+
+/*
+*   HardwareReader public function definitions
+*/
+
 void HardwareReader::setup()
 {
     setupBTNs();

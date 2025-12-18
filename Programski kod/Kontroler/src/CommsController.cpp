@@ -73,6 +73,10 @@ namespace
 }
 
 
+/*
+*   CommsController public function definitions
+*/
+
 msgStruct CommsController::getConstructedMsg()
 {
     return constructedMsg;

@@ -17,7 +17,6 @@ void setup()
     HardwareReader::setup();
 
     CommsController::setup();
-
 }
 
 void loop()
