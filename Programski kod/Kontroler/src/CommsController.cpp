@@ -72,18 +72,22 @@ namespace
 
     bool shouldSendRenewMsg()
     {
-        return millis() - lastTimeMsgSent > 500 &&
+        return millis() - lastTimeMsgSent > 500
+               &&
                (
-                   constructedMsg.moveDirection != 0 ||
+                   constructedMsg.moveDirection != 0
+                   ||
                    constructedMsg.rotation != 0
                );
     }
 
     bool shouldSendReconnectMsg()
     {
-        return millis() - lastTimeMsgSent > 50 &&
+        return millis() - lastTimeMsgSent > 50
+               &&
                (
-                   failedMsgsInARow > 0 &&
+                   failedMsgsInARow > 0
+                   &&
                    failedMsgsInARow < 20
                );
     }
