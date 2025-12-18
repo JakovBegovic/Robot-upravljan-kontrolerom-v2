@@ -15,13 +15,21 @@ namespace
     msgStruct constructedMsg;
 
     unsigned long lastTimeMsgSent = 0;
-
     uint8_t failedMsgsInARow = 0;
 
 
     /*
     *   CommsController private functions
     */
+
+    void setupDefalutMsgValues()
+    {
+        constructedMsg.moveDirection = 0;
+        constructedMsg.rotation = 0;
+        constructedMsg.speed = 2047;
+
+        confirmSuccessfulSend();
+    }
 
     esp_err_t setupWiFi()
     {
@@ -84,6 +92,8 @@ msgStruct CommsController::getConstructedMsg()
 
 esp_err_t CommsController::setup()
 {
+    setupDefalutMsgValues();
+
     esp_err_t resultSetupWiFi = setupWiFi();
     esp_err_t resultSetupEspNow = setupEspNow();
     esp_err_t resultRegisterSendCb = esp_now_register_send_cb( dataRecievedInfo );
