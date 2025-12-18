@@ -11,11 +11,9 @@ bool operator!=( const msgStruct& a, const msgStruct& b )
 
 bool areSpeedsMatching( uint16_t speed1, uint16_t speed2, uint16_t interval )
 {
-    return (
-               speed1 <= speed2 + interval
-               &&
-               speed1 >= speed2 - interval
-           );
+    uint16_t diff = speed1 > speed2 ? speed1 - speed2 : speed2 - speed1;
+
+    return diff <= interval;
 }
 
 void copyMsg( msgStruct& from, msgStruct& to )
