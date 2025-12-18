@@ -22,6 +22,13 @@ namespace
     *   CommsController private functions
     */
 
+    void confirmSuccessfulSend()
+    {
+        lastMsgSuccessfullySent.moveDirection = constructedMsg.moveDirection;
+        lastMsgSuccessfullySent.rotation = constructedMsg.rotation;
+        lastMsgSuccessfullySent.speed = constructedMsg.speed;
+    }
+
     void setupDefalutMsgValues()
     {
         constructedMsg.moveDirection = 0;
@@ -70,13 +77,6 @@ namespace
                    failedMsgsInARow > 0 &&
                    failedMsgsInARow < 20
                );
-    }
-
-    void confirmSuccessfulSend()
-    {
-        lastMsgSuccessfullySent.moveDirection = constructedMsg.moveDirection;
-        lastMsgSuccessfullySent.rotation = constructedMsg.rotation;
-        lastMsgSuccessfullySent.speed = constructedMsg.speed;
     }
 }
 
