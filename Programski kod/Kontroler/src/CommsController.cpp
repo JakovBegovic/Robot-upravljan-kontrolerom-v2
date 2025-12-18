@@ -58,11 +58,7 @@ namespace
                      constructedMsg.rotation != lastMsgSuccessfullySent.rotation
                      ||
                      (
-                         !(
-                             constructedMsg.speed <= lastMsgSuccessfullySent.speed + 200
-                             &&
-                             constructedMsg.speed >= lastMsgSuccessfullySent.speed - 200
-                         )
+                         !areSpeedsMatching( constructedMsg.speed, lastMsgSuccessfullySent.speed, 200 )
                          &&
                          (
                              constructedMsg.moveDirection != 0

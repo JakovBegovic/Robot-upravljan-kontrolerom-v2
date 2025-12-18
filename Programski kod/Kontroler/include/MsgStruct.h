@@ -15,4 +15,6 @@ struct msgStruct
 
 bool operator!=( const msgStruct& a, const msgStruct& b );
 
+bool areSpeedsMatching( uint16_t speed1, uint16_t speed2, uint16_t interval );
+
 void copyMsg( msgStruct& from, msgStruct& to );
