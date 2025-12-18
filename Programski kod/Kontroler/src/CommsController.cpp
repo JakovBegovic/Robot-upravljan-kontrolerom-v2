@@ -50,9 +50,28 @@ namespace
 
     bool shouldSendUpdateMsg()
     {
-        return millis() - lastTimeMsgSent > 50
-               &&
-               constructedMsg != lastMsgSuccessfullySent;
+        return ( millis() - lastTimeMsgSent > 50
+                 &&
+                 (
+                     constructedMsg.moveDirection != lastMsgSuccessfullySent.moveDirection
+                     ||
+                     constructedMsg.rotation != lastMsgSuccessfullySent.rotation
+                     ||
+                     (
+                         !(
+                             constructedMsg.speed <= lastMsgSuccessfullySent.speed + 200
+                             &&
+                             constructedMsg.speed >= lastMsgSuccessfullySent.speed - 200
+                         )
+                         &&
+                         (
+                             constructedMsg.moveDirection != 0
+                             ||
+                             constructedMsg.rotation != 0
+                         )
+                     )
+                 )
+               );
     }
 
     bool shouldSendRenewMsg()
