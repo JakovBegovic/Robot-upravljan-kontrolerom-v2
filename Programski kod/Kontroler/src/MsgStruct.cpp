@@ -9,3 +9,10 @@ bool operator!=( const msgStruct& a, const msgStruct& b )
                a.speed + 200 >= b.speed
            );
 }
+
+void copyMsg( msgStruct& from, msgStruct& to )
+{
+    to.moveDirection = from.moveDirection;
+    to.rotation = from.rotation;
+    to.speed = from.speed;
+}

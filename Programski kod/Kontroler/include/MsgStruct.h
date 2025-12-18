@@ -14,3 +14,5 @@ struct msgStruct
 };
 
 bool operator!=( const msgStruct& a, const msgStruct& b );
+
+void copyMsg( msgStruct& from, msgStruct& to );

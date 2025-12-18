@@ -1,5 +1,6 @@
 #include "CommsController.h"
 #include "HardwareReader.h"
+#include "msgStruct.h"
 
 namespace
 {
@@ -22,20 +23,13 @@ namespace
     *   CommsController private functions
     */
 
-    void confirmSuccessfulSend()
-    {
-        lastMsgSuccessfullySent.moveDirection = constructedMsg.moveDirection;
-        lastMsgSuccessfullySent.rotation = constructedMsg.rotation;
-        lastMsgSuccessfullySent.speed = constructedMsg.speed;
-    }
-
     void setupDefalutMsgValues()
     {
         constructedMsg.moveDirection = 0;
         constructedMsg.rotation = 0;
         constructedMsg.speed = 2047;
 
-        confirmSuccessfulSend();
+        copyMsg( constructedMsg, lastMsgSuccessfullySent );
     }
 
     esp_err_t setupWiFi()
@@ -77,6 +71,11 @@ namespace
                    failedMsgsInARow > 0 &&
                    failedMsgsInARow < 20
                );
+    }
+
+    void confirmSuccessfulSend()
+    {
+        copyMsg( constructedMsg, lastMsgSuccessfullySent );
     }
 }
 
