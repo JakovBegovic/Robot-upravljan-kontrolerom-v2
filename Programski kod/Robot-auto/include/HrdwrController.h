@@ -18,5 +18,5 @@ namespace HrdwrController
     /**
     * @brief   Change which LEDs are active
     */
-    void controlLEDs( int8_t moveDirection, int8_t rotation );
+    void controlLEDs( msgStruct msg );
 }

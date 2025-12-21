@@ -5,7 +5,7 @@
 #include "CommsController.h"
 #include "HrdwrController.h"
 
-#define DEBUG 1
+#define DEBUG 0
 
 void setup()
 {
@@ -47,6 +47,6 @@ void loop()
     {
         CommsController::setRecievedMsg( 0, 0, 2047 );
 
-        HrdwrController::controlLEDs( CommsController::getRecievedMsg().moveDirection, CommsController::getRecievedMsg().rotation );
+        HrdwrController::controlLEDs( CommsController::getRecievedMsg() );
     }
 }

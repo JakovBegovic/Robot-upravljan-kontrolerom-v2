@@ -92,5 +92,5 @@ void CommsController::onDataRecieved( const uint8_t *macAddress, const uint8_t *
 
     lastTimeRcvdMsg = millis();
 
-    HrdwrController::controlLEDs( recievedMsg.moveDirection, recievedMsg.rotation );
+    HrdwrController::controlLEDs( recievedMsg );
 }
