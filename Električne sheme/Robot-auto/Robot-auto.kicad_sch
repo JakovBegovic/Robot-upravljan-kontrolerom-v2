@@ -7,7 +7,7 @@
 	(title_block
 		(title "Robot auto")
 		(date "2025-11-30")
-		(rev "v0")
+		(rev "v0.1")
 		(company "Jakov Begović")
 	)
 	(lib_symbols
