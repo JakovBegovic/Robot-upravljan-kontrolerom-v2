@@ -84,6 +84,8 @@ void HrdwrController::setup()
     }
 
     setupMcpwm();
+
+    controlLEDs( CommsController::getRecievedMsg() );
 }
 
 void HrdwrController::controlLEDs( msgStruct msg )

@@ -6,7 +6,6 @@
 
 #define DEBUG 0
 
-
 void setup()
 {
     if( DEBUG )
@@ -17,10 +16,6 @@ void setup()
     CommsController::setup();
 
     HrdwrController::setup();
-
-    CommsController::setRecievedMsg( 0, 0, 2047 );
-
-    HrdwrController::controlLEDs( CommsController::getRecievedMsg() );
 }
 
 void loop()
@@ -38,5 +33,4 @@ void loop()
 
         HrdwrController::controlLEDs( CommsController::getRecievedMsg() );
     }
-
 }

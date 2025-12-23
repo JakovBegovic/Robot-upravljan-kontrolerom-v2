@@ -24,9 +24,7 @@ namespace
     {
         lastTimeRcvdMsg = 0;
 
-        recievedMsg.moveDirection = 0;
-        recievedMsg.rotation = 0;
-        recievedMsg.speed = 2047;
+        CommsController::setRecievedMsg( 0, 0, 2047 );
     }
 
     esp_err_t setupWiFi()
