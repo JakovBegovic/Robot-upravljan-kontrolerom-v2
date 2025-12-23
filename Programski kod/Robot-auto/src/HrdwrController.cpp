@@ -97,19 +97,35 @@ void HrdwrController::controlLEDs( msgStruct msg )
         dutyCycle = dutyCycleMin;
     }
 
-    switch( msg.moveDirection )
+    if( msg.rotation == 0 )
     {
-        case 0:
-            stop();
-            break;
+        switch( msg.moveDirection )
+        {
+            case 0:
+                stop();
+                break;
 
-        case 1:
-            driveForward();
-            break;
+            case 1:
+                driveForward();
+                break;
 
-        case -1:
-            driveBackward();
-            break;
+            case -1:
+                driveBackward();
+                break;
+        }
+    }
+    else
+    {
+        switch( msg.rotation )
+        {
+            case 1:
+                turnRight();
+                break;
+
+            case -1:
+                turnLeft();
+                break;
+        }
     }
 
     mcpwm_set_duty( MCPWM_UNIT_0, MCPWM_TIMER_0, MCPWM_OPR_A, dutyCycle );
