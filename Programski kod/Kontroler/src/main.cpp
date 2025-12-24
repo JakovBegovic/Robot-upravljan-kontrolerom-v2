@@ -3,6 +3,7 @@
 #include <esp_now.h>
 
 #include "HardwareReader.h"
+#include "HrdwrController.h"
 #include "CommsController.h"
 
 #define DEBUG 1
@@ -14,9 +15,20 @@ void setup()
         Serial.begin( 115200 );
     }
 
+    CommsController::setup();
+
     HardwareReader::setup();
 
-    CommsController::setup();
+    HrdwrController::setup();
+
+    if( DEBUG )
+    {
+        Serial.println( tskIDLE_PRIORITY );
+        Serial.println( configMAX_PRIORITIES );
+        Serial.println( uxTaskPriorityGet( NULL ) );
+        Serial.println( xPortGetCoreID() );
+    }
+
 }
 
 void loop()
