@@ -9,6 +9,8 @@ namespace
 
     uint8_t songPlaying;
 
+    QueueHandle_t musicQueue = NULL;
+
     /*
     *   HrdwrController private functions
     */
@@ -25,15 +27,25 @@ void HrdwrController::setup()
 
     songPlaying = 0;
 
-    playNextSong();
+    musicQueue = xQueueCreate( 5, sizeof( uint8_t ) );
+
+    xTaskCreatePinnedToCore(
+        playSong, // Task function
+        "playSong", // Task name
+        2048, // Stack size
+        ( void * )&songPlaying, // Parameters
+        2, // Priority
+        NULL, // Task handle (optional)
+        1 // Core ID
+    );
 }
 
 void HrdwrController::playSong( void *pvParameter )
 {
+    uint8_t songNum = *( uint8_t * )pvParameter;
+
     while( true )
     {
-        uint8_t songNum = *( uint8_t * )pvParameter;
-
         int size = songSizes[ songNum ];
 
         for ( int note = 0; note < size; note++ )
@@ -48,19 +60,19 @@ void HrdwrController::playSong( void *pvParameter )
 
             //stop the tone playing:
             noTone( buzzerPIN );
+
+            if( xQueueReceive( musicQueue, &songNum, 0 ) != errQUEUE_EMPTY )
+            {
+                break;
+            }
         }
     }
 }
 
 void HrdwrController::playNextSong()
 {
-    xTaskCreatePinnedToCore(
-        playSong, // Task function
-        "playSong", // Task name
-        2048, // Stack size
-        ( void * )&songPlaying, // Parameters
-        2, // Priority
-        NULL, // Task handle (optional)
-        1 // Core ID
-    );
+    songPlaying = ( songPlaying + 1 ) % 2;
+
+    xQueueSend( musicQueue, &songPlaying, 0 );
 }
+

@@ -33,6 +33,7 @@ void setup()
 
 void loop()
 {
+    /*
     CommsController::constructMsg();
 
     if( CommsController::shouldSendMsg() )
@@ -47,4 +48,7 @@ void loop()
             Serial.println( ( double )millis() / 1000 );
         }
     }
+        */
+    delay( 3000 );
+    HrdwrController::playNextSong();
 }
