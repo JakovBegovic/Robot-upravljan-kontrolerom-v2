@@ -10,6 +10,7 @@ namespace
     uint8_t songPlaying = 0;
 
     QueueHandle_t musicQueue = NULL;
+    TaskHandle_t musicTask = NULL;
 
     /*
     *   HrdwrController private functions
@@ -33,9 +34,11 @@ void HrdwrController::setup()
         2048, // Stack size
         ( void * )&songPlaying, // Parameters
         2, // Priority
-        NULL, // Task handle (optional)
+        &musicTask, // Task handle
         1 // Core ID
     );
+
+    vTaskSuspend( musicTask );
 }
 
 void HrdwrController::playSong( void *pvParameter )
@@ -72,5 +75,10 @@ void HrdwrController::playNextSong()
     songPlaying = ( songPlaying + 1 ) % numberOfSongs;
 
     xQueueSend( musicQueue, &songPlaying, 0 );
+
+    if( eTaskGetState( musicTask ) == eSuspended )
+    {
+        vTaskResume( musicTask );
+    }
 }
 

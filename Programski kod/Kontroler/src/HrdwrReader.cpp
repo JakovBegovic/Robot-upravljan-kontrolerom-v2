@@ -25,7 +25,6 @@ namespace
 
             HrdwrController::playNextSong();
         }
-
     }
 
     void setupBTNs()
