@@ -1,4 +1,5 @@
 #pragma once
+#include "HrdwrController.h"
 #include <Arduino.h>
 
 namespace HardwareReader

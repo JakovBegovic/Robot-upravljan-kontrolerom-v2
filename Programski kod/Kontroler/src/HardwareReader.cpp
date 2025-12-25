@@ -10,10 +10,23 @@ namespace
     const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
     const uint8_t potentioPIN = 35;
 
+    unsigned long lastInterrupt = 0;
+
 
     /*
     *   HardwareReader private functions
     */
+
+    void IRAM_ATTR musicButtonISR()
+    {
+        if( millis() - lastInterrupt > 200 )
+        {
+            lastInterrupt = millis();
+
+            HrdwrController::playNextSong();
+        }
+
+    }
 
     void setupBTNs()
     {
@@ -21,6 +34,8 @@ namespace
         {
             pinMode( btnPINs[ i ], INPUT_PULLUP );
         }
+
+        attachInterrupt( btnPINs[ 4 ], musicButtonISR, FALLING );
     }
 
     void setupADC()

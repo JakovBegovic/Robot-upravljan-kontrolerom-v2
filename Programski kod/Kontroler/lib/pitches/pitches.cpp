@@ -4,6 +4,8 @@
 // Source - https://github.com/hibit-dev/buzzer/
 // -------------------------------------------------
 
+const int numberOfSongs = 2;
+
 const int* const songMelodies[ 2 ] =
 {
     doomMelody,

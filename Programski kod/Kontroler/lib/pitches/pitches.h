@@ -97,7 +97,7 @@
 #define NOTE_DS8 4978
 #define REST     0
 
-
+extern const int numberOfSongs;
 extern const int* const songMelodies[ 2 ];
 extern const int* const songDurations[ 2 ];
 extern const int songSizes[ 2 ];

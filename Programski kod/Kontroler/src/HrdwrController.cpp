@@ -7,7 +7,7 @@ namespace
     */
     const uint8_t buzzerPIN = 25;
 
-    uint8_t songPlaying;
+    uint8_t songPlaying = 0;
 
     QueueHandle_t musicQueue = NULL;
 
@@ -24,8 +24,6 @@ namespace
 void HrdwrController::setup()
 {
     pinMode( buzzerPIN, OUTPUT );
-
-    songPlaying = 0;
 
     musicQueue = xQueueCreate( 5, sizeof( uint8_t ) );
 
@@ -71,7 +69,7 @@ void HrdwrController::playSong( void *pvParameter )
 
 void HrdwrController::playNextSong()
 {
-    songPlaying = ( songPlaying + 1 ) % 2;
+    songPlaying = ( songPlaying + 1 ) % numberOfSongs;
 
     xQueueSend( musicQueue, &songPlaying, 0 );
 }
