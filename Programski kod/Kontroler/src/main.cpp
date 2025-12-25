@@ -6,7 +6,7 @@
 #include "HrdwrController.h"
 #include "CommsController.h"
 
-#define DEBUG 1
+#define DEBUG 0
 
 void setup()
 {

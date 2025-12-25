@@ -4,6 +4,24 @@
 // Source - https://github.com/hibit-dev/buzzer/
 // -------------------------------------------------
 
+const int* const songMelodies[ 2 ] =
+{
+    doomMelody,
+    tokyoDriftMelody
+};
+
+const int* const songDurations[ 2 ] =
+{
+    doomDurations,
+    tokyoDriftDurations
+};
+
+const int songSizes[ 2 ] =
+{
+    680,
+    65
+};
+
 const int doomMelody[ 680 ] =
 {
     NOTE_E2, NOTE_E2, NOTE_E3, NOTE_E2, NOTE_E2, NOTE_D3, NOTE_E2, NOTE_E2,
@@ -230,5 +248,47 @@ const int doomDurations[ 680 ] =
     16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16
 };
 
-const int doomMelodySize = sizeof( doomMelody ) / sizeof( doomMelody[ 0 ] );
-const int doomDurationsSize = sizeof( doomDurations ) / sizeof( doomDurations[ 0 ] );;
+
+const int tokyoDriftMelody[ 65 ] =
+{
+    NOTE_AS4, REST, NOTE_AS4, REST, NOTE_AS4, REST, NOTE_AS4, REST,
+    NOTE_AS4, NOTE_B4, NOTE_DS5,
+    NOTE_AS4, REST, NOTE_AS4, REST,
+    NOTE_AS4, NOTE_B4, NOTE_DS5,
+    NOTE_AS4, REST, NOTE_AS4, REST,
+    NOTE_AS4, NOTE_B4, NOTE_DS5,
+    NOTE_AS4, REST, NOTE_AS4, REST,
+    NOTE_AS4, NOTE_B4, NOTE_DS5,
+    NOTE_F5, REST, NOTE_F5, REST,
+    NOTE_GS5, NOTE_FS5, NOTE_F5,
+    NOTE_AS4, REST, NOTE_AS4, REST,
+    NOTE_GS5, NOTE_FS5, NOTE_F5,
+    NOTE_AS4, REST, NOTE_AS4, REST,
+    NOTE_AS4, NOTE_B4, NOTE_DS5,
+    NOTE_AS4, REST, NOTE_AS4, REST,
+    NOTE_AS4, NOTE_B4, NOTE_DS5,
+    NOTE_AS4, REST, NOTE_AS4, REST,
+    REST
+};
+
+const int tokyoDriftDurations[ 65 ] =
+{
+    4, 4, 4, 4, 4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    3, 3, 4,
+    4, 4, 4, 4,
+    1
+};

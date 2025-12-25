@@ -15,9 +15,14 @@ namespace HrdwrController
     void setup();
 
     /**
-     * @brief   Change song currently playing on buzzer
+     * @brief   Play songs on buzzer
      */
     void playSong( void *pvParameter );
+
+    /**
+     * @brief   Play next song on buzzer
+     */
+    void playNextSong( );
 
     /**
      * @brief   Stop playing songs on buzzer
