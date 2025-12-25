@@ -3,7 +3,7 @@
 #include <WiFi.h>
 #include <esp_now.h>
 #include "msgStruct.h"
-#include "HardwareReader.h"
+#include "HrdwrReader.h"
 
 namespace CommsController
 {

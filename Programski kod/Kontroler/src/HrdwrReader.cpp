@@ -1,9 +1,9 @@
-#include "HardwareReader.h"
+#include "HrdwrReader.h"
 
 namespace
 {
     /*
-    *   HardwareReader private variables
+    *   HrdwrReader private variables
     */
 
     // forward, backward, right, left, music
@@ -14,7 +14,7 @@ namespace
 
 
     /*
-    *   HardwareReader private functions
+    *   HrdwrReader private functions
     */
 
     void IRAM_ATTR musicButtonISR()
@@ -46,26 +46,26 @@ namespace
 
 
 /*
-*   HardwareReader public function definitions
+*   HrdwrReader public function definitions
 */
 
-void HardwareReader::setup()
+void HrdwrReader::setup()
 {
     setupBTNs();
     setupADC();
 }
 
-int8_t HardwareReader::getMoveDir()
+int8_t HrdwrReader::getMoveDir()
 {
     return !digitalRead( btnPINs[ 0 ] ) - !digitalRead( btnPINs[ 1 ] );
 }
 
-int8_t HardwareReader::getRotation()
+int8_t HrdwrReader::getRotation()
 {
     return !digitalRead( btnPINs[ 2 ] ) - !digitalRead( btnPINs[ 3 ] );
 }
 
-uint16_t HardwareReader::getSpeed()
+uint16_t HrdwrReader::getSpeed()
 {
     return analogRead( potentioPIN );
 }

@@ -1,6 +1,4 @@
 #include "CommsController.h"
-#include "HardwareReader.h"
-#include "msgStruct.h"
 
 namespace
 {
@@ -128,9 +126,9 @@ esp_err_t CommsController::setup()
 
 void CommsController::constructMsg()
 {
-    constructedMsg.moveDirection = HardwareReader::getMoveDir();
-    constructedMsg.rotation = HardwareReader::getRotation();
-    constructedMsg.speed = HardwareReader::getSpeed();
+    constructedMsg.moveDirection = HrdwrReader::getMoveDir();
+    constructedMsg.rotation = HrdwrReader::getRotation();
+    constructedMsg.speed = HrdwrReader::getSpeed();
 }
 
 bool CommsController::shouldSendMsg()

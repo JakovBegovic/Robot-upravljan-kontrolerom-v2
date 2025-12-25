@@ -2,7 +2,7 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
-#include "HardwareReader.h"
+#include "HrdwrReader.h"
 #include "HrdwrController.h"
 #include "CommsController.h"
 
@@ -17,7 +17,7 @@ void setup()
 
     CommsController::setup();
 
-    HardwareReader::setup();
+    HrdwrReader::setup();
 
     HrdwrController::setup();
 

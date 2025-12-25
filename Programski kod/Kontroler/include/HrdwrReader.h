@@ -2,10 +2,10 @@
 #include "HrdwrController.h"
 #include <Arduino.h>
 
-namespace HardwareReader
+namespace HrdwrReader
 {
     /*
-    *   HardwareReader public functions
+    *   HrdwrReader public functions
     */
 
     /**
