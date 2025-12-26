@@ -40,4 +40,6 @@ namespace HrdwrReader
      *          0 to 4095
     */
     uint16_t getSpeed();
+
+    bool readMusicBtn();
 };

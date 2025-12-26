@@ -28,7 +28,6 @@ void setup()
         Serial.println( uxTaskPriorityGet( NULL ) );
         Serial.println( xPortGetCoreID() );
     }
-
 }
 
 void loop()

@@ -17,55 +17,6 @@ namespace
     *   HrdwrReader private functions
     */
 
-    void musicCtrl( void *pvParameter )
-    {
-        bool isMusicBtnPressed = false;
-        uint16_t pressedInRow = 0;
-
-        while( true )
-        {
-            isMusicBtnPressed = !digitalRead( btnPINs[ 4 ] );
-
-            if( isMusicBtnPressed )
-            {
-                pressedInRow++;
-
-                if( pressedInRow == 25 )
-                {
-                    HrdwrController::pauseMusic();
-                }
-            }
-            else
-            {
-                if( pressedInRow > 0
-                    &&
-                    pressedInRow < 15
-                  )
-                {
-                    HrdwrController::playNextSong();
-                }
-
-                pressedInRow = 0;
-            }
-
-            vTaskDelay( 75 / portTICK_PERIOD_MS );
-        }
-    }
-
-
-    void setupMusicCtrl()
-    {
-        xTaskCreatePinnedToCore(
-            musicCtrl, // Task function
-            "musicCtrl", // Task name
-            1024, // Stack size
-            NULL, // Parameters
-            2, // Priority
-            NULL, // Task handle
-            1 // Core ID
-        );
-    }
-
     void setupBTNs()
     {
         for ( int i = 0; i < sizeof( btnPINs ) / sizeof( uint8_t ); i++ )
@@ -88,7 +39,6 @@ namespace
 void HrdwrReader::setup()
 {
     setupBTNs();
-    setupMusicCtrl();
     setupADC();
 }
 
@@ -105,4 +55,9 @@ int8_t HrdwrReader::getRotation()
 uint16_t HrdwrReader::getSpeed()
 {
     return analogRead( potentioPIN );
+}
+
+bool HrdwrReader::readMusicBtn()
+{
+    return !digitalRead( btnPINs[ 4 ] );
 }
