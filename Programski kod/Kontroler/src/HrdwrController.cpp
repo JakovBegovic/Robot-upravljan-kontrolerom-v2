@@ -72,6 +72,8 @@ void HrdwrController::playSong( void *pvParameter )
 
 void HrdwrController::playNextSong()
 {
+    Serial.println( "Play Next" );
+
     songPlaying = ( songPlaying + 1 ) % numberOfSongs;
 
     xQueueSend( musicQueue, &songPlaying, 0 );
@@ -82,3 +84,7 @@ void HrdwrController::playNextSong()
     }
 }
 
+void HrdwrController::pauseMusic()
+{
+    vTaskSuspend( musicTask );
+}

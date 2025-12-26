@@ -22,12 +22,12 @@ namespace HrdwrController
     /**
      * @brief   Play next song on buzzer
      */
-    void playNextSong( );
+    void playNextSong();
 
     /**
      * @brief   Stop playing songs on buzzer
      */
-    void stopPlaying();
+    void pauseMusic();
 
     /**
     * @brief   Play charge me request on buzzer

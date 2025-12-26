@@ -17,14 +17,53 @@ namespace
     *   HrdwrReader private functions
     */
 
-    void IRAM_ATTR musicButtonISR()
+    void musicCtrl( void *pvParameter )
     {
-        if( millis() - lastInterrupt > 200 )
-        {
-            lastInterrupt = millis();
+        bool isMusicBtnPressed = false;
+        uint16_t pressedInRow = 0;
 
-            HrdwrController::playNextSong();
+        while( true )
+        {
+            isMusicBtnPressed = !digitalRead( btnPINs[ 4 ] );
+
+            if( isMusicBtnPressed )
+            {
+                pressedInRow++;
+
+                if( pressedInRow == 25 )
+                {
+                    HrdwrController::pauseMusic();
+                }
+            }
+            else
+            {
+                if( pressedInRow > 0
+                    &&
+                    pressedInRow < 15
+                  )
+                {
+                    HrdwrController::playNextSong();
+                }
+
+                pressedInRow = 0;
+            }
+
+            vTaskDelay( 75 / portTICK_PERIOD_MS );
         }
+    }
+
+
+    void setupMusicCtrl()
+    {
+        xTaskCreatePinnedToCore(
+            musicCtrl, // Task function
+            "musicCtrl", // Task name
+            1024, // Stack size
+            NULL, // Parameters
+            2, // Priority
+            NULL, // Task handle
+            1 // Core ID
+        );
     }
 
     void setupBTNs()
@@ -33,8 +72,6 @@ namespace
         {
             pinMode( btnPINs[ i ], INPUT_PULLUP );
         }
-
-        attachInterrupt( btnPINs[ 4 ], musicButtonISR, FALLING );
     }
 
     void setupADC()
@@ -51,6 +88,7 @@ namespace
 void HrdwrReader::setup()
 {
     setupBTNs();
+    setupMusicCtrl();
     setupADC();
 }
 
