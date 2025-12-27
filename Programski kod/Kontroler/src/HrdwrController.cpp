@@ -22,25 +22,37 @@ namespace
 
         while( true )
         {
-            int size = songSizes[ songNum ];
+            int tempo = songs[ songNum ].tempo;
+            int notes = songs[ songNum ].length / 2;
+            int wholenote = ( 60000 * 4 ) / tempo; // in ms
+            int divider = 0, noteDuration = 0;
 
-            for ( int note = 0; note < size; note++ )
+            for ( int thisNote = 0; thisNote < notes * 2; thisNote = thisNote + 2 )
             {
-                //quarter note = 1 sec / 4, eighth note = 1 sec / 8, etc.
-                int duration = 1000 / songDurations[ songNum ][ note ];
-                tone( buzzerPIN, songMelodies[ songNum ][ note ], duration );
-
-                //to distinguish the notes, set a minimum time between them.
-                int pauseBetweenNotes = duration * 1.30;
-                vTaskDelay( pauseBetweenNotes / portTICK_PERIOD_MS );
-
-                //stop the tone playing:
-                noTone( buzzerPIN );
-
                 if( xQueueReceive( musicQueue, &songNum, 0 ) != errQUEUE_EMPTY )
                 {
                     break;
                 }
+
+                divider = songs[ songNum ].data[ thisNote + 1 ];
+
+                if ( divider > 0 )
+                {
+                    noteDuration = ( wholenote ) / divider;
+                }
+                else if ( divider < 0 )
+                {
+                    // dotted notes are represented with negative durations
+                    noteDuration = ( wholenote ) / abs( divider );
+                    noteDuration *= 1.5; // increases the duration for dotted notes
+                }
+
+                // play the note for 90% of the duration
+                tone( buzzerPIN, songs[ songNum ].data[ thisNote ], noteDuration * 0.9 );
+                vTaskDelay( noteDuration / portTICK_PERIOD_MS );
+
+                // stop the waveform generation before the next note.
+                noTone( buzzerPIN );
             }
         }
     }
@@ -126,7 +138,7 @@ void HrdwrController::setup()
 
 void HrdwrController::playNextSong()
 {
-    songPlaying = ( songPlaying + 1 ) % numberOfSongs;
+    songPlaying = ( songPlaying + 1 ) % songsCount ;
 
     xQueueSend( musicQueue, &songPlaying, 0 );
 

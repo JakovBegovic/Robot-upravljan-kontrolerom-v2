@@ -1,5 +1,8 @@
 #pragma once
 
+#include <cstddef>      // size_t
+#include <cstdint>      // uint8_t (or use char/int16_t/... whatever your data is)
+
 // -------------------------------------------------
 // Source: https://github.com/robsoncouto/arduino-songs/
 // -------------------------------------------------
@@ -97,16 +100,12 @@
 #define NOTE_DS8 4978
 #define REST     0
 
-extern const int numberOfSongs;
-extern const int* const songMelodies[ 3 ];
-extern const int* const songDurations[ 3 ];
-extern const int songSizes[ 3 ];
+struct songInfoStruct
+{
+    const int* data;
+    std::size_t length;
+    int tempo;
+};
 
-extern const int doomMelody[ 680 ];
-extern const int doomDurations[ 680 ];
-
-extern const int superMarioMelody[ 321 ];
-extern const int superMarioDurations[ 321 ];
-
-extern const int dejaVuMelody[ 334 ];
-extern const int dejaVuDurations[ 334 ];
+extern const songInfoStruct songs[];
+extern const std::size_t songsCount;
