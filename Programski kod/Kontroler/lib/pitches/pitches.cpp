@@ -230,11 +230,11 @@ namespace
 
 const songInfoStruct songs[] =
 {
-    { pacman, sizeof( pacman ) / sizeof( pacman[ 0 ] ), 105 },
     { superMario, sizeof( superMario ) / sizeof( superMario[ 0 ] ), 200 },
     { tetris, sizeof( tetris ) / sizeof( tetris[ 0 ] ), 144 },
     { doom, sizeof( doom ) / sizeof( doom[ 0 ] ), 225 },
     { miichannel, sizeof( miichannel ) / sizeof( miichannel[ 0 ] ), 114 },
+    { pacman, sizeof( pacman ) / sizeof( pacman[ 0 ] ), 105 },
 };
 
 const std::size_t songsCount = sizeof( songs ) / sizeof( songs[ 0 ] );

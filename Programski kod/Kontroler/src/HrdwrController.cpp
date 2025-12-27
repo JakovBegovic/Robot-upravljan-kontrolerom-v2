@@ -16,9 +16,26 @@ namespace
     *   HrdwrController private functions
     */
 
+    void pauseMusic()
+    {
+        vTaskSuspend( musicTask );
+    }
+
     void resumeMusic()
     {
         vTaskResume( musicTask );
+    }
+
+    void playNextSong()
+    {
+        songPlaying = ( songPlaying + 1 ) % songsCount ;
+
+        xQueueSend( musicQueue, &songPlaying, 0 );
+
+        if( eTaskGetState( musicTask ) == eSuspended )
+        {
+            resumeMusic();
+        }
     }
 
     void playSong( void *pvParameter )
@@ -78,7 +95,7 @@ namespace
             1 // Core ID
         );
 
-        HrdwrController::pauseMusic();
+        pauseMusic();
     }
 
     void musicCtrl( void *pvParameter )
@@ -96,7 +113,7 @@ namespace
 
                 if( pressedInRow == 25 )
                 {
-                    HrdwrController::pauseMusic();
+                    pauseMusic();
                 }
             }
             else
@@ -112,7 +129,7 @@ namespace
                     }
                     else
                     {
-                        HrdwrController::playNextSong();
+                        playNextSong();
                     }
                 }
 
@@ -147,21 +164,3 @@ void HrdwrController::setup()
     setupSongPlayer();
     setupMusicCtrl();
 }
-
-void HrdwrController::playNextSong()
-{
-    songPlaying = ( songPlaying + 1 ) % songsCount ;
-
-    xQueueSend( musicQueue, &songPlaying, 0 );
-
-    if( eTaskGetState( musicTask ) == eSuspended )
-    {
-        resumeMusic();
-    }
-}
-
-void HrdwrController::pauseMusic()
-{
-    vTaskSuspend( musicTask );
-}
-

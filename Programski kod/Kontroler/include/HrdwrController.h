@@ -15,16 +15,6 @@ namespace HrdwrController
     void setup();
 
     /**
-     * @brief   Play next song on buzzer
-     */
-    void playNextSong();
-
-    /**
-     * @brief   Stop playing songs on buzzer
-     */
-    void pauseMusic();
-
-    /**
     * @brief   Play charge me request on buzzer
     */
     void requestCharging();
