@@ -16,6 +16,11 @@ namespace
     *   HrdwrController private functions
     */
 
+    void resumeMusic()
+    {
+        vTaskResume( musicTask );
+    }
+
     void playSong( void *pvParameter )
     {
         uint8_t songNum = *( uint8_t * )pvParameter;
@@ -73,7 +78,7 @@ namespace
             1 // Core ID
         );
 
-        vTaskSuspend( musicTask );
+        HrdwrController::pauseMusic();
     }
 
     void musicCtrl( void *pvParameter )
@@ -101,7 +106,14 @@ namespace
                     pressedInRow < 15
                   )
                 {
-                    HrdwrController::playNextSong();
+                    if( eTaskGetState( musicTask ) == eSuspended )
+                    {
+                        resumeMusic();
+                    }
+                    else
+                    {
+                        HrdwrController::playNextSong();
+                    }
                 }
 
                 pressedInRow = 0;
@@ -144,7 +156,7 @@ void HrdwrController::playNextSong()
 
     if( eTaskGetState( musicTask ) == eSuspended )
     {
-        vTaskResume( musicTask );
+        resumeMusic();
     }
 }
 
@@ -152,3 +164,4 @@ void HrdwrController::pauseMusic()
 {
     vTaskSuspend( musicTask );
 }
+
