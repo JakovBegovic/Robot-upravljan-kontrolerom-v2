@@ -26,13 +26,18 @@ namespace
         vTaskResume( musicTask );
     }
 
+    bool musicIsPaused()
+    {
+        return eTaskGetState( musicTask ) == eSuspended;
+    }
+
     void playNextSong()
     {
         songPlaying = ( songPlaying + 1 ) % songsCount ;
 
         xQueueSend( musicQueue, &songPlaying, 0 );
 
-        if( eTaskGetState( musicTask ) == eSuspended )
+        if( musicIsPaused() )
         {
             resumeMusic();
         }
@@ -123,7 +128,7 @@ namespace
                     pressedInRow < 15
                   )
                 {
-                    if( eTaskGetState( musicTask ) == eSuspended )
+                    if( musicIsPaused() )
                     {
                         resumeMusic();
                     }
