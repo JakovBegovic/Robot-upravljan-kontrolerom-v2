@@ -98,12 +98,15 @@
 #define REST     0
 
 extern const int numberOfSongs;
-extern const int* const songMelodies[ 2 ];
-extern const int* const songDurations[ 2 ];
-extern const int songSizes[ 2 ];
+extern const int* const songMelodies[ 3 ];
+extern const int* const songDurations[ 3 ];
+extern const int songSizes[ 3 ];
 
 extern const int doomMelody[ 680 ];
 extern const int doomDurations[ 680 ];
 
-extern const int tokyoDriftMelody[ 65 ];
-extern const int tokyoDriftDurations[ 65 ];
+extern const int superMarioMelody[ 321 ];
+extern const int superMarioDurations[ 321 ];
+
+extern const int dejaVuMelody[ 334 ];
+extern const int dejaVuDurations[ 334 ];
