@@ -97,7 +97,6 @@ namespace
     }
 }
 
-
 /*
 *   CommsController public function definitions
 */

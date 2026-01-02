@@ -15,22 +15,20 @@ void setup()
         Serial.begin( 115200 );
     }
 
-
     vTaskPrioritySet( NULL, 2 );
+
+    if( DEBUG )
+    {
+        Serial.println( uxTaskPriorityGet( NULL ) );
+        Serial.println( xPortGetCoreID() );
+    }
+
 
     CommsController::setup();
 
     HrdwrReader::setup();
 
     HrdwrController::setup();
-
-    if( DEBUG )
-    {
-        Serial.println( tskIDLE_PRIORITY );
-        Serial.println( configMAX_PRIORITIES );
-        Serial.println( uxTaskPriorityGet( NULL ) );
-        Serial.println( xPortGetCoreID() );
-    }
 }
 
 void loop()
@@ -40,14 +38,6 @@ void loop()
     if( CommsController::shouldSendMsg() )
     {
         esp_err_t result = CommsController::sendConstructedMsg();
-
-        if( DEBUG )
-        {
-            Serial.print( "Sent " );
-            Serial.print( CommsController::getConstructedMsg().speed );
-            Serial.print( "   time: " );
-            Serial.println( ( double )millis() / 1000 );
-        }
     }
 
     vTaskDelay( CommsController::getMinTimeBetweenMsgs() / portTICK_PERIOD_MS );
