@@ -13,6 +13,7 @@ namespace
     msgStruct lastMsgSuccessfullySent;
     msgStruct constructedMsg;
 
+    const uint8_t minTimeBetweenMsgs = 50;
     unsigned long lastTimeMsgSent = 0;
     uint8_t failedMsgsInARow = 0;
 
@@ -48,7 +49,7 @@ namespace
 
     bool shouldSendUpdateMsg()
     {
-        return ( millis() - lastTimeMsgSent > 50
+        return ( millis() - lastTimeMsgSent > minTimeBetweenMsgs
                  &&
                  (
                      constructedMsg.moveDirection != lastMsgSuccessfullySent.moveDirection
@@ -81,7 +82,7 @@ namespace
 
     bool shouldSendReconnectMsg()
     {
-        return millis() - lastTimeMsgSent > 50
+        return millis() - lastTimeMsgSent > minTimeBetweenMsgs
                &&
                (
                    failedMsgsInARow > 0
@@ -104,6 +105,11 @@ namespace
 msgStruct CommsController::getConstructedMsg()
 {
     return constructedMsg;
+}
+
+uint8_t CommsController::getMinTimeBetweenMsgs()
+{
+    return minTimeBetweenMsgs;
 }
 
 esp_err_t CommsController::setup()

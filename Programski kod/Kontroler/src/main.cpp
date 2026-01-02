@@ -50,5 +50,5 @@ void loop()
         }
     }
 
-    vTaskDelay( 50 / portTICK_PERIOD_MS );
+    vTaskDelay( CommsController::getMinTimeBetweenMsgs() / portTICK_PERIOD_MS );
 }

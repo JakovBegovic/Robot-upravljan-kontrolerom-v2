@@ -16,6 +16,8 @@ namespace CommsController
      */
     msgStruct getConstructedMsg();
 
+    uint8_t getMinTimeBetweenMsgs();
+
     /**
      * @brief   Enable and setup ESP NOW communication
      */
