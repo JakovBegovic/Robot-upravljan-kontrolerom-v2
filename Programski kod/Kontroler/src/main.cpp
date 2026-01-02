@@ -15,6 +15,9 @@ void setup()
         Serial.begin( 115200 );
     }
 
+
+    vTaskPrioritySet( NULL, 2 );
+
     CommsController::setup();
 
     HrdwrReader::setup();
@@ -46,4 +49,6 @@ void loop()
             Serial.println( ( double )millis() / 1000 );
         }
     }
+
+    vTaskDelay( 50 / portTICK_PERIOD_MS );
 }

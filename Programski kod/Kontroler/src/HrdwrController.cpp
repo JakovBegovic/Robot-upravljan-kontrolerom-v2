@@ -95,7 +95,7 @@ namespace
             "playSong", // Task name
             2048, // Stack size
             ( void * )&songPlaying, // Parameters
-            2, // Priority
+            1, // Priority
             &musicTask, // Task handle
             1 // Core ID
         );
@@ -152,7 +152,7 @@ namespace
             "musicCtrl", // Task name
             1024, // Stack size
             NULL, // Parameters
-            2, // Priority
+            1, // Priority
             NULL, // Task handle
             1 // Core ID
         );
