@@ -41,5 +41,12 @@ namespace HrdwrReader
     */
     uint16_t getSpeed();
 
+    /**
+    * @brief    Get user input on music button
+     *
+     * @return
+     *          1 : pressed
+     *          0 : not pressed
+    */
     bool readMusicBtn();
 };
