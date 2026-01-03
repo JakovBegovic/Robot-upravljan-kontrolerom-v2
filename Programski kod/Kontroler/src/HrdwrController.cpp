@@ -7,10 +7,14 @@ namespace
     */
     const uint8_t buzzerPIN = 25;
 
+    const UBaseType_t playSongTaskPriority = 1;
+    const UBaseType_t musicCtrlTaskPriority = 1;
+
     uint8_t songPlaying = 0;
 
     QueueHandle_t musicQueue = NULL;
     TaskHandle_t musicTask = NULL;
+
 
     /*
     *   HrdwrController private functions
@@ -95,7 +99,7 @@ namespace
             "playSong", // Task name
             2048, // Stack size
             ( void * )&songPlaying, // Parameters
-            1, // Priority
+            playSongTaskPriority, // Priority
             &musicTask, // Task handle
             1 // Core ID
         );
@@ -152,7 +156,7 @@ namespace
             "musicCtrl", // Task name
             1024, // Stack size
             NULL, // Parameters
-            1, // Priority
+            musicCtrlTaskPriority, // Priority
             NULL, // Task handle
             1 // Core ID
         );

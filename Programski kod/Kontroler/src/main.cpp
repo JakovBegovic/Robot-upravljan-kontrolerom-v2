@@ -8,6 +8,8 @@
 
 #define DEBUG 0
 
+const UBaseType_t mainTaskPriority = 2;
+
 void setup()
 {
     if( DEBUG )
@@ -15,7 +17,7 @@ void setup()
         Serial.begin( 115200 );
     }
 
-    vTaskPrioritySet( NULL, 2 );
+    vTaskPrioritySet( NULL, mainTaskPriority );
 
     if( DEBUG )
     {
