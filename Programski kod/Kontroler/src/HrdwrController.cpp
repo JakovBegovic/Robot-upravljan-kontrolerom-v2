@@ -7,13 +7,9 @@ namespace
     */
     const uint8_t buzzerPIN = 25;
 
-    const UBaseType_t playSongTaskPriority = 1;
-    const UBaseType_t musicCtrlTaskPriority = 1;
-
     uint8_t songPlaying = 0;
 
     QueueHandle_t musicQueue = NULL;
-    TaskHandle_t musicTask = NULL;
 
 
     /*
@@ -22,17 +18,17 @@ namespace
 
     void pauseMusic()
     {
-        vTaskSuspend( musicTask );
+        vTaskSuspend( Tasker::getMusicTaskHandle() );
     }
 
     void resumeMusic()
     {
-        vTaskResume( musicTask );
+        vTaskResume( Tasker::getMusicTaskHandle() );
     }
 
     bool musicIsPaused()
     {
-        return eTaskGetState( musicTask ) == eSuspended;
+        return eTaskGetState( Tasker::getMusicTaskHandle() ) == eSuspended;
     }
 
     void playNextSong()
@@ -46,121 +42,6 @@ namespace
             resumeMusic();
         }
     }
-
-    void playSongTask( void *pvParameter )
-    {
-        uint8_t songNum = *( uint8_t * )pvParameter;
-
-        while( true )
-        {
-            int tempo = songs[ songNum ].tempo;
-            int notes = songs[ songNum ].length / 2;
-            int wholenote = ( 60000 * 4 ) / tempo; // in ms
-            int divider = 0, noteDuration = 0;
-
-            for ( int thisNote = 0; thisNote < notes * 2; thisNote = thisNote + 2 )
-            {
-                if( xQueueReceive( musicQueue, &songNum, 0 ) != errQUEUE_EMPTY )
-                {
-                    break;
-                }
-
-                divider = songs[ songNum ].data[ thisNote + 1 ];
-
-                if ( divider > 0 )
-                {
-                    noteDuration = ( wholenote ) / divider;
-                }
-                else if ( divider < 0 )
-                {
-                    // dotted notes are represented with negative durations
-                    noteDuration = ( wholenote ) / abs( divider );
-                    noteDuration *= 1.5; // increases the duration for dotted notes
-                }
-
-                // play the note for 90% of the duration
-                tone( buzzerPIN, songs[ songNum ].data[ thisNote ], noteDuration * 0.9 );
-                vTaskDelay( noteDuration / portTICK_PERIOD_MS );
-
-                // stop the waveform generation before the next note.
-                noTone( buzzerPIN );
-            }
-        }
-    }
-
-    void setupSongPlayer()
-    {
-        pinMode( buzzerPIN, OUTPUT );
-
-        musicQueue = xQueueCreate( 5, sizeof( uint8_t ) );
-
-        xTaskCreatePinnedToCore(
-            playSongTask, // Task function
-            "playSongTask", // Task name
-            2048, // Stack size
-            ( void * )&songPlaying, // Parameters
-            playSongTaskPriority, // Priority
-            &musicTask, // Task handle
-            1 // Core ID
-        );
-
-        pauseMusic();
-    }
-
-    void musicCtrlTask( void *pvParameter )
-    {
-        bool isMusicBtnPressed = false;
-        uint16_t pressedInRow = 0;
-
-        while( true )
-        {
-            isMusicBtnPressed = HrdwrReader::readMusicBtn();
-
-            if( isMusicBtnPressed )
-            {
-                pressedInRow++;
-
-                if( pressedInRow == 25 )
-                {
-                    pauseMusic();
-                }
-            }
-            else
-            {
-                if( pressedInRow > 0
-                    &&
-                    pressedInRow < 15
-                  )
-                {
-                    if( musicIsPaused() )
-                    {
-                        resumeMusic();
-                    }
-                    else
-                    {
-                        playNextSong();
-                    }
-                }
-
-                pressedInRow = 0;
-            }
-
-            vTaskDelay( 75 / portTICK_PERIOD_MS );
-        }
-    }
-
-    void setupMusicCtrl()
-    {
-        xTaskCreatePinnedToCore(
-            musicCtrlTask, // Task function
-            "musicCtrlTask", // Task name
-            1024, // Stack size
-            NULL, // Parameters
-            musicCtrlTaskPriority, // Priority
-            NULL, // Task handle
-            1 // Core ID
-        );
-    }
 }
 
 
@@ -170,6 +51,90 @@ namespace
 
 void HrdwrController::setup()
 {
-    setupSongPlayer();
-    setupMusicCtrl();
+    pinMode( buzzerPIN, OUTPUT );
+
+    musicQueue = xQueueCreate( 5, sizeof( uint8_t ) );
+}
+
+void HrdwrController::playSongTask( void *pvParameter )
+{
+    uint8_t songNum = 0;
+
+    while( true )
+    {
+        int tempo = songs[ songNum ].tempo;
+        int notes = songs[ songNum ].length / 2;
+        int wholenote = ( 60000 * 4 ) / tempo; // in ms
+        int divider = 0, noteDuration = 0;
+
+        for ( int thisNote = 0; thisNote < notes * 2; thisNote = thisNote + 2 )
+        {
+            if( xQueueReceive( musicQueue, &songNum, 0 ) != errQUEUE_EMPTY )
+            {
+                break;
+            }
+
+            divider = songs[ songNum ].data[ thisNote + 1 ];
+
+            if ( divider > 0 )
+            {
+                noteDuration = ( wholenote ) / divider;
+            }
+            else if ( divider < 0 )
+            {
+                // dotted notes are represented with negative durations
+                noteDuration = ( wholenote ) / abs( divider );
+                noteDuration *= 1.5; // increases the duration for dotted notes
+            }
+
+            // play the note for 90% of the duration
+            tone( buzzerPIN, songs[ songNum ].data[ thisNote ], noteDuration * 0.9 );
+            vTaskDelay( noteDuration / portTICK_PERIOD_MS );
+
+            // stop the waveform generation before the next note.
+            noTone( buzzerPIN );
+        }
+    }
+}
+
+void HrdwrController::musicCtrlTask( void *pvParameter )
+{
+    bool isMusicBtnPressed = false;
+    uint16_t pressedInRow = 0;
+
+    while( true )
+    {
+        isMusicBtnPressed = HrdwrReader::readMusicBtn();
+
+        if( isMusicBtnPressed )
+        {
+            pressedInRow++;
+
+            if( pressedInRow == 25 )
+            {
+                pauseMusic();
+            }
+        }
+        else
+        {
+            if( pressedInRow > 0
+                &&
+                pressedInRow < 15
+              )
+            {
+                if( musicIsPaused() )
+                {
+                    resumeMusic();
+                }
+                else
+                {
+                    playNextSong();
+                }
+            }
+
+            pressedInRow = 0;
+        }
+
+        vTaskDelay( 75 / portTICK_PERIOD_MS );
+    }
 }

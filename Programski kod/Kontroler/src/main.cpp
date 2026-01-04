@@ -8,7 +8,6 @@
 
 #define DEBUG 0
 
-const UBaseType_t mainTaskPriority = 2;
 
 void setup()
 {
@@ -17,20 +16,20 @@ void setup()
         Serial.begin( 115200 );
     }
 
-    vTaskPrioritySet( NULL, mainTaskPriority );
-
-    if( DEBUG )
-    {
-        Serial.println( uxTaskPriorityGet( NULL ) );
-        Serial.println( xPortGetCoreID() );
-    }
-
-
     CommsController::setup();
 
     HrdwrReader::setup();
 
     HrdwrController::setup();
+
+    Tasker::setupTasks( xTaskGetCurrentTaskHandle() );
+
+    if( DEBUG )
+    {
+        Serial.println( uxTaskPriorityGet( NULL ) );
+        Serial.println( uxTaskPriorityGet( xTaskGetCurrentTaskHandle() ) );
+        Serial.println( xPortGetCoreID() );
+    }
 }
 
 void loop()
