@@ -47,7 +47,7 @@ namespace
         }
     }
 
-    void playSong( void *pvParameter )
+    void playSongTask( void *pvParameter )
     {
         uint8_t songNum = *( uint8_t * )pvParameter;
 
@@ -95,8 +95,8 @@ namespace
         musicQueue = xQueueCreate( 5, sizeof( uint8_t ) );
 
         xTaskCreatePinnedToCore(
-            playSong, // Task function
-            "playSong", // Task name
+            playSongTask, // Task function
+            "playSongTask", // Task name
             2048, // Stack size
             ( void * )&songPlaying, // Parameters
             playSongTaskPriority, // Priority
@@ -107,7 +107,7 @@ namespace
         pauseMusic();
     }
 
-    void musicCtrl( void *pvParameter )
+    void musicCtrlTask( void *pvParameter )
     {
         bool isMusicBtnPressed = false;
         uint16_t pressedInRow = 0;
@@ -152,8 +152,8 @@ namespace
     void setupMusicCtrl()
     {
         xTaskCreatePinnedToCore(
-            musicCtrl, // Task function
-            "musicCtrl", // Task name
+            musicCtrlTask, // Task function
+            "musicCtrlTask", // Task name
             1024, // Stack size
             NULL, // Parameters
             musicCtrlTaskPriority, // Priority
