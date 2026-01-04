@@ -5,6 +5,7 @@
 #include "HrdwrReader.h"
 #include "HrdwrController.h"
 #include "CommsController.h"
+#include "Tasker.h"
 
 #define DEBUG 0
 
