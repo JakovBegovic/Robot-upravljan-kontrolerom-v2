@@ -1,6 +1,4 @@
 #include <Arduino.h>
-#include <WiFi.h>
-#include <esp_now.h>
 
 #include "HrdwrReader.h"
 #include "HrdwrController.h"

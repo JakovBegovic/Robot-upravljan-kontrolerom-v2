@@ -1,7 +1,7 @@
 #pragma once
 
-#include <cstddef>      // size_t
-#include <cstdint>      // uint8_t (or use char/int16_t/... whatever your data is)
+#include <cstddef>
+#include <cstdint>
 
 // -------------------------------------------------
 // Source: https://github.com/robsoncouto/arduino-songs/
