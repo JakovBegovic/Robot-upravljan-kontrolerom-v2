@@ -9,8 +9,15 @@ namespace
     // forward, backward, right, left, music
     const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
     const uint8_t potentioPIN = 35;
+    const uint8_t batteryInputPIN = 39;
+
+    const uint8_t adcResolution = 12;
+
+    const float batteryMaxVoltage = 4.25f;
+    const float voltageDivision = 0.3125f;
 
     unsigned long lastInterrupt = 0;
+
 
 
     /*
@@ -27,7 +34,7 @@ namespace
 
     void setupADC()
     {
-        analogReadResolution( 12 );
+        analogReadResolution( adcResolution );
     }
 }
 
@@ -60,4 +67,20 @@ uint16_t HrdwrReader::getSpeed()
 bool HrdwrReader::readMusicBtn()
 {
     return !digitalRead( btnPINs[ 4 ] );
+}
+
+float HrdwrReader::readBatteryVoltage() // TODO: postavi ADC da ti radi do 5V ili kaj god
+{
+    return ( float )analogRead( batteryInputPIN );
+}
+
+void HrdwrReader::readBttryVoltageTask( void *pvParameter )
+{
+    while( true )
+    {
+        float voltage = HrdwrReader::readBatteryVoltage();
+        Serial.println( voltage );
+
+        vTaskDelay( 100 / portTICK_PERIOD_MS );
+    }
 }

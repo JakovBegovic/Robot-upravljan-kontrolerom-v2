@@ -5,7 +5,7 @@
 #include "CommsController.h"
 #include "Tasker.h"
 
-#define DEBUG 0
+#define DEBUG 1
 
 
 void setup()
@@ -33,6 +33,7 @@ void setup()
 
 void loop()
 {
+    /*
     CommsController::constructMsg();
 
     if( CommsController::shouldSendMsg() )
@@ -41,4 +42,6 @@ void loop()
     }
 
     vTaskDelay( CommsController::getMinTimeBetweenMsgs() / portTICK_PERIOD_MS );
+    */
+    vTaskDelay( 1000 / portTICK_PERIOD_MS );
 }

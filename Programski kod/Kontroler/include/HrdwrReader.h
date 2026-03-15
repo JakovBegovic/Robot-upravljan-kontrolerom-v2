@@ -1,6 +1,8 @@
 #pragma once
-#include "HrdwrController.h"
 #include <Arduino.h>
+#include <cmath>
+
+#include "HrdwrController.h"
 
 namespace HrdwrReader
 {
@@ -49,4 +51,8 @@ namespace HrdwrReader
      *          0 : not pressed
     */
     bool readMusicBtn();
+
+    float readBatteryVoltage();
+
+    void readBttryVoltageTask( void *pvParameter );
 };
