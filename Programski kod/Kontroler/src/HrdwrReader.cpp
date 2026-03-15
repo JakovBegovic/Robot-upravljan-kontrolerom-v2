@@ -35,6 +35,7 @@ namespace
     void setupADC()
     {
         analogReadResolution( adcResolution );
+        analogSetPinAttenuation( batteryInputPIN, ADC_11db );
     }
 }
 
@@ -69,7 +70,7 @@ bool HrdwrReader::readMusicBtn()
     return !digitalRead( btnPINs[ 4 ] );
 }
 
-float HrdwrReader::readBatteryVoltage() // TODO: postavi ADC da ti radi do 5V ili kaj god
+float HrdwrReader::readBatteryVoltage()
 {
     return ( float )analogRead( batteryInputPIN );
 }
@@ -79,7 +80,7 @@ void HrdwrReader::readBttryVoltageTask( void *pvParameter )
     while( true )
     {
         float voltage = HrdwrReader::readBatteryVoltage();
-        Serial.println( voltage );
+        // Serial.println( voltage );
 
         vTaskDelay( 100 / portTICK_PERIOD_MS );
     }
