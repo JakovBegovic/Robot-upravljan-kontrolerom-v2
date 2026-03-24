@@ -17,11 +17,6 @@ namespace HrdwrController
     void setup();
 
     /**
-    * @brief   Play charge me request on buzzer
-    */
-    void requestCharging();
-
-    /**
     * @brief   Task logic for playing songs on buzzer
     */
     void playSongTask( void *pvParameter );
@@ -30,4 +25,6 @@ namespace HrdwrController
     * @brief   Task logic for controlling the song player
     */
     void musicCtrlTask( void *pvParameter );
+
+    void monitorBttryTask( void *pvParameter );
 }

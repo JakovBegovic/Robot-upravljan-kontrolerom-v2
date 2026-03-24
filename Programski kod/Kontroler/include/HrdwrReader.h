@@ -52,7 +52,5 @@ namespace HrdwrReader
     */
     bool readMusicBtn();
 
-    float readBatteryVoltage();
-
-    void readBttryVoltageTask( void *pvParameter );
+    float readBttryVoltage();
 };

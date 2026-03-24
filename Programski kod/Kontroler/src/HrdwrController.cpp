@@ -6,6 +6,12 @@ namespace
     *   HrdwrController private variables
     */
     const uint8_t buzzerPIN = 25;
+    const uint8_t rLedPIN = 19;
+    const uint8_t gLedPIN = 18;
+
+    const float maxBttryVoltage = 4.25f;
+    const float requestChargingTreshold = 3.2f;
+    const float minBttryVoltage = 3.1f; // +100 mV for tolerance
 
     uint8_t songPlaying = 0;
 
@@ -42,6 +48,8 @@ namespace
             resumeMusic();
         }
     }
+
+
 }
 
 
@@ -52,8 +60,35 @@ namespace
 void HrdwrController::setup()
 {
     pinMode( buzzerPIN, OUTPUT );
+    pinMode( rLedPIN, OUTPUT );
+    pinMode( gLedPIN, OUTPUT );
 
     musicQueue = xQueueCreate( 5, sizeof( uint8_t ) );
+}
+
+void HrdwrController::monitorBttryTask( void *pvParamater )
+{
+    while( 1 )
+    {
+        float vBat = HrdwrReader::readBttryVoltage();
+        Serial.println( vBat );
+
+        if( vBat >= maxBttryVoltage )
+        {
+            digitalWrite( gLedPIN, HIGH );
+        }
+        else if ( vBat <= minBttryVoltage )
+        {
+            digitalWrite( rLedPIN, HIGH );
+        }
+        else
+        {
+            digitalWrite( gLedPIN, LOW );
+            digitalWrite( rLedPIN, LOW );
+        }
+
+        vTaskDelay( 500 / portTICK_PERIOD_MS );
+    }
 }
 
 void HrdwrController::playSongTask( void *pvParameter )

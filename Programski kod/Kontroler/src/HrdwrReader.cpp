@@ -19,9 +19,6 @@ namespace
     const float voltageDvsnInverse = ( float ) ( R1 + R2 ) / R1;
     const float lsbToVoltageRatio = 0.000806f; // 3.3 / (2^12 - 1)
 
-    const float batteryMaxVoltage = 4.25f;
-    const float batteryMinVoltage = 3.1f;
-
     unsigned long lastInterrupt = 0;
 
 
@@ -76,17 +73,7 @@ bool HrdwrReader::readMusicBtn()
     return !digitalRead( btnPINs[ 4 ] );
 }
 
-float HrdwrReader::readBatteryVoltage()
+float HrdwrReader::readBttryVoltage()
 {
     return ( float )analogRead( bttryReadPIN ) * voltageDvsnInverse * lsbToVoltageRatio;
-}
-
-void HrdwrReader::readBttryVoltageTask( void *pvParameter )
-{
-    while( true )
-    {
-        float voltage = HrdwrReader::readBatteryVoltage();
-
-        vTaskDelay( 100 / portTICK_PERIOD_MS );
-    }
 }

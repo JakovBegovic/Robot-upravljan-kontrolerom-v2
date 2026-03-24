@@ -11,7 +11,7 @@ namespace
     const UBaseType_t mainTaskPriority = 2;
     const UBaseType_t playSongTaskPriority = 1;
     const UBaseType_t musicCtrlTaskPriority = 1;
-    const UBaseType_t readBttryVoltageTaskPriority = 1;
+    const UBaseType_t monitorBttryTaskPriority = 1;
 
     /*
     *   Tasker private functions
@@ -42,14 +42,14 @@ namespace
         );
     }
 
-    void createBttryReadTask()
+    void createMonitorBttryTask()
     {
         xTaskCreatePinnedToCore(
-            HrdwrReader::readBttryVoltageTask, // Task function
-            "readBttryVoltageTask", // Task name
+            HrdwrController::monitorBttryTask, // Task function
+            "monitorBttryTask", // Task name
             1024, // Stack size
             NULL, // Parameters
-            readBttryVoltageTaskPriority, // Priority
+            monitorBttryTaskPriority, // Priority
             NULL, // Task handle
             1 // Core ID
         );
@@ -71,7 +71,7 @@ void Tasker::setupTasks( TaskHandle_t mainTaskHandle )
     createMusicCtrlTask();
     */
 
-    createBttryReadTask();
+    createMonitorBttryTask();
 }
 
 TaskHandle_t Tasker::getMusicTaskHandle()
