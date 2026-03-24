@@ -12,6 +12,7 @@ namespace
     const uint8_t batteryInputPIN = 39;
 
     const uint8_t adcResolution = 12;
+    const adc_attenuation_t adcAttenBttryPin = ADC_11db;
 
     const float batteryMaxVoltage = 4.25f;
     const float voltageDivision = 0.3125f;
@@ -35,7 +36,7 @@ namespace
     void setupADC()
     {
         analogReadResolution( adcResolution );
-        analogSetPinAttenuation( batteryInputPIN, ADC_11db );
+        analogSetPinAttenuation( batteryInputPIN, adcAttenBttryPin );
     }
 }
 
