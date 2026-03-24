@@ -9,13 +9,15 @@ namespace
     // forward, backward, right, left, music
     const uint8_t btnPINs[ 5 ] = { 12, 13, 14, 15, 23 };
     const uint8_t potentioPIN = 35;
-    const uint8_t batteryInputPIN = 39;
 
+    const uint8_t bttryReadPIN = 39;
     const uint8_t adcResolution = 12;
     const adc_attenuation_t adcAttenBttryPin = ADC_11db;
+    const float voltageDvsnInverse = 1.47f;
+    const float adcToVoltageRatio = 0.000806f;
 
     const float batteryMaxVoltage = 4.25f;
-    const float voltageDivision = 0.3125f;
+    const float batteryMinVoltage = 3.1f;
 
     unsigned long lastInterrupt = 0;
 
@@ -36,7 +38,7 @@ namespace
     void setupADC()
     {
         analogReadResolution( adcResolution );
-        analogSetPinAttenuation( batteryInputPIN, adcAttenBttryPin );
+        analogSetPinAttenuation( bttryReadPIN, adcAttenBttryPin );
     }
 }
 
@@ -73,7 +75,7 @@ bool HrdwrReader::readMusicBtn()
 
 float HrdwrReader::readBatteryVoltage()
 {
-    return ( float )analogRead( batteryInputPIN );
+    return ( float )analogRead( bttryReadPIN ) * adcToVoltageRatio * voltageDvsnInverse;
 }
 
 void HrdwrReader::readBttryVoltageTask( void *pvParameter )
@@ -81,7 +83,7 @@ void HrdwrReader::readBttryVoltageTask( void *pvParameter )
     while( true )
     {
         float voltage = HrdwrReader::readBatteryVoltage();
-        // Serial.println( voltage );
+        //Serial.println( voltage );
 
         vTaskDelay( 100 / portTICK_PERIOD_MS );
     }
