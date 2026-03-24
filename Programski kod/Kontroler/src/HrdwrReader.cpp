@@ -17,7 +17,7 @@ namespace
     const int R1 = 22e3f;
     const int R2 = 10e3f;
     const float voltageDvsnInverse = ( float ) ( R1 + R2 ) / R1;
-    const float adcToVoltageRatio = 0.000806f;
+    const float lsbToVoltageRatio = 0.000806f; // 3.3 / (2^12 - 1)
 
     const float batteryMaxVoltage = 4.25f;
     const float batteryMinVoltage = 3.1f;
@@ -78,7 +78,7 @@ bool HrdwrReader::readMusicBtn()
 
 float HrdwrReader::readBatteryVoltage()
 {
-    return ( float )analogRead( bttryReadPIN ) * adcToVoltageRatio * voltageDvsnInverse;
+    return ( float )analogRead( bttryReadPIN ) * voltageDvsnInverse * lsbToVoltageRatio;
 }
 
 void HrdwrReader::readBttryVoltageTask( void *pvParameter )
@@ -86,9 +86,6 @@ void HrdwrReader::readBttryVoltageTask( void *pvParameter )
     while( true )
     {
         float voltage = HrdwrReader::readBatteryVoltage();
-        Serial.print( voltageDvsnInverse );
-        Serial.print( "  " );
-        Serial.println( voltage );
 
         vTaskDelay( 100 / portTICK_PERIOD_MS );
     }
