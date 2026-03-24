@@ -13,7 +13,10 @@ namespace
     const uint8_t bttryReadPIN = 39;
     const uint8_t adcResolution = 12;
     const adc_attenuation_t adcAttenBttryPin = ADC_11db;
-    const float voltageDvsnInverse = 1.47f;
+
+    const int R1 = 22e3f;
+    const int R2 = 10e3f;
+    const float voltageDvsnInverse = ( float ) ( R1 + R2 ) / R1;
     const float adcToVoltageRatio = 0.000806f;
 
     const float batteryMaxVoltage = 4.25f;
@@ -83,7 +86,9 @@ void HrdwrReader::readBttryVoltageTask( void *pvParameter )
     while( true )
     {
         float voltage = HrdwrReader::readBatteryVoltage();
-        //Serial.println( voltage );
+        Serial.print( voltageDvsnInverse );
+        Serial.print( "  " );
+        Serial.println( voltage );
 
         vTaskDelay( 100 / portTICK_PERIOD_MS );
     }
