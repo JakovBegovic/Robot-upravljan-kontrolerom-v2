@@ -4377,7 +4377,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "22"
 			(at 196.088 54.356 90)
 			(effects
 				(font
@@ -4647,7 +4647,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "22"
 			(at 245.618 54.356 90)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "22"
 			(at 221.488 107.696 90)
 			(effects
 				(font
