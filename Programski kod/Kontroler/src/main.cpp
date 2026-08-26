@@ -33,7 +33,7 @@ void setup()
 
 void loop()
 {
-    /*
+
     CommsController::constructMsg();
 
     if( CommsController::shouldSendMsg() )
@@ -42,6 +42,6 @@ void loop()
     }
 
     vTaskDelay( CommsController::getMinTimeBetweenMsgs() / portTICK_PERIOD_MS );
-    */
+
     vTaskDelay( 1000 / portTICK_PERIOD_MS );
 }
