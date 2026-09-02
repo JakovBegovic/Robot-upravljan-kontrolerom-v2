@@ -4228,43 +4228,7 @@
 			(symbol "QS5K2TR_0_1"
 				(polyline
 					(pts
-						(xy 4.5552 -10.2879) (xy 4.555 -10.1559) (xy 5.5682 -10.1587) (xy 5.5712 -10.0339)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.5882 -7.7317) (xy 4.588 -7.5997) (xy 5.6012 -7.6025) (xy 5.6042 -7.4777)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.0798 -10.1468) (xy 4.6988 -10.7818) (xy 5.4608 -10.7818) (xy 5.0798 -10.1468)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.0798 -10.1468) (xy 5.4608 -9.5118) (xy 4.6988 -9.5118) (xy 5.0798 -10.1468)
+						(xy 4.5761 -6.9473) (xy 4.7031 -6.8203) (xy 5.4651 -6.8203) (xy 5.5921 -6.6933)
 					)
 					(stroke
 						(width 0)
@@ -4297,30 +4261,6 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 4.699 -8.255) (xy 5.461 -8.255) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.461 -6.985) (xy 4.699 -6.985) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 5.08 -8.89)
 					(radius 0.254)
@@ -4341,6 +4281,66 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.084 -6.8286) (xy 4.703 -7.4636) (xy 5.465 -7.4636) (xy 5.084 -6.8286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.0841 -6.8203) (xy 4.7031 -6.1853) (xy 5.4651 -6.1853) (xy 5.0841 -6.8203)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.0857 -10.985) (xy 5.4667 -11.62) (xy 4.7047 -11.62) (xy 5.0857 -10.985)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.0858 -10.9767) (xy 5.4668 -10.3417) (xy 4.7048 -10.3417) (xy 5.0858 -10.9767)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.5937 -10.858) (xy 5.4667 -10.985) (xy 4.7047 -10.985) (xy 4.5777 -11.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -7560,6 +7560,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9ae1aa6-76eb-4e5d-8721-2ac4b0d3c950")
+	)
+	(no_connect
+		(at 184.15 213.36)
+		(uuid "f14c2223-e094-4bf1-90b7-58d889e9c12c")
 	)
 	(wire
 		(pts
@@ -11481,7 +11485,7 @@
 		)
 		(uuid "3cb7cfd3-e10f-43b5-b595-34f6a0c03387")
 	)
-	(label "Source select"
+	(label "Power switch"
 		(at 495.3 132.08 0)
 		(effects
 			(font
