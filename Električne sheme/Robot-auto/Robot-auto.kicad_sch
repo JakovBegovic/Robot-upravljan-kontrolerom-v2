@@ -7064,6 +7064,18 @@
 		(uuid d4a25b90-7306-477f-8197-2f0073d5af47)
 	)
 	(rectangle
+		(start 495.3 132.08)
+		(end 571.5 203.2)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d795c418-deeb-4356-ac90-3b9da9d7a8fd)
+	)
+	(rectangle
 		(start 492.76 33.02)
 		(end 566.42 99.06)
 		(stroke
@@ -11469,6 +11481,16 @@
 		)
 		(uuid "3cb7cfd3-e10f-43b5-b595-34f6a0c03387")
 	)
+	(label "Source select"
+		(at 495.3 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "732faf3c-b12e-43df-abd9-9aaac9e9728e")
+	)
 	(label "Charge indicators"
 		(at 276.86 335.28 0)
 		(effects
@@ -15475,7 +15497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VCHRG"
 			(at 187.96 141.224 0)
 			(effects
 				(font
@@ -23097,7 +23119,7 @@
 	)
 	(symbol
 		(lib_id "Texas_Instruments:BQ2057WTS")
-		(at 309.88 163.83 0)
+		(at 358.14 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23105,7 +23127,7 @@
 		(dnp no)
 		(uuid "f1f13558-9ffc-461c-a201-eacb377463c4")
 		(property "Reference" "U4"
-			(at 311.15 162.56 0)
+			(at 359.41 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23113,7 +23135,7 @@
 			)
 		)
 		(property "Value" "BQ2057WTS"
-			(at 316.484 178.562 0)
+			(at 364.744 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23121,7 +23143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 163.83 0)
+			(at 358.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23130,7 +23152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 163.83 0)
+			(at 358.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23139,7 +23161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 309.88 163.83 0)
+			(at 358.14 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
