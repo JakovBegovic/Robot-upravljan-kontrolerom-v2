@@ -7017,7 +7017,7 @@
 	)
 	(rectangle
 		(start 276.86 132.08)
-		(end 474.98 266.7)
+		(end 340.36 195.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7064,8 +7064,8 @@
 		(uuid d4a25b90-7306-477f-8197-2f0073d5af47)
 	)
 	(rectangle
-		(start 495.3 132.08)
-		(end 571.5 203.2)
+		(start 368.3 132.08)
+		(end 563.88 269.24)
 		(stroke
 			(width 0)
 			(type dash)
@@ -11486,7 +11486,7 @@
 		(uuid "3cb7cfd3-e10f-43b5-b595-34f6a0c03387")
 	)
 	(label "Power switch"
-		(at 495.3 132.08 0)
+		(at 368.3 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23123,7 +23123,7 @@
 	)
 	(symbol
 		(lib_id "Texas_Instruments:BQ2057WTS")
-		(at 358.14 181.61 0)
+		(at 293.37 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23131,7 +23131,7 @@
 		(dnp no)
 		(uuid "f1f13558-9ffc-461c-a201-eacb377463c4")
 		(property "Reference" "U4"
-			(at 359.41 180.34 0)
+			(at 294.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23139,7 +23139,7 @@
 			)
 		)
 		(property "Value" "BQ2057WTS"
-			(at 364.744 196.342 0)
+			(at 299.974 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23147,7 +23147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 181.61 0)
+			(at 293.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23156,7 +23156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 181.61 0)
+			(at 293.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23165,7 +23165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 358.14 181.61 0)
+			(at 293.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
