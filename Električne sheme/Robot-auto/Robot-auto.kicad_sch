@@ -18127,7 +18127,7 @@
 				)
 			)
 		)
-		(property "Value" "11k"
+		(property "Value" "12k"
 			(at 430.53 172.72 90)
 			(effects
 				(font
@@ -19478,19 +19478,21 @@
 		(fields_autoplaced yes)
 		(uuid "7fc0d30b-107d-4aee-adbf-8f1b749b2a5b")
 		(property "Reference" "Q6"
-			(at 449.58 167.64 90)
+			(at 448.31 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 452.12 167.64 90)
+		(property "Value" "2SC3326-A"
+			(at 448.31 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
