@@ -1,4 +1,4 @@
-27219017742349286
+27224384839657001
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91664,6 +91664,27 @@ SOT TO_SOT_SMD SOT-343 SC-70-4
 0
 4
 4
+Package_TO_SOT_SMD
+SOT-346_S-MINI_TOS
+
+2SC3326 
+0
+3
+3
+Package_TO_SOT_SMD
+SOT-346_S-MINI_TOS-L
+
+2SC3326 
+0
+3
+3
+Package_TO_SOT_SMD
+SOT-346_S-MINI_TOS-M
+
+2SC3326 
+0
+3
+3
 Package_TO_SOT_SMD
 SOT-353_SC-70-5
 SOT, 5 Pin (https://home.jeita.or.jp/tsc/std-pdf/ED-7500A.pdf#page=171, JEDEC MO-203, variant AA, https://www.jedec.org/document_search?search_api_views_fulltext=MO-203), generated with kicad-footprint-generator ipc_gullwing_generator.py

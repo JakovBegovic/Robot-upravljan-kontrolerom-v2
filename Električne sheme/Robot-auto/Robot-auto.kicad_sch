@@ -19495,7 +19495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SC-59_Handsoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-346_S-MINI_TOS"
 			(at 118.11 165.1 0)
 			(effects
 				(font
