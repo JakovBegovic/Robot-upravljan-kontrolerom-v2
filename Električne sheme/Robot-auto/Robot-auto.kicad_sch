@@ -19504,7 +19504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/2SC3326_datasheet_en_20210625.pdf?did=19249&prodName=2SC3326"
 			(at 118.11 165.1 0)
 			(effects
 				(font
@@ -19513,7 +19513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+		(property "Description" ""
 			(at 54.61 165.1 0)
 			(effects
 				(font
