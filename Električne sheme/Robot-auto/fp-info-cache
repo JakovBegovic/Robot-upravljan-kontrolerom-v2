@@ -1,4 +1,4 @@
-27224384839657001
+27226173983407310
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63272,6 +63272,13 @@ GDT 3R-6
 0
 3
 3
+GCT
+GCT_USB4970-00-A
+
+
+0
+10
+10
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
