@@ -17341,7 +17341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Brightek:N0G20S39"
 			(at 201.93 207.01 0)
 			(effects
 				(font
@@ -25886,7 +25886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Brightek:N0G20S39"
 			(at 176.53 137.16 0)
 			(effects
 				(font
