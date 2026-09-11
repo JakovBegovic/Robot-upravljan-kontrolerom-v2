@@ -15223,7 +15223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 292.862 76.2 90)
 			(effects
 				(font
@@ -15760,7 +15760,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 404.368 151.13 90)
 			(effects
 				(font
@@ -16365,7 +16365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 303.53 59.69 0)
 			(effects
 				(font
@@ -16435,7 +16435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 306.07 68.58 0)
 			(effects
 				(font
@@ -16444,7 +16444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.tme.eu/Document/2c77ccad04f07fe8219ceb50e33fbf0b/2n7002.pdf"
 			(at 300.99 83.82 0)
 			(effects
 				(font
@@ -16653,7 +16653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 41.148 142.24 90)
 			(effects
 				(font
@@ -17204,7 +17204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_D14mm_H7mm_P10mm"
 			(at 480.695 58.42 90)
 			(effects
 				(font
@@ -17770,7 +17770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
 			(at 254 59.69 0)
 			(effects
 				(font
@@ -18034,7 +18034,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 252.222 52.07 90)
 			(effects
 				(font
@@ -18043,7 +18043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data+Sheet+CRCW_BCe3.pdf"
 			(at 254 52.07 0)
 			(effects
 				(font
@@ -18300,7 +18300,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 301.752 52.07 90)
 			(effects
 				(font
@@ -18309,7 +18309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data+Sheet+CRCW_BCe3.pdf"
 			(at 303.53 52.07 0)
 			(effects
 				(font
@@ -18854,7 +18854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 232.918 161.29 90)
 			(effects
 				(font
@@ -19226,7 +19226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 397.51 147.828 90)
 			(effects
 				(font
@@ -19426,7 +19426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 365.76 60.96 0)
 			(effects
 				(font
@@ -19633,7 +19633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 60.96 154.432 90)
 			(effects
 				(font
@@ -19703,7 +19703,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 178.308 128.27 90)
 			(effects
 				(font
@@ -19840,7 +19840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 41.148 153.67 90)
 			(effects
 				(font
@@ -20046,7 +20046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 256.54 68.58 0)
 			(effects
 				(font
@@ -20055,7 +20055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.tme.eu/Document/2c77ccad04f07fe8219ceb50e33fbf0b/2n7002.pdf"
 			(at 251.46 83.82 0)
 			(effects
 				(font
@@ -20552,7 +20552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 468.122 77.47 90)
 			(effects
 				(font
@@ -21035,7 +21035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 368.3 68.58 0)
 			(effects
 				(font
@@ -21044,7 +21044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.tme.eu/Document/2c77ccad04f07fe8219ceb50e33fbf0b/2n7002.pdf"
 			(at 363.22 83.82 0)
 			(effects
 				(font
@@ -21770,7 +21770,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 351.79 69.342 90)
 			(effects
 				(font
@@ -21779,7 +21779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL"
 			(at 351.79 71.12 0)
 			(effects
 				(font
@@ -22448,7 +22448,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 289.56 72.898 90)
 			(effects
 				(font
@@ -22457,7 +22457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL"
 			(at 289.56 71.12 0)
 			(effects
 				(font
@@ -22584,7 +22584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 363.982 52.07 90)
 			(effects
 				(font
@@ -22593,7 +22593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data+Sheet+CRCW_BCe3.pdf"
 			(at 365.76 52.07 0)
 			(effects
 				(font
@@ -22918,7 +22918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 223.52 282.448 90)
 			(effects
 				(font
@@ -22927,7 +22927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data+Sheet+CRCW_BCe3.pdf"
 			(at 223.52 280.67 0)
 			(effects
 				(font
@@ -24118,7 +24118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 223.52 321.818 90)
 			(effects
 				(font
@@ -24127,7 +24127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data+Sheet+CRCW_BCe3.pdf"
 			(at 223.52 320.04 0)
 			(effects
 				(font
@@ -24726,7 +24726,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 203.708 198.12 90)
 			(effects
 				(font
@@ -25337,7 +25337,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 358.648 76.2 90)
 			(effects
 				(font
@@ -26429,7 +26429,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 240.03 72.898 90)
 			(effects
 				(font
@@ -26438,7 +26438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL"
 			(at 240.03 71.12 0)
 			(effects
 				(font
@@ -27035,7 +27035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 464.82 74.168 90)
 			(effects
 				(font
@@ -27044,7 +27044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL"
 			(at 464.82 72.39 0)
 			(effects
 				(font
@@ -27663,7 +27663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 243.332 76.2 90)
 			(effects
 				(font
@@ -27868,7 +27868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 46.99 135.382 90)
 			(effects
 				(font
@@ -27938,7 +27938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 481.33 69.85 0)
 			(effects
 				(font
@@ -27947,7 +27947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.tme.eu/Document/2c77ccad04f07fe8219ceb50e33fbf0b/2n7002.pdf"
 			(at 476.25 85.09 0)
 			(effects
 				(font
