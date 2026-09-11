@@ -15351,7 +15351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "CRCW080510K0FKEA"
 			(at 294.64 76.2 0)
 			(effects
 				(font
@@ -16467,7 +16467,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Y"
+		(property "Value" "LED_Y_THT"
 			(at 310.134 58.928 90)
 			(effects
 				(font
@@ -16563,7 +16563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "CRCW080510K0FKEA"
 			(at 406.4 76.2 0)
 			(effects
 				(font
@@ -16633,7 +16633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "2N7002-DIO"
 			(at 300.99 71.12 0)
 			(effects
 				(font
@@ -18009,7 +18009,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Y"
+		(property "Value" "LED_Y_THT"
 			(at 260.604 58.928 90)
 			(effects
 				(font
@@ -19665,8 +19665,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_R"
-			(at 372.11 60.198 90)
+		(property "Value" "LED_R_SMD"
+			(at 374.142 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20135,10 +20135,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61ebf759-3325-4ad9-bd85-909e142347f2")
 		(property "Reference" "R1"
-			(at 401.32 64.77 90)
+			(at 401.32 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20146,7 +20145,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 401.32 67.31 90)
+			(at 401.32 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20171,7 +20170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0805FR-0722R"
 			(at 401.32 71.12 0)
 			(effects
 				(font
@@ -20444,7 +20443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "2N7002-DIO"
 			(at 251.46 71.12 0)
 			(effects
 				(font
@@ -21015,7 +21014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "CRCW080510K0FKEA"
 			(at 469.9 77.47 0)
 			(effects
 				(font
@@ -21498,7 +21497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "2N7002-DIO"
 			(at 363.22 71.12 0)
 			(effects
 				(font
@@ -22198,10 +22197,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8a4aaaf3-13a2-492f-b374-3240dccda6e1")
 		(property "Reference" "R2"
-			(at 351.79 64.77 90)
+			(at 351.79 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22209,7 +22207,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 351.79 67.31 90)
+			(at 351.79 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22234,7 +22232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0805FR-0722R"
 			(at 351.79 71.12 0)
 			(effects
 				(font
@@ -22877,10 +22875,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9da81b86-c45e-4495-8c8c-ca5aa6168587")
 		(property "Reference" "R4"
-			(at 289.56 64.77 90)
+			(at 289.56 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22888,7 +22885,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 289.56 67.31 90)
+			(at 289.56 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22913,7 +22910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0805FR-0722R"
 			(at 289.56 71.12 0)
 			(effects
 				(font
@@ -25870,7 +25867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "CRCW080510K0FKEA"
 			(at 356.87 76.2 0)
 			(effects
 				(font
@@ -26928,10 +26925,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df312db4-0e81-4f5c-a639-597bf755ff6b")
 		(property "Reference" "R3"
-			(at 240.03 64.77 90)
+			(at 240.03 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26939,7 +26935,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 240.03 67.31 90)
+			(at 240.03 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26964,7 +26960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0805FR-0722R"
 			(at 240.03 71.12 0)
 			(effects
 				(font
@@ -27535,7 +27531,7 @@
 		(dnp no)
 		(uuid "f00212ae-3b14-4826-a164-0cd4a7deae80")
 		(property "Reference" "R22"
-			(at 463.042 67.564 90)
+			(at 462.788 70.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27544,7 +27540,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 463.042 69.85 90)
+			(at 463.296 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27570,7 +27566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC0805FR-0722R"
 			(at 464.82 72.39 0)
 			(effects
 				(font
@@ -27863,7 +27859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "2N7002-DIO"
 			(at 412.75 71.12 0)
 			(effects
 				(font
@@ -28297,7 +28293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "CRCW080510K0FKEA"
 			(at 245.11 76.2 0)
 			(effects
 				(font
@@ -28572,7 +28568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "2N7002-DIO"
 			(at 476.25 72.39 0)
 			(effects
 				(font
