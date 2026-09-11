@@ -15505,7 +15505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STMicroelectronics:PowerSO20"
 			(at 179.07 273.05 0)
 			(effects
 				(font
@@ -15968,7 +15968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 243.84 156.21 0)
 			(effects
 				(font
@@ -16532,7 +16532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "STMicroelectronics:PowerSO20"
 			(at 179.07 312.42 0)
 			(effects
 				(font
@@ -18233,7 +18233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 477.012 50.8 90)
 			(effects
 				(font
@@ -19079,7 +19079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OptoSupply:OS1204XX"
 			(at 383.54 153.67 0)
 			(effects
 				(font
@@ -20147,7 +20147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 201.93 119.38 0)
 			(effects
 				(font
@@ -20501,7 +20501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CP-01420150"
+		(property "Description" "CP-01402140"
 			(at 76.2 74.93 0)
 			(effects
 				(font
@@ -22785,7 +22785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 106.68 74.93 0)
 			(effects
 				(font
@@ -22851,7 +22851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 394.97 273.05 0)
 			(effects
 				(font
@@ -23494,7 +23494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 488.95 123.19 0)
 			(effects
 				(font
@@ -23633,7 +23633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 516.89 148.59 0)
 			(effects
 				(font
@@ -24793,7 +24793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 516.89 123.19 0)
 			(effects
 				(font
@@ -25201,7 +25201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 394.97 297.18 0)
 			(effects
 				(font
@@ -25819,7 +25819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
 			(at 242.57 120.65 0)
 			(effects
 				(font
@@ -26103,7 +26103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Onsemi:TO229P990X238-3N"
 			(at 363.22 90.17 0)
 			(effects
 				(font
@@ -26112,7 +26112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/mjd44h11-d.pdf"
+		(property "Datasheet" "https://www.tme.eu/Document/bf219ccfc377232a35111d410f082388/MJD44H11_MJD45H11.PDF"
 			(at 363.22 90.17 0)
 			(effects
 				(font
@@ -26269,7 +26269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 			(at 488.95 148.59 0)
 			(effects
 				(font
@@ -27104,7 +27104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 331.47 297.18 0)
 			(effects
 				(font
@@ -27393,7 +27393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 331.47 273.05 0)
 			(effects
 				(font
@@ -28100,7 +28100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BelFuse:0679L2000-01_BEL_HandSolder"
 			(at 166.37 163.068 90)
 			(effects
 				(font

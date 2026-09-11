@@ -1,4 +1,4 @@
-27227963133352072
+27238698077923350
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -384,13 +384,34 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+BelFuse
+0679L2000-01_BEL-L
+
+0679L2000-01 
+0
+2
+2
+BelFuse
+0679L2000-01_BEL-M
+
+0679L2000-01 
+0
+2
+2
+BelFuse
+0679L2000-01_BEL_HandSolder
+
+0679L2000-01 
+0
+2
+2
 Brightek
 N0G20S39
 
 
 0
-0
-0
+2
+2
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -74752,6 +74773,13 @@ net tie
 0
 4
 4
+Onsemi
+TO229P990X238-3N
+
+
+0
+3
+3
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -75473,6 +75501,13 @@ IR Reflective Optical Sensor with Transistor Output TCRT5000 Vishay Distance Sen
 0
 4
 4
+OptoSupply
+OS1204XX
+
+
+0
+2
+2
 Oscillator
 Oscillator_DIP-8
 Oscillator, DIP8,http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
@@ -98692,6 +98727,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STMicroelectronics
+PowerSO20
+
+
+0
+21
+21
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
