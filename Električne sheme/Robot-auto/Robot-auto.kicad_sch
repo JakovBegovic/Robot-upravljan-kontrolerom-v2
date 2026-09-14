@@ -7317,7 +7317,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Moje:PDFN3030-8L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7410,60 +7410,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7820,6 +7766,62 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "WMQ50P03T1_1_0"
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -15656,7 +15658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STMicroelectronics:PowerSO20"
+		(property "Footprint" "Moje:PowerSO20"
 			(at 179.07 273.05 0)
 			(effects
 				(font
@@ -15910,7 +15912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Moje:SW_200MSP1T2B4M2QE"
 			(at 109.22 308.61 0)
 			(effects
 				(font
@@ -16754,7 +16756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STMicroelectronics:PowerSO20"
+		(property "Footprint" "Moje:PowerSO20"
 			(at 179.07 312.42 0)
 			(effects
 				(font
@@ -17563,7 +17565,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Brightek:N0G20S39"
+		(property "Footprint" "Moje:N0G20S39"
 			(at 201.93 207.01 0)
 			(effects
 				(font
@@ -19061,7 +19063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Transformer_SMD:Pulse_PA2777NL"
+		(property "Footprint" "Moje:PDFN3030-8L"
 			(at 59.69 121.92 0)
 			(effects
 				(font
@@ -19100,13 +19102,13 @@
 		(pin "4"
 			(uuid "ba0c5cfe-02e6-4989-9fa7-db214d3e926e")
 		)
-		(pin "8"
+		(pin "5"
 			(uuid "537031ab-dcbf-4790-a143-a5cdfb78af5e")
 		)
-		(pin "7"
+		(pin "5"
 			(uuid "81841929-362e-40ff-a8ed-e5a09f72b4fa")
 		)
-		(pin "6"
+		(pin "5"
 			(uuid "54ac995b-a020-4439-ab60-5d028ac86f3c")
 		)
 		(pin "5"
@@ -19219,7 +19221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OptoSupply:OS1204XX"
+		(property "Footprint" "Moje:LED_SMD_1204"
 			(at 383.54 153.67 0)
 			(effects
 				(font
@@ -21028,7 +21030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RohmSemiconductor:TSOT25"
+		(property "Footprint" "Moje:SOT95P280X100-5N"
 			(at 222.25 142.24 0)
 			(effects
 				(font
@@ -21347,7 +21349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-346_S-MINI_TOS"
+		(property "Footprint" "Moje:S-MINI_TOS-M"
 			(at 115.57 147.32 0)
 			(effects
 				(font
@@ -21444,7 +21446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
+		(property "Footprint" "Moje:W-QFN4040-24"
 			(at 219.71 172.72 0)
 			(effects
 				(font
@@ -21453,7 +21455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/2821736a219d6c5a96f00612a8ae829b/AP33771.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/AP33771.pdf"
 			(at 256.54 218.694 0)
 			(effects
 				(font
@@ -22365,7 +22367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nexperia:TSSOP5-5"
+		(property "Footprint" "Moje:TSSOP5-SOT353-1"
 			(at 63.5 318.77 0)
 			(effects
 				(font
@@ -22852,7 +22854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Moje:SW_200MSP1T2B4M2QE"
 			(at 147.32 80.01 0)
 			(effects
 				(font
@@ -25677,7 +25679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Nexperia:TSSOP5-5"
+		(property "Footprint" "Moje:TSSOP5-SOT353-1"
 			(at 63.5 276.86 0)
 			(effects
 				(font
@@ -26089,7 +26091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GCT:GCT_USB4970-00-A"
+		(property "Footprint" "Moje:GCT_USB4970-00-A_REVA"
 			(at 113.03 166.37 0)
 			(effects
 				(font
@@ -26183,7 +26185,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Brightek:N0G20S39"
+		(property "Footprint" "Moje:N0G20S39"
 			(at 176.53 137.16 0)
 			(effects
 				(font
@@ -26400,7 +26402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Onsemi:TO229P990X238-3N"
+		(property "Footprint" "Moje:TO229P990X238-3N"
 			(at 368.3 130.81 0)
 			(effects
 				(font
@@ -28236,7 +28238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BelFuse:0679L2000-01_BEL_HandSolder"
+		(property "Footprint" "Moje:0679L2000-01_BEL-XL"
 			(at 168.91 174.498 90)
 			(effects
 				(font
