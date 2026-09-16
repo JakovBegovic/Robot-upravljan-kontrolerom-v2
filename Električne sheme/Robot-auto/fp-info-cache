@@ -1,4 +1,4 @@
-27263749473011741
+27276277473569703
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72170,6 +72170,13 @@ Moje
 2
 2
 Moje
+D_SOD-323F_editable
+SOD-323F http://www.nxp.com/documents/outline_drawing/SOD323F.pdf
+SOD-323F
+0
+2
+2
+Moje
 GCT_USB4970-00-A_REVA
 
 
@@ -72177,12 +72184,19 @@ GCT_USB4970-00-A_REVA
 10
 10
 Moje
+LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder_editable
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+LED handsolder
+0
+2
+2
+Moje
 LED_SMD_1204
 
 
 0
 3
-3
+2
 Moje
 N0G20S39
 
@@ -72198,12 +72212,33 @@ PDFN3030-8L
 5
 5
 Moje
-PowerSO20
+PowerSO20_NoVias
 
 
 0
 21
 21
+Moje
+PowerSO20_ThermalVias
+
+
+0
+50
+21
+Moje
+R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Moje
+R_1206_3216Metric_Pad1.30x1.75mm_HandSolder_editable
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
 Moje
 S-MINI_TOS-L
 
@@ -72222,6 +72257,13 @@ Moje
 S-MINI_TOS-S
 
 2SC3326-A_LF 
+0
+3
+3
+Moje
+SOT-23_editable
+SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
 0
 3
 3
@@ -72246,6 +72288,13 @@ TO229P990X238-3N
 0
 3
 3
+Moje
+TSSOP-8_4.4x3mm_P0.65mm_editable
+TSSOP, 8 Pin (JEDEC MO-153 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+TSSOP SO
+0
+8
+8
 Moje
 TSSOP5-SOT353-1
 
