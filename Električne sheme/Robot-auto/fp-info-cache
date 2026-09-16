@@ -1,4 +1,4 @@
-27276277473569703
+27279856794458621
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72223,7 +72223,7 @@ PowerSO20_ThermalVias
 
 
 0
-50
+88
 21
 Moje
 R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable
@@ -72282,11 +72282,18 @@ SW_200MSP1T2B4M2QE
 3
 3
 Moje
-TO229P990X238-3N
+TO229P990X238-3N_NoVias
 
 
 0
 3
+3
+Moje
+TO229P990X238-3N_ThermalVias
+
+
+0
+20
 3
 Moje
 TSSOP-8_4.4x3mm_P0.65mm_editable
@@ -72308,6 +72315,13 @@ AP33771DKZ-13
 Integrated Circuit
 0
 25
+25
+Moje
+W-QFN4040-24_ThermalVias
+AP33771DKZ-13
+Integrated Circuit
+0
+30
 25
 Motors
 Vybronics_VZ30C1T8219732L
