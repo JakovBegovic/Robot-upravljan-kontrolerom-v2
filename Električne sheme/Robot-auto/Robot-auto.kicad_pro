@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.0,
+          "height": 5.4,
+          "width": 1.975
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -266,6 +266,10 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "multiple_net_names|2768600|3187700|548c5b9d-a7cb-491b-a79e-4a554c809c4a|85ec90b3-1677-43d8-ba54-c071fa67727c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
+        ""
+      ],
       [
         "pin_to_pin|1257300|1968500|cc0f9333-0920-480c-975e-78c890742fee|f50f73ee-1b32-4cf3-a9cd-9244c318924a|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
         ""
