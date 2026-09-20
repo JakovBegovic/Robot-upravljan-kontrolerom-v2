@@ -4410,7 +4410,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "36250c1a-f8b6-47b9-8207-d3f877043077")
-		(at 45.58 97.09 90)
+		(at 39.93 97 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
@@ -4833,7 +4833,7 @@
 	(footprint "Capacitor_SMD:C_2220_5750Metric_Pad1.97x5.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4a752b10-fd7d-4405-b1a8-60ce1ca1b300")
-		(at 41.386255 98.799708 -90)
+		(at 43.94 98.75 -90)
 		(descr "Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
@@ -22966,7 +22966,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 44.346255 94.849708) (xy 43.986255 95.519708) (xy 38.786255 95.522301) (xy 38.406255 94.849708)
+			(xy 46.9 94.8) (xy 46.54 95.47) (xy 41.34 95.472593) (xy 40.96 94.8)
 		)
 		(stroke
 			(width 0.2)
@@ -22979,7 +22979,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 46.65 94.89) (xy 46.22 95.63) (xy 44.93 95.63) (xy 44.48 94.89)
+			(xy 41 94.8) (xy 40.57 95.54) (xy 39.28 95.54) (xy 38.83 94.8)
 		)
 		(stroke
 			(width 0.2)
@@ -23137,14 +23137,6 @@
 		(uuid "4dcd8d8a-32e1-4f6e-a72f-224126318f4a")
 	)
 	(segment
-		(start 45.58 98.1275)
-		(end 45.5825 98.13)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "5217b395-cf20-42df-a479-7057662fce07")
-	)
-	(segment
 		(start 24.35 102.27)
 		(end 24.33 102.25)
 		(width 0.2)
@@ -23225,14 +23217,6 @@
 		(uuid "b708f636-cc73-488e-8269-46fb122e2740")
 	)
 	(segment
-		(start 43.582792 101.437208)
-		(end 41.386255 101.437208)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "cc7f328b-a447-430a-b093-039c0cd391b1")
-	)
-	(segment
 		(start 160.81 101.43)
 		(end 160.81 104.63)
 		(width 0.7)
@@ -23263,14 +23247,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "d2975dc6-503e-438c-822a-1b2c6aa28aae")
-	)
-	(segment
-		(start 43.392792 101.437208)
-		(end 41.386255 101.437208)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "e9baa86d-ccc4-4f63-9fca-01325f237de5")
 	)
 	(segment
 		(start 172.24 89.49)
