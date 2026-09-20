@@ -645,7 +645,7 @@
           "show": true
         }
       ],
-      "filter_string": "r",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
