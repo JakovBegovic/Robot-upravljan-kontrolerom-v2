@@ -14957,28 +14957,6 @@
 			)
 		)
 	)
-	(global_label "IN2M4"
-		(shape output)
-		(at 204.47 336.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d1d081f-a561-4a8d-b551-293dbfffc8c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2609 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DIST1"
 		(shape bidirectional)
 		(at 182.88 59.69 0)
@@ -15067,6 +15045,50 @@
 			)
 		)
 	)
+	(global_label "IN1M4"
+		(shape output)
+		(at 204.47 328.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20127d97-1789-4734-a386-04791de3d50b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2609 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN2M4"
+		(shape output)
+		(at 204.47 331.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20d6aedb-a5d2-412d-9b3d-d8734b00057e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2609 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENB"
 		(shape output)
 		(at 97.79 332.74 0)
@@ -15146,28 +15168,6 @@
 		(uuid "2ae52b3c-6e4a-487d-bcec-ef940468e1ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 306.4547 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IN2M2"
-		(shape output)
-		(at 204.47 331.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d528708-ce2f-48aa-b504-f5ae0ad1c502")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2609 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15463,28 +15463,6 @@
 			)
 		)
 	)
-	(global_label "IN1M4"
-		(shape output)
-		(at 204.47 334.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c181363-8c14-4393-8ce1-b0711697d518")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2609 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED2"
 		(shape output)
 		(at 182.88 69.85 0)
@@ -15727,9 +15705,9 @@
 			)
 		)
 	)
-	(global_label "IN1M2"
+	(global_label "IN2M2"
 		(shape output)
-		(at 204.47 328.93 0)
+		(at 204.47 336.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15737,9 +15715,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cadc58c3-3180-4fb3-8cba-4436cdbfc710")
+		(uuid "c3dd2c99-0b5a-4228-ae41-465433ed90b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.2609 328.93 0)
+			(at 213.2609 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15872,6 +15850,28 @@
 		(uuid "e3330f7c-6273-4683-883a-6e9524484ee2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.4547 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN1M2"
+		(shape output)
+		(at 204.47 334.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6ced749-901f-44c1-a718-f2c5aaae5bbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2609 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24330,7 +24330,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 394.97 273.05 0)
+		(at 394.97 275.59 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24338,25 +24339,25 @@
 		(dnp no)
 		(uuid "a69cf94b-dd43-4a39-9e8d-ea70e790386e")
 		(property "Reference" "J15"
-			(at 389.89 269.748 0)
+			(at 392.938 270.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "S2B-PH-K-S"
-			(at 378.968 278.13 0)
+			(at 392.938 277.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 394.97 273.05 0)
+			(at 394.97 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24365,7 +24366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 273.05 0)
+			(at 394.97 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24374,7 +24375,7 @@
 			)
 		)
 		(property "Description" "S2B-PH-K-S"
-			(at 394.97 273.05 0)
+			(at 394.97 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26745,8 +26746,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 394.97 299.72 0)
-		(mirror x)
+		(at 394.97 297.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26754,25 +26754,25 @@
 		(dnp no)
 		(uuid "c7e7589a-d98e-4531-a868-3b4f5ac46167")
 		(property "Reference" "J19"
-			(at 388.874 294.132 0)
+			(at 392.684 293.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "S2B-PH-K-S"
-			(at 381.254 302.26 0)
+			(at 393.446 302.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 394.97 299.72 0)
+			(at 394.97 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26781,7 +26781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 394.97 299.72 0)
+			(at 394.97 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26790,7 +26790,7 @@
 			)
 		)
 		(property "Description" "S2B-PH-K-S"
-			(at 394.97 299.72 0)
+			(at 394.97 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
