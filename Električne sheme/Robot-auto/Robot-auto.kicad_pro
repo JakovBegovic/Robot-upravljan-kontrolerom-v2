@@ -645,12 +645,12 @@
           "show": true
         }
       ],
-      "filter_string": "C",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {
