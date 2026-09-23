@@ -28887,6 +28887,7 @@
 	(symbol
 		(lib_id "Diode:SM712_SOT23")
 		(at 151.13 193.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28894,7 +28895,7 @@
 		(dnp no)
 		(uuid "f4228a37-9f73-4a51-9066-fd0cec7d5080")
 		(property "Reference" "D11"
-			(at 156.972 196.596 0)
+			(at 156.718 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28902,7 +28903,7 @@
 			)
 		)
 		(property "Value" "D5V0L2B3SO-7"
-			(at 162.56 199.136 0)
+			(at 162.306 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28919,7 +28920,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0L2B3SO.pdf"
-			(at 147.32 193.04 0)
+			(at 154.94 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
