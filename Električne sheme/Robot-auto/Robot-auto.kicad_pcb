@@ -4886,7 +4886,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "403a6ede-1197-448b-a37f-27567268313f")
-		(at 115.69 150.3)
+		(at 115.67 150.31)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
@@ -10323,7 +10323,7 @@
 		(property "Reference" "J11"
 			(at -2.03 -6.405 0)
 			(layer "F.SilkS")
-			(uuid "29e68a73-9e40-4b2d-bc64-e3ae22e2deb9")
+			(uuid "82d1625f-28a5-4072-ad26-93e6e7ee8399")
 			(effects
 				(font
 					(size 1 1)
@@ -10334,7 +10334,7 @@
 		(property "Value" "Power-only USB-C receptacle"
 			(at 8.13 -5.09 0)
 			(layer "F.Fab")
-			(uuid "47ea951b-f3ee-4c4f-b7ed-e94e10432e70")
+			(uuid "e55998e8-0829-4d5a-a1cb-b666cfda18a1")
 			(effects
 				(font
 					(size 1 1)
@@ -10346,7 +10346,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b1ca595-17c9-4455-bbcf-8112928ab356")
+			(uuid "6f1dd7d3-9cce-480c-a74d-a1df115b393b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10358,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec83e22f-6c88-462e-8c23-da5b595bc18f")
+			(uuid "72bacf17-37f7-4f56-897e-c289ae2014cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +11260,7 @@
 	(footprint "Moje:TSSOP5-SOT353-1"
 		(layer "F.Cu")
 		(uuid "a0914e5b-260b-4bfa-83b4-1ee22716db78")
-		(at 144 -75.555)
+		(at 225.1848 69.9196)
 		(property "Reference" "U10"
 			(at 1.753065 -3.582345 0)
 			(layer "F.SilkS")
@@ -11712,7 +11712,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a1189594-d752-47ee-a098-2251c922e1b7")
-		(at 151.7 -128.235)
+		(at 133.26 -112.61)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -18546,7 +18546,7 @@
 	(footprint "SolderedElectronics:DasduinoConectPlus"
 		(layer "F.Cu")
 		(uuid "e3e35254-e17e-4af5-8217-c2a0a0688021")
-		(at 101.035 45.3325 90)
+		(at 100.755 45.065 90)
 		(property "Reference" "U1"
 			(at 0 -0.5 90)
 			(unlocked yes)
@@ -21898,7 +21898,7 @@
 	(footprint "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "98cac3a1-93ec-4f9e-9020-b3adc8f04665")
-		(at 90.51 178.35 180)
+		(at 91.38 181.61 180)
 		(descr "JST PH series connector, S4B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J7"
@@ -23593,7 +23593,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 115.04 149.71) (xy 113.48 149.32) (xy 113.53 151.17) (xy 115.03 150.9)
+			(xy 115.02 149.72) (xy 113.46 149.33) (xy 113.51 151.18) (xy 115.01 150.91)
 		)
 		(stroke
 			(width 0.2)
@@ -25187,14 +25187,6 @@
 		(uuid "eea017de-c120-4c70-873e-0b45addaa05f")
 	)
 	(segment
-		(start 115.9525 141.435)
-		(end 114.4775 139.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "0363bd64-47e1-4920-89af-c7cd3958d74c")
-	)
-	(segment
 		(start 110.2375 116.27)
 		(end 110.8875 116.92)
 		(width 1)
@@ -25211,12 +25203,36 @@
 		(uuid "0c844861-bd45-4ff0-9a0c-14cea7741888")
 	)
 	(segment
+		(start 114.4775 136.6175)
+		(end 110.9075 133.0475)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "0cf4d492-c325-440d-9820-97cbaa1e1d9c")
+	)
+	(segment
+		(start 115.9525 141.7025)
+		(end 114.4775 140.2275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "33819ba9-6ba9-49ab-aec6-c47b511efc8e")
+	)
+	(segment
 		(start 110.8875 115.33)
 		(end 110.8875 116.92)
 		(width 1)
 		(layer "F.Cu")
 		(net 9)
 		(uuid "3a3165f4-919c-4a9b-ae0c-247b0bc98c33")
+	)
+	(segment
+		(start 114.4775 140.2275)
+		(end 114.4775 136.6175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "40246eac-4ded-4b5b-9c31-9fac2b699f06")
 	)
 	(segment
 		(start 110.8875 117.31)
@@ -25233,14 +25249,6 @@
 		(layer "F.Cu")
 		(net 9)
 		(uuid "67642c02-3bb2-4242-b316-91249e63e34a")
-	)
-	(segment
-		(start 114.4775 136.6175)
-		(end 110.9075 133.0475)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "6e12dcf8-2aa5-4355-982a-5bfd97356bf8")
 	)
 	(segment
 		(start 110.2375 115.25)
@@ -25291,14 +25299,6 @@
 		(uuid "a81ee394-fd88-4729-a7a2-308d6da1fbaf")
 	)
 	(segment
-		(start 114.4775 139.96)
-		(end 114.4775 136.6175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "a91e190f-c669-4235-abf2-246f56bfbe3f")
-	)
-	(segment
 		(start 111.93 128.5)
 		(end 110.9175 128.5)
 		(width 1)
@@ -25331,20 +25331,20 @@
 		(uuid "d9f1366e-7a9b-4ab5-918e-11ed6916e01b")
 	)
 	(segment
+		(start 115.9525 143.3825)
+		(end 115.9525 141.7025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "e2c5773b-d722-4702-b381-88f06a764f10")
+	)
+	(segment
 		(start 110.8875 116.92)
 		(end 110.8875 119.6)
 		(width 1)
 		(layer "F.Cu")
 		(net 9)
 		(uuid "ecc70b18-6191-409e-812f-81a619fe55a2")
-	)
-	(segment
-		(start 115.9525 143.3825)
-		(end 115.9525 141.435)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 9)
-		(uuid "f58a55fb-363b-4516-8bab-1c780b0bd3a8")
 	)
 	(segment
 		(start 111.7975 118.69)
@@ -25603,14 +25603,6 @@
 		(uuid "ddfb510b-b277-464e-b6b2-f90f993843b8")
 	)
 	(segment
-		(start 106 181.467)
-		(end 107.663 183.13)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 24)
-		(uuid "09756926-77ed-4d9d-b767-eea90cd4cc3e")
-	)
-	(segment
 		(start 122.1 169.250596)
 		(end 117.469404 164.62)
 		(width 0.3)
@@ -25635,20 +25627,20 @@
 		(uuid "453eb237-95b9-4ef0-b5c4-7de070d2f4f5")
 	)
 	(segment
-		(start 112.45 183.13)
-		(end 122.1 173.48)
+		(start 106 181.74)
+		(end 107.55 183.29)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "4f482057-0224-4ddb-ac79-f2e00cf0d878")
+		(uuid "579475ab-f506-40e0-8f1d-64ce949986fb")
 	)
 	(segment
-		(start 122.1 173.48)
+		(start 122.1 173.67)
 		(end 122.1 172.40875)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "5eb147da-c11e-4b1c-80c8-a40ccf35a10b")
+		(uuid "7296ba18-b451-496f-8275-62a063f712c7")
 	)
 	(segment
 		(start 123.5075 171.00125)
@@ -25659,20 +25651,28 @@
 		(uuid "7c22bd5d-9554-4ddf-9321-682998bf57b5")
 	)
 	(segment
-		(start 107.663 183.13)
-		(end 112.45 183.13)
+		(start 106 180.815)
+		(end 106 181.74)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "a24e3b79-6bc3-464c-a523-17c67b0d9929")
+		(uuid "8144028b-ba9a-4213-8ade-b336e485c713")
 	)
 	(segment
-		(start 106 180.815)
-		(end 106 181.467)
+		(start 112.48 183.29)
+		(end 122.1 173.67)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "a6216d80-5d49-40ec-a79c-45a22488abc4")
+		(uuid "b0accb88-dc17-44a2-b2a0-eef941d9af75")
+	)
+	(segment
+		(start 107.55 183.29)
+		(end 112.48 183.29)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "cebad2bf-659a-4c41-9e93-e02f3eef35bd")
 	)
 	(segment
 		(start 122.1 170.05125)
@@ -26004,30 +26004,6 @@
 		(free yes)
 		(net 37)
 		(uuid "81317781-7c0a-4f40-a2f7-124511107bc0")
-	)
-	(segment
-		(start 95.38 9.0975)
-		(end 95.38 23.6375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 45)
-		(uuid "84715c0c-f46d-4946-bc46-2d555aea709a")
-	)
-	(segment
-		(start 95.38 23.6375)
-		(end 93.76 25.2575)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 45)
-		(uuid "89142b57-0807-4593-a9dc-894c3f717b36")
-	)
-	(segment
-		(start 93.76 7.4775)
-		(end 95.38 9.0975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 45)
-		(uuid "c7c2088b-4222-48f0-8069-2bcbd61366db")
 	)
 	(segment
 		(start 46.455 75.84)

@@ -9668,12 +9668,6 @@
 		(uuid "b884bd88-e1a9-4499-8bc6-004482ab87d6")
 	)
 	(junction
-		(at 236.22 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8d9fda2-980c-49ed-a9e5-48b12104d7ea")
-	)
-	(junction
 		(at 53.34 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14851,16 +14845,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 156.21) (xy 238.76 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbef9685-6fbd-423d-bfac-3bc4c46fb4f3")
-	)
-	(wire
-		(pts
 			(xy 201.93 279.4) (xy 224.79 279.4)
 		)
 		(stroke
@@ -17023,74 +17007,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 238.76 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13c55a8e-7ed3-4ade-baf9-1276f07e959f")
-		(property "Reference" "TP4"
-			(at 242.57 153.3524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 242.57 155.8924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 243.84 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 238.76 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8c30505-c671-43e8-ae31-ad90bb860a53")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "TP4")
 					(unit 1)
 				)
 			)

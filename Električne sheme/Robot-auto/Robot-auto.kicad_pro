@@ -60,6 +60,18 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|108296308|121312088|90734c0c-eaee-4f5f-bfae-0b366c9d6fe5|3fb324c4-c0cb-431a-b948-2c46e9e0db48",
+          ""
+        ],
+        [
+          "hole_clearance|109007500|127920000|05ec35a3-5ee4-4a18-a3d3-f0d492677ab9|2a0cc394-ba39-423f-b184-9438a5f77d39",
+          ""
+        ],
+        [
+          "hole_clearance|110257998|151362617|f6b8a523-dcdb-4584-ba89-9c454b00c823|88f0a30d-f8f0-4881-b5c7-d3d1ae8f3be0",
+          ""
+        ],
+        [
           "hole_clearance|97607125|166254923|bf6cf92f-8783-4ac9-9508-17a4cb578c40|b2d74839-5797-4f15-a716-a3bda4356c8a",
           ""
         ]
