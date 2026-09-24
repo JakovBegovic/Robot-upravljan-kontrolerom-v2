@@ -7087,7 +7087,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Moje:DasduinoConectPlus"
 				(at -2.54 -2.54 0)
 				(effects
 					(font
@@ -7096,7 +7096,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://github.com/SolderedElectronics/Dasduino-CONNECTPLUS-hardware-design"
 				(at -2.54 -2.54 0)
 				(effects
 					(font
@@ -19977,7 +19977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SolderedElectronics:DasduinoConectPlus"
+		(property "Footprint" "Moje:DasduinoConectPlus"
 			(at 154.94 43.18 0)
 			(effects
 				(font
