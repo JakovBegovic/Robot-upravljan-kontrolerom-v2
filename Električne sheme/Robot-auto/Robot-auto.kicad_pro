@@ -730,7 +730,7 @@
           "show": false
         }
       ],
-      "filter_string": "J",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -794,7 +794,7 @@
         "uuid": "03e7400f-0747-4257-bd4a-573ca5ea4d4c"
       }
     ],
-    "used_designators": "U1-15,D1-15,#PWR1-85,P1,SW1-4,#FLG1-11,R1-47,J1-20,IC1,Q1-8,BT1,BZ1,C1-25,F1,M1-4,TP1-3",
+    "used_designators": "U1-15,D1-16,#PWR1-87,P1,SW1-6,#FLG1-11,R1-51,J1-20,IC1,Q1-8,BT1,BZ1,C1-25,F1-2,M1-4,TP1-3",
     "variants": []
   },
   "sheets": [
