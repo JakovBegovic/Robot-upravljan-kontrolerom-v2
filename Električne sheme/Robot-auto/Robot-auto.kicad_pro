@@ -730,12 +730,12 @@
           "show": false
         }
       ],
-      "filter_string": "r",
+      "filter_string": "q3",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Description"
+      "sort_field": "Footprint"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
