@@ -8090,7 +8090,7 @@
 				)
 			)
 			(symbol "MJD45H11T4G_1_1"
-				(pin input line
+				(pin output line
 					(at 0 -5.08 0)
 					(length 2.54)
 					(name "B"
@@ -8108,7 +8108,7 @@
 						)
 					)
 				)
-				(pin open_emitter line
+				(pin input line
 					(at 7.62 -10.16 90)
 					(length 2.54)
 					(name "E"
@@ -8126,7 +8126,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin input line
 					(at 7.62 0 270)
 					(length 2.54)
 					(name "C"
@@ -11940,7 +11940,7 @@
 	)
 	(rectangle
 		(start 447.04 187.96)
-		(end 553.72 261.62)
+		(end 525.78 261.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -12707,12 +12707,6 @@
 		(uuid "db36ecb1-349d-4643-b1ed-6f49c686806f")
 	)
 	(junction
-		(at 473.71 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbc12416-0de2-4290-a848-f7ce575ac074")
-	)
-	(junction
 		(at 318.77 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12785,7 +12779,7 @@
 		(uuid "f486cf07-1b1c-43b5-bb0d-500a0d774172")
 	)
 	(junction
-		(at 485.14 237.49)
+		(at 473.71 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f49c2bad-a321-4470-93c8-3e32ecb65bfc")
@@ -13107,16 +13101,6 @@
 			(type default)
 		)
 		(uuid "0be95467-f2d2-47ed-baaa-b7782341b9f5")
-	)
-	(wire
-		(pts
-			(xy 485.14 237.49) (xy 485.14 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c1562f3-bedb-4f98-a2a1-0e236a1e6a0a")
 	)
 	(wire
 		(pts
@@ -13750,16 +13734,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 238.76) (xy 505.46 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25db1072-97d0-4fb2-b1d1-90552086bab8")
-	)
-	(wire
-		(pts
 			(xy 52.07 275.59) (xy 52.07 278.13)
 		)
 		(stroke
@@ -13840,6 +13814,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 248.92) (xy 495.3 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296f486d-490c-4858-9120-578270b299f7")
+	)
+	(wire
+		(pts
 			(xy 67.31 351.79) (xy 81.28 351.79)
 		)
 		(stroke
@@ -13910,6 +13894,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 240.03) (xy 492.76 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c95f182-2c74-4e6a-ac53-b483d9a53dec")
+	)
+	(wire
+		(pts
 			(xy 276.86 232.41) (xy 276.86 212.09)
 		)
 		(stroke
@@ -13927,16 +13921,6 @@
 			(type default)
 		)
 		(uuid "2e6f2959-7e40-406b-a7f1-50ef30378056")
-	)
-	(wire
-		(pts
-			(xy 505.46 246.38) (xy 505.46 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e869870-bb94-4cde-9b75-94543b782fc2")
 	)
 	(wire
 		(pts
@@ -14267,16 +14251,6 @@
 			(type default)
 		)
 		(uuid "397ce2ea-1a33-4262-90ec-9c70a868ce81")
-	)
-	(wire
-		(pts
-			(xy 505.46 234.95) (xy 502.92 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398d963e-2433-4392-8ba1-7fa308eddc7d")
 	)
 	(wire
 		(pts
@@ -15350,16 +15324,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 247.65) (xy 473.71 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "664c00a4-ba93-4858-829d-36a7233db75b")
-	)
-	(wire
-		(pts
 			(xy 48.26 370.84) (xy 48.26 372.11)
 		)
 		(stroke
@@ -15617,6 +15581,16 @@
 			(type default)
 		)
 		(uuid "70f482e1-1c31-4c6c-9a08-3ecb5da94070")
+	)
+	(wire
+		(pts
+			(xy 495.3 241.3) (xy 495.3 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "712ffee2-7048-461e-a00a-353a0b5439bc")
 	)
 	(wire
 		(pts
@@ -15960,6 +15934,16 @@
 	)
 	(wire
 		(pts
+			(xy 514.35 234.95) (xy 514.35 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d6b62d-26b1-4b79-adcb-b0766882e0de")
+	)
+	(wire
+		(pts
 			(xy 355.6 119.38) (xy 355.6 118.11)
 		)
 		(stroke
@@ -16027,6 +16011,16 @@
 			(type default)
 		)
 		(uuid "889bcfc1-7520-41d2-9132-1e4d5ff138e5")
+	)
+	(wire
+		(pts
+			(xy 492.76 234.95) (xy 514.35 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89139885-a480-4e9b-997a-d86810792767")
 	)
 	(wire
 		(pts
@@ -16200,7 +16194,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 236.22) (xy 458.47 238.76)
+			(xy 458.47 241.3) (xy 458.47 250.19)
 		)
 		(stroke
 			(width 0)
@@ -16240,16 +16234,6 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 237.49) (xy 473.71 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91108444-2456-4851-a3bc-00c7d1943530")
-	)
-	(wire
-		(pts
 			(xy 323.85 243.84) (xy 323.85 245.11)
 		)
 		(stroke
@@ -16270,7 +16254,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 231.14) (xy 473.71 237.49)
+			(xy 473.71 231.14) (xy 473.71 241.3)
 		)
 		(stroke
 			(width 0)
@@ -16340,7 +16324,7 @@
 	)
 	(wire
 		(pts
-			(xy 458.47 226.06) (xy 458.47 228.6)
+			(xy 458.47 226.06) (xy 458.47 233.68)
 		)
 		(stroke
 			(width 0)
@@ -16980,6 +16964,16 @@
 	)
 	(wire
 		(pts
+			(xy 514.35 250.19) (xy 514.35 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af143481-cc80-47e3-8f2b-a9d5d1ddec41")
+	)
+	(wire
+		(pts
 			(xy 473.71 215.9) (xy 469.9 215.9)
 		)
 		(stroke
@@ -17360,7 +17354,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 247.65) (xy 485.14 246.38)
+			(xy 473.71 250.19) (xy 473.71 248.92)
 		)
 		(stroke
 			(width 0)
@@ -18140,7 +18134,7 @@
 	)
 	(wire
 		(pts
-			(xy 473.71 237.49) (xy 492.76 237.49)
+			(xy 473.71 237.49) (xy 482.6 237.49)
 		)
 		(stroke
 			(width 0)
@@ -20423,90 +20417,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 497.84 234.95 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01f5f0c9-518a-4b33-93d8-ae82214058b2")
-		(property "Reference" "SW7"
-			(at 497.84 229.616 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200MSP1T2B4M2QE"
-			(at 497.84 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Moje:SW_200MSP1T2B4M2QE"
-			(at 497.84 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/200MSP1T2B4M2QE.pdf"
-			(at 497.84 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "200MSP1T2B4M2QE"
-			(at 497.84 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f193392e-becd-45ad-915f-8b9202f5d05e")
-		)
-		(pin "2"
-			(uuid "7afaafee-8ffc-4bf4-a80a-ea81f49bc97d")
-		)
-		(pin "1"
-			(uuid "1b56f4d4-fde0-4ddc-a171-74e6589bb7a6")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -23696,7 +23606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 458.47 238.76 0)
+		(at 458.47 250.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23706,7 +23616,7 @@
 		(dnp no)
 		(uuid "298d7230-00e2-48c9-a5aa-383eae4d373f")
 		(property "Reference" "#PWR055"
-			(at 458.47 245.11 0)
+			(at 458.47 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23717,7 +23627,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 456.438 242.57 0)
+			(at 456.438 254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23728,7 +23638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 458.47 238.76 0)
+			(at 458.47 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23739,7 +23649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 458.47 238.76 0)
+			(at 458.47 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23750,7 +23660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 458.47 238.76 0)
+			(at 458.47 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23844,6 +23754,83 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 495.3 250.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d7ffbac-eb78-4592-91af-2db522bc57b3")
+		(property "Reference" "#PWR0120"
+			(at 495.3 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT2S"
+			(at 495.3 254.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 495.3 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 495.3 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 495.3 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "437c541a-ce19-4532-a2af-79f6bd1c3df6")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -29076,7 +29063,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 485.14 242.57 270)
+		(at 473.71 245.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29086,7 +29073,7 @@
 		(dnp no)
 		(uuid "676c6e82-f7cc-4a48-b319-bb913e3b048f")
 		(property "Reference" "D17"
-			(at 489.458 241.554 90)
+			(at 478.028 244.094 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29096,7 +29083,7 @@
 			)
 		)
 		(property "Value" "STPS1L30A"
-			(at 492.506 244.094 90)
+			(at 481.076 246.634 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29106,7 +29093,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 485.14 242.57 0)
+			(at 473.71 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29117,7 +29104,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/2220676/STMICROELECTRONICS/STPS1L30.html"
-			(at 485.14 242.57 0)
+			(at 473.71 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29128,7 +29115,7 @@
 			)
 		)
 		(property "Description" "STPS1L30A"
-			(at 485.14 242.57 0)
+			(at 473.71 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30580,6 +30567,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 514.35 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a2a64be-765a-49e4-ae76-3baa470df57a")
+		(property "Reference" "R55"
+			(at 519.938 244.348 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 519.938 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
+			(at 512.572 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 514.35 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CRCW080510K0FKEA"
+			(at 514.35 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e45b6bc-cd74-46cc-ac15-73eecd296e31")
+		)
+		(pin "2"
+			(uuid "d4e085ec-2c46-4974-a30a-77de891cce53")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 777.24 294.64 0)
 		(unit 1)
@@ -30952,7 +31020,7 @@
 			(uuid "a275aef6-0071-472c-b470-1df68ad00760")
 		)
 		(pin "9"
-			(uuid "10c33e82-e0db-4869-973b-fde60888de03")
+			(uuid "d32f2a62-f8b2-4d90-bc3b-55d9b7627b5a")
 		)
 		(instances
 			(project "Robot-auto"
@@ -34310,6 +34378,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 487.68 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7b4a710-329c-4c5c-94c1-70a5fb10daf3")
+		(property "Reference" "SW7"
+			(at 487.68 232.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "200MSP1T2B4M2QE"
+			(at 487.68 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Moje:SW_200MSP1T2B4M2QE"
+			(at 487.68 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/200MSP1T2B4M2QE.pdf"
+			(at 487.68 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200MSP1T2B4M2QE"
+			(at 487.68 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1317af95-04ab-4c90-9dfa-7edc09172bc1")
+		)
+		(pin "2"
+			(uuid "91634921-bb03-4139-bc7a-f68ea645a03a")
+		)
+		(pin "1"
+			(uuid "5f8fc2d0-ce74-47da-b227-7b282be49104")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 123.19 403.86 0)
 		(unit 1)
@@ -34542,84 +34693,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "M3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 473.71 247.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab48cc36-5d4e-410f-a56f-da2e72197e70")
-		(property "Reference" "#PWR059"
-			(at 473.71 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 471.678 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 473.71 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 473.71 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 473.71 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "18efee7a-fdfb-49df-8c1a-f9c390faf008")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -35027,87 +35100,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 473.71 242.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0efa5cc-00ca-4be0-a664-fe6ce1500133")
-		(property "Reference" "R54"
-			(at 479.298 241.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 479.298 243.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 471.932 242.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 473.71 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CRCW080510K0FKEA"
-			(at 473.71 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04db27b5-8f2f-4af6-9d60-3a9d3f3cabc8")
-		)
-		(pin "2"
-			(uuid "729bd9b6-5622-4515-841a-210c2278d6e6")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -36100,7 +36092,7 @@
 			(uuid "56228a80-4f45-491d-8a67-ba425cde4d4c")
 		)
 		(pin "9"
-			(uuid "b289d621-418d-4dd9-a335-c3639d8668ca")
+			(uuid "6473e6c2-f933-4634-b7aa-43fb71081170")
 		)
 		(instances
 			(project "Robot-auto"
@@ -36549,83 +36541,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 505.46 247.65 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc74d06e-55f7-4edd-a08f-7f750d2ca3f7")
-		(property "Reference" "#PWR0118"
-			(at 505.46 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT2S"
-			(at 505.46 251.714 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 505.46 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 505.46 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 505.46 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9f11860-021b-49cf-a976-1d5ef28f9ef0")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -37289,6 +37204,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 495.3 245.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2921d56-41b7-4b9e-8d07-d70786b5d38e")
+		(property "Reference" "D19"
+			(at 498.856 243.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STPS1L30A"
+			(at 502.412 246.126 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 495.3 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/2220676/STMICROELECTRONICS/STPS1L30.html"
+			(at 495.3 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STPS1L30A"
+			(at 495.3 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "005d5d92-9cd1-48d0-b69b-083475cbc9d7")
+		)
+		(pin "1"
+			(uuid "756981b5-5e8e-4016-9492-fb277d53c19f")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Moje:DRV8251DDAR")
 		(at 115.57 369.57 0)
 		(unit 1)
@@ -37379,7 +37373,7 @@
 			(uuid "75e8a4d7-ff84-415f-8773-91e471d4d28e")
 		)
 		(pin "9"
-			(uuid "e1f2ac38-457a-444f-9d2f-5f046479d6d8")
+			(uuid "5a50241e-73ac-447d-aa59-1978c904fd75")
 		)
 		(instances
 			(project "Robot-auto"
@@ -39014,7 +39008,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 458.47 232.41 0)
+		(at 458.47 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39024,7 +39018,7 @@
 		(dnp no)
 		(uuid "d6bb7629-e9e9-41a1-9e4d-0a3b76361601")
 		(property "Reference" "R53"
-			(at 455.93 234.188 90)
+			(at 455.93 239.268 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39035,7 +39029,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 461.01 233.934 90)
+			(at 461.01 239.014 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39046,7 +39040,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 456.692 232.41 90)
+			(at 456.692 237.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39057,7 +39051,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0201FR-07100KL"
-			(at 458.47 232.41 0)
+			(at 458.47 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39068,7 +39062,7 @@
 			)
 		)
 		(property "Description" "RC0805FR-0733K"
-			(at 458.47 232.41 0)
+			(at 458.47 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39126,7 +39120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Moje:TO229P990X238-3N"
+		(property "Footprint" "Onsemi:TO229P990X238-3N"
 			(at 289.56 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -39268,7 +39262,7 @@
 			(uuid "e629fdd6-b425-4b19-9dfb-41c1abfff451")
 		)
 		(pin "9"
-			(uuid "fd4c6378-0b6e-4607-af95-1ab3765cc5c5")
+			(uuid "2c899ca2-0877-4519-a96d-81d1c9904c99")
 		)
 		(instances
 			(project "Robot-auto"
@@ -39517,85 +39511,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 505.46 242.57 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df6a9edd-5f15-4d9d-8d68-441a8b89de68")
-		(property "Reference" "D18"
-			(at 509.016 241.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "STPS1L30A"
-			(at 512.572 243.586 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 505.46 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/2220676/STMICROELECTRONICS/STPS1L30.html"
-			(at 505.46 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "STPS1L30A"
-			(at 505.46 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cfc3ca21-9d22-45d2-8736-686e0220503c")
-		)
-		(pin "1"
-			(uuid "bb58acd2-88c6-429b-870d-b50cd94f82c3")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -41137,7 +41052,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 485.14 247.65 180)
+		(at 473.71 250.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41147,7 +41062,7 @@
 		(dnp no)
 		(uuid "f308e1be-a195-4711-b4ee-ef6877535e57")
 		(property "Reference" "#PWR016"
-			(at 485.14 243.84 0)
+			(at 473.71 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41158,7 +41073,7 @@
 			)
 		)
 		(property "Value" "VBUS1"
-			(at 485.14 251.206 0)
+			(at 473.71 253.746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41168,7 +41083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 485.14 247.65 0)
+			(at 473.71 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41179,7 +41094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 247.65 0)
+			(at 473.71 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41190,7 +41105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 485.14 247.65 0)
+			(at 473.71 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42204,6 +42119,84 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 514.35 250.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe4d4d0e-08d5-45ac-b077-4c19199176df")
+		(property "Reference" "#PWR0118"
+			(at 514.35 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 512.318 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 514.35 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 514.35 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 514.35 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7f855f5-4038-4a10-933d-79e32e2eb991")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)

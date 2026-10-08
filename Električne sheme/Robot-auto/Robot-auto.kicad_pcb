@@ -178,22 +178,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "23d17746-440b-4177-ab8d-e051f01fe06d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/65dfaea1-1637-490f-a5b0-edcf209873ed")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -408,6 +402,12 @@
 		(path "/66b6e6aa-b2ac-4aa9-a122-cb90bc4f885d")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -549,6 +549,12 @@
 		(path "/fa867a27-47e7-4788-9258-d7c4b4d73855")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -901,6 +907,12 @@
 		(path "/4d649729-ecc1-4903-88bf-460d5e56c90b")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1037,22 +1049,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c1fca151-a7e4-424e-9fe9-c36aec1be624")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/9ec48061-ed44-4465-829b-a95b904636e6")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1195,6 +1201,12 @@
 		(path "/b1475fee-2f06-4788-8210-b899a1faedd6")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1333,22 +1345,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b8ea4232-2cd8-44b4-b285-8bf143ca24b1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/132df3de-e395-45bb-8383-36c8c486417e")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1485,22 +1491,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cbae3171-9718-4a0c-a2e5-91876422b1c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/57abf056-ce27-4f9c-af42-33466596ba7c")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1637,22 +1637,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "88f355c6-6210-4934-b7c4-afaf598d2ac8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f0add0f4-9e10-4196-b19a-26d4e9ba6a25")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2021,6 +2015,12 @@
 		(path "/6d5132d3-6773-40a5-bf36-57eb5989a747")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2163,6 +2163,12 @@
 		(path "/4d4b71a2-2399-45a2-9083-0e722d76c9aa")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2299,22 +2305,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "23996292-3cd3-4412-ad77-a1d1c3f1f788")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/1b262a16-cde5-42be-a9df-485514442923")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2495,6 +2495,12 @@
 		(path "/fd201aae-5147-46cb-8465-a9a3525a58f5")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2842,22 +2848,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "848b7ad7-a838-4a9b-8de9-7d6692797f8e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/9742c185-07e1-4af8-91db-32cc987f5a5d")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3000,6 +3000,12 @@
 		(path "/6c076581-8ebf-4b0f-8f6f-96f5dda60b46")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3142,6 +3148,12 @@
 		(path "/8a4aaaf3-13a2-492f-b374-3240dccda6e1")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3284,6 +3296,12 @@
 		(path "/f7617868-556b-4e64-8d5b-38efa7869461")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3437,6 +3455,12 @@
 		(path "/57a11404-ac4a-4313-b5ba-3b4432465d65")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3624,22 +3648,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6478ef73-0849-4187-a629-09bc1d2fc259")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/63948b79-2171-4df3-b6c5-d65be2fb97d0")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3776,22 +3794,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7c5094d0-c46b-4e83-9812-029efee19a02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/3f26aca8-3377-471e-bf89-afda13c21074")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3852,7 +3864,7 @@
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
-			(net "Net-(U6-VDD)")
+			(net "VDD")
 			(pintype "passive")
 			(uuid "239eaa4c-3d39-4393-ac18-af0aed15d306")
 		)
@@ -3932,6 +3944,12 @@
 		(path "/7fcae96a-be72-4bd0-b1e2-2499a0c5f7bf")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "4" "5" "2" "1" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4202,22 +4220,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "994f04c8-6f39-4b44-b47b-12a7895c5b56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/c7da23e0-588d-4dcd-af77-c6699095b8be")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4354,18 +4366,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "40aee8f6-7499-47d2-9d9f-70e8d4d2fc1f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4383,6 +4383,12 @@
 		(path "/1d9c567f-b2c5-4ad0-af14-e971a390a3ca")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4601,6 +4607,12 @@
 		(path "/ff6b4b32-45ae-4907-9187-3684ce9407ea")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4928,22 +4940,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a6f7b604-2694-4bad-8ab7-b33cc59badbd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/f91d6be9-da64-4301-bd79-c3a4616ab855")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5088,6 +5094,12 @@
 		(path "/5399bf1d-f169-4db6-8839-a9e7a63d0c14")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5354,22 +5366,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3e2f5b83-79a2-41f2-8ac5-f4a178124c39")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/f564f0a0-ebe1-479c-a4ca-f4a2f7507258")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5508,22 +5514,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cc6d2c2e-b55f-4f8c-b179-241faa84dd15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/f239ab24-0afb-4c6c-b095-d85cc058bf8d")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5660,22 +5660,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a3273d7d-32f7-4caa-a650-fa5e2c5f5d67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/df6c6dce-3c89-4b6c-8c9b-b4fd516565d2")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5818,6 +5812,12 @@
 		(path "/5a8e7840-6714-42da-8df7-51035f6c8bd2")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5904,6 +5904,286 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_SMA"
+		(layer "F.Cu")
+		(uuid "46a767a6-96b1-4763-a867-7f61f74b2639")
+		(at 108.12 88.605)
+		(descr "Diode SMA (DO-214AC)")
+		(tags "Diode SMA (DO-214AC)")
+		(property "Reference" "D19"
+			(at 0 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "3f672c95-2c03-4228-8d1a-8bc856ccea58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "STPS1L30A"
+			(at 0 2.6 0)
+			(layer "F.Fab")
+			(uuid "bdb65e13-3844-4b8c-ada8-71246c784968")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/2220676/STMICROELECTRONICS/STPS1L30.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f40baeff-ce85-4fb3-9b84-ecfe8b56d2a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "STPS1L30A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5339c40-ad86-46b1-8b1e-ec565b9e116d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/c2921d56-41b7-4b9e-8d07-d70786b5d38e")
+		(sheetname "/")
+		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -3.51 -1.65)
+			(end -3.51 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ff0b7e6c-41e0-4345-8ba6-a4e15c35f55c")
+		)
+		(fp_line
+			(start -3.51 -1.65)
+			(end 2 -1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bb47b2d8-50a8-4e9d-9df5-8dc9823578a5")
+		)
+		(fp_line
+			(start -3.51 1.65)
+			(end 2 1.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2bcb1fa4-049d-44cc-b92a-061170e9ee51")
+		)
+		(fp_line
+			(start -3.5 -1.75)
+			(end 3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9b4b1c41-f602-452b-b7fa-dbd13fdaa5ce")
+		)
+		(fp_line
+			(start -3.5 1.75)
+			(end -3.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a94f607-1036-4af5-b5f5-6ab280c53ab4")
+		)
+		(fp_line
+			(start 3.5 -1.75)
+			(end 3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d6ce9ab7-cc86-4988-93b2-ca411de391ab")
+		)
+		(fp_line
+			(start 3.5 1.75)
+			(end -3.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4720209f-ea05-4896-b733-d4c5fb8535a9")
+		)
+		(fp_line
+			(start -2.3 1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c2513a6a-0554-4eb1-a740-b6cdb8ed0a47")
+		)
+		(fp_line
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "88b7e364-1a02-41c4-a1cb-d64528c6b2b5")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end -1.55114 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3b56fac-9f8a-435d-8e94-db87ac8d1ab1")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02f7a2b1-cd4a-4113-96db-b322ee0f2709")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fcf4e0c4-a4df-4ce9-af8c-e190f052c04b")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dd5e1e78-3b16-412c-9bde-05395b0bd485")
+		)
+		(fp_line
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "552119e1-b710-4470-ad05-9887211bf17e")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end -2.3 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b226a82a-49e1-4f9f-80ea-72a973946db2")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end 2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c586e5a9-4cfc-4649-8b50-1197de956a73")
+		)
+		(fp_line
+			(start 2.3 1.5)
+			(end -2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a23728b3-55b7-4019-8830-428fa536ddca")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(layer "F.Fab")
+			(uuid "d5cc6589-7e0b-49cd-a949-12c7bda11704")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net "Net-(D19-K)")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "67045d27-487b-4047-b1dd-278674d42099")
+		)
+		(pad "2" smd roundrect
+			(at 2 0)
+			(size 2.5 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.1388888889)
+			(net "VBAT2S")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "94fe9aea-47e6-47a6-9671-923472d2f75c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4789b129-b576-4c52-9fe8-cbd433a97f92")
@@ -5954,22 +6234,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "df2a2e56-9149-4d3d-a248-799502ec0de8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/1699c7d7-7600-499a-baf9-67a0682546cd")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6201,6 +6475,14 @@
 		(path "/bf11085b-e958-42b0-afab-4ea845fcf4a5")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "29" "9" "28" "10" "27" "11" "26"
+					"12" "25" "13" "24" "14" "23" "22" "21" "20" "19" "18" "17" "16" "15"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6369,7 +6651,7 @@
 			(size 0.3 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(U6-VDD)")
+			(net "VDD")
 			(pinfunction "VDD_6")
 			(pintype "passive")
 			(uuid "8fe20284-df9d-45f8-96fd-a4ce3d95cd7d")
@@ -6710,6 +6992,12 @@
 		(path "/7b610667-2710-4185-ad3b-74cec5231569")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7063,6 +7351,12 @@
 		(path "/4582b674-f441-4766-afc7-0e65bdea0109")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7199,22 +7493,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b58ad1cf-d3dd-445d-aa9a-0dc21b22b61d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/d6bb7629-e9e9-41a1-9e4d-0a3b76361601")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7351,22 +7639,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cfec7546-0d2a-45ee-9c4a-d7dad2db79ee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/5ca5e28e-1799-40a4-9a99-97c848779891")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7503,22 +7785,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0e0172fb-79ee-483b-bd7f-0b1ea1c5d509")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/91839919-15f4-4460-b8c8-5a5a99b3c019")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7655,22 +7931,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "025cce26-3f6f-4365-bac3-c60a6662fa07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/a0829e03-747e-4427-ba56-8428025050cd")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7807,22 +8077,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "407c0519-6b7d-415c-83c2-a97e4c3da6c7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/38efc37a-e562-4321-aeb0-6e3ffa4e76bb")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7967,6 +8231,12 @@
 		(path "/676c6e82-f7cc-4a48-b319-bb913e3b048f")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8233,22 +8503,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "20521aff-3771-4154-acd2-1b0002c585ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/64d1607c-cb2a-4662-8752-1f782c6f6c9c")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8674,22 +8938,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "569988d5-bc81-4d64-a2ec-b777dafcfd0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0a4c4125-63f4-4406-9357-eead0a0be939")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8828,22 +9086,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6a67b964-ffb3-415d-8470-e98d59313025")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a664e17a-f364-4707-aa7a-c69fc6cfa2ef")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9052,22 +9304,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c56025fb-ea2c-4040-974a-e467bdd4d96d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/62de30b7-be49-4ca6-bef4-e1ceaf6a5bed")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9493,22 +9739,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "890108e5-046e-4af8-8ee5-bd566b9eda60")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/59db8878-4f72-4499-ae1e-909bbcc760e6")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9651,6 +9891,12 @@
 		(path "/79fcfb2d-78e9-4313-b0e6-6c851a12517f")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "5" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9916,22 +10162,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "033cad6c-cc1d-4eb0-af73-ba8bace25a25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/24d35425-9dde-4a3d-919c-e5b64bdf37a5")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10074,6 +10314,12 @@
 		(path "/554213cd-da91-4da7-ba65-f1456e733a53")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10427,6 +10673,12 @@
 		(path "/f4228a37-9f73-4a51-9066-fd0cec7d5080")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10776,22 +11028,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bb0c8384-9f4f-4147-88db-4088860633de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/cf420626-3b43-4cd6-b23d-1a8e06792dc7")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10933,6 +11179,12 @@
 		(path "/f1f13558-9ffc-461c-a201-eacb377463c4")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "7" "1" "3" "6" "8" "2" "4" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11288,6 +11540,12 @@
 		(path "/514bfd84-4d42-454f-9be8-5437933a257e")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11560,6 +11818,12 @@
 		(path "/1f028b8c-fd26-4a63-aa13-68dc2f88f358")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11646,241 +11910,6 @@
 			)
 		)
 	)
-	(footprint "Moje:SW_200MSP1T2B4M2QE"
-		(layer "F.Cu")
-		(uuid "72ffa140-bcc8-4016-b5b1-8eb6e948484e")
-		(at 35.645 63.56)
-		(property "Reference" "SW7"
-			(at -1.14 -4.425 0)
-			(layer "F.SilkS")
-			(uuid "69920239-c0f4-46c8-875d-1e8fb9bd1c32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "200MSP1T2B4M2QE"
-			(at 7.115 4.425 0)
-			(layer "F.Fab")
-			(uuid "9703d1d2-6819-4592-be5c-83e01bfcc79b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/200MSP1T2B4M2QE.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "34c4098d-9960-4f2b-9970-ed96e76f85b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "200MSP1T2B4M2QE"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "20507a73-e060-4b36-8348-f4707fb6e3b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/01f5f0c9-518a-4b33-93d8-ae82214058b2")
-		(sheetname "/")
-		(sheetfile "Robot-auto.kicad_sch")
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -4.065 -2.54)
-			(end 4.065 -2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5453a847-8d9c-487d-b6e8-99688dd90ccd")
-		)
-		(fp_line
-			(start -4.065 2.54)
-			(end -4.065 -2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8ec0175c-a231-4fe1-a975-b981ccea0147")
-		)
-		(fp_line
-			(start 4.065 2.54)
-			(end -4.065 2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9b970247-5895-4f76-a27c-9bd69753d65c")
-		)
-		(fp_line
-			(start 4.065 2.54)
-			(end 4.065 -2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "25be2476-c16e-42bc-a11a-cc2420248433")
-		)
-		(fp_line
-			(start -4.315 -2.79)
-			(end -4.315 2.79)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "15cf33b6-7c21-41ce-a51a-6fb88552027f")
-		)
-		(fp_line
-			(start -4.315 2.79)
-			(end 4.315 2.79)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e7c0bf6b-a334-4321-b015-654bd90291f8")
-		)
-		(fp_line
-			(start 4.315 -2.79)
-			(end -4.315 -2.79)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0c8cd3be-1c67-4c3b-9e47-2229fc28f168")
-		)
-		(fp_line
-			(start 4.315 2.79)
-			(end 4.315 -2.79)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cd1b8d67-8f8a-423e-8a34-f9959a5e3aec")
-		)
-		(fp_line
-			(start -4.065 -2.54)
-			(end 4.065 -2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e2f978a5-a742-44a7-b109-0678083e9b9b")
-		)
-		(fp_line
-			(start -4.065 2.54)
-			(end -4.065 -2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "170c202e-3a1e-478d-b09d-dddb6422e34f")
-		)
-		(fp_line
-			(start 4.065 -2.54)
-			(end 4.065 2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "beb8a5b2-eb48-4f3f-92f6-ead121740aa2")
-		)
-		(fp_line
-			(start 4.065 2.54)
-			(end -4.065 2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9baa41c2-0978-4af9-aaa8-7f9c5de0ff74")
-		)
-		(fp_circle
-			(center -4.815 0)
-			(end -4.715 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "7b861119-df30-4890-afe4-ce140eca10a2")
-		)
-		(pad "1" thru_hole rect
-			(at -2.54 0)
-			(size 1.635 1.635)
-			(drill 1.09)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "unconnected-(SW7-A-Pad1)")
-			(pinfunction "A_1")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "9b4157a2-a4fb-449e-b14e-78cb0f84a562")
-		)
-		(pad "2" thru_hole circle
-			(at 0 0)
-			(size 1.635 1.635)
-			(drill 1.09)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(D18-K)")
-			(pinfunction "B_2")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "01ac91c9-564d-4bce-9469-e68ab0f0f957")
-		)
-		(pad "3" thru_hole circle
-			(at 2.54 0)
-			(size 1.635 1.635)
-			(drill 1.09)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(D17-K)")
-			(pinfunction "C_3")
-			(pintype "passive")
-			(solder_mask_margin 0.102)
-			(uuid "38f7ac8c-a6ff-4ca1-aec1-b60b4dbb91bb")
-		)
-		(embedded_fonts no)
-		(model "D:/Jakov Begovic/Down/200MSP1T2B4M2QE/200MSP1T2B4M2QE.step"
-			(offset
-				(xyz 0 0 0.75)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-	)
 	(footprint "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
 		(layer "F.Cu")
 		(uuid "73caee5b-95d3-47e2-84c6-c8132e10b0a4")
@@ -11937,6 +11966,12 @@
 		(path "/ccfd1d5a-239d-43d3-a704-7f64ab4c9611")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12075,22 +12110,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1851cb60-38e7-4ec5-85bf-ffd806ec6b2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/c56eccdb-75ed-48bf-9a30-4264b7d4be65")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12248,6 +12277,12 @@
 		(path "/3586f67c-930f-4441-be13-fd65584c2bb5")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -12418,22 +12453,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "72197711-5d88-413f-93a4-665662668d59")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/ab7bfa5d-af16-47e0-9bca-95043c78f01b")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12576,6 +12605,12 @@
 		(path "/b4c1c58f-b12f-4f57-bef6-dd65cfdef6c9")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12718,6 +12753,12 @@
 		(path "/01cb82ba-6375-4e27-ba4f-66d42673fa3b")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12858,6 +12899,14 @@
 		(path "/b88a2fd0-9c23-4320-9c84-5bebe89e5dd5")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13588,22 +13637,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "910d1ffd-57ba-42be-b241-a38b812de162")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0cb9c4cf-2db0-480b-a41c-3aeec0d21971")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14035,6 +14078,12 @@
 		(path "/c53bad0f-befa-455b-bfc0-ccaa2f36ed8f")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14121,6 +14170,154 @@
 			)
 		)
 	)
+	(footprint "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
+		(layer "F.Cu")
+		(uuid "83f84c78-dd56-4905-8d0a-2d35bba3b9d7")
+		(at 114.515 87.805)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R55"
+			(at 0 -1.65 0)
+			(layer "F.SilkS")
+			(uuid "a6226c8a-1123-4e6d-b7c6-b3a7fc7c5078")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.0625)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 1.65 0)
+			(layer "F.Fab")
+			(uuid "48be5412-246c-4cbd-b828-08c8d560b271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe69303d-bd0e-4daf-ab76-32262055f0d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CRCW080510K0FKEA"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c50f6be-3cab-485e-b4d5-001a88c0a64e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/7a2a64be-765a-49e4-ae76-3baa470df57a")
+		(sheetname "/")
+		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d09998ac-7e60-4474-8542-2b4250a22159")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb1a55ba-f908-4e02-b718-eb418bd3f8b1")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "315d6847-5f7c-43c5-9c76-009d8a2acca3")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "89d93a6f-b072-4254-b6d5-2bfb92ce547f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a7022e66-e2cd-47f6-98b8-ecc6c9edc285")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "Net-(SW7-A)")
+			(pintype "passive")
+			(uuid "40c196ca-ce54-47ab-9b38-2147eef8219a")
+		)
+		(pad "2" smd roundrect
+			(at 1 0)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net "GND")
+			(pintype "passive")
+			(uuid "1bc8095c-5b92-451b-ba29-4fcab8fecb90")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "844ac7cc-b1ca-4695-958f-36fcb2dae5c9")
@@ -14171,22 +14368,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8e1c4dae-e22d-4e81-916a-96db2a1665f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/251c8980-c2fb-4a54-85bf-8b7d10d544ca")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14327,6 +14518,12 @@
 		(path "/d468b508-4648-4b6f-bd37-88f9e8bbf4f2")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH1" "SH2" "SH3" "SH4" "A12" "B12" "A9" "B9" "A5" "B5")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14563,22 +14760,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d89c8a1f-9681-4a60-8cdb-f1bd3b42d8af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/57f2a1ff-47b8-427c-ad40-ff88b286712d")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14715,12 +14906,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "1=K 2=A"
+		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "730d7758-ad8c-4de4-a778-f8543f4675f5")
+			(uuid "b8cecb5a-2085-4606-8b2e-748c0cd90eb7")
 			(effects
 				(font
 					(size 1 1)
@@ -14732,6 +14923,12 @@
 		(path "/5d3733ed-7e12-46be-a569-9cb2823dafb1")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14923,6 +15120,12 @@
 		(path "/11bbdb8f-0b9f-4b63-b0fb-2320331e8c66")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15198,6 +15401,12 @@
 		(path "/60e36088-a91e-4052-88f6-0e86c7185f79")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15334,22 +15543,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6e54c583-c99f-4f16-954c-73ebb21a10da")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/cd3a2fbb-bcfb-4a3c-9c30-9e3f76cd0e57")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15491,6 +15694,12 @@
 		(path "/65dbd9b1-88f0-4605-b79b-e3e5531891d7")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15756,7 +15965,7 @@
 			(uuid "bc98858f-4d38-4183-bfe1-7c094e27c11b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
 			(hide yes)
 			(offset
 				(xyz -2 0 0)
@@ -15830,18 +16039,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "LED/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6e9eb04a-dbb4-4363-953d-97ab37584865")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
 			(unlocked yes)
@@ -15859,6 +16056,12 @@
 		(path "/4171e03d-fb62-4481-a673-4bbdf924ca03")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16075,6 +16278,12 @@
 		(path "/7f5f00be-0b41-49b6-8cb7-b1d5de83b63d")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "3" "2" "5" "1" "6" "8" "7")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16863,9 +17072,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "77afac8e-3b16-486f-bab9-ddafb4a82690")
 		)
 		(pad "9" thru_hole circle
@@ -16874,9 +17080,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "48ecbfcd-523b-4508-99c9-24368a6013df")
 		)
 		(pad "9" thru_hole circle
@@ -16885,9 +17088,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "031dd885-a071-4c97-931d-09aa081d80e3")
 		)
 		(pad "9" thru_hole circle
@@ -16896,9 +17096,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "2e5eea28-7f36-4264-b971-cb076e72de22")
 		)
 		(pad "9" thru_hole circle
@@ -16907,18 +17104,12 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "4b8af140-12cb-469d-a51b-829fa4d47b55")
 		)
 		(pad "9" smd rect
 			(at 0 0)
 			(size 2.5 3)
 			(layers "F.Cu" "F.Mask")
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "69983cb5-fc7e-4075-af9a-a5a811d2536a")
 		)
 		(pad "9" thru_hole circle
@@ -16927,9 +17118,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "f514463b-d5c4-4e1f-9e50-92f2dd4e7a1b")
 		)
 		(pad "9" thru_hole circle
@@ -16938,9 +17126,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "a196f161-f612-4265-b80b-09d93a0cd289")
 		)
 		(pad "9" thru_hole circle
@@ -16949,9 +17134,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "81ed1cdd-cea6-4556-9d57-3ee8e3ac45bb")
 		)
 		(pad "9" thru_hole circle
@@ -16960,9 +17142,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "193f465e-cecb-4668-a6c7-54413eb5b0d2")
 		)
 		(embedded_fonts no)
@@ -17032,6 +17211,12 @@
 		(path "/b3642633-a9e4-41d3-8f9b-e1e1a484116f")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "8" "1" "3" "2" "6" "7" "4" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17738,22 +17923,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "599f9099-97bb-4f76-92f8-a9a6e62e569b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/ee851cc1-3fb3-4693-928f-bc1f859e8dc2")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17894,6 +18073,12 @@
 		(path "/e778f5da-dee6-4e6f-8071-465fe1e6b839")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18163,22 +18348,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b384e996-d690-47d1-93b9-20f89bf974dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/1b58775e-fcff-47f7-8ed1-eb89606394e2")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18321,6 +18500,12 @@
 		(path "/0fe0b725-0bd0-463b-bb9a-18b8f1a28c45")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18463,6 +18648,12 @@
 		(path "/fccb3660-de91-47b4-853c-cae2be7864e6")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18605,6 +18796,12 @@
 		(path "/61a1b08c-a6c3-46e4-b601-ffc4495a8e3a")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18743,22 +18940,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9ac83d1b-529a-4e3d-8670-ea3be13aaa1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/06ec9eb2-3db6-491b-b486-3415123bb7b1")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18901,6 +19092,12 @@
 		(path "/87e6eaba-0371-4729-ad24-6597895d4b2f")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19044,6 +19241,12 @@
 		(path "/55d207c6-968a-455c-8f79-ad009da30ad4")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -19346,6 +19549,12 @@
 		(path "/bcd8245d-2d19-4c9b-a515-704e77c23906")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19482,22 +19691,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "10a55eed-393f-4e44-91fa-80fb98394fb9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/bec7b327-a18b-4bb2-8954-9e03af672fca")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19923,22 +20126,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/THT/other"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a432dc96-b903-417e-b7a6-563a25888dd6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/5e3fdda0-7759-4c8e-8966-5ebe86656c64")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21455,6 +21652,12 @@
 		(path "/55c02df7-817c-4c03-b7ad-c994d482018c")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21541,280 +21744,6 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:D_SMA"
-		(layer "F.Cu")
-		(uuid "b6b1b000-6718-4c0b-a2a4-382d8ae0b094")
-		(at 40.15 73.7)
-		(descr "Diode SMA (DO-214AC)")
-		(tags "Diode SMA (DO-214AC)")
-		(property "Reference" "D18"
-			(at 0 -2.5 0)
-			(layer "F.SilkS")
-			(uuid "f835dcd9-158a-458c-b5f6-0d37bde5f5fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "STPS1L30A"
-			(at 0 2.6 0)
-			(layer "F.Fab")
-			(uuid "4f09d31c-4ee9-46f4-833d-f27ceadbf318")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/2220676/STMICROELECTRONICS/STPS1L30.html"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5e14348-a821-435b-90d4-f83d7863d4ca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "STPS1L30A"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffbe8e1e-92c4-4596-b8eb-6be55bc5367e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/df6a9edd-5f15-4d9d-8d68-441a8b89de68")
-		(sheetname "/")
-		(sheetfile "Robot-auto.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -3.51 -1.65)
-			(end -3.51 1.65)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1aa7060f-9f72-4d59-a0a5-445fc853b8bf")
-		)
-		(fp_line
-			(start -3.51 -1.65)
-			(end 2 -1.65)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "adaeb51c-e208-4128-8f21-bbb22b4f79f2")
-		)
-		(fp_line
-			(start -3.51 1.65)
-			(end 2 1.65)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c4957e08-bc9b-4801-a95d-61e07883f264")
-		)
-		(fp_line
-			(start -3.5 -1.75)
-			(end 3.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "44b8dde8-6c9a-422c-a671-b13f586f6654")
-		)
-		(fp_line
-			(start -3.5 1.75)
-			(end -3.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b0ec6e17-3683-4664-a63f-488fd093c541")
-		)
-		(fp_line
-			(start 3.5 -1.75)
-			(end 3.5 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "52414756-ff7b-4638-82bc-7dba53e82f76")
-		)
-		(fp_line
-			(start 3.5 1.75)
-			(end -3.5 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0e53f75e-6970-4ce5-8993-a2e7139b6b00")
-		)
-		(fp_line
-			(start -2.3 1.5)
-			(end -2.3 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "21ee927a-0b1a-447a-a83d-aa923920a7d6")
-		)
-		(fp_line
-			(start -0.64944 -0.79908)
-			(end -0.64944 0.80112)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "aa7bf3fc-4b58-470c-a5f3-3756908e9f66")
-		)
-		(fp_line
-			(start -0.64944 0.00102)
-			(end -1.55114 0.00102)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d13e306b-1074-49bf-9405-680b72215667")
-		)
-		(fp_line
-			(start -0.64944 0.00102)
-			(end 0.50118 -0.79908)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "aaf80de2-92e6-4cd1-a55c-2cf5f83c11ae")
-		)
-		(fp_line
-			(start -0.64944 0.00102)
-			(end 0.50118 0.75032)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7c5de463-a1be-4c75-a463-32fa250ae143")
-		)
-		(fp_line
-			(start 0.50118 0.00102)
-			(end 1.4994 0.00102)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "07f8e999-2353-47b0-bd02-80be085823c3")
-		)
-		(fp_line
-			(start 0.50118 0.75032)
-			(end 0.50118 -0.79908)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4dff213e-f07d-4532-8274-7c354c95b8c1")
-		)
-		(fp_line
-			(start 2.3 -1.5)
-			(end -2.3 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "80fdc291-ffab-46a5-908a-58d14fa57ea5")
-		)
-		(fp_line
-			(start 2.3 -1.5)
-			(end 2.3 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "25b490d2-491a-491a-9ae6-aef4dfbf2556")
-		)
-		(fp_line
-			(start 2.3 1.5)
-			(end -2.3 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "47b9318d-f4cc-4391-9b43-acf12db4c970")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(layer "F.Fab")
-			(uuid "275fc411-215b-4bfb-8b6d-510aa698199b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -2 0)
-			(size 2.5 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1388888889)
-			(net "Net-(D18-K)")
-			(pinfunction "K_1")
-			(pintype "passive")
-			(uuid "7fb9a867-2885-4663-9968-587a20ddf7b6")
-		)
-		(pad "2" smd roundrect
-			(at 2 0)
-			(size 2.5 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1388888889)
-			(net "VBAT2S")
-			(pinfunction "A_2")
-			(pintype "passive")
-			(uuid "e6f0ce01-c460-4102-80c9-3cb76c582b8d")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b6c49c31-defb-4027-9a60-2792fbca6bad")
@@ -21865,22 +21794,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "12e97744-36ad-4bc1-812d-7e5f42c72843")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f447bf52-c724-419d-9933-0b746f263c52")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22288,6 +22211,12 @@
 		(path "/7fc0d30b-107d-4aee-adbf-8f1b749b2a5b")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22738,6 +22667,15 @@
 		(path "/9780dbd9-e83c-458c-85ac-8debbc868b9b")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "8" "9" "14" "16" "13" "23" "6" "7" "4" "5" "2" "1" "15" "38"
+					"39" "35" "34" "25" "24" "26" "29" "30" "31" "33" "36" "37" "10" "11"
+					"12"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23418,6 +23356,12 @@
 		(path "/b6764c45-490c-4694-bb81-73805d4502fb")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "3" "2" "5" "1" "6" "8" "7")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24206,9 +24150,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "6d89b3ef-0bdf-4bd8-9794-1824c55af273")
 		)
 		(pad "9" thru_hole circle
@@ -24217,9 +24158,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "8ffe27e0-433a-4d61-926b-3711b4756b95")
 		)
 		(pad "9" thru_hole circle
@@ -24228,9 +24166,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "645d0179-35a8-4b58-b2de-fa879b9f1ffc")
 		)
 		(pad "9" thru_hole circle
@@ -24239,9 +24174,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "54e386eb-c005-4d17-ab67-daa86030a6e2")
 		)
 		(pad "9" thru_hole circle
@@ -24250,18 +24182,12 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "9c7a0e7a-c34a-4978-925f-5d17a1c74c08")
 		)
 		(pad "9" smd rect
 			(at 0 0)
 			(size 2.5 3)
 			(layers "F.Cu" "F.Mask")
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "3036aca3-8748-45a2-be30-d95f855af09b")
 		)
 		(pad "9" thru_hole circle
@@ -24270,9 +24196,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "3bbaf256-f10b-41d7-94e6-fd31798449c6")
 		)
 		(pad "9" thru_hole circle
@@ -24281,9 +24204,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "c7c6c12d-9192-4aa8-84a1-4a1bf690933f")
 		)
 		(pad "9" thru_hole circle
@@ -24292,9 +24212,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "dcfe86a4-4e61-44cc-b529-a141f5ca9645")
 		)
 		(pad "9" thru_hole circle
@@ -24303,9 +24220,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "2f3c5d01-5dde-4a27-b71d-5d049a8cec83")
 		)
 		(embedded_fonts no)
@@ -24377,6 +24291,12 @@
 		(path "/1a6f738b-6584-4c62-a12b-8775bc6f6908")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24557,6 +24477,12 @@
 		(path "/65be4166-3a3a-4830-95e7-ce446fef0af0")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24909,6 +24835,12 @@
 		(path "/6555315c-ec50-48fd-82c8-f035b9f64ac7")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25174,7 +25106,7 @@
 			(uuid "0c6c6a44-b1a3-4b8f-a37d-a29dc7f0140c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
 			(hide yes)
 			(offset
 				(xyz -2 0 0)
@@ -25250,22 +25182,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0c3d04d5-d82f-4fe1-8ba2-45384a401bf7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/ebbac1dc-8376-4f00-af9b-454ed5a1b76e")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25408,6 +25334,12 @@
 		(path "/df312db4-0e81-4f5c-a639-597bf755ff6b")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25587,6 +25519,12 @@
 		(path "/048e64c6-f77f-46f4-a1b2-6f1784e0eaea")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25838,6 +25776,12 @@
 		(path "/4f33e72b-0a25-479f-ae7e-8f18a352c1ed")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26018,6 +25962,12 @@
 		(path "/21ea9b60-794d-4b06-a7e6-7ad083a25e5a")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26365,22 +26315,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e4df202a-3c01-409e-815d-bbb10232f966")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/513547d0-c8ec-4645-8ef6-88260b2a6fc8")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26523,6 +26467,14 @@
 		(path "/830a836a-f509-4967-a7c7-3dfb428f398a")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "25" "24" "7" "23" "8" "22" "9" "21" "10"
+					"20" "11" "19" "12" "18" "17" "16" "15" "14" "13"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26990,22 +26942,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4a389c4a-b6bb-4336-a916-5111225da833")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/c0ec5799-fa0f-4a8c-91e1-ee795f5bb23a")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27066,7 +27012,7 @@
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.212766)
-			(net "Net-(U6-VDD)")
+			(net "VDD")
 			(pintype "passive")
 			(uuid "fae08476-368d-4ae1-b831-6008c6467e00")
 		)
@@ -27144,22 +27090,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b94f4213-f848-4658-a5cb-628734f492f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/8f70a8c5-a71a-4f8d-bb1b-85bfc592298f")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27302,6 +27242,12 @@
 		(path "/6c2fce83-1537-45b8-94f4-c083614e7eb8")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27444,6 +27390,12 @@
 		(path "/b3d109ea-49ad-4f6d-89f1-97af4f85bcf9")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27586,6 +27538,12 @@
 		(path "/5905506a-31f2-4012-af0e-473d4d751359")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27724,22 +27682,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 45)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "814e57f5-7d55-499d-9c4a-4439343c3742")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d3429030-79c1-4268-8992-9efeaf6dd1b3")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27956,6 +27908,12 @@
 		(path "/4cce7dc9-f3f7-4cda-aa84-9708b9cd92ca")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28228,22 +28186,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1a60f90a-7205-4988-bab4-99875f46ae5a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/5d22a99e-00a1-4a19-b517-e130f17e51e9")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28385,6 +28337,12 @@
 		(path "/c529d9cc-7d77-43c9-91a0-342406b731f3")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "3" "2" "5" "1" "6" "8" "7")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29173,9 +29131,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "f69adc5e-e761-47b1-b5dd-f068d8cfd0b0")
 		)
 		(pad "9" thru_hole circle
@@ -29184,9 +29139,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "fafbf1e3-ba34-4eb5-a841-586a381ad2da")
 		)
 		(pad "9" thru_hole circle
@@ -29195,9 +29147,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "685ae8b2-01cd-49dd-8a3d-5a8d26f4c74c")
 		)
 		(pad "9" thru_hole circle
@@ -29206,9 +29155,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "b644084e-d0b8-4cab-8df1-07ceddae76db")
 		)
 		(pad "9" thru_hole circle
@@ -29217,18 +29163,12 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "b90c970f-f378-4b29-8842-2d3500b0a047")
 		)
 		(pad "9" smd rect
 			(at 0 0)
 			(size 2.5 3)
 			(layers "F.Cu" "F.Mask")
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "ff75513a-bef8-4d10-8488-17b0d4a5d2d5")
 		)
 		(pad "9" thru_hole circle
@@ -29237,9 +29177,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "3ebe3ba7-fb32-4f0d-a6be-60d8c4ffecbc")
 		)
 		(pad "9" thru_hole circle
@@ -29248,9 +29185,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "3e5cba5c-c006-4dc9-a802-09f832ce36df")
 		)
 		(pad "9" thru_hole circle
@@ -29259,9 +29193,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "3a2fc2c5-3929-44b8-9d73-1a397cc4dbe7")
 		)
 		(pad "9" thru_hole circle
@@ -29270,9 +29201,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "0d2e0cda-dc02-4180-93b7-57c9f263087c")
 		)
 		(embedded_fonts no)
@@ -29338,22 +29266,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6b7de9b6-3bee-41ce-a373-11092d596f6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0cdef473-78d3-458c-aa7a-2c488e5f79f7")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29440,6 +29362,247 @@
 			)
 		)
 	)
+	(footprint "Moje:SW_200MSP1T2B4M2QE"
+		(layer "F.Cu")
+		(uuid "dfb01a7a-d4eb-4b3e-9f51-5a4791e363ba")
+		(at 109.565 83.015)
+		(property "Reference" "SW7"
+			(at -1.14 -4.425 0)
+			(layer "F.SilkS")
+			(uuid "bcfbedfe-c016-4e54-84d3-a93446b276cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "200MSP1T2B4M2QE"
+			(at 7.115 4.425 0)
+			(layer "F.Fab")
+			(uuid "84d2b3b3-ad22-4879-a362-409fff204814")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/200MSP1T2B4M2QE.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bce0a46-cc43-4df1-a702-bfa665a1e2f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "200MSP1T2B4M2QE"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea8abf6a-be14-499d-bc8c-8fee5689e983")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a7b4a710-329c-4c5c-94c1-70a5fb10daf3")
+		(sheetname "/")
+		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.065 -2.54)
+			(end 4.065 -2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad5a901c-f270-4ed5-8dcd-b9622a37761e")
+		)
+		(fp_line
+			(start -4.065 2.54)
+			(end -4.065 -2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ae2475ac-d6e7-4e7b-a8d3-e4fec3a16146")
+		)
+		(fp_line
+			(start 4.065 2.54)
+			(end -4.065 2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "db141b9e-5115-47c7-a4fc-67a2478ad494")
+		)
+		(fp_line
+			(start 4.065 2.54)
+			(end 4.065 -2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ce0b077-78a0-4447-bb0e-d04649f0b5d9")
+		)
+		(fp_line
+			(start -4.315 -2.79)
+			(end -4.315 2.79)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e8a31b58-5b4e-4667-93f8-68822c6e9a05")
+		)
+		(fp_line
+			(start -4.315 2.79)
+			(end 4.315 2.79)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6e4ea02a-ce6a-45e4-9a62-061cd5585d03")
+		)
+		(fp_line
+			(start 4.315 -2.79)
+			(end -4.315 -2.79)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4f13b3a7-20c0-42e6-899b-8217644b5c87")
+		)
+		(fp_line
+			(start 4.315 2.79)
+			(end 4.315 -2.79)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3653afd0-c6f0-48ea-b7c6-28505b7dab2e")
+		)
+		(fp_line
+			(start -4.065 -2.54)
+			(end 4.065 -2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a588b9b6-b746-4c03-a57d-ff0080b93c9c")
+		)
+		(fp_line
+			(start -4.065 2.54)
+			(end -4.065 -2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d148390-9e6b-4475-94dc-06f0372fbf0e")
+		)
+		(fp_line
+			(start 4.065 -2.54)
+			(end 4.065 2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e583d722-d5f6-45b7-9ab6-af9192416a19")
+		)
+		(fp_line
+			(start 4.065 2.54)
+			(end -4.065 2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f52bce32-ad20-4725-a1af-40b430052067")
+		)
+		(fp_circle
+			(center -4.815 0)
+			(end -4.715 0)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4881de0b-e517-4616-ab0f-a8892b7dc941")
+		)
+		(pad "1" thru_hole rect
+			(at -2.54 0)
+			(size 1.635 1.635)
+			(drill 1.09)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(SW7-A)")
+			(pinfunction "A_1")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f74f27c7-8880-471f-a2ae-e880d25f8e16")
+		)
+		(pad "2" thru_hole circle
+			(at 0 0)
+			(size 1.635 1.635)
+			(drill 1.09)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(D17-K)")
+			(pinfunction "B_2")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f857e624-329a-408c-b6b6-588bb541a9df")
+		)
+		(pad "3" thru_hole circle
+			(at 2.54 0)
+			(size 1.635 1.635)
+			(drill 1.09)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(D19-K)")
+			(pinfunction "C_3")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ca89b7be-77d9-4ca7-b5c2-fa3b94a392a9")
+		)
+		(embedded_fonts no)
+		(model "D:/Jakov Begovic/Down/200MSP1T2B4M2QE/200MSP1T2B4M2QE.step"
+			(offset
+				(xyz 0 0 0.75)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
 		(layer "F.Cu")
 		(uuid "e0592f14-26a6-4dc6-a73f-a771bd2d82d8")
@@ -29496,6 +29659,12 @@
 		(path "/f00212ae-3b14-4826-a164-0cd4a7deae80")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29638,6 +29807,12 @@
 		(path "/9da81b86-c45e-4495-8c8c-ca5aa6168587")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29774,22 +29949,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "10726d89-6519-4920-a80f-7cff5b10b285")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/bf73a862-ce2b-4d3b-aaa6-6ebed07fa2cc")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29927,6 +30096,12 @@
 		(path "/d9fe496f-7ac5-4116-b692-c64746ec6006")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30254,6 +30429,12 @@
 		(path "/dbd8a037-0179-4b5f-b8d2-a894620a4973")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "3" "2" "5" "1" "6" "8" "7")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31042,9 +31223,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "8bf6e30d-a078-4b1c-ba07-771b449edb16")
 		)
 		(pad "9" thru_hole circle
@@ -31053,9 +31231,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "ea00cf88-0ace-40cc-a4fb-db4be66d1261")
 		)
 		(pad "9" thru_hole circle
@@ -31064,9 +31239,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "64e2b9d9-8e28-4cfd-8051-e60d26e5e7be")
 		)
 		(pad "9" thru_hole circle
@@ -31075,9 +31247,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "a9ded9db-d992-4e2f-b12f-5b9e443d0973")
 		)
 		(pad "9" thru_hole circle
@@ -31086,18 +31255,12 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "0159ed84-0d7c-4b03-8e37-ff959967a889")
 		)
 		(pad "9" smd rect
 			(at 0 0)
 			(size 2.5 3)
 			(layers "F.Cu" "F.Mask")
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "4e51b305-fa9f-4c73-bc50-67ef0fb7bdb3")
 		)
 		(pad "9" thru_hole circle
@@ -31106,9 +31269,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "c9d4a3c5-5fe6-4a9f-8e10-ac67c0e476c0")
 		)
 		(pad "9" thru_hole circle
@@ -31117,9 +31277,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "6dc2bd55-4f15-4156-ad52-4de121a8556e")
 		)
 		(pad "9" thru_hole circle
@@ -31128,9 +31285,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "81eb03f8-4506-44d9-af33-07cb4159eab1")
 		)
 		(pad "9" thru_hole circle
@@ -31139,9 +31293,6 @@
 			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "GND_9")
-			(pintype "power_out")
 			(uuid "90dab368-734e-4cd0-bee8-20a24ac48ed3")
 		)
 		(embedded_fonts no)
@@ -31213,6 +31364,12 @@
 		(path "/8c29c7f6-6786-4a84-8de4-788ee40ce164")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31357,6 +31514,12 @@
 		(path "/30b926c4-4666-40f8-af8f-8118e3b7133b")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -31527,6 +31690,12 @@
 		(path "/4d181d72-a015-4f25-8ab7-9d27886c00e4")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31613,148 +31782,6 @@
 			)
 		)
 	)
-	(footprint "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-		(layer "F.Cu")
-		(uuid "f1fe7bb6-fc12-4aef-9f29-70cc96b9438c")
-		(at 120.65 119 180)
-		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor handsolder")
-		(property "Reference" "R54"
-			(at 0 -1.65 0)
-			(layer "F.SilkS")
-			(uuid "f781c16c-3592-42e3-ae82-b409639b0560")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.0625)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 0 1.65 0)
-			(layer "F.Fab")
-			(uuid "6dc6bd9a-eb80-4ccc-8093-8d50939b6534")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "83ffc2d4-811c-4dd6-a606-fd24dc1638e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "CRCW080510K0FKEA"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f901df6-9231-43db-8ca6-046179ecfabc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/b0efa5cc-00ca-4be0-a664-fe6ce1500133")
-		(sheetname "/")
-		(sheetfile "Robot-auto.kicad_sch")
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.227064 0.735)
-			(end 0.227064 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2b4a5437-5bca-4aac-9796-a6beeee3bd94")
-		)
-		(fp_line
-			(start -0.227064 -0.735)
-			(end 0.227064 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c905f529-052d-4769-8bbc-ff15d7cd171b")
-		)
-		(fp_rect
-			(start -1.85 -0.95)
-			(end 1.85 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b6eb96ad-338d-4c7f-86be-4a6b6dce4a12")
-		)
-		(fp_rect
-			(start -1 -0.625)
-			(end 1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "ec345d15-4caa-43ca-87bd-3e1e09e1418b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "1030b03f-5a12-4a6a-866a-710b623425ce")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1 0 180)
-			(size 1.2 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.208333)
-			(net "Net-(D17-K)")
-			(pintype "passive")
-			(uuid "0e3233a8-ac87-458b-baa4-16ecc5e669ef")
-		)
-		(pad "2" smd roundrect
-			(at 1 0 180)
-			(size 1.2 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.208333)
-			(net "GND")
-			(pintype "passive")
-			(uuid "28bb276b-1216-4c4d-a2b9-d7d805bccbb9")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f2f63d3d-beb2-4fcd-b26d-21eae3e6fd42")
@@ -31807,22 +31834,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a2234981-8f92-4fef-8a6e-a5a197c6b112")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0af9fbb2-5301-456f-9e53-f533e75c8106")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31959,22 +31980,16 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "capacitor/SMD/elec_round_polarized"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b226e850-380f-4ad4-a668-40fc6e6f1dad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/537af59b-d7d7-4d16-9ba5-30b143865dad")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32421,6 +32436,12 @@
 		(path "/d4f39b17-fbc0-4773-b8c6-26e8bcf7b92e")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -32597,6 +32618,12 @@
 		(path "/6bbd8c52-b38e-4fd7-bee3-8ef25c2b4569")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32737,23 +32764,16 @@
 				(justify mirror)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 180)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "0093b8ae-554a-46af-a8cf-4ddd69aeb78e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a69cf94b-dd43-4a39-9e8d-ea70e790386e")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33121,23 +33141,16 @@
 				(justify mirror)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "1ff2eb1a-156c-433f-8eef-5a4d1cc927be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/dcc79b2f-d029-4ccf-8812-9b9024fdd6fa")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33611,6 +33624,12 @@
 		(path "/6d0471ef-484c-49ed-bb9e-453870788d8f")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33955,23 +33974,16 @@
 				(justify mirror)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "3ace83d0-7b22-4cf1-aabe-5d5a53c39512")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c7e7589a-d98e-4531-a868-3b4f5ac46167")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34339,23 +34351,16 @@
 				(justify mirror)
 			)
 		)
-		(property "KiLib_Generator" "connector/JST"
-			(at 0 0 180)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "f944546e-a210-4a0a-b6e8-3dba978925e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/add08f24-4028-4f2c-8707-ae963832df0a")
 		(sheetname "/")
 		(sheetfile "Robot-auto.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35058,14 +35063,6 @@
 		(layer "F.Cu")
 		(net "VBUS1")
 		(uuid "e4925432-df92-489c-8dfa-fe101ed635d4")
-	)
-	(segment
-		(start 141.7276 110.97)
-		(end 94.449882 110.97)
-		(width 0.7)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "6e1da769-54b2-4ba2-b096-95634bda2350")
 	)
 	(segment
 		(start 120.55 113.65)
@@ -35805,182 +35802,6 @@
 		(uuid "fe0157cf-21e6-4232-8515-c55c0e418c96")
 	)
 	(segment
-		(start 110.2375 116.27)
-		(end 110.8875 116.92)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "09bb451d-f9dd-4d3c-93f8-60bc90956e1f")
-	)
-	(segment
-		(start 114.4775 136.6175)
-		(end 110.9075 133.0475)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "0cf4d492-c325-440d-9820-97cbaa1e1d9c")
-	)
-	(segment
-		(start 112.9775 118.69)
-		(end 115.0575 118.69)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "1b01fac6-344b-4466-9ccc-d71ce397425b")
-	)
-	(segment
-		(start 115.9525 141.7025)
-		(end 114.4775 140.2275)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "33819ba9-6ba9-49ab-aec6-c47b511efc8e")
-	)
-	(segment
-		(start 110.8875 115.33)
-		(end 110.8875 116.92)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "3a3165f4-919c-4a9b-ae0c-247b0bc98c33")
-	)
-	(segment
-		(start 114.4775 140.2275)
-		(end 114.4775 136.6175)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "40246eac-4ded-4b5b-9c31-9fac2b699f06")
-	)
-	(segment
-		(start 110.8875 117.31)
-		(end 111.5375 116.66)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "489671c4-9ddf-4479-90a1-d3d87ac7c770")
-	)
-	(segment
-		(start 111.5375 116.66)
-		(end 111.2775 116.92)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "67642c02-3bb2-4242-b316-91249e63e34a")
-	)
-	(segment
-		(start 110.2375 115.25)
-		(end 110.2375 116.27)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "745155f2-ba67-4a55-acae-718ecedd702d")
-	)
-	(segment
-		(start 110.9175 128.5)
-		(end 110.9075 128.51)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "77a2ebb0-07b9-4799-80fb-855e02e3e3b8")
-	)
-	(segment
-		(start 110.9075 128.51)
-		(end 110.9075 119.62)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "92bef741-7702-4a14-989c-fc4fef97396d")
-	)
-	(segment
-		(start 112.9775 118.69)
-		(end 111.7975 118.69)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "94615a4a-2a28-434c-907b-24db809fa07f")
-	)
-	(segment
-		(start 111.5375 115.3)
-		(end 111.5375 116.66)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "a81ee394-fd88-4729-a7a2-308d6da1fbaf")
-	)
-	(segment
-		(start 111.93 128.5)
-		(end 110.9175 128.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "ad7881fb-2817-4076-b957-c1d303e8f268")
-	)
-	(segment
-		(start 115.25 118.4975)
-		(end 115.25 117.85)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "aea9bcb3-10c0-4dca-bbcf-3d32dd1d8f0c")
-	)
-	(segment
-		(start 110.9075 133.0475)
-		(end 110.9075 128.51)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "b27139d7-489c-4a34-bb94-cf2965327042")
-	)
-	(segment
-		(start 115.0575 118.69)
-		(end 115.25 118.4975)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "b8406882-c361-4932-a639-10842084b4e9")
-	)
-	(segment
-		(start 111.2775 116.92)
-		(end 110.8875 116.92)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "b8809d95-3614-42fa-872b-d8951faf94cd")
-	)
-	(segment
-		(start 110.9075 119.62)
-		(end 110.8875 119.6)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "d9f1366e-7a9b-4ab5-918e-11ed6916e01b")
-	)
-	(segment
-		(start 115.9525 143.3825)
-		(end 115.9525 141.7025)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "e2c5773b-d722-4702-b381-88f06a764f10")
-	)
-	(segment
-		(start 110.8875 116.92)
-		(end 110.8875 119.6)
-		(width 1)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "ecc70b18-6191-409e-812f-81a619fe55a2")
-	)
-	(segment
-		(start 111.7975 118.69)
-		(end 110.8875 119.6)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT2S")
-		(uuid "fd6556b7-cd51-4267-91ce-6baf4119b520")
-	)
-	(segment
 		(start 118.8375 143.08)
 		(end 118.9175 143.16)
 		(width 0.3)
@@ -36293,6 +36114,182 @@
 		(uuid "dcb199c6-685c-4a76-8245-7cc16023fd4f")
 	)
 	(segment
+		(start 110.2375 116.27)
+		(end 110.8875 116.92)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "09bb451d-f9dd-4d3c-93f8-60bc90956e1f")
+	)
+	(segment
+		(start 114.4775 136.6175)
+		(end 110.9075 133.0475)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "0cf4d492-c325-440d-9820-97cbaa1e1d9c")
+	)
+	(segment
+		(start 112.9775 118.69)
+		(end 115.0575 118.69)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "1b01fac6-344b-4466-9ccc-d71ce397425b")
+	)
+	(segment
+		(start 115.9525 141.7025)
+		(end 114.4775 140.2275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "33819ba9-6ba9-49ab-aec6-c47b511efc8e")
+	)
+	(segment
+		(start 110.8875 115.33)
+		(end 110.8875 116.92)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "3a3165f4-919c-4a9b-ae0c-247b0bc98c33")
+	)
+	(segment
+		(start 114.4775 140.2275)
+		(end 114.4775 136.6175)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "40246eac-4ded-4b5b-9c31-9fac2b699f06")
+	)
+	(segment
+		(start 110.8875 117.31)
+		(end 111.5375 116.66)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "489671c4-9ddf-4479-90a1-d3d87ac7c770")
+	)
+	(segment
+		(start 111.5375 116.66)
+		(end 111.2775 116.92)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "67642c02-3bb2-4242-b316-91249e63e34a")
+	)
+	(segment
+		(start 110.2375 115.25)
+		(end 110.2375 116.27)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "745155f2-ba67-4a55-acae-718ecedd702d")
+	)
+	(segment
+		(start 110.9175 128.5)
+		(end 110.9075 128.51)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "77a2ebb0-07b9-4799-80fb-855e02e3e3b8")
+	)
+	(segment
+		(start 110.9075 128.51)
+		(end 110.9075 119.62)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "92bef741-7702-4a14-989c-fc4fef97396d")
+	)
+	(segment
+		(start 112.9775 118.69)
+		(end 111.7975 118.69)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "94615a4a-2a28-434c-907b-24db809fa07f")
+	)
+	(segment
+		(start 111.5375 115.3)
+		(end 111.5375 116.66)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "a81ee394-fd88-4729-a7a2-308d6da1fbaf")
+	)
+	(segment
+		(start 111.93 128.5)
+		(end 110.9175 128.5)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "ad7881fb-2817-4076-b957-c1d303e8f268")
+	)
+	(segment
+		(start 115.25 118.4975)
+		(end 115.25 117.85)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "aea9bcb3-10c0-4dca-bbcf-3d32dd1d8f0c")
+	)
+	(segment
+		(start 110.9075 133.0475)
+		(end 110.9075 128.51)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "b27139d7-489c-4a34-bb94-cf2965327042")
+	)
+	(segment
+		(start 115.0575 118.69)
+		(end 115.25 118.4975)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "b8406882-c361-4932-a639-10842084b4e9")
+	)
+	(segment
+		(start 111.2775 116.92)
+		(end 110.8875 116.92)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "b8809d95-3614-42fa-872b-d8951faf94cd")
+	)
+	(segment
+		(start 110.9075 119.62)
+		(end 110.8875 119.6)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "d9f1366e-7a9b-4ab5-918e-11ed6916e01b")
+	)
+	(segment
+		(start 115.9525 143.3825)
+		(end 115.9525 141.7025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "e2c5773b-d722-4702-b381-88f06a764f10")
+	)
+	(segment
+		(start 110.8875 116.92)
+		(end 110.8875 119.6)
+		(width 1)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "ecc70b18-6191-409e-812f-81a619fe55a2")
+	)
+	(segment
+		(start 111.7975 118.69)
+		(end 110.8875 119.6)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT2S")
+		(uuid "fd6556b7-cd51-4267-91ce-6baf4119b520")
+	)
+	(segment
 		(start 117.080001 115.85)
 		(end 117.227499 115.702502)
 		(width 0.3)
@@ -36347,6 +36344,40 @@
 		(layer "F.Cu")
 		(net "Net-(Q4-B)")
 		(uuid "e718a90f-6efd-4b0f-a267-40effc907d31")
+	)
+	(segment
+		(start 141.7276 110.97)
+		(end 94.449882 110.97)
+		(width 0.7)
+		(layer "F.Cu")
+		(net "VCC")
+		(uuid "6e1da769-54b2-4ba2-b096-95634bda2350")
+	)
+	(segment
+		(start 121.6475 118.98)
+		(end 121.6475 117.672502)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(D17-K)")
+		(uuid "a5888844-8c39-4b43-bb42-8cdddf73b14e")
+	)
+	(via
+		(at 121.6475 117.672502)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
+		(net "Net-(D17-K)")
+		(uuid "346230ed-97d4-4a36-bfe3-f3b0e5e8a0c1")
 	)
 	(segment
 		(start 106.83 156.93)
@@ -37041,32 +37072,6 @@
 		(layer "F.Cu")
 		(net "Net-(Q3-B)")
 		(uuid "eadd3bee-8e45-4418-ae2f-2782b6580a28")
-	)
-	(segment
-		(start 121.6475 118.98)
-		(end 121.6475 117.672502)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(D17-K)")
-		(uuid "a5888844-8c39-4b43-bb42-8cdddf73b14e")
-	)
-	(via
-		(at 121.6475 117.672502)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "Net-(D17-K)")
-		(uuid "346230ed-97d4-4a36-bfe3-f3b0e5e8a0c1")
 	)
 	(embedded_fonts no)
 )
