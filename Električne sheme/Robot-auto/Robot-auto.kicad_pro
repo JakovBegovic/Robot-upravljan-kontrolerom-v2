@@ -299,16 +299,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|4991100|584200|048e64c6-f77f-46f4-a1b2-6f1784e0eaea|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "pin_to_pin|673100|2501900|1854674c-98ca-4152-8098-acc3abd66837|4141e4ee-fabb-41f7-8a31-318a73f95fea|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -588,7 +579,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -778,7 +769,7 @@
         "uuid": "03e7400f-0747-4257-bd4a-573ca5ea4d4c"
       }
     ],
-    "used_designators": "U1-21,D1-19,#PWR1-122,P1,SW1-7,#FLG1-13,R1-55,J1-20,IC1,Q1-8,BT1,BZ1,C1-37,F1-2,M1-4,TP1-3,L1-2",
+    "used_designators": "U1-21,D1-19,#PWR1-122,P1,SW1-7,#FLG1-14,R1-55,J1-21,IC1,Q1-8,BT1,BZ1,C1-37,F1-3,M1-4,TP1-3,L1-2",
     "variants": []
   },
   "sheets": [
