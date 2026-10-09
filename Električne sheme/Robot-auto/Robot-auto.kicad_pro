@@ -301,27 +301,11 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|2768600|3187700|548c5b9d-a7cb-491b-a79e-4a554c809c4a|85ec90b3-1677-43d8-ba54-c071fa67727c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
+        "lib_symbol_mismatch|4991100|584200|048e64c6-f77f-46f4-a1b2-6f1784e0eaea|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "pin_to_pin|1257300|1968500|cc0f9333-0920-480c-975e-78c890742fee|f50f73ee-1b32-4cf3-a9cd-9244c318924a|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
-        ""
-      ],
-      [
-        "pin_to_pin|1384300|1714500|1854674c-98ca-4152-8098-acc3abd66837|4141e4ee-fabb-41f7-8a31-318a73f95fea|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
-        ""
-      ],
-      [
-        "pin_to_pin|3683000|1231900|eb42f2ca-a9b6-4f56-9791-599ccaa2a3a8|3209acfb-b105-43c7-94ba-2e297a3db2a1|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
-        ""
-      ],
-      [
-        "pin_to_pin|3683000|1231900|eb42f2ca-a9b6-4f56-9791-599ccaa2a3a8|e5ac97ab-90a2-4676-a07c-aefda29d9b24|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
-        ""
-      ],
-      [
-        "pin_to_pin|546100|1524000|bbba92c8-b596-4b1c-8869-7b6ebafbcd96|c9681692-16bb-4375-a669-6fa8cb31d1b5|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
+        "pin_to_pin|673100|2501900|1854674c-98ca-4152-8098-acc3abd66837|4141e4ee-fabb-41f7-8a31-318a73f95fea|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c|/03e7400f-0747-4257-bd4a-573ca5ea4d4c",
         ""
       ]
     ],
@@ -532,14 +516,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -794,7 +778,7 @@
         "uuid": "03e7400f-0747-4257-bd4a-573ca5ea4d4c"
       }
     ],
-    "used_designators": "U1-21,D1-19,#PWR1-120,P1,SW1-7,#FLG1-11,R1-55,J1-20,IC1,Q1-8,BT1,BZ1,C1-37,F1-2,M1-4,TP1-3,L1-2",
+    "used_designators": "U1-21,D1-19,#PWR1-122,P1,SW1-7,#FLG1-13,R1-55,J1-20,IC1,Q1-8,BT1,BZ1,C1-37,F1-2,M1-4,TP1-3,L1-2",
     "variants": []
   },
   "sheets": [
