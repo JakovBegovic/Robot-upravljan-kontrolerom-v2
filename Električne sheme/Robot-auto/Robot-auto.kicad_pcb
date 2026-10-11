@@ -37112,18 +37112,6 @@
 		(net "VBUS1")
 		(uuid "847b39e3-dfb1-4724-bddf-574d1241d45f")
 	)
-	(gr_rect
-		(start 26.8 41.05)
-		(end 126.8 291.05)
-		(stroke
-			(width 0.05)
-			(type dash_dot)
-		)
-		(fill no)
-		(locked yes)
-		(layer "Edge.Cuts")
-		(uuid "5e0b33eb-5b2b-451a-a53f-4347d0ec37a6")
-	)
 	(gr_line
 		(start 26.8 166.05)
 		(end 126.8 166.05)
