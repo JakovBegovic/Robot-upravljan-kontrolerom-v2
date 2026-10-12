@@ -12843,10 +12843,6 @@
 		(uuid "652bd800-f569-45ae-bce3-f92c1ba1469d")
 	)
 	(no_connect
-		(at 398.78 95.25)
-		(uuid "71331a4b-13e9-4a0f-88d5-0c04f3187897")
-	)
-	(no_connect
 		(at 327.66 97.79)
 		(uuid "90609d49-c3dc-4d91-b8c9-bc5b6d5bef06")
 	)
@@ -12861,6 +12857,10 @@
 	(no_connect
 		(at 160.02 80.01)
 		(uuid "a26af4a6-a041-4446-87f2-7a56a300a046")
+	)
+	(no_connect
+		(at 327.66 87.63)
+		(uuid "a43155d0-29c3-4fd8-952e-6dbad4e7d7f8")
 	)
 	(no_connect
 		(at 149.86 80.01)
@@ -14075,16 +14075,6 @@
 			(type default)
 		)
 		(uuid "34eeb475-fa53-4d47-a8a8-e9dd06471f1e")
-	)
-	(wire
-		(pts
-			(xy 325.12 87.63) (xy 327.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "350600f9-8928-4d93-a2ee-62b3b2f0e1a4")
 	)
 	(wire
 		(pts
@@ -16578,6 +16568,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 95.25) (xy 402.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ce6ed7-e27d-4ef5-9015-53bd9964b590")
+	)
+	(wire
+		(pts
 			(xy 153.67 275.59) (xy 153.67 274.32)
 		)
 		(stroke
@@ -18776,30 +18776,6 @@
 			)
 		)
 	)
-	(global_label "BZ"
-		(shape output)
-		(at 325.12 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1ae748d2-63ab-4ce8-bb76-09cbc2e9a614")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.6553 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CC2"
 		(shape output)
 		(at 107.95 274.32 0)
@@ -18896,30 +18872,6 @@
 			)
 		)
 	)
-	(global_label "LED3"
-		(shape output)
-		(at 325.12 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2c6c90be-f787-457d-afc6-7587759a1d51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 317.4782 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DIST1"
 		(shape bidirectional)
 		(at 551.18 219.71 180)
@@ -19005,6 +18957,30 @@
 		(uuid "3e430422-81ae-494d-8651-2a83c6bcb907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.6989 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED1"
+		(shape output)
+		(at 402.59 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41773557-6514-4894-966a-59b83a1fcd2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 410.2318 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19184,6 +19160,30 @@
 			)
 		)
 	)
+	(global_label "BZ"
+		(shape output)
+		(at 325.12 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a66482d-23ef-496b-8757-da2233f40bbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 319.6553 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "IN1M4"
 		(shape input)
 		(at 266.7 397.51 180)
@@ -19253,30 +19253,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "LED1"
-		(shape output)
-		(at 402.59 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ead4bed-7db2-48e3-a1df-801ae44c67ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 410.2318 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -19472,6 +19448,30 @@
 			)
 		)
 	)
+	(global_label "DIST2"
+		(shape bidirectional)
+		(at 325.12 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90b4d86f-97a4-489a-be49-3bea21551516")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.7621 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RX"
 		(shape output)
 		(at 401.32 72.39 0)
@@ -19592,30 +19592,6 @@
 			)
 		)
 	)
-	(global_label "DIST2"
-		(shape bidirectional)
-		(at 325.12 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a5f3aff5-575e-4f11-b174-09ffa4336e38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.7621 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "D-"
 		(shape bidirectional)
 		(at 111.76 68.58 0)
@@ -19653,6 +19629,30 @@
 		(uuid "b1757aca-fde0-4e9a-b5c0-17ebe7dfe72f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.3809 405.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED3"
+		(shape output)
+		(at 402.59 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3b77395-f4e8-45a5-8f11-3831d1c7c7b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 410.2318 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40536,8 +40536,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 575.31 240.03 0)
-		(mirror y)
+		(at 575.31 242.57 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40547,7 +40546,7 @@
 		(dnp no)
 		(uuid "dcc79b2f-d029-4ccf-8812-9b9024fdd6fa")
 		(property "Reference" "J13"
-			(at 574.04 234.188 0)
+			(at 570.738 233.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40557,7 +40556,7 @@
 			)
 		)
 		(property "Value" "B4B-PH-K-S"
-			(at 565.658 246.634 0)
+			(at 567.182 246.888 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40567,7 +40566,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 575.31 240.03 0)
+			(at 575.31 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40578,7 +40577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 575.31 240.03 0)
+			(at 575.31 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40589,7 +40588,7 @@
 			)
 		)
 		(property "Description" "B4B-PH-K-S"
-			(at 575.31 240.03 0)
+			(at 575.31 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
