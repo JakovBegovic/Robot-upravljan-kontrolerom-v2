@@ -12143,6 +12143,18 @@
 		(uuid "0cdfa4ab-6345-43d1-88db-6237ecca0527")
 	)
 	(rectangle
+		(start 378.46 328.676)
+		(end 408.94 421.64)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2f31a90d-ea99-4d54-9eb3-0eb49680ee9e")
+	)
+	(rectangle
 		(start 439.42 33.02)
 		(end 584.2 127)
 		(stroke
@@ -12191,8 +12203,8 @@
 		(uuid "907e06b5-0541-40e8-ae6b-015d9e2847a3")
 	)
 	(rectangle
-		(start 401.32 341.376)
-		(end 449.58 370.84)
+		(start 414.02 328.676)
+		(end 462.28 358.14)
 		(stroke
 			(width 0)
 			(type dash)
@@ -12298,6 +12310,17 @@
 		)
 		(uuid "fef31b22-0f28-4f42-a5b8-8522ead7d1fa")
 	)
+	(text "Test points"
+		(exclude_from_sim no)
+		(at 378.46 327.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e37edfb-8e63-45a3-9bc3-ec086cdda36b")
+	)
 	(text "Data USB and UART bridge"
 		(exclude_from_sim no)
 		(at 43.18 32.004 0)
@@ -12322,7 +12345,7 @@
 	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 401.32 340.36 0)
+		(at 414.02 327.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12580,6 +12603,12 @@
 		(uuid "0c2d33b7-8117-417b-b884-e40adf1c7a4c")
 	)
 	(junction
+		(at 190.5 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10f4fe2b-75a2-4bb8-b7d9-c11eb5d61cd4")
+	)
+	(junction
 		(at 148.59 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12722,12 +12751,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47f4d6de-f666-49fd-8b2a-79b500ec3451")
-	)
-	(junction
-		(at 190.5 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "480f0420-ba02-4484-8670-42550ec490c1")
 	)
 	(junction
 		(at 431.8 212.09)
@@ -12928,16 +12951,16 @@
 		(uuid "a7852678-cff4-4e8b-9b5d-f65877fc92cb")
 	)
 	(junction
+		(at 342.9 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8fd9ef0-27ba-4b46-9bab-435804dead70")
+	)
+	(junction
 		(at 142.24 438.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b08551d3-1e00-4e9e-84d4-c085cd40c344")
-	)
-	(junction
-		(at 342.9 284.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3832e11-9aba-471e-ada2-eef117f94036")
 	)
 	(junction
 		(at 163.83 212.09)
@@ -12980,12 +13003,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c346b259-d1a5-47c9-9ce2-d9d64aca18c0")
-	)
-	(junction
-		(at 504.19 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c55f9153-489d-467c-baf6-fd5f9a4266ae")
 	)
 	(junction
 		(at 88.9 68.58)
@@ -13311,6 +13328,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 361.95) (xy 393.7 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032a3e04-5d8f-43e3-b9d7-70090fc5fca2")
+	)
+	(wire
+		(pts
 			(xy 640.08 260.35) (xy 656.59 260.35)
 		)
 		(stroke
@@ -13591,7 +13618,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 212.09) (xy 195.58 212.09)
+			(xy 181.61 212.09) (xy 190.5 212.09)
 		)
 		(stroke
 			(width 0)
@@ -13728,16 +13755,6 @@
 			(type default)
 		)
 		(uuid "1712eb87-0e1c-4a13-b9fa-c85a467bb397")
-	)
-	(wire
-		(pts
-			(xy 138.43 208.28) (xy 138.43 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1736aa0a-2672-4851-b649-5945c85330db")
 	)
 	(wire
 		(pts
@@ -14261,6 +14278,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 341.63) (xy 393.7 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c221c19-42b0-4c7a-8203-2563ef19525a")
+	)
+	(wire
+		(pts
 			(xy 568.96 256.54) (xy 568.96 255.27)
 		)
 		(stroke
@@ -14428,6 +14455,16 @@
 			(type default)
 		)
 		(uuid "33bff417-2be4-4da9-8d58-4cd8d64aac31")
+	)
+	(wire
+		(pts
+			(xy 388.62 382.27) (xy 393.7 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33cf8582-a38d-4d72-911e-2b91737cbd6b")
 	)
 	(wire
 		(pts
@@ -14971,6 +15008,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 392.43) (xy 388.62 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab00002-3527-4380-90bf-5652d21b92fd")
+	)
+	(wire
+		(pts
 			(xy 215.9 276.86) (xy 191.77 276.86)
 		)
 		(stroke
@@ -15268,6 +15315,16 @@
 			(type default)
 		)
 		(uuid "5461306a-23ae-4f2d-a333-efab20f3ff7a")
+	)
+	(wire
+		(pts
+			(xy 388.62 361.95) (xy 388.62 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54aaccee-c9ba-49b1-bfc5-0021c34ab3c8")
 	)
 	(wire
 		(pts
@@ -15601,16 +15658,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 212.09) (xy 190.5 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64bcee53-13b2-47e7-84a3-9b7c25c3217b")
-	)
-	(wire
-		(pts
 			(xy 328.93 213.36) (xy 328.93 212.09)
 		)
 		(stroke
@@ -15691,26 +15738,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 209.55) (xy 190.5 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "668e7cb1-ceed-4708-b76e-f3ffd401bef8")
-	)
-	(wire
-		(pts
-			(xy 325.12 284.48) (xy 347.98 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66b37708-5b20-469b-bc29-8ac67bbb8fd0")
-	)
-	(wire
-		(pts
 			(xy 68.58 92.71) (xy 68.58 93.98)
 		)
 		(stroke
@@ -15761,16 +15788,6 @@
 	)
 	(wire
 		(pts
-			(xy 553.72 46.99) (xy 553.72 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685cceb0-961f-4907-99e7-6dabe9df5726")
-	)
-	(wire
-		(pts
 			(xy 266.7 66.04) (xy 266.7 68.58)
 		)
 		(stroke
@@ -15818,6 +15835,16 @@
 			(type default)
 		)
 		(uuid "6996765e-9854-463d-86ae-71f6e0f80acb")
+	)
+	(wire
+		(pts
+			(xy 388.62 401.32) (xy 388.62 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b03b57-63be-494e-9baf-93b2186419d0")
 	)
 	(wire
 		(pts
@@ -16141,6 +16168,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 381) (xy 388.62 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ffd9d1-d1b5-4397-ae9f-94b0290f0eb6")
+	)
+	(wire
+		(pts
 			(xy 582.93 260.35) (xy 601.98 260.35)
 		)
 		(stroke
@@ -16198,6 +16235,16 @@
 			(type default)
 		)
 		(uuid "7c95ea2c-f146-4743-80e0-92e58b4a2a9b")
+	)
+	(wire
+		(pts
+			(xy 190.5 212.09) (xy 195.58 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca2fd5a-3ee0-4698-8fe4-272bb91cf9a4")
 	)
 	(wire
 		(pts
@@ -16321,6 +16368,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 391.16) (xy 393.7 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820e25ac-4022-49b6-b1ac-8365eaf1cdbe")
+	)
+	(wire
+		(pts
 			(xy 471.17 101.6) (xy 471.17 100.33)
 		)
 		(stroke
@@ -16428,16 +16485,6 @@
 			(type default)
 		)
 		(uuid "87c76e7a-5836-4ddd-9f12-f78fb8794fb2")
-	)
-	(wire
-		(pts
-			(xy 504.19 87.63) (xy 504.19 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88641359-9d9b-4915-b13e-6bdee64b75da")
 	)
 	(wire
 		(pts
@@ -16921,6 +16968,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 370.84) (xy 388.62 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b10e766-817f-4eeb-a448-65cc2012f7da")
+	)
+	(wire
+		(pts
 			(xy 180.34 259.08) (xy 180.34 256.54)
 		)
 		(stroke
@@ -17321,6 +17378,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 340.36) (xy 388.62 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac906a7b-4fa0-4fd7-b5e1-65092f8b4444")
+	)
+	(wire
+		(pts
 			(xy 156.21 287.02) (xy 158.75 287.02)
 		)
 		(stroke
@@ -17381,6 +17448,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 408.94) (xy 393.7 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae8e3619-7182-4086-899a-5769456d60c9")
+	)
+	(wire
+		(pts
 			(xy 666.75 180.34) (xy 675.64 180.34)
 		)
 		(stroke
@@ -17398,6 +17475,16 @@
 			(type default)
 		)
 		(uuid "af143481-cc80-47e3-8f2b-a9d5d1ddec41")
+	)
+	(wire
+		(pts
+			(xy 388.62 372.11) (xy 393.7 372.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0db3660-a2c3-43f4-a565-f3afa25f5c71")
 	)
 	(wire
 		(pts
@@ -17528,6 +17615,16 @@
 			(type default)
 		)
 		(uuid "b48f126e-199c-4bcc-b111-793005543734")
+	)
+	(wire
+		(pts
+			(xy 325.12 284.48) (xy 342.9 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c50365-be44-49a1-8849-5b38c804a3e8")
 	)
 	(wire
 		(pts
@@ -18161,6 +18258,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 410.21) (xy 388.62 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd36771c-bf34-4a65-a15b-fb3e881539ba")
+	)
+	(wire
+		(pts
 			(xy 82.55 67.31) (xy 82.55 68.58)
 		)
 		(stroke
@@ -18391,6 +18498,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 351.79) (xy 393.7 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d920d78e-2f3e-4201-b8dd-fe6a011dae9c")
+	)
+	(wire
+		(pts
 			(xy 68.58 93.98) (xy 71.12 93.98)
 		)
 		(stroke
@@ -18428,6 +18545,16 @@
 			(type default)
 		)
 		(uuid "d9cce33e-06a2-4f1d-9b44-eba864f3a15e")
+	)
+	(wire
+		(pts
+			(xy 388.62 351.79) (xy 388.62 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac562b8-c091-4244-86de-5f8c3c428bd9")
 	)
 	(wire
 		(pts
@@ -18548,6 +18675,16 @@
 			(type default)
 		)
 		(uuid "ded624a3-3f05-4eed-a184-f4dbfc2ee5b8")
+	)
+	(wire
+		(pts
+			(xy 388.62 400.05) (xy 393.7 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df303c48-d511-4191-a6ae-576efe205f20")
 	)
 	(wire
 		(pts
@@ -20818,7 +20955,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00067530-7d35-45e4-a174-9645611fd07b")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG014"
 			(at 342.9 295.275 0)
 			(hide yes)
 			(show_name no)
@@ -20878,7 +21015,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG08")
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
@@ -20895,7 +21032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0098d3d2-c3d8-43c6-91aa-e8e86854cd1e")
-		(property "Reference" "#FLG07"
+		(property "Reference" "#FLG013"
 			(at 342.9 286.385 0)
 			(hide yes)
 			(show_name no)
@@ -20955,7 +21092,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG07")
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -20972,7 +21109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01263987-9574-4026-9083-27f67fe1b2ae")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR015"
 			(at 144.78 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -21032,7 +21169,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR020")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21050,7 +21187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01cb82ba-6375-4e27-ba4f-66d42673fa3b")
-		(property "Reference" "R42"
+		(property "Reference" "R22"
 			(at 612.14 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21114,7 +21251,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R42")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -21131,7 +21268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01f8768b-acf0-4dee-9c40-2777ad600347")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 553.72 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -21191,7 +21328,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -21209,7 +21346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02bd4141-b3d7-4429-a64a-278a5f3d8b9f")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 105.41 251.1424 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21273,7 +21410,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -21407,7 +21544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "050854db-982a-4826-8af2-220c79021fc2")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR014"
 			(at 496.57 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -21467,7 +21604,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR019")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -21484,7 +21621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06b60c07-57b0-4f4a-b66f-bb182ef2e4e4")
-		(property "Reference" "U10"
+		(property "Reference" "U7"
 			(at 659.384 209.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21554,7 +21691,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -21572,7 +21709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06ec9eb2-3db6-491b-b486-3415123bb7b1")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 204.47 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21636,7 +21773,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -21653,7 +21790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07428196-876e-42de-b70d-35b2d686bc9a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR050"
 			(at 328.93 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -21713,7 +21850,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR042")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -21730,7 +21867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "079c7b75-001d-4e98-8c04-f359654782a0")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR099"
 			(at 142.24 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -21790,7 +21927,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR092")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -21807,7 +21944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a13eb85-3c60-4dcb-90aa-6d907d58625b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR019"
 			(at 97.79 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -21867,7 +22004,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -21963,7 +22100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0af9fbb2-5301-456f-9e53-f533e75c8106")
-		(property "Reference" "R13"
+		(property "Reference" "R25"
 			(at 153.67 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22025,7 +22162,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R13")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -22043,7 +22180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b013e02-ae86-4f4e-a88e-b4df62e42632")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG05"
 			(at 643.89 208.915 0)
 			(hide yes)
 			(show_name no)
@@ -22103,7 +22240,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG010")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -22202,7 +22339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cdef473-78d3-458c-aa7a-2c488e5f79f7")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 145.034 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22266,7 +22403,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C23")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -22284,7 +22421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0df35d99-861e-4bf4-bb4d-74030940b6ed")
-		(property "Reference" "#FLG012"
+		(property "Reference" "#FLG010"
 			(at 643.89 248.285 0)
 			(hide yes)
 			(show_name no)
@@ -22344,7 +22481,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG012")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -22441,7 +22578,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0fe0b725-0bd0-463b-bb9a-18b8f1a28c45")
-		(property "Reference" "R23"
+		(property "Reference" "R35"
 			(at 335.534 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22505,7 +22642,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R23")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -22522,7 +22659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10468c1c-116c-4ad8-a23f-8b174fe0304e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 510.54 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -22582,7 +22719,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -22600,7 +22737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "114850ae-b3c0-47f5-b094-e23033e91566")
-		(property "Reference" "J21"
+		(property "Reference" "J20"
 			(at 270.764 400.558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22664,7 +22801,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J21")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -22760,6 +22897,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 388.62 350.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "121c6516-1c9b-42e9-b7e1-b7a0ba7f5042")
+		(property "Reference" "#PWR091"
+			(at 388.62 354.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCHRG"
+			(at 388.62 346.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 388.62 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63721b3b-110e-4f49-bde6-018e2c2ee622")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 275.59 379.73 0)
 		(unit 1)
@@ -22770,7 +22984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12adde6c-131c-45fe-81f2-dd98923067da")
-		(property "Reference" "J11"
+		(property "Reference" "J14"
 			(at 278.892 376.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22832,7 +23046,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J11")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -22915,6 +23129,84 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 388.62 340.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "167081ae-31bd-49ec-a812-582a8241e237")
+		(property "Reference" "#PWR090"
+			(at 388.62 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS1"
+			(at 388.62 336.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 388.62 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c96f9c8-8e95-45d1-9b51-782af6aedf55")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -23013,7 +23305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "194197e3-6ccb-4f3d-a4dc-8522676eefbf")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0109"
 			(at 80.01 454.66 0)
 			(hide yes)
 			(show_name no)
@@ -23073,7 +23365,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0102")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -23090,7 +23382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a6f738b-6584-4c62-a12b-8775bc6f6908")
-		(property "Reference" "R40"
+		(property "Reference" "R44"
 			(at 187.198 306.578 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23154,7 +23446,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R40")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -23172,7 +23464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b262a16-cde5-42be-a9df-485514442923")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 397.002 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23236,7 +23528,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -23253,7 +23545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b58775e-fcff-47f7-8ed1-eb89606394e2")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 523.748 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23317,7 +23609,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -23335,7 +23627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b5d7468-e4ec-49d0-be9b-adacc56113b5")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR080"
 			(at 238.76 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -23396,7 +23688,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR070")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -23491,7 +23783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d9c567f-b2c5-4ad0-af14-e971a390a3ca")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 623.316 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23564,7 +23856,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D12")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -23581,7 +23873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ebe44c1-2fcd-48f6-bdf4-8acaf8191ae7")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0111"
 			(at 142.24 454.66 0)
 			(hide yes)
 			(show_name no)
@@ -23641,7 +23933,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0104")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -23658,7 +23950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f028b8c-fd26-4a63-aa13-68dc2f88f358")
-		(property "Reference" "R20"
+		(property "Reference" "R32"
 			(at 359.41 229.108 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23722,7 +24014,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R20")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -23740,7 +24032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20d2377c-bc77-47a6-91a6-a6e9d1b2ccf1")
-		(property "Reference" "R18"
+		(property "Reference" "R30"
 			(at 434.34 217.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23804,7 +24096,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R18")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -23822,7 +24114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ea9b60-794d-4b06-a7e6-7ad083a25e5a")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 622.3 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23922,7 +24214,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -23939,7 +24231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2380b880-95ab-465e-a2a6-1810a8e6fdb1")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR068"
 			(at 582.93 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -23999,7 +24291,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR089")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -24016,7 +24308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24a2255e-3795-412b-8134-d1144e191769")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0115"
 			(at 73.66 478.79 0)
 			(hide yes)
 			(show_name no)
@@ -24076,7 +24368,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0108")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -24241,86 +24533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 504.19 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2528cbf1-61ca-49ea-9ec0-73dda5ee330e")
-		(property "Reference" "TP5"
-			(at 508 84.7724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 508 87.3124 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 509.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 509.27 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 504.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91972038-1357-4c1e-9a2e-1860c1321777")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 212.09 379.73 0)
 		(unit 1)
@@ -24331,7 +24543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "265ec706-595f-4b53-9afa-1d84958f41ce")
-		(property "Reference" "J9"
+		(property "Reference" "J13"
 			(at 215.392 376.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24393,7 +24605,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J9")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -24410,7 +24622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "275e7e12-61d1-413f-9f52-06a2031bbf00")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR062"
 			(at 336.55 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -24470,7 +24682,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR053")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -24487,7 +24699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2907ec17-bf19-4f84-ad46-8c1490ddc91d")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR086"
 			(at 143.51 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -24548,7 +24760,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR076")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -24565,7 +24777,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "298d7230-00e2-48c9-a5aa-383eae4d373f")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR071"
 			(at 361.95 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -24626,7 +24838,84 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR060")
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 388.62 392.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b7222b2-db75-4b9b-95d5-8c1d0bb4966f")
+		(property "Reference" "#PWR0119"
+			(at 388.62 398.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 388.62 396.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 392.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 392.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 392.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d290c1a-5b1a-40e0-98cf-364fc0c129e1")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -24643,7 +24932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2be1c83c-44b4-4013-8f29-52593be98cf5")
-		(property "Reference" "C30"
+		(property "Reference" "C17"
 			(at 565.658 220.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24707,7 +24996,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C30")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -24724,7 +25013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c0b7345-6c69-476b-9cf5-7b2cc864a7f6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR046"
 			(at 361.95 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -24784,7 +25073,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR038")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -24801,7 +25090,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c62fab4-44e9-4c8d-938a-cca3a3a70637")
-		(property "Reference" "C29"
+		(property "Reference" "C7"
 			(at 473.964 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24865,7 +25154,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C29")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -24882,7 +25171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d7ffbac-eb78-4592-91af-2db522bc57b3")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR073"
 			(at 398.78 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -24942,7 +25231,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR062")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -24959,7 +25248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "300045ba-c045-497d-a7b9-5fb1533d4dd7")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG07"
 			(at 181.61 210.185 0)
 			(hide yes)
 			(show_name no)
@@ -25019,7 +25308,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG05")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -25036,7 +25325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3049c94e-c57a-4632-a340-faa345ab9ffe")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 53.34 251.968 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25116,7 +25405,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -25133,7 +25422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "308266a3-0d01-4e6b-85c6-2d385d226de0")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR024"
 			(at 471.17 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -25193,7 +25482,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR015")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -25370,7 +25659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3237c208-5b08-486d-9e14-a89592fbb85b")
-		(property "Reference" "J19"
+		(property "Reference" "J15"
 			(at 209.296 376.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25434,7 +25723,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J19")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -25442,7 +25731,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 408.94 349.25 0)
+		(at 421.64 336.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25453,7 +25742,7 @@
 		(fields_autoplaced yes)
 		(uuid "34626740-3acf-40c6-856d-388c6db30a44")
 		(property "Reference" "H1"
-			(at 411.48 347.9799 0)
+			(at 424.18 335.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25464,7 +25753,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 411.48 350.5199 0)
+			(at 424.18 337.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25475,7 +25764,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 408.94 349.25 0)
+			(at 421.64 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25486,7 +25775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 408.94 349.25 0)
+			(at 421.64 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25497,7 +25786,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 408.94 349.25 0)
+			(at 421.64 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25528,7 +25817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3586f67c-930f-4441-be13-fd65584c2bb5")
-		(property "Reference" "D14"
+		(property "Reference" "D16"
 			(at 147.32 296.2274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25603,7 +25892,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D14")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -25856,7 +26145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c459acc-4c62-4cbb-ac05-4e0ec1fe1400")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 279.4 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25920,7 +26209,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -25937,7 +26226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c850463-e91d-497d-bcad-462fa01ce96c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR052"
 			(at 419.1 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -25997,7 +26286,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR044")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -26091,7 +26380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d6d2990-3e7a-4382-92ad-f24e71790875")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR098"
 			(at 93.98 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -26151,7 +26440,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR091")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -26168,7 +26457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e755b9f-0992-4f70-83bf-ae1a9c369ed0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR026"
 			(at 520.7 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -26228,7 +26517,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR017")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -26246,7 +26535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f26aca8-3377-471e-bf89-afda13c21074")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 123.19 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26310,7 +26599,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -26328,7 +26617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4171e03d-fb62-4481-a673-4bbdf924ca03")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 573.786 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26401,7 +26690,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -26418,7 +26707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "434a30b3-bfd8-4408-b495-b837551815b1")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR045"
 			(at 513.08 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -26478,7 +26767,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR082")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -26574,7 +26863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4582b674-f441-4766-afc7-0e65bdea0109")
-		(property "Reference" "R31"
+		(property "Reference" "R14"
 			(at 574.04 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26636,7 +26925,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R31")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -26653,7 +26942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47557eb5-8f9a-46de-9ae3-72610882a6bb")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR020"
 			(at 455.93 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -26713,7 +27002,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR04")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -26731,7 +27020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482b23db-582c-4639-b2df-ff6090511973")
-		(property "Reference" "#FLG013"
+		(property "Reference" "#FLG011"
 			(at 654.05 250.825 0)
 			(hide yes)
 			(show_name no)
@@ -26791,7 +27080,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG013")
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)
@@ -26808,7 +27097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49cf82b0-47f6-4572-81df-d68d93ccf04a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 63.5 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -26868,7 +27157,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -26885,7 +27174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cce7dc9-f3f7-4cda-aa84-9708b9cd92ca")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 487.172 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26950,7 +27239,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -27048,7 +27337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d3db083-5988-4ada-ae98-00e787ec8f74")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR048"
 			(at 201.93 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -27108,7 +27397,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR040")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -27125,7 +27414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d4b71a2-2399-45a2-9083-0e722d76c9aa")
-		(property "Reference" "R30"
+		(property "Reference" "R13"
 			(at 515.62 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27189,7 +27478,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R30")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -27206,7 +27495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d649729-ecc1-4903-88bf-460d5e56c90b")
-		(property "Reference" "R32"
+		(property "Reference" "R15"
 			(at 623.57 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27268,7 +27557,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R32")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -27366,7 +27655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f52ccaf-3b6a-4f79-805d-55e86728ee9d")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR077"
 			(at 153.67 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -27427,7 +27716,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR065")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -27521,7 +27810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50f75b27-238c-4f9b-ac50-02f75c68335a")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG06"
 			(at 163.83 210.185 0)
 			(hide yes)
 			(show_name no)
@@ -27581,7 +27870,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG04")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -27598,7 +27887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5111a4b7-f6f4-4486-87ff-06915c0f618a")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR066"
 			(at 102.87 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -27658,7 +27947,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0112")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -27675,7 +27964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "513547d0-c8ec-4645-8ef6-88260b2a6fc8")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 371.348 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27739,7 +28028,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -27756,7 +28045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51388774-f949-4ee6-9187-ac69efe31986")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR041"
 			(at 675.64 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -27816,7 +28105,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR069")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -27833,7 +28122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "514bfd84-4d42-454f-9be8-5437933a257e")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 111.76 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27895,7 +28184,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -27913,7 +28202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "537af59b-d7d7-4d16-9ba5-30b143865dad")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 160.02 388.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27977,7 +28266,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -28076,7 +28365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d10183-4bb3-4ad3-a094-3d0323ed90e4")
-		(property "Reference" "C31"
+		(property "Reference" "C19"
 			(at 565.658 259.588 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28140,7 +28429,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C31")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -28157,7 +28446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54cd9f3f-3d6c-4626-b046-97213a897269")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR056"
 			(at 195.58 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -28218,7 +28507,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR048")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -28432,7 +28721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55c02df7-817c-4c03-b7ad-c994d482018c")
-		(property "Reference" "R25"
+		(property "Reference" "R37"
 			(at 170.18 247.904 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28496,7 +28785,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R25")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -28603,7 +28892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57a11404-ac4a-4313-b5ba-3b4432465d65")
-		(property "Reference" "D6"
+		(property "Reference" "D11"
 			(at 318.77 242.8874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28678,7 +28967,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D6")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -28938,7 +29227,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58e9cf84-8e26-4b06-b583-9dd89612fb86")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0103"
 			(at 73.66 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -28998,7 +29287,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR096")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -29015,7 +29304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5905506a-31f2-4012-af0e-473d4d751359")
-		(property "Reference" "R21"
+		(property "Reference" "R33"
 			(at 328.93 232.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29077,7 +29366,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R21")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -29256,7 +29545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bffa4a0-69cf-486a-9b53-8c0c264b6fb6")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR081"
 			(at 215.9 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -29317,7 +29606,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR072")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -29334,7 +29623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ca5e28e-1799-40a4-9a99-97c848779891")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 82.804 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29398,7 +29687,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -29497,7 +29786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d3733ed-7e12-46be-a569-9cb2823dafb1")
-		(property "Reference" "D13"
+		(property "Reference" "D9"
 			(at 680.466 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29570,7 +29859,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -29669,7 +29958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5efe292e-60eb-4349-a769-8fc89c23b0bd")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR075"
 			(at 568.96 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -29729,7 +30018,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR087")
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 400.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60232430-6cd8-44a7-9dc7-e23d0c44ebd7")
+		(property "Reference" "TP7"
+			(at 397.51 397.1924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 399.7324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b9b0ee0-f9f3-44f7-b3ef-cd57d57db1b6")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -29747,7 +30116,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60e36088-a91e-4052-88f6-0e86c7185f79")
-		(property "Reference" "R16"
+		(property "Reference" "R28"
 			(at 120.65 216.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29811,7 +30180,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R16")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -29828,7 +30197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "616e6b9a-9114-4ddf-8169-5ccbf2be0f51")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0117"
 			(at 86.36 482.6 0)
 			(hide yes)
 			(show_name no)
@@ -29888,7 +30257,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0110")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -29906,7 +30275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61a1b08c-a6c3-46e4-b601-ffc4495a8e3a")
-		(property "Reference" "R28"
+		(property "Reference" "R40"
 			(at 230.124 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29970,7 +30339,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R28")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -29987,7 +30356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61cdfd83-d97b-4bc2-9098-16445fe4d0f4")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0110"
 			(at 93.98 454.66 0)
 			(hide yes)
 			(show_name no)
@@ -30047,7 +30416,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0103")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -30065,7 +30434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62de30b7-be49-4ca6-bef4-e1ceaf6a5bed")
-		(property "Reference" "C26"
+		(property "Reference" "C28"
 			(at 97.79 441.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30129,7 +30498,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C26")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -30147,7 +30516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63948b79-2171-4df3-b6c5-d65be2fb97d0")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 280.67 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30211,7 +30580,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -30229,7 +30598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64d1607c-cb2a-4662-8752-1f782c6f6c9c")
-		(property "Reference" "C28"
+		(property "Reference" "C30"
 			(at 160.02 441.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30293,7 +30662,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C28")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -30393,7 +30762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65be4166-3a3a-4830-95e7-ce446fef0af0")
-		(property "Reference" "Q4"
+		(property "Reference" "Q2"
 			(at 572.77 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30493,87 +30862,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 138.43 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65dfaea1-1637-490f-a5b0-edcf209873ed")
-		(property "Reference" "TP1"
-			(at 142.24 205.4224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 142.24 207.9624 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 143.51 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 138.43 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c32d9118-acb2-4031-875d-08f48ca94a7f")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "TP1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -30591,7 +30880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66b6e6aa-b2ac-4aa9-a122-cb90bc4f885d")
-		(property "Reference" "R29"
+		(property "Reference" "R41"
 			(at 240.284 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30655,7 +30944,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R29")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -30672,7 +30961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "676c6e82-f7cc-4a48-b319-bb913e3b048f")
-		(property "Reference" "D7"
+		(property "Reference" "D12"
 			(at 381.508 254.254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30734,7 +31023,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D7")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -30751,7 +31040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67a7421d-03ee-44e7-baa3-479986fc3f8d")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR039"
 			(at 568.96 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -30811,7 +31100,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR067")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -30828,7 +31117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69887148-d9c6-493f-a123-8acc63fa6029")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0106"
 			(at 148.59 429.26 0)
 			(hide yes)
 			(show_name no)
@@ -30888,7 +31177,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR099")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -30905,7 +31194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a62bfc7-f07d-4f04-8fff-2ef8753cd8a2")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR082"
 			(at 54.61 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -30966,7 +31255,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0114")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -30983,7 +31272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a78d5d8-66c0-4880-bd52-8f2dec252357")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0101"
 			(at 60.96 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -31043,7 +31332,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR094")
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 341.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6adf6648-5599-4d04-bc84-34999feccbe2")
+		(property "Reference" "TP1"
+			(at 397.51 338.7724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 341.3124 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 341.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1766eebb-b8dd-411a-a088-cbe6743241c0")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -31123,6 +31492,83 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 388.62 401.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bfe55ba-1026-429e-a63a-fd0653d528e1")
+		(property "Reference" "#PWR0120"
+			(at 388.62 407.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 388.62 405.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 401.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61120620-68dc-4374-aca5-32f663f1a9e7")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -31221,7 +31667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c2fce83-1537-45b8-94f4-c083614e7eb8")
-		(property "Reference" "R26"
+		(property "Reference" "R38"
 			(at 317.5 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31285,7 +31731,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R26")
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 351.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d035cc8-ca80-40cb-9290-aa502dc86bcc")
+		(property "Reference" "TP2"
+			(at 397.51 348.9324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 351.4724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cf3fe49-9bf8-4e68-b275-82ff32bd76aa")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -31302,7 +31828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d0471ef-484c-49ed-bb9e-453870788d8f")
-		(property "Reference" "J2"
+		(property "Reference" "J11"
 			(at 318.262 286.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31364,7 +31890,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J2")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -31381,7 +31907,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d5132d3-6773-40a5-bf36-57eb5989a747")
-		(property "Reference" "R44"
+		(property "Reference" "R24"
 			(at 506.73 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31445,7 +31971,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R44")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -31453,7 +31979,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 408.94 361.95 0)
+		(at 421.64 349.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31464,7 +31990,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fb2e5d2-def8-4dcc-a6cd-a5908f7e3884")
 		(property "Reference" "H5"
-			(at 411.48 360.6799 0)
+			(at 424.18 347.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31475,7 +32001,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 411.48 363.2199 0)
+			(at 424.18 350.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31486,7 +32012,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 408.94 361.95 0)
+			(at 421.64 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31497,7 +32023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 408.94 361.95 0)
+			(at 421.64 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31508,7 +32034,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 408.94 361.95 0)
+			(at 421.64 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31538,7 +32064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fb88a79-527b-45c6-8b02-9ed9b579ddb1")
-		(property "Reference" "F3"
+		(property "Reference" "F2"
 			(at 88.9 256.286 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31600,7 +32126,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "F3")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -31617,7 +32143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fe8e8c5-038e-4390-ba51-3fb07721e22d")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR067"
 			(at 568.96 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -31677,7 +32203,84 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR088")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 388.62 370.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ff167e7-36de-485b-970f-e0cdfa96e6a1")
+		(property "Reference" "#PWR093"
+			(at 388.62 374.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 387.858 367.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 388.62 370.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c3bcea-2e0a-45e1-a76a-fd5014eb7ee6")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -31771,7 +32374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7246e338-d684-4044-b55e-c60c82ccefb8")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR044"
 			(at 675.64 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -31831,7 +32434,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR080")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -31848,7 +32451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73d88c42-50d4-4cc2-9fdd-58bf65c81433")
-		(property "Reference" "J3"
+		(property "Reference" "J12"
 			(at 309.88 286.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31912,7 +32515,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J3")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -31929,7 +32532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "744aa904-abe8-441d-ad80-fa475925c3b9")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0108"
 			(at 135.89 440.69 0)
 			(hide yes)
 			(show_name no)
@@ -31989,7 +32592,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR074")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -32006,7 +32609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75989808-4971-452d-9175-f2ae76dbb2db")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR085"
 			(at 342.9 304.8 0)
 			(hide yes)
 			(show_name no)
@@ -32067,7 +32670,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR046")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -32166,7 +32769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79a93202-b45d-4916-ae32-655f273b37f0")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR038"
 			(at 513.08 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -32226,7 +32829,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR066")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -32243,7 +32846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79fcfb2d-78e9-4313-b0e6-6c851a12517f")
-		(property "Reference" "U8"
+		(property "Reference" "U9"
 			(at 167.386 214.122 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32316,7 +32919,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U8")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -32333,7 +32936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a2a64be-765a-49e4-ae76-3baa470df57a")
-		(property "Reference" "R27"
+		(property "Reference" "R39"
 			(at 423.418 254.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32397,7 +33000,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R27")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -32415,7 +33018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b3a9db4-e7ef-4d35-a167-34c05364f8c9")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG04"
 			(at 113.03 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -32475,7 +33078,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG03")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -32493,7 +33096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b610667-2710-4185-ad3b-74cec5231569")
-		(property "Reference" "Q6"
+		(property "Reference" "Q4"
 			(at 679.45 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32593,7 +33196,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "Q6")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -32611,7 +33214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c25f27c-d40d-4e51-9c30-1a36a4e7e088")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR079"
 			(at 90.17 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -32672,7 +33275,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0115")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -32689,7 +33292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c5656bc-2de5-4753-983b-c47d096bf2d2")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG03"
 			(at 476.25 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -32749,7 +33352,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG09")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -32766,7 +33369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7deba5d9-62bd-48fe-a4fc-850a346dd939")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 629.666 210.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32836,7 +33439,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -32853,7 +33456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e776044-cdda-4296-8a9d-27df71f207e6")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -32913,7 +33516,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -33009,9 +33612,6 @@
 		(pin "6"
 			(uuid "a275aef6-0071-472c-b470-1df68ad00760")
 		)
-		(pin "9"
-			(uuid "5e6360ba-1492-4c6b-8d78-bb9e813cdae8")
-		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -33033,7 +33633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fc0d30b-107d-4aee-adbf-8f1b749b2a5b")
-		(property "Reference" "Q3"
+		(property "Reference" "Q7"
 			(at 379.73 234.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33133,7 +33733,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "Q3")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -33150,7 +33750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fcae96a-be72-4bd0-b1e2-2499a0c5f7bf")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 212.09 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33226,7 +33826,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -33244,7 +33844,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ff40ef4-3131-4846-99de-040c35e47285")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 95.758 287.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33309,7 +33909,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D16")
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 391.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "819eded0-2f56-4f50-b5a9-8047afec173c")
+		(property "Reference" "TP6"
+			(at 397.51 388.3024 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 390.8424 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 391.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ca376e6-a850-4c13-ae82-44d929f0e863")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -33326,7 +34006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "830a836a-f509-4967-a7c7-3dfb428f398a")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 162.56 260.604 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33457,7 +34137,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U9")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -33474,7 +34154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "839c1494-0688-44d6-a8ce-99d8617988d1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 118.11 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -33534,7 +34214,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -33551,7 +34231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "840c0244-f53f-4806-86f2-a97709e396d8")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR040"
 			(at 618.49 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -33611,7 +34291,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR068")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -33628,7 +34308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8513413a-c213-409e-a032-e2349b5dc9e7")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR063"
 			(at 294.64 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -33688,7 +34368,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR054")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 408.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ab204b-f3e5-4667-8ff2-960451465ba3")
+		(property "Reference" "TP8"
+			(at 397.51 406.0824 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 408.6224 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 408.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ed76313-ec8b-41c1-92c7-ba36e0ab739a")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -33861,7 +34621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8948533e-eeb5-46b5-92bc-cd46cc82667e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR05"
 			(at 266.7 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -33921,7 +34681,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -33938,7 +34698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89ac1bda-5c12-4cda-805b-f3430a35277a")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR058"
 			(at 431.8 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -33999,7 +34759,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR050")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -34016,7 +34776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a071a92-8738-4364-8a47-fb3bf78386d9")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR057"
 			(at 328.93 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -34076,7 +34836,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR049")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -34093,7 +34853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a4aaaf3-13a2-492f-b374-3240dccda6e1")
-		(property "Reference" "R38"
+		(property "Reference" "R19"
 			(at 661.67 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34155,7 +34915,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R38")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -34172,7 +34932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aaf8f63-16c8-4195-8dd3-f3a0955c866c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 387.35 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -34232,7 +34992,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -34326,7 +35086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b925f43-1f2b-41a5-ab91-69d090a38c71")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR078"
 			(at 342.9 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -34386,7 +35146,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR045")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -34403,7 +35163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bbf12f6-0198-405a-aaaf-136ff9604f84")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR021"
 			(at 520.7 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -34463,7 +35223,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR05")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -34563,7 +35323,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8edf516c-eb33-4998-aba0-5f440f8af6b3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR047"
 			(at 118.11 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -34623,7 +35383,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR039")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -34640,7 +35400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f3220ae-ec53-4c78-9343-26b43294e994")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR097"
 			(at 80.01 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -34700,7 +35460,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR090")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -34717,7 +35477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f70a8c5-a71a-4f8d-bb1b-85bfc592298f")
-		(property "Reference" "R14"
+		(property "Reference" "R26"
 			(at 281.94 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34779,7 +35539,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R14")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -34796,7 +35556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90bf1f84-815b-4467-a99c-f035a11a7847")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0107"
 			(at 73.66 440.69 0)
 			(hide yes)
 			(show_name no)
@@ -34856,7 +35616,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR071")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -34950,7 +35710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91839919-15f4-4460-b8c8-5a5a99b3c019")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 82.804 441.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35014,7 +35774,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -35031,7 +35791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "953874c3-3930-4fa3-8c42-962e9496d2b4")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0114"
 			(at 123.19 461.01 0)
 			(hide yes)
 			(show_name no)
@@ -35091,7 +35851,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0107")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -35108,7 +35868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96cd6571-2d3e-4020-9e6b-0464cc5be7bf")
-		(property "Reference" "#FLG014"
+		(property "Reference" "#FLG012"
 			(at 121.92 260.985 0)
 			(hide yes)
 			(show_name no)
@@ -35169,7 +35929,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG014")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)
@@ -35460,7 +36220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98e4a5ee-a1b2-4a04-bfe6-a2cf65b87455")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 110.49 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -35520,7 +36280,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -35537,7 +36297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99558b28-6079-4013-9201-f6ec168bdc38")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR064"
 			(at 276.86 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -35597,7 +36357,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR055")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -35614,7 +36374,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99917ed6-a176-4f9d-9ec2-bf012429d4da")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR043"
 			(at 618.49 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -35674,7 +36434,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR079")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -35691,7 +36451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a14ad35-689b-4b4a-9eb5-138feb5cfe64")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR095"
 			(at 73.66 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -35751,7 +36511,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR057")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -35768,7 +36528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a4a5116-e07b-446d-bfa5-7b5c318b71e5")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR089"
 			(at 175.26 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -35829,7 +36589,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR083")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -35837,7 +36597,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 408.94 355.6 0)
+		(at 421.64 342.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35848,7 +36608,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ae46f7c-d9a0-4f3a-b41c-3a4bea128ec9")
 		(property "Reference" "H3"
-			(at 411.48 354.3299 0)
+			(at 424.18 341.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35859,7 +36619,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 411.48 356.8699 0)
+			(at 424.18 344.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35870,7 +36630,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 408.94 355.6 0)
+			(at 421.64 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35881,7 +36641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 408.94 355.6 0)
+			(at 421.64 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35892,7 +36652,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 408.94 355.6 0)
+			(at 421.64 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35922,7 +36682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b8536b1-3fc4-4732-b126-73d251922e71")
-		(property "Reference" "J15"
+		(property "Reference" "J8"
 			(at 629.666 249.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35992,7 +36752,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J15")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -36009,7 +36769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d17f3f8-7dd6-4385-a579-c1dc4de795f5")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0105"
 			(at 86.36 429.26 0)
 			(hide yes)
 			(show_name no)
@@ -36069,7 +36829,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR098")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -36086,7 +36846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9da81b86-c45e-4495-8c8c-ca5aa6168587")
-		(property "Reference" "R37"
+		(property "Reference" "R18"
 			(at 604.52 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36148,7 +36908,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R37")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -36165,7 +36925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ec48061-ed44-4465-829b-a95b904636e6")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 213.36 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36229,7 +36989,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -36246,7 +37006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fb4f5ba-64b6-41d2-a4ff-a6bcab9779c0")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0100"
 			(at 156.21 401.32 0)
 			(hide yes)
 			(show_name no)
@@ -36306,7 +37066,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR093")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -36314,7 +37074,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 429.26 349.25 0)
+		(at 441.96 336.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36325,7 +37085,7 @@
 		(fields_autoplaced yes)
 		(uuid "a06ce603-34af-41ba-9ea8-451c835fd2a6")
 		(property "Reference" "H2"
-			(at 431.8 347.9799 0)
+			(at 444.5 335.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36336,7 +37096,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 431.8 350.5199 0)
+			(at 444.5 337.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36347,7 +37107,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 429.26 349.25 0)
+			(at 441.96 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36358,7 +37118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 429.26 349.25 0)
+			(at 441.96 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36369,7 +37129,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 429.26 349.25 0)
+			(at 441.96 336.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36399,7 +37159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0829e03-747e-4427-ba56-8428025050cd")
-		(property "Reference" "R33"
+		(property "Reference" "R16"
 			(at 680.72 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36461,7 +37221,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R33")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -36478,7 +37238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a14d755f-1a11-4a13-ba26-8c9a4ea4ef2f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 374.65 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -36538,7 +37298,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR09")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 361.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a16d388b-779c-4387-b9ae-6e1bf9ec3d81")
+		(property "Reference" "TP3"
+			(at 397.51 359.0924 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 361.6324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ad24ab6-d670-4876-8eef-bf3810b1b3ff")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -36555,7 +37395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a18bace9-542b-4f27-9bb1-7610ec562426")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR083"
 			(at 156.21 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -36616,7 +37456,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR073")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -36633,7 +37473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a368f46d-c803-4bdc-9919-5a085c7e204b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 455.93 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -36693,7 +37533,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -36701,7 +37541,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 429.26 361.95 0)
+		(at 441.96 349.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36712,7 +37552,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4d0e8e6-beab-4f48-a9f2-a70e518c714e")
 		(property "Reference" "H6"
-			(at 431.8 360.6799 0)
+			(at 444.5 347.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36723,7 +37563,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 431.8 363.2199 0)
+			(at 444.5 350.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36734,7 +37574,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 429.26 361.95 0)
+			(at 441.96 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36745,7 +37585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 429.26 361.95 0)
+			(at 441.96 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36756,7 +37596,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 429.26 361.95 0)
+			(at 441.96 349.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36786,7 +37626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a557874a-158a-496c-8a5f-d4c7336cce0a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR016"
 			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -36846,87 +37686,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 347.98 284.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a664e17a-f364-4707-aa7a-c69fc6cfa2ef")
-		(property "Reference" "TP3"
-			(at 351.79 281.6224 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 351.79 284.1624 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 353.06 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 347.98 284.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "942a1647-23f5-419c-9e75-630f83e282f5")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "TP3")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -36944,7 +37704,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a69cf94b-dd43-4a39-9e8d-ea70e790386e")
-		(property "Reference" "J12"
+		(property "Reference" "J16"
 			(at 273.558 376.682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37008,7 +37768,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J12")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -37098,6 +37858,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 388.62 360.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8ebe202-9df9-4449-bdcb-3bd69fcd91d4")
+		(property "Reference" "#PWR092"
+			(at 388.62 364.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 388.62 356.616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 388.62 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "463d4e64-be37-452c-b8d3-7c9d0fe9a1b9")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 231.14 0)
 		(mirror y)
@@ -37109,7 +37946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9981c17-1d79-40dc-9c71-a9b84f1f1da7")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR061"
 			(at 118.11 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -37170,7 +38007,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR052")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -37350,7 +38187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad61aafa-fe1a-4a67-87e4-bcc2d79c1574")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR087"
 			(at 204.47 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -37410,7 +38247,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR077")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -37428,7 +38265,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "add08f24-4028-4f2c-8707-ae963832df0a")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 605.79 210.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37496,7 +38333,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -37513,7 +38350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae20ad5e-8168-4bc8-a377-84d503a7b8a9")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR088"
 			(at 198.12 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -37574,7 +38411,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR081")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -37670,7 +38507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0815527-1cc0-414a-a7f1-22b7eea261df")
-		(property "Reference" "J16"
+		(property "Reference" "J9"
 			(at 636.27 249.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37738,7 +38575,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J16")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -37756,7 +38593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b119603e-c1ce-4f75-9697-f4380ae96dd3")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 612.394 210.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37826,7 +38663,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -37922,7 +38759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1db96b7-c3fd-4ddc-be04-7b5ebccdcebd")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0118"
 			(at 148.59 482.6 0)
 			(hide yes)
 			(show_name no)
@@ -37982,7 +38819,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0111")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -37999,7 +38836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3642633-a9e4-41d3-8f9b-e1e1a484116f")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 474.218 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38079,7 +38916,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -38087,7 +38924,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 429.26 355.6 0)
+		(at 441.96 342.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38098,7 +38935,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3c3a6c2-cb54-47b1-beb8-62139dfb7a5a")
 		(property "Reference" "H4"
-			(at 431.8 354.3299 0)
+			(at 444.5 341.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38109,7 +38946,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 431.8 356.8699 0)
+			(at 444.5 344.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38120,7 +38957,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 429.26 355.6 0)
+			(at 441.96 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38131,7 +38968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 429.26 355.6 0)
+			(at 441.96 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38142,7 +38979,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 429.26 355.6 0)
+			(at 441.96 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38173,7 +39010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3d109ea-49ad-4f6d-89f1-97af4f85bcf9")
-		(property "Reference" "R19"
+		(property "Reference" "R31"
 			(at 292.862 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38237,7 +39074,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R19")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -38254,7 +39091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b49064c3-02fd-46dc-b107-fbbeca182f91")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR053"
 			(at 568.96 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -38314,7 +39151,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR084")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -38332,7 +39169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4b8ec00-d0a4-4cfd-aba6-5f5979f04613")
-		(property "Reference" "#FLG011"
+		(property "Reference" "#FLG09"
 			(at 654.05 211.455 0)
 			(hide yes)
 			(show_name no)
@@ -38392,7 +39229,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG011")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -38409,7 +39246,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4c1c58f-b12f-4f57-bef6-dd65cfdef6c9")
-		(property "Reference" "R35"
+		(property "Reference" "R43"
 			(at 207.518 285.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38473,7 +39310,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R35")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -38490,7 +39327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5083f4c-1e0a-46fd-9a5c-1fed99f8f7b2")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR042"
 			(at 568.96 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -38550,7 +39387,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR078")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -38649,7 +39486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b66b694d-5a1f-46fb-9f72-d229fbcf7f29")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR084"
 			(at 205.74 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -38710,7 +39547,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR075")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -38806,9 +39643,6 @@
 		(pin "6"
 			(uuid "56228a80-4f45-491d-8a67-ba425cde4d4c")
 		)
-		(pin "9"
-			(uuid "802434c1-c676-4133-8778-8637980848e2")
-		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -38829,7 +39663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6c26052-4dfe-4e8f-b095-48c3e40f9c41")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR069"
 			(at 314.96 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -38889,7 +39723,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR058")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -38906,7 +39740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b71cdaee-b6c7-4e65-a83f-c26c906d400e")
-		(property "Reference" "R15"
+		(property "Reference" "R27"
 			(at 425.45 209.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38968,7 +39802,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R15")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -39109,7 +39943,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba94dcab-d8c3-47c3-8f1f-2ab71d6c2ab8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR051"
 			(at 406.4 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -39169,7 +40003,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR043")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -39186,7 +40020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc666a27-4303-4fa5-b19a-c017b77c4681")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 659.384 249.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39256,7 +40090,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -39273,7 +40107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcd8245d-2d19-4c9b-a515-704e77c23906")
-		(property "Reference" "R34"
+		(property "Reference" "R42"
 			(at 146.05 285.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39337,7 +40171,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R34")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -39355,7 +40189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bec7b327-a18b-4bb2-8954-9e03af672fca")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 97.79 388.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39419,7 +40253,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C22")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -39764,7 +40598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0ec5799-fa0f-4a8c-91e1-ee795f5bb23a")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 109.22 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39828,7 +40662,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -39845,7 +40679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c19260cd-0067-4c85-a16d-1c699b81d60d")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 636.27 210.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39913,7 +40747,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -39930,7 +40764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2921d56-41b7-4b9e-8d07-d70786b5d38e")
-		(property "Reference" "D8"
+		(property "Reference" "D13"
 			(at 402.336 254 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39992,7 +40826,84 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D8")
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 388.62 381 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4fa26fa-cc95-47b8-a8be-7596cfeff82c")
+		(property "Reference" "#PWR094"
+			(at 388.62 384.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 387.858 377.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 388.62 381 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9834981-9d98-4582-9886-b1a01f86c48a")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -40087,9 +40998,6 @@
 		)
 		(pin "6"
 			(uuid "75e8a4d7-ff84-415f-8773-91e471d4d28e")
-		)
-		(pin "9"
-			(uuid "425baf88-64c7-44e2-a34c-2830bce15ee1")
 		)
 		(instances
 			(project "Robot-auto"
@@ -40193,7 +41101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c56eccdb-75ed-48bf-9a30-4264b7d4be65")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 218.44 280.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40257,7 +41165,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -40275,7 +41183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5c07f8e-8f81-488d-9f82-bdd77dd688b5")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR055"
 			(at 138.43 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -40336,7 +41244,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR047")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -40512,7 +41420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c91cb73a-44a9-40d3-afe3-d9e927b26e35")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0113"
 			(at 60.96 461.01 0)
 			(hide yes)
 			(show_name no)
@@ -40572,7 +41480,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0106")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -40589,7 +41497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9328074-566a-4eb1-9e5b-7b22480e9f61")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR076"
 			(at 200.66 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -40650,7 +41558,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR064")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -40667,7 +41575,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9ddaede-a6ba-419b-a6e9-ee886edf576d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 400.05 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -40727,7 +41635,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -40745,7 +41653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccfd1d5a-239d-43d3-a704-7f64ab4c9611")
-		(property "Reference" "R43"
+		(property "Reference" "R23"
 			(at 669.29 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40809,7 +41717,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R43")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -40826,7 +41734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd3a2fbb-bcfb-4a3c-9c30-9e3f76cd0e57")
-		(property "Reference" "C27"
+		(property "Reference" "C29"
 			(at 145.034 441.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40890,7 +41798,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C27")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -40987,7 +41895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf420626-3b43-4cd6-b23d-1a8e06792dc7")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 201.93 312.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41051,7 +41959,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C20")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -41068,7 +41976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf63ba69-ebb6-49b9-a3e1-bf307efc49c3")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR065"
 			(at 334.01 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -41128,7 +42036,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR056")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -41145,7 +42053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfd4e712-5ad8-4446-9e5d-4408263d7a28")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR054"
 			(at 582.93 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -41205,7 +42113,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR085")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -41222,7 +42130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d088118f-df01-4a6b-8663-50ddd9fd0d16")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0116"
 			(at 135.89 478.79 0)
 			(hide yes)
 			(show_name no)
@@ -41282,87 +42190,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 190.5 209.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3429030-79c1-4268-8992-9efeaf6dd1b3")
-		(property "Reference" "TP2"
-			(at 194.31 206.6924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 194.31 209.2324 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 195.58 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 190.5 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdfb01e5-c8c6-48a5-b6d4-615a1a1f3a36")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "TP2")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -41380,7 +42208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4f39b17-fbc0-4773-b8c6-26e8bcf7b92e")
-		(property "Reference" "D5"
+		(property "Reference" "D10"
 			(at 121.412 225.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41455,7 +42283,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D5")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -41472,7 +42300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d55f254f-5268-4232-a882-ac7ed524eef9")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0112"
 			(at 156.21 454.66 0)
 			(hide yes)
 			(show_name no)
@@ -41532,7 +42360,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0105")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -41549,7 +42377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6bb7629-e9e9-41a1-9e4d-0a3b76361601")
-		(property "Reference" "R24"
+		(property "Reference" "R36"
 			(at 359.41 249.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41613,7 +42441,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R24")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -41630,7 +42458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7d15e89-b78d-47fb-bdb6-9e722b61493e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR096"
 			(at 135.89 387.35 0)
 			(hide yes)
 			(show_name no)
@@ -41690,7 +42518,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR059")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -41709,7 +42537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9fe496f-7ac5-4116-b692-c64746ec6006")
-		(property "Reference" "Q2"
+		(property "Reference" "Q6"
 			(at 294.64 205.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41774,7 +42602,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "Q2")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -41870,9 +42698,6 @@
 		(pin "6"
 			(uuid "e629fdd6-b425-4b19-9dfb-41c1abfff451")
 		)
-		(pin "9"
-			(uuid "73c9e52e-529a-4321-a00a-2f15d5b1e526")
-		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -41893,7 +42718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcc79b2f-d029-4ccf-8812-9b9024fdd6fa")
-		(property "Reference" "J13"
+		(property "Reference" "J10"
 			(at 602.488 249.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41961,7 +42786,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -42056,7 +42881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df312db4-0e81-4f5c-a639-597bf755ff6b")
-		(property "Reference" "R36"
+		(property "Reference" "R17"
 			(at 554.99 167.894 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42118,7 +42943,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R36")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -42135,7 +42960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df6c6dce-3c89-4b6c-8c9b-b4fd516565d2")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 534.162 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42199,7 +43024,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -42216,7 +43041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfa3f090-9372-45e9-a295-dca438454710")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 481.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -42276,7 +43101,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -42293,7 +43118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e07273d3-0a8d-4a29-8139-c1558b8e3e1b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR025"
 			(at 491.49 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -42353,7 +43178,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR016")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -42371,7 +43196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a704fd-9d05-4142-a2a6-ee64ac5abecc")
-		(property "Reference" "D9"
+		(property "Reference" "D4"
 			(at 240.03 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42435,7 +43260,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D9")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -42529,7 +43354,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1ad1d7a-2ce9-41a6-be49-5c8e4288d925")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR060"
 			(at 314.96 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -42589,7 +43414,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR051")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -42683,7 +43508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6f99774-4c29-4829-adb6-f3ea5d14a43f")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR070"
 			(at 121.92 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -42743,7 +43568,84 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR0113")
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 388.62 410.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e71188c9-b744-4498-b33d-c575cb7003af")
+		(property "Reference" "#PWR0121"
+			(at 388.62 416.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 388.62 414.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 410.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 410.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 388.62 410.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1052b2b6-082b-4754-af0d-f0afbe3b9b6f")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -42849,7 +43751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9f2de86-4883-44bb-b719-7e6e9fd22ae8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 363.22 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -42909,7 +43811,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -42927,7 +43829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9fbf23d-dde1-4e36-83d6-d6ae8b004a9c")
-		(property "Reference" "J14"
+		(property "Reference" "J7"
 			(at 612.394 249.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42997,7 +43899,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J14")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 372.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea838948-dc9d-4d2b-ab9b-23ac4803f02b")
+		(property "Reference" "TP4"
+			(at 397.51 369.2524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 371.7924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 372.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7706c02f-8659-48b9-95ce-b11c0d5afcd4")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -43014,7 +43996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebbac1dc-8376-4f00-af9b-454ed5a1b76e")
-		(property "Reference" "R22"
+		(property "Reference" "R34"
 			(at 170.434 242.062 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43078,7 +44060,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R22")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -43162,86 +44144,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 553.72 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef7b2c73-c77c-423a-b146-65c895cb26a5")
-		(property "Reference" "TP4"
-			(at 557.53 44.1324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 557.53 46.6724 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 558.8 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 558.8 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 553.72 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a42d71e-e42d-48fa-b927-8139b317d803")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 499.11 172.72 90)
 		(unit 1)
@@ -43252,7 +44154,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f00212ae-3b14-4826-a164-0cd4a7deae80")
-		(property "Reference" "R39"
+		(property "Reference" "R20"
 			(at 497.078 170.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43316,7 +44218,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R39")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -43333,7 +44235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f08e2127-416d-4719-ad59-0013e705aa75")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR059"
 			(at 568.96 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -43393,7 +44295,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR086")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -43410,7 +44312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0a607de-9c6e-4757-a8aa-0c014174ee47")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0102"
 			(at 123.19 407.67 0)
 			(hide yes)
 			(show_name no)
@@ -43470,7 +44372,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR095")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -43488,7 +44390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0add0f4-9e10-4196-b19a-26d4e9ba6a25")
-		(property "Reference" "J20"
+		(property "Reference" "J19"
 			(at 210.82 400.558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43552,7 +44454,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J20")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -43569,7 +44471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f1f13558-9ffc-461c-a201-eacb377463c4")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 299.72 226.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43649,7 +44551,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -43748,7 +44650,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f308e1be-a195-4711-b4ee-ef6877535e57")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR072"
 			(at 377.19 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -43808,7 +44710,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR061")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -43825,7 +44727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f38627ef-8f42-4d8e-80da-e2da793eb3a4")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR018"
 			(at 542.29 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -43885,7 +44787,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -43984,7 +44886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5eb3136-eac9-442f-9324-ece96b9afcd5")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR049"
 			(at 274.32 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -44044,7 +44946,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR041")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -44062,7 +44964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7617868-556b-4e64-8d5b-38efa7869461")
-		(property "Reference" "R41"
+		(property "Reference" "R21"
 			(at 562.61 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44126,7 +45028,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R41")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -44143,7 +45045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f91d6be9-da64-4301-bd79-c3a4616ab855")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 384.048 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44207,7 +45109,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -44225,7 +45127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f97525f9-3f66-423d-a31f-9f673c685721")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG08"
 			(at 398.78 210.185 0)
 			(hide yes)
 			(show_name no)
@@ -44285,7 +45187,87 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#FLG06")
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 393.7 382.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa6bcedb-dc14-4ec2-9f1f-c866009a9680")
+		(property "Reference" "TP5"
+			(at 397.51 379.4124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 397.51 381.9524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 398.78 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 393.7 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb9ca5a5-7a5f-4b8a-9e27-bff157957df9")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -44382,7 +45364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa8fa50a-406e-470b-8bf3-523eaa260762")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0104"
 			(at 135.89 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -44442,7 +45424,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR097")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -44459,7 +45441,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fccb3660-de91-47b4-853c-cae2be7864e6")
-		(property "Reference" "R17"
+		(property "Reference" "R29"
 			(at 367.792 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44523,7 +45505,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R17")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -44541,7 +45523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd201aae-5147-46cb-8465-a9a3525a58f5")
-		(property "Reference" "Q7"
+		(property "Reference" "Q5"
 			(at 516.89 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44641,7 +45623,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "Q7")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -44658,7 +45640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe4d4d0e-08d5-45ac-b077-4c19199176df")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR074"
 			(at 417.83 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -44719,7 +45701,7 @@
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR063")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
