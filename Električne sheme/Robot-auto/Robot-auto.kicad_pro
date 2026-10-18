@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 0.9,
+          "height": 1.8,
+          "width": 1.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -91,10 +91,6 @@
         ],
         [
           "silk_overlap|74662637|85638864|1f7ab55e-311b-4440-8c47-db5b70fc20e8|c28936ef-1ee7-49c4-a5f5-aea21406066e",
-          ""
-        ],
-        [
-          "silk_overlap|78600000|242533603|b77ff0d1-7682-4f0d-bd71-0c812a7245c3|f1857ca5-35fb-4354-8ccf-5b37bb040b82",
           ""
         ],
         [
