@@ -13398,16 +13398,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 403.86) (xy 207.01 403.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05de276f-14ad-4974-b35c-df9d4a4cd2b9")
-	)
-	(wire
-		(pts
 			(xy 257.81 107.95) (xy 257.81 110.49)
 		)
 		(stroke
@@ -14548,16 +14538,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 379.73) (xy 267.97 379.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "358e044b-a401-4ac7-9f6b-15ef1787bc89")
-	)
-	(wire
-		(pts
 			(xy 568.96 215.9) (xy 601.98 215.9)
 		)
 		(stroke
@@ -14695,16 +14675,6 @@
 			(type default)
 		)
 		(uuid "3e3a7fc1-602d-4262-ac19-f8f55309da3e")
-	)
-	(wire
-		(pts
-			(xy 204.47 406.4) (xy 207.01 406.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6b6443-42ba-4e9d-af6d-43470df376e4")
 	)
 	(wire
 		(pts
@@ -15095,6 +15065,16 @@
 			(type default)
 		)
 		(uuid "4d21fab8-f6df-4d5e-93d2-acef8552fd90")
+	)
+	(wire
+		(pts
+			(xy 204.47 406.4) (xy 207.01 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7472e4-32aa-4117-a782-d19855460c0c")
 	)
 	(wire
 		(pts
@@ -16968,6 +16948,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 382.27) (xy 270.51 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aaa8ddd-cc7b-4b49-9739-ad74612ad536")
+	)
+	(wire
+		(pts
 			(xy 388.62 370.84) (xy 388.62 372.11)
 		)
 		(stroke
@@ -17295,6 +17285,16 @@
 			(type default)
 		)
 		(uuid "a8b65fb7-06e9-41a6-8618-71acab7545ec")
+	)
+	(wire
+		(pts
+			(xy 267.97 379.73) (xy 270.51 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8dfef83-6115-4104-a45b-5ed67abe9571")
 	)
 	(wire
 		(pts
@@ -19028,6 +19028,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 403.86) (xy 207.01 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f093d179-cc1f-40e0-829c-1fd6b2c759a7")
+	)
+	(wire
+		(pts
 			(xy 177.8 245.11) (xy 177.8 234.95)
 		)
 		(stroke
@@ -19215,16 +19225,6 @@
 			(type default)
 		)
 		(uuid "f8e40e79-a228-4b44-ac15-71c83f5ed7e1")
-	)
-	(wire
-		(pts
-			(xy 267.97 382.27) (xy 270.51 382.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9666737-6e26-4938-ac15-317efb42984d")
 	)
 	(wire
 		(pts
@@ -22247,6 +22247,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 212.09 379.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bce5e1f-dafa-4d33-adf0-9172703a0c2e")
+		(property "Reference" "J21"
+			(at 210.058 376.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B2B-PH-K-S"
+			(at 209.296 384.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 212.09 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "B2B-PH-K-S"
+			(at 212.09 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3365ae4f-da60-4a7b-9d57-81c61f230eb3")
+		)
+		(pin "1"
+			(uuid "5745cce5-319c-4c62-bd01-b694f9315cab")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 455.93 55.88 0)
 		(unit 1)
@@ -22720,88 +22801,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 275.59 406.4 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "114850ae-b3c0-47f5-b094-e23033e91566")
-		(property "Reference" "J20"
-			(at 270.764 400.558 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B2B-PH-K-S"
-			(at 261.366 408.432 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 275.59 406.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 406.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "B2B-PH-K-S"
-			(at 275.59 406.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a2fb3a5-184e-46fa-a63c-a28616c35258")
-		)
-		(pin "1"
-			(uuid "5c7e1cd1-ac0b-42cd-b9b7-60e969c42978")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -25238,6 +25237,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 275.59 379.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e0d1ad4-fd20-403f-aa63-e0da85c721dc")
+		(property "Reference" "J23"
+			(at 273.558 376.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B2B-PH-K-S"
+			(at 272.796 384.556 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 275.59 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "B2B-PH-K-S"
+			(at 275.59 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df4be1f6-62d3-44dc-85ed-613bfd5b4ad3")
+		)
+		(pin "1"
+			(uuid "b72c73b1-0da5-4915-8e1b-59e8ce8db4e6")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 181.61 212.09 0)
 		(unit 1)
@@ -25642,88 +25722,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 212.09 382.27 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3237c208-5b08-486d-9e14-a89592fbb85b")
-		(property "Reference" "J15"
-			(at 209.296 376.428 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B2B-PH-K-S"
-			(at 210.058 384.302 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 212.09 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "B2B-PH-K-S"
-			(at 212.09 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e8f29aa0-cb17-460b-8383-6b6ff2b960fa")
-		)
-		(pin "1"
-			(uuid "4ba03835-f593-48bd-9774-4b0e78feaf56")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -33612,6 +33610,9 @@
 		(pin "6"
 			(uuid "a275aef6-0071-472c-b470-1df68ad00760")
 		)
+		(pin "9"
+			(uuid "460f0005-af35-4ec9-9fe4-054df2836005")
+		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -35147,6 +35148,87 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 212.09 403.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b9a7268-ee2c-4db3-ab09-2a84e002b21b")
+		(property "Reference" "J22"
+			(at 210.058 400.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B2B-PH-K-S"
+			(at 209.296 408.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 212.09 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "B2B-PH-K-S"
+			(at 212.09 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47f247f1-0aea-46d5-a33a-f88df87f3f6e")
+		)
+		(pin "1"
+			(uuid "65ae088c-b5a4-4754-b403-04c9e2df7c6a")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -37693,88 +37775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 275.59 382.27 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a69cf94b-dd43-4a39-9e8d-ea70e790386e")
-		(property "Reference" "J16"
-			(at 273.558 376.682 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B2B-PH-K-S"
-			(at 273.558 384.556 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 275.59 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "B2B-PH-K-S"
-			(at 275.59 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0d4bc8a6-cfc1-44bf-9b39-e72cb8310903")
-		)
-		(pin "1"
-			(uuid "48896239-c6e6-4c70-b5ed-b7de1edcb9bc")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 391.16 247.65 0)
 		(unit 1)
@@ -37852,6 +37852,87 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 275.59 403.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7fdcd57-0abf-4cdb-9704-61d03f50a810")
+		(property "Reference" "J24"
+			(at 273.558 400.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B2B-PH-K-S"
+			(at 272.796 408.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 275.59 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "B2B-PH-K-S"
+			(at 275.59 403.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5830d360-69fe-4a12-98dc-e9338b446dc8")
+		)
+		(pin "1"
+			(uuid "096883b9-18c1-4309-bc47-1238bef8a39a")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -39643,6 +39724,9 @@
 		(pin "6"
 			(uuid "56228a80-4f45-491d-8a67-ba425cde4d4c")
 		)
+		(pin "9"
+			(uuid "25a382ee-7bc3-40e0-8379-664d72feb04f")
+		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -40998,6 +41082,9 @@
 		)
 		(pin "6"
 			(uuid "75e8a4d7-ff84-415f-8773-91e471d4d28e")
+		)
+		(pin "9"
+			(uuid "72dbb10d-286e-4671-83d8-f98b7dd3fa6c")
 		)
 		(instances
 			(project "Robot-auto"
@@ -42698,6 +42785,9 @@
 		(pin "6"
 			(uuid "e629fdd6-b425-4b19-9dfb-41c1abfff451")
 		)
+		(pin "9"
+			(uuid "65c15122-248e-4d4a-a3d9-d5eb19c95080")
+		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -44373,88 +44463,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 212.09 406.4 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f0add0f4-9e10-4196-b19a-26d4e9ba6a25")
-		(property "Reference" "J19"
-			(at 210.82 400.558 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "B2B-PH-K-S"
-			(at 211.074 408.178 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 212.09 406.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 406.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "B2B-PH-K-S"
-			(at 212.09 406.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "36aa142f-5de4-44db-9655-c3fa80b894d6")
-		)
-		(pin "1"
-			(uuid "5cedfd41-c1f6-43e9-b703-a1e5045e9dcc")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "J19")
 					(unit 1)
 				)
 			)
