@@ -207,7 +207,7 @@
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net "Net-(U2-B2)")
+			(net "Net-(U3-B2)")
 			(pintype "passive")
 			(uuid "4f5612bc-8d2c-4005-a8b3-898c5299f42f")
 		)
@@ -239,7 +239,7 @@
 		(at 109.225 117.105)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "5ecaf282-16c4-4ae0-a51c-2c7f9f4311a0")
@@ -2361,7 +2361,7 @@
 		(at 109.225 114.095)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "568109d2-105f-4380-9584-5108e5fbcd08")
@@ -2857,7 +2857,7 @@
 			(drill 1.09)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(Q5-S)")
+			(net "Net-(Q1-S)")
 			(pinfunction "B_2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -3303,7 +3303,7 @@
 			(uuid "756367b5-74b2-4936-ac06-dd7a1aad1dab")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+		(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
 			(hide yes)
 			(offset
 				(xyz -2 0 0)
@@ -3602,7 +3602,7 @@
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net "Net-(U2-B1)")
+			(net "Net-(U3-B1)")
 			(pintype "passive")
 			(uuid "43d5786d-e68f-4c7e-89b9-dfd6311f1e34")
 		)
@@ -3622,10 +3622,10 @@
 	(footprint "Moje:SOT-23_editable"
 		(layer "F.Cu")
 		(uuid "4d4b69b1-c1b7-40b0-9823-28f544ff644d")
-		(at 174.955 143.725)
+		(at 109.6375 131.85)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
-		(property "Reference" "Q5"
+		(property "Reference" "Q1"
 			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "7ba30ce5-ee7d-4c08-b055-2d460f08bd78")
@@ -3949,7 +3949,7 @@
 			(size 1.475 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
-			(net "Net-(Q5-S)")
+			(net "Net-(Q1-S)")
 			(pinfunction "S_2")
 			(pintype "passive")
 			(uuid "89bee80f-07d6-415b-8ee5-e31ce1619f55")
@@ -4910,7 +4910,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ddd621a-d11f-4f51-b9d9-78b208917c74")
+			(uuid "2f0586a4-8a64-4276-aef3-3f7b6030921d")
 			(effects
 				(font
 					(size 1 1)
@@ -6612,7 +6612,7 @@
 		(at 153.09 102.425)
 		(descr "sot-363")
 		(tags "Integrated Circuit")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "6cb88752-3415-4776-8f9f-70c7e99671ce")
@@ -6832,7 +6832,7 @@
 			(at -0.95 0 90)
 			(size 0.4 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U2-B2)")
+			(net "Net-(U3-B2)")
 			(pinfunction "B2_2")
 			(pintype "passive")
 			(uuid "4e40528c-d2ca-4077-94c0-bc384f91beba")
@@ -6859,7 +6859,7 @@
 			(at 0.95 0 90)
 			(size 0.4 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U2-B1)")
+			(net "Net-(U3-B1)")
 			(pinfunction "B1_5")
 			(pintype "passive")
 			(uuid "a36e4df6-d11a-4432-a13e-92b8c4ea72b7")
@@ -9124,7 +9124,7 @@
 		(uuid "a1e0b2af-6362-4c4c-8970-8d98b1e1ad15")
 		(at 152.0098 91.9566)
 		(tags "AP7366-W5-7 ")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -9671,7 +9671,7 @@
 			(at 1.349751 0.950001)
 			(size 0.997699 0.508)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "unconnected-(U3-NC-Pad4)")
+			(net "unconnected-(U2-NC-Pad4)")
 			(pinfunction "NC_4")
 			(pintype "no_connect")
 			(uuid "f9276bbc-7eb2-4e0a-8e8d-1cc18a2162b7")
