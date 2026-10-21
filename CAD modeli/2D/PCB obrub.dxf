@@ -1111,9 +1111,9 @@ AcDbViewportTableRecord
  21
 1
  12
-310.3078982672607
+253.6124435570338
  22
-140.165186423593
+107.7957338347854
  13
 0
  23
@@ -1139,7 +1139,7 @@ AcDbViewportTableRecord
  37
 0
  40
-614.6743050098219
+475.4711050542083
  41
 1.879613356766257
  42
@@ -2589,7 +2589,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D1
  70
     0
 280
@@ -2607,7 +2607,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D2
  70
     0
 280
@@ -2711,7 +2711,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D2
+*D1
  70
     1
  10
@@ -2719,7 +2719,7 @@ AcDbBlockBegin
  20
 0
   3
-*D2
+*D1
   1
 
   0
@@ -2747,7 +2747,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D1
+*D2
  70
     1
  10
@@ -2755,7 +2755,7 @@ AcDbBlockBegin
  20
 0
   3
-*D1
+*D2
   1
 
   0
@@ -3213,33 +3213,9 @@ AcDbPoint
  20
 -200
   0
-LINE
-  5
-5F
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-13
- 20
--201
- 11
-28.00000000000001
- 21
--201
-  0
 POINT
   5
-60
+5F
 100
 AcDbEntity
   8
@@ -3259,7 +3235,7 @@ AcDbPoint
   0
 SPLINE
   5
-61
+60
 100
 AcDbEntity
   8
@@ -3325,7 +3301,7 @@ AcDbSpline
   0
 SPLINE
   5
-62
+61
 100
 AcDbEntity
   8
@@ -3391,7 +3367,7 @@ AcDbSpline
   0
 LINE
   5
-63
+62
 100
 AcDbEntity
   8
@@ -3415,7 +3391,7 @@ AcDbLine
   0
 SPLINE
   5
-64
+63
 100
 AcDbEntity
   8
@@ -3481,7 +3457,7 @@ AcDbSpline
   0
 SPLINE
   5
-65
+64
 100
 AcDbEntity
   8
@@ -3545,123 +3521,9 @@ AcDbSpline
  30
 0
   0
-LINE
-  5
-66
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-28.00000000000001
- 20
--201
- 11
-28.00000000000001
- 21
--210
-  0
-LINE
-  5
-67
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-28.00000000000001
- 20
--210
- 11
-71.80643237691481
- 21
--210
-  0
 SPLINE
   5
-68
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbSpline
-210
-0
-220
-0
-230
-0
- 70
-    8
- 71
-    2
- 72
-    6
- 73
-    3
- 74
-    0
- 42
-1e-07
- 43
-1e-07
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 10
-13
- 20
--201
- 30
-0
- 10
-13.5821269402552
- 20
--210.1778555524315
- 30
-0
- 10
-3.493567623084886
- 20
--210
- 30
-0
-  0
-SPLINE
-  5
-69
+65
 100
 AcDbEntity
   8
@@ -3727,7 +3589,7 @@ AcDbSpline
   0
 SPLINE
   5
-6A
+66
 100
 AcDbEntity
   8
@@ -3793,7 +3655,7 @@ AcDbSpline
   0
 LINE
   5
-6B
+67
 100
 AcDbEntity
   8
@@ -3817,7 +3679,7 @@ AcDbLine
   0
 LINE
   5
-6C
+68
 100
 AcDbEntity
   8
@@ -3841,7 +3703,7 @@ AcDbLine
   0
 SPLINE
   5
-6D
+69
 100
 AcDbEntity
   8
@@ -3907,7 +3769,7 @@ AcDbSpline
   0
 SPLINE
   5
-6E
+6A
 100
 AcDbEntity
   8
@@ -3973,7 +3835,7 @@ AcDbSpline
   0
 LINE
   5
-6F
+6B
 100
 AcDbEntity
   8
@@ -3997,7 +3859,7 @@ AcDbLine
   0
 LINE
   5
-70
+6C
 100
 AcDbEntity
   8
@@ -4021,7 +3883,7 @@ AcDbLine
   0
 LINE
   5
-71
+6D
 100
 AcDbEntity
   8
@@ -4045,7 +3907,7 @@ AcDbLine
   0
 SPLINE
   5
-72
+6E
 100
 AcDbEntity
   8
@@ -4111,7 +3973,7 @@ AcDbSpline
   0
 SPLINE
   5
-73
+6F
 100
 AcDbEntity
   8
@@ -4177,7 +4039,7 @@ AcDbSpline
   0
 LINE
   5
-74
+70
 100
 AcDbEntity
   8
@@ -4201,7 +4063,7 @@ AcDbLine
   0
 LINE
   5
-75
+71
 100
 AcDbEntity
   8
@@ -4225,7 +4087,7 @@ AcDbLine
   0
 SPLINE
   5
-76
+72
 100
 AcDbEntity
   8
@@ -4291,7 +4153,7 @@ AcDbSpline
   0
 SPLINE
   5
-77
+73
 100
 AcDbEntity
   8
@@ -4357,7 +4219,7 @@ AcDbSpline
   0
 LINE
   5
-78
+74
 100
 AcDbEntity
   8
@@ -4381,7 +4243,7 @@ AcDbLine
   0
 LINE
   5
-79
+75
 100
 AcDbEntity
   8
@@ -4405,7 +4267,7 @@ AcDbLine
   0
 LINE
   5
-7A
+76
 100
 AcDbEntity
   8
@@ -4426,6 +4288,144 @@ AcDbLine
 85.30000000000001
  21
 -94.99999999999997
+  0
+LINE
+  5
+77
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+28.40000000000001
+ 20
+-210
+ 11
+71.80643237691481
+ 21
+-210
+  0
+LINE
+  5
+78
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+28.40000000000001
+ 20
+-201
+ 11
+28.40000000000001
+ 21
+-210
+  0
+LINE
+  5
+79
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+13
+ 20
+-201
+ 11
+28.40000000000001
+ 21
+-201
+  0
+SPLINE
+  5
+7A
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbSpline
+210
+0
+220
+0
+230
+0
+ 70
+    8
+ 71
+    2
+ 72
+    6
+ 73
+    3
+ 74
+    0
+ 42
+1e-07
+ 43
+1e-07
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+13
+ 20
+-201
+ 30
+0
+ 10
+13.5821269402552
+ 20
+-210.1778555524315
+ 30
+0
+ 10
+3.493567623084886
+ 20
+-210
+ 30
+0
   0
 ENDSEC
   0

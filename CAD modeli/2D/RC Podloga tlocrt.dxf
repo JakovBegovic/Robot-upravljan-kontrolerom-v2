@@ -1121,9 +1121,9 @@ AcDbViewportTableRecord
  21
 1
  12
-321.3034414004767
+457.2546329595172
  22
-100.9594474157036
+184.7578682991407
  13
 0
  23
@@ -1149,7 +1149,7 @@ AcDbViewportTableRecord
  37
 0
  40
-574.4592557953536
+960.0660005681374
  41
 1.879613356766257
  42
@@ -15707,33 +15707,9 @@ STANDARD
 100
 AcDbText
   0
-LINE
-  5
-217
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-55.34999999999999
- 20
--209
- 11
-70.34999999999999
- 21
--209
-  0
 POINT
   5
-218
+217
 100
 AcDbEntity
   8
@@ -15753,7 +15729,7 @@ AcDbPoint
   0
 SPLINE
   5
-219
+218
 100
 AcDbEntity
   8
@@ -15819,7 +15795,7 @@ AcDbSpline
   0
 SPLINE
   5
-21A
+219
 100
 AcDbEntity
   8
@@ -15885,7 +15861,7 @@ AcDbSpline
   0
 LINE
   5
-21B
+21A
 100
 AcDbEntity
   8
@@ -15909,7 +15885,7 @@ AcDbLine
   0
 SPLINE
   5
-21C
+21B
 100
 AcDbEntity
   8
@@ -15975,7 +15951,7 @@ AcDbSpline
   0
 SPLINE
   5
-21D
+21C
 100
 AcDbEntity
   8
@@ -16039,123 +16015,9 @@ AcDbSpline
  30
 0
   0
-LINE
-  5
-21E
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-70.34999999999999
- 20
--209
- 11
-70.34999999999999
- 21
--218
-  0
-LINE
-  5
-21F
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-70.34999999999999
- 20
--218
- 11
-114.1564323769148
- 21
--218
-  0
 SPLINE
   5
-220
-100
-AcDbEntity
-  8
-PCB
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbSpline
-210
-0
-220
-0
-230
-0
- 70
-    8
- 71
-    2
- 72
-    6
- 73
-    3
- 74
-    0
- 42
-1e-07
- 43
-1e-07
- 40
-0
- 40
-0
- 40
-0
- 40
-1
- 40
-1
- 40
-1
- 10
-55.34999999999999
- 20
--209
- 30
-0
- 10
-55.93212694025519
- 20
--218.1778555524315
- 30
-0
- 10
-45.84356762308487
- 20
--218
- 30
-0
-  0
-SPLINE
-  5
-221
+21D
 100
 AcDbEntity
   8
@@ -16221,7 +16083,7 @@ AcDbSpline
   0
 SPLINE
   5
-222
+21E
 100
 AcDbEntity
   8
@@ -16287,7 +16149,7 @@ AcDbSpline
   0
 LINE
   5
-223
+21F
 100
 AcDbEntity
   8
@@ -16311,7 +16173,7 @@ AcDbLine
   0
 LINE
   5
-224
+220
 100
 AcDbEntity
   8
@@ -16335,7 +16197,7 @@ AcDbLine
   0
 SPLINE
   5
-225
+221
 100
 AcDbEntity
   8
@@ -16401,7 +16263,7 @@ AcDbSpline
   0
 SPLINE
   5
-226
+222
 100
 AcDbEntity
   8
@@ -16467,7 +16329,7 @@ AcDbSpline
   0
 LINE
   5
-227
+223
 100
 AcDbEntity
   8
@@ -16491,7 +16353,7 @@ AcDbLine
   0
 LINE
   5
-228
+224
 100
 AcDbEntity
   8
@@ -16515,7 +16377,7 @@ AcDbLine
   0
 LINE
   5
-229
+225
 100
 AcDbEntity
   8
@@ -16539,7 +16401,7 @@ AcDbLine
   0
 SPLINE
   5
-22A
+226
 100
 AcDbEntity
   8
@@ -16605,7 +16467,7 @@ AcDbSpline
   0
 SPLINE
   5
-22B
+227
 100
 AcDbEntity
   8
@@ -16671,7 +16533,7 @@ AcDbSpline
   0
 LINE
   5
-22C
+228
 100
 AcDbEntity
   8
@@ -16695,7 +16557,7 @@ AcDbLine
   0
 LINE
   5
-22D
+229
 100
 AcDbEntity
   8
@@ -16719,7 +16581,7 @@ AcDbLine
   0
 SPLINE
   5
-22E
+22A
 100
 AcDbEntity
   8
@@ -16785,7 +16647,7 @@ AcDbSpline
   0
 SPLINE
   5
-22F
+22B
 100
 AcDbEntity
   8
@@ -16851,7 +16713,7 @@ AcDbSpline
   0
 LINE
   5
-230
+22C
 100
 AcDbEntity
   8
@@ -16875,7 +16737,7 @@ AcDbLine
   0
 LINE
   5
-231
+22D
 100
 AcDbEntity
   8
@@ -16899,7 +16761,7 @@ AcDbLine
   0
 LINE
   5
-232
+22E
 100
 AcDbEntity
   8
@@ -16920,6 +16782,144 @@ AcDbLine
 127.65
  21
 -103
+  0
+LINE
+  5
+22F
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+70.75
+ 20
+-218
+ 11
+114.1564323769148
+ 21
+-218
+  0
+LINE
+  5
+230
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+70.75
+ 20
+-209
+ 11
+70.75
+ 21
+-218
+  0
+LINE
+  5
+231
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+55.34999999999999
+ 20
+-209
+ 11
+70.75
+ 21
+-209
+  0
+SPLINE
+  5
+232
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbSpline
+210
+0
+220
+0
+230
+0
+ 70
+    8
+ 71
+    2
+ 72
+    6
+ 73
+    3
+ 74
+    0
+ 42
+1e-07
+ 43
+1e-07
+ 40
+0
+ 40
+0
+ 40
+0
+ 40
+1
+ 40
+1
+ 40
+1
+ 10
+55.34999999999999
+ 20
+-209
+ 30
+0
+ 10
+55.93212694025519
+ 20
+-218.1778555524315
+ 30
+0
+ 10
+45.84356762308487
+ 20
+-218
+ 30
+0
   0
 ENDSEC
   0
