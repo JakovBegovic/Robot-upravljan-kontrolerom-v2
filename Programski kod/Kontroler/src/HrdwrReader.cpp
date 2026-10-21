@@ -14,9 +14,9 @@ namespace
     const uint8_t adcResolution = 12;
     const adc_attenuation_t adcAttenBttryPin = ADC_11db;
 
-    const int R1 = 22e3f;
-    const int R2 = 10e3f;
-    const float voltageDvsnInverse = ( float ) ( R1 + R2 ) / R1;
+    const int R1 = 1e3f;
+    const int R2 = 1e3f;
+    const float voltageDvsnInverse = ( float ) ( R1 + R2 ) / R2;
     const float lsbToVoltageRatio = 0.000806f; // 3.3 / (2^12 - 1)
 
     unsigned long lastInterrupt = 0;
