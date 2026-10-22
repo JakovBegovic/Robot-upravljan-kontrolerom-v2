@@ -12376,7 +12376,7 @@
 		)
 		(uuid "320d6628-aabd-4ba6-aef3-28422db68ea9")
 	)
-	(text "Charge indicator"
+	(text "Low battery indicator"
 		(exclude_from_sim no)
 		(at 642.62 136.144 0)
 		(effects
@@ -15148,16 +15148,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 292.1) (xy 143.51 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5ed5bd-4014-4ba6-bef7-aee61d0973dd")
-	)
-	(wire
-		(pts
 			(xy 504.19 182.88) (xy 504.19 181.61)
 		)
 		(stroke
@@ -15275,16 +15265,6 @@
 			(type default)
 		)
 		(uuid "52fbaf4a-6142-46fa-8ce0-5adc8a4affda")
-	)
-	(wire
-		(pts
-			(xy 143.51 300.99) (xy 143.51 299.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5428d785-edbd-4986-b7b0-37d83df80b70")
 	)
 	(wire
 		(pts
@@ -16125,6 +16105,16 @@
 			(type default)
 		)
 		(uuid "7820e227-cafc-4d09-ad9a-b901d78b1694")
+	)
+	(wire
+		(pts
+			(xy 730.25 167.64) (xy 730.25 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b851c2-14c7-4f83-a300-2524397764df")
 	)
 	(wire
 		(pts
@@ -17925,6 +17915,16 @@
 			(type default)
 		)
 		(uuid "bd17b306-4079-4334-8435-53b4591426ee")
+	)
+	(wire
+		(pts
+			(xy 730.25 158.75) (xy 730.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd80328f-43f2-4b8a-8347-ddedd529971d")
 	)
 	(wire
 		(pts
@@ -24689,84 +24689,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2907ec17-bf19-4f84-ad46-8c1490ddc91d")
-		(property "Reference" "#PWR086"
-			(at 143.51 307.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 141.478 304.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8248f417-5c47-4632-955b-fec0e71d532b")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 361.95 260.35 0)
 		(unit 1)
 		(body_style 1)
@@ -25798,99 +25720,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "LED_1")
-		(lib_id "Device:LED")
-		(at 143.51 295.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3586f67c-930f-4441-be13-fd65584c2bb5")
-		(property "Reference" "D16"
-			(at 147.32 296.2274 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G_SMD"
-			(at 147.32 298.7674 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Moje:N0G20S39"
-			(at 143.51 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.brightekeurope.com/productcart/pc/catalog/N0G20S39.pdf"
-			(at 143.51 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N0G20S39"
-			(at 143.51 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 295.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "71ec6978-f9fe-4027-8433-a75e0576ce8e")
-		)
-		(pin "1"
-			(uuid "68390224-8b87-4ac7-95bf-1dcd36f308f0")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -29365,6 +29194,84 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 730.25 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "590b4135-5a3f-4f76-87fb-aa7794fbc842")
+		(property "Reference" "#PWR086"
+			(at 730.25 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 728.218 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 730.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 730.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 730.25 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7194d48-0ee4-4f1d-8a55-b5421143cae2")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -33610,9 +33517,6 @@
 		(pin "6"
 			(uuid "a275aef6-0071-472c-b470-1df68ad00760")
 		)
-		(pin "9"
-			(uuid "460f0005-af35-4ec9-9fe4-054df2836005")
-		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -35466,6 +35370,87 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 730.25 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ef1b7ba-7278-4661-89e8-1e2ff6267e52")
+		(property "Reference" "R42"
+			(at 732.79 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 732.79 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
+			(at 732.028 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 730.25 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CRCW080510K0FKEA"
+			(at 730.25 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "832d4c46-da50-490c-836a-87f9b61d1ca8")
+		)
+		(pin "2"
+			(uuid "54b70584-e1bc-4fe2-9945-5e92774be451")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -39724,9 +39709,6 @@
 		(pin "6"
 			(uuid "56228a80-4f45-491d-8a67-ba425cde4d4c")
 		)
-		(pin "9"
-			(uuid "25a382ee-7bc3-40e0-8379-664d72feb04f")
-		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -40175,87 +40157,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 287.02 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bcd8245d-2d19-4c9b-a515-704e77c23906")
-		(property "Reference" "R42"
-			(at 146.05 285.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 146.05 288.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 145.288 287.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CRCW080510K0FKEA"
-			(at 143.51 287.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29d047a2-8a8d-4b00-980a-c745efa68f47")
-		)
-		(pin "2"
-			(uuid "c6d3ca19-a72b-40c6-a1ce-34472c51ac6a")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -41082,9 +40983,6 @@
 		)
 		(pin "6"
 			(uuid "75e8a4d7-ff84-415f-8773-91e471d4d28e")
-		)
-		(pin "9"
-			(uuid "72dbb10d-286e-4671-83d8-f98b7dd3fa6c")
 		)
 		(instances
 			(project "Robot-auto"
@@ -42612,6 +42510,99 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
+		(lib_id "Device:LED")
+		(at 730.25 162.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d85b4fe1-9a57-4b29-8de4-0d2ce6ae5a98")
+		(property "Reference" "D16"
+			(at 734.06 162.8774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_G_SMD"
+			(at 734.06 165.4174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Moje:N0G20S39"
+			(at 730.25 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.brightekeurope.com/productcart/pc/catalog/N0G20S39.pdf"
+			(at 730.25 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N0G20S39"
+			(at 730.25 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 730.25 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cdc9249c-23da-45a4-91b7-e2c9beefa1e9")
+		)
+		(pin "1"
+			(uuid "2028c5ea-23bf-4560-a35c-c470305dde95")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OnSemi:MJD45H11T4G")
 		(at 299.72 219.71 270)
 		(mirror x)
@@ -42784,9 +42775,6 @@
 		)
 		(pin "6"
 			(uuid "e629fdd6-b425-4b19-9dfb-41c1abfff451")
-		)
-		(pin "9"
-			(uuid "65c15122-248e-4d4a-a3d9-d5eb19c95080")
 		)
 		(instances
 			(project "Robot-auto"
