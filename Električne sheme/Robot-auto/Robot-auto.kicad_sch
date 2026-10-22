@@ -16108,7 +16108,7 @@
 	)
 	(wire
 		(pts
-			(xy 730.25 167.64) (xy 730.25 166.37)
+			(xy 143.51 300.99) (xy 143.51 299.72)
 		)
 		(stroke
 			(width 0)
@@ -17918,7 +17918,7 @@
 	)
 	(wire
 		(pts
-			(xy 730.25 158.75) (xy 730.25 157.48)
+			(xy 143.51 292.1) (xy 143.51 290.83)
 		)
 		(stroke
 			(width 0)
@@ -29201,7 +29201,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 730.25 167.64 0)
+		(at 143.51 300.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29211,7 +29211,7 @@
 		(dnp no)
 		(uuid "590b4135-5a3f-4f76-87fb-aa7794fbc842")
 		(property "Reference" "#PWR086"
-			(at 730.25 173.99 0)
+			(at 143.51 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29222,7 +29222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 728.218 171.45 0)
+			(at 141.478 304.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29233,7 +29233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 730.25 167.64 0)
+			(at 143.51 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29244,7 +29244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 730.25 167.64 0)
+			(at 143.51 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29255,7 +29255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 730.25 167.64 0)
+			(at 143.51 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35377,7 +35377,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 730.25 153.67 180)
+		(at 143.51 287.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35387,7 +35387,7 @@
 		(dnp no)
 		(uuid "8ef1b7ba-7278-4661-89e8-1e2ff6267e52")
 		(property "Reference" "R42"
-			(at 732.79 152.3999 0)
+			(at 146.05 285.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35398,7 +35398,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 732.79 154.9399 0)
+			(at 146.05 288.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35409,7 +35409,7 @@
 			)
 		)
 		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 732.028 153.67 90)
+			(at 145.288 287.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35420,7 +35420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 730.25 153.67 0)
+			(at 143.51 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35431,7 +35431,7 @@
 			)
 		)
 		(property "Description" "CRCW080510K0FKEA"
-			(at 730.25 153.67 0)
+			(at 143.51 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42512,7 +42512,7 @@
 	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
-		(at 730.25 162.56 90)
+		(at 143.51 295.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42522,7 +42522,7 @@
 		(dnp no)
 		(uuid "d85b4fe1-9a57-4b29-8de4-0d2ce6ae5a98")
 		(property "Reference" "D16"
-			(at 734.06 162.8774 90)
+			(at 147.32 296.2274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42533,7 +42533,7 @@
 			)
 		)
 		(property "Value" "LED_G_SMD"
-			(at 734.06 165.4174 90)
+			(at 147.32 298.7674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42544,7 +42544,7 @@
 			)
 		)
 		(property "Footprint" "Moje:N0G20S39"
-			(at 730.25 162.56 0)
+			(at 143.51 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42555,7 +42555,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.brightekeurope.com/productcart/pc/catalog/N0G20S39.pdf"
-			(at 730.25 162.56 0)
+			(at 143.51 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42566,7 +42566,7 @@
 			)
 		)
 		(property "Description" "N0G20S39"
-			(at 730.25 162.56 0)
+			(at 143.51 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42577,7 +42577,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 730.25 162.56 0)
+			(at 143.51 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
