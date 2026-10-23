@@ -569,7 +569,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Robot-auto.step",
+      "step": "../../CAD modeli/3D/Robot-auto/Robot-auto.step",
       "svg": "",
       "vrml": ""
     },
