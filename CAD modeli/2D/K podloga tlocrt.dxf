@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--0.4815948518775409
+-8.656125843331395
  20
--68.1043568651063
+-116.1047580654313
  30
 0
   9
 $EXTMAX
  10
-148.1846488344273
+156.6561258433314
  20
--0.2966647483775219
+4.67114473951614
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-PCB
+Objekti na donjoj strani
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-200.1606478518969
+82.96591534364909
  22
-55.2661016243435
+9.506511133126457
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-325.8695525829166
+122.9364735170217
  41
 1.879613356766257
  42
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 Construction
  70
-    0
+    1
  62
     6
   6
@@ -2971,6 +2971,208 @@ AcDbPoint
  20
 0
   0
+CIRCLE
+  5
+5D
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+36.11
+ 20
+0
+ 40
+0.66
+  0
+CIRCLE
+  5
+5E
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-36.11
+ 20
+0
+ 40
+0.66
+  0
+CIRCLE
+  5
+5F
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+36.11
+ 20
+-8
+ 40
+1.195
+  0
+CIRCLE
+  5
+60
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+27.6
+ 20
+8
+ 40
+1.775
+  0
+CIRCLE
+  5
+61
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-27.6
+ 20
+-8
+ 40
+1.775
+  0
+POINT
+  5
+62
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+36.11
+ 20
+0
+  0
+LINE
+  5
+63
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+35.71
+ 20
+0
+ 11
+36.51
+ 21
+0
+  0
+LINE
+  5
+64
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+36.11
+ 20
+-0.4
+ 11
+36.11
+ 21
+0.4
+  0
+LINE
+  5
+65
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+-36.51
+ 20
+0
+ 11
+-35.71
+ 21
+0
+  0
 ENDBLK
   5
 53
@@ -3009,7 +3211,7 @@ Gumb
   0
 HATCH
   5
-5D
+66
 100
 AcDbEntity
   8
@@ -3105,7 +3307,7 @@ kerpele
   0
 POINT
   5
-5E
+67
 100
 AcDbEntity
   8
@@ -3125,7 +3327,7 @@ AcDbPoint
   0
 POINT
   5
-5F
+68
 100
 AcDbEntity
   8
@@ -3145,7 +3347,7 @@ AcDbPoint
   0
 POINT
   5
-60
+69
 100
 AcDbEntity
   8
@@ -3165,7 +3367,7 @@ AcDbPoint
   0
 POINT
   5
-61
+6A
 100
 AcDbEntity
   8
@@ -3185,7 +3387,7 @@ AcDbPoint
   0
 LWPOLYLINE
   5
-62
+6B
 100
 AcDbEntity
   8
@@ -3223,7 +3425,7 @@ AcDbPolyline
   0
 POINT
   5
-63
+6C
 100
 AcDbEntity
   8
@@ -3243,7 +3445,7 @@ AcDbPoint
   0
 POINT
   5
-64
+6D
 100
 AcDbEntity
   8
@@ -3263,7 +3465,7 @@ AcDbPoint
   0
 POINT
   5
-65
+6E
 100
 AcDbEntity
   8
@@ -3283,7 +3485,7 @@ AcDbPoint
   0
 POINT
   5
-66
+6F
 100
 AcDbEntity
   8
@@ -3303,7 +3505,7 @@ AcDbPoint
   0
 POINT
   5
-67
+70
 100
 AcDbEntity
   8
@@ -3323,7 +3525,7 @@ AcDbPoint
   0
 CIRCLE
   5
-68
+71
 100
 AcDbEntity
   8
@@ -3345,7 +3547,7 @@ AcDbCircle
   0
 CIRCLE
   5
-69
+72
 100
 AcDbEntity
   8
@@ -3367,7 +3569,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6A
+73
 100
 AcDbEntity
   8
@@ -3389,7 +3591,7 @@ AcDbCircle
   0
 CIRCLE
   5
-6B
+74
 100
 AcDbEntity
   8
@@ -3447,7 +3649,7 @@ Potenciometar klizni
   0
 HATCH
   5
-6C
+75
 100
 AcDbEntity
   8
@@ -3543,7 +3745,7 @@ kerpele
   0
 POINT
   5
-6D
+76
 100
 AcDbEntity
   8
@@ -3563,7 +3765,7 @@ AcDbPoint
   0
 POINT
   5
-6E
+77
 100
 AcDbEntity
   8
@@ -3583,7 +3785,7 @@ AcDbPoint
   0
 POINT
   5
-6F
+78
 100
 AcDbEntity
   8
@@ -3603,7 +3805,7 @@ AcDbPoint
   0
 POINT
   5
-70
+79
 100
 AcDbEntity
   8
@@ -3623,7 +3825,7 @@ AcDbPoint
   0
 LWPOLYLINE
   5
-71
+7A
 100
 AcDbEntity
   8
@@ -3661,7 +3863,7 @@ AcDbPolyline
   0
 POINT
   5
-72
+7B
 100
 AcDbEntity
   8
@@ -3678,6 +3880,158 @@ AcDbPoint
 0
  20
 0
+  0
+POINT
+  5
+7C
+100
+AcDbEntity
+  8
+Objekti na donjoj strani
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+0
+ 20
+0
+  0
+CIRCLE
+  5
+7D
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+27.5
+ 20
+1.25
+ 40
+0.55
+  0
+CIRCLE
+  5
+7E
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+27.5
+ 20
+-3.75
+ 40
+0.55
+  0
+CIRCLE
+  5
+7F
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-27.5
+ 20
+3.75
+ 40
+0.55
+  0
+CIRCLE
+  5
+80
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-27.5
+ 20
+1.25
+ 40
+0.55
+  0
+CIRCLE
+  5
+81
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-27.5
+ 20
+-1.25
+ 40
+0.55
+  0
+CIRCLE
+  5
+82
+100
+AcDbEntity
+  8
+0
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+-27.5
+ 20
+-3.75
+ 40
+0.55
   0
 ENDBLK
   5
@@ -3699,7 +4053,7 @@ ENTITIES
   0
 POINT
   5
-73
+83
 100
 AcDbEntity
   8
@@ -3719,7 +4073,7 @@ AcDbPoint
   0
 POINT
   5
-74
+84
 100
 AcDbEntity
   8
@@ -3739,7 +4093,7 @@ AcDbPoint
   0
 POINT
   5
-75
+85
 100
 AcDbEntity
   8
@@ -3759,7 +4113,7 @@ AcDbPoint
   0
 POINT
   5
-76
+86
 100
 AcDbEntity
   8
@@ -3779,7 +4133,7 @@ AcDbPoint
   0
 POINT
   5
-77
+87
 100
 AcDbEntity
   8
@@ -3799,7 +4153,7 @@ AcDbPoint
   0
 POINT
   5
-78
+88
 100
 AcDbEntity
   8
@@ -3819,7 +4173,7 @@ AcDbPoint
   0
 POINT
   5
-79
+89
 100
 AcDbEntity
   8
@@ -3839,7 +4193,7 @@ AcDbPoint
   0
 POINT
   5
-7A
+8A
 100
 AcDbEntity
   8
@@ -3859,7 +4213,7 @@ AcDbPoint
   0
 POINT
   5
-7B
+8B
 100
 AcDbEntity
   8
@@ -3879,7 +4233,7 @@ AcDbPoint
   0
 POINT
   5
-7C
+8C
 100
 AcDbEntity
   8
@@ -3899,7 +4253,7 @@ AcDbPoint
   0
 POINT
   5
-7D
+8D
 100
 AcDbEntity
   8
@@ -3919,7 +4273,7 @@ AcDbPoint
   0
 POINT
   5
-7E
+8E
 100
 AcDbEntity
   8
@@ -3939,7 +4293,7 @@ AcDbPoint
   0
 POINT
   5
-7F
+8F
 100
 AcDbEntity
   8
@@ -3959,7 +4313,7 @@ AcDbPoint
   0
 POINT
   5
-80
+90
 100
 AcDbEntity
   8
@@ -3979,7 +4333,7 @@ AcDbPoint
   0
 POINT
   5
-81
+91
 100
 AcDbEntity
   8
@@ -3999,7 +4353,7 @@ AcDbPoint
   0
 POINT
   5
-82
+92
 100
 AcDbEntity
   8
@@ -4019,7 +4373,7 @@ AcDbPoint
   0
 POINT
   5
-83
+93
 100
 AcDbEntity
   8
@@ -4039,7 +4393,7 @@ AcDbPoint
   0
 POINT
   5
-84
+94
 100
 AcDbEntity
   8
@@ -4059,7 +4413,7 @@ AcDbPoint
   0
 POINT
   5
-85
+95
 100
 AcDbEntity
   8
@@ -4079,7 +4433,7 @@ AcDbPoint
   0
 POINT
   5
-86
+96
 100
 AcDbEntity
   8
@@ -4097,49 +4451,9 @@ AcDbPoint
  20
 -45
   0
-INSERT
-  5
-87
-100
-AcDbEntity
-  8
-Objekti na donjoj strani
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbBlockReference
-  2
-Držač baterije
- 10
-74
- 20
--21
- 30
-0
- 41
-1
- 42
-1
- 43
-0
- 50
-0
- 70
-    1
- 71
-    1
- 44
-1
- 45
-1
-  0
 POINT
   5
-88
+97
 100
 AcDbEntity
   8
@@ -4159,7 +4473,7 @@ AcDbPoint
   0
 POINT
   5
-89
+98
 100
 AcDbEntity
   8
@@ -4179,7 +4493,7 @@ AcDbPoint
   0
 POINT
   5
-8A
+99
 100
 AcDbEntity
   8
@@ -4199,7 +4513,7 @@ AcDbPoint
   0
 POINT
   5
-8B
+9A
 100
 AcDbEntity
   8
@@ -4219,7 +4533,7 @@ AcDbPoint
   0
 POINT
   5
-8C
+9B
 100
 AcDbEntity
   8
@@ -4239,7 +4553,7 @@ AcDbPoint
   0
 POINT
   5
-8D
+9C
 100
 AcDbEntity
   8
@@ -4259,7 +4573,7 @@ AcDbPoint
   0
 POINT
   5
-8E
+9D
 100
 AcDbEntity
   8
@@ -4279,7 +4593,7 @@ AcDbPoint
   0
 POINT
   5
-8F
+9E
 100
 AcDbEntity
   8
@@ -4299,7 +4613,7 @@ AcDbPoint
   0
 SPLINE
   5
-90
+9F
 100
 AcDbEntity
   8
@@ -4493,7 +4807,7 @@ AcDbSpline
   0
 POINT
   5
-91
+A0
 100
 AcDbEntity
   8
@@ -4513,7 +4827,7 @@ AcDbPoint
   0
 POINT
   5
-92
+A1
 100
 AcDbEntity
   8
@@ -4533,7 +4847,7 @@ AcDbPoint
   0
 INSERT
   5
-93
+A2
 100
 AcDbEntity
   8
@@ -4573,7 +4887,7 @@ Gumb
   0
 INSERT
   5
-94
+A3
 100
 AcDbEntity
   8
@@ -4613,7 +4927,7 @@ Gumb
   0
 INSERT
   5
-95
+A4
 100
 AcDbEntity
   8
@@ -4653,7 +4967,7 @@ Gumb
   0
 INSERT
   5
-96
+A5
 100
 AcDbEntity
   8
@@ -4693,7 +5007,7 @@ Gumb
   0
 LINE
   5
-97
+A6
 100
 AcDbEntity
   8
@@ -4717,7 +5031,7 @@ AcDbLine
   0
 LINE
   5
-98
+A7
 100
 AcDbEntity
   8
@@ -4741,7 +5055,7 @@ AcDbLine
   0
 POINT
   5
-99
+A8
 100
 AcDbEntity
   8
@@ -4761,7 +5075,7 @@ AcDbPoint
   0
 INSERT
   5
-9A
+A9
 100
 AcDbEntity
   8
@@ -4801,7 +5115,7 @@ Potenciometar klizni
   0
 POINT
   5
-9B
+AA
 100
 AcDbEntity
   8
@@ -4821,7 +5135,7 @@ AcDbPoint
   0
 POINT
   5
-9C
+AB
 100
 AcDbEntity
   8
@@ -4841,7 +5155,7 @@ AcDbPoint
   0
 SPLINE
   5
-9D
+AC
 100
 AcDbEntity
   8
@@ -5001,6 +5315,166 @@ AcDbSpline
  30
 0
   0
+POINT
+  5
+AD
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+17
+ 20
+-33
+  0
+POINT
+  5
+AE
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+74
+ 20
+-21
+  0
+POINT
+  5
+AF
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+115.1005050633883
+ 20
+-26
+  0
+POINT
+  5
+B0
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+125
+ 20
+-35.89949493661166
+  0
+POINT
+  5
+B1
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+134.8994949366117
+ 20
+-26
+  0
+POINT
+  5
+B2
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPoint
+ 10
+125
+ 20
+-16.10050506338834
+  0
+INSERT
+  5
+B3
+100
+AcDbEntity
+  8
+Objekti na donjoj strani
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbBlockReference
+  2
+Držač baterije
+ 10
+74
+ 20
+-21
+ 30
+0
+ 41
+1
+ 42
+1
+ 43
+0
+ 50
+180
+ 70
+    1
+ 71
+    1
+ 44
+1
+ 45
+1
+  0
 ENDSEC
   0
 SECTION
@@ -5033,7 +5507,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-9E
+B4
 100
 AcDbPlotSettings
   6
