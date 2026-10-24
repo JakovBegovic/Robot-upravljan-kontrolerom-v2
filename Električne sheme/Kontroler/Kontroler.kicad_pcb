@@ -384,9 +384,9 @@
 	(footprint "Moje:TACTS-24K-F"
 		(layer "F.Cu")
 		(uuid "1ccc8805-b6c7-4ff9-8ee5-24e008763578")
-		(at 217.487184 66.65165 -45)
+		(at 153.3 64 45)
 		(property "Reference" "SW6"
-			(at 0 0 315)
+			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8e9e0d77-6955-4202-8e43-56872279df00")
@@ -398,7 +398,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -0.1 315)
+			(at 0 -0.1 45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0a339721-24ae-4070-b273-4ee9a8826014")
@@ -410,7 +410,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 0 0 315)
+			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -423,7 +423,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 0 0 315)
+			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -438,31 +438,11 @@
 		(path "/962cc857-e2ec-45c8-bda0-e1ac5ced5b37")
 		(sheetname "/")
 		(sheetfile "Kontroler.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(jumper_pad_groups
-			("1" "3")
-			("2" "4")
-		)
 		(fp_line
-			(start -6.5 8.500001)
-			(end 6.5 8.500001)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fce68c68-b605-4688-8885-39d60a409d43")
-		)
-		(fp_line
-			(start -6.5 -8.500001)
-			(end -6.5 8.500001)
+			(start -6.500001 -7.3)
+			(end -6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -471,18 +451,18 @@
 			(uuid "2a293d42-6182-4489-bbe0-c19940e30cf1")
 		)
 		(fp_line
-			(start 6.5 -8.500001)
-			(end 6.5 8.500001)
+			(start 6.500001 -7.3)
+			(end -6.500001 -7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c0518de6-33fc-42ec-9342-9c3dfc72067c")
+			(uuid "fce68c68-b605-4688-8885-39d60a409d43")
 		)
 		(fp_line
-			(start 6.5 -8.500001)
-			(end -6.5 -8.500001)
+			(start 6.500001 -7.3)
+			(end 6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -490,8 +470,18 @@
 			(layer "F.CrtYd")
 			(uuid "bbd88d5a-a25e-468f-8acf-a09836957411")
 		)
+		(fp_line
+			(start -6.500001 7.3)
+			(end 6.500001 7.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0518de6-33fc-42ec-9342-9c3dfc72067c")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.399999 315)
+			(at 0 1.399999 45)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "8bace9c4-c789-491c-8a9a-1859d44596c2")
@@ -503,7 +493,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 -6.249999 315)
+			(at -2.5 -6.249999 45)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -513,7 +503,7 @@
 			(uuid "9bf0a9eb-6754-478c-8177-a1d3db11d6b3")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 -6.249999 315)
+			(at 2.5 -6.249999 45)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -523,7 +513,7 @@
 			(uuid "271612de-dcf8-465d-94bb-ff014d3630db")
 		)
 		(pad "3" thru_hole circle
-			(at -2.5 6.249999 315)
+			(at -2.5 6.249999 45)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -533,7 +523,7 @@
 			(uuid "195b3a4b-abfb-4cfb-abaf-e59ea0ab2f34")
 		)
 		(pad "4" thru_hole circle
-			(at 2.5 6.249999 315)
+			(at 2.5 6.249999 45)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -1575,9 +1565,9 @@
 	(footprint "Moje:TACTS-24K-F"
 		(layer "F.Cu")
 		(uuid "2dad684e-6f69-4961-8796-ca890af1d11f")
-		(at 206.587184 55.55165 -135)
+		(at 143.3 54 -45)
 		(property "Reference" "SW5"
-			(at 0 0 225)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "98893696-86e3-4f19-8e60-c94851008a46")
@@ -1589,7 +1579,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -0.1 225)
+			(at 0 -0.1 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cf4d20d5-8b2a-4e3e-805e-84a403db25e7")
@@ -1601,7 +1591,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 0 0 225)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1614,7 +1604,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 0 0 225)
+			(at 0 0 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1629,21 +1619,11 @@
 		(path "/c6b50a79-0e0b-4940-8774-a71ea4721e0e")
 		(sheetname "/")
 		(sheetfile "Kontroler.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(jumper_pad_groups
-			("1" "3")
-			("2" "4")
-		)
 		(fp_line
-			(start -6.5 8.500001)
-			(end 6.5 8.500001)
+			(start -6.500001 7.3)
+			(end 6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1652,8 +1632,18 @@
 			(uuid "0542870f-61a7-4d0f-9327-eebd8754517a")
 		)
 		(fp_line
-			(start 6.5 -8.500001)
-			(end 6.5 8.500001)
+			(start -6.500001 -7.3)
+			(end -6.500001 7.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14677cdc-7fa5-417c-b78c-897a3f6c6a97")
+		)
+		(fp_line
+			(start 6.500001 -7.3)
+			(end 6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1662,8 +1652,8 @@
 			(uuid "f6877c64-95bc-42b3-ad71-311d08323197")
 		)
 		(fp_line
-			(start 6.5 -8.500001)
-			(end -6.5 -8.500001)
+			(start 6.500001 -7.3)
+			(end -6.500001 -7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1671,18 +1661,8 @@
 			(layer "F.CrtYd")
 			(uuid "4fbbb472-6394-4c3a-ac73-9f0ef737fb57")
 		)
-		(fp_line
-			(start -6.5 -8.500001)
-			(end -6.5 8.500001)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "14677cdc-7fa5-417c-b78c-897a3f6c6a97")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.399999 225)
+			(at 0 1.399999 315)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e4e73364-91cd-48eb-b240-63df56520dc3")
@@ -1694,7 +1674,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 -6.249999 225)
+			(at -2.5 -6.249999 315)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -1704,7 +1684,7 @@
 			(uuid "2bbef6f1-8d81-4f60-ba0e-26733bbe223f")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 -6.249999 225)
+			(at 2.5 -6.249999 315)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -1714,7 +1694,7 @@
 			(uuid "ef8d7731-a0cc-40fc-855e-b2a5f2f5e850")
 		)
 		(pad "3" thru_hole circle
-			(at -2.5 6.249999 225)
+			(at -2.5 6.249999 315)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -1724,7 +1704,7 @@
 			(uuid "c897f827-58c0-424a-882a-08a8a3fa7602")
 		)
 		(pad "4" thru_hole circle
-			(at 2.5 6.249999 225)
+			(at 2.5 6.249999 315)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -3233,7 +3213,7 @@
 	(footprint "PCM_Espressif:ESP32-WROVER-E"
 		(layer "F.Cu")
 		(uuid "45a12c8c-d66d-4491-8094-b38b83cfa920")
-		(at 112.06 118.705)
+		(at 99.85 36.185)
 		(descr "ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf")
 		(tags "esp32 module")
 		(property "Reference" "U4"
@@ -3927,7 +3907,7 @@
 			)
 			(polygon
 				(pts
-					(xy 121.06 109.31) (xy 103.06 109.31) (xy 103.06 103.01) (xy 121.06 103.01)
+					(xy 108.85 26.79) (xy 90.85 26.79) (xy 90.85 20.49) (xy 108.85 20.49)
 				)
 			)
 		)
@@ -4376,31 +4356,11 @@
 		(path "/c0e459cd-07a3-4208-86b4-69dbadabd60c")
 		(sheetname "/")
 		(sheetfile "Kontroler.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(jumper_pad_groups
-			("1" "3")
-			("2" "4")
-		)
 		(fp_line
-			(start -6.5 -8.5)
-			(end -6.5 8.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c7bc6478-fc63-4337-8422-26dc1a1ef2d5")
-		)
-		(fp_line
-			(start -6.5 8.5)
-			(end 6.5 8.5)
+			(start -6.5 -7.3)
+			(end -6.5 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4409,8 +4369,8 @@
 			(uuid "6cee67bc-dff2-48ba-8fed-b522314b2c6d")
 		)
 		(fp_line
-			(start 6.5 -8.5)
-			(end -6.5 -8.5)
+			(start -6.5 7.3)
+			(end 6.5 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4419,8 +4379,18 @@
 			(uuid "0fdaf6d9-803d-4760-87c0-00459d988af2")
 		)
 		(fp_line
-			(start 6.5 -8.5)
-			(end 6.5 8.5)
+			(start 6.5 -7.3)
+			(end -6.5 -7.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c7bc6478-fc63-4337-8422-26dc1a1ef2d5")
+		)
+		(fp_line
+			(start 6.5 -7.3)
+			(end 6.5 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -7385,9 +7355,9 @@
 	(footprint "Moje:RS45112A400G"
 		(layer "F.Cu")
 		(uuid "7c5a0584-d33b-4114-b9eb-ec7d3a8ffa15")
-		(at 133.3 96.3)
+		(at 43 61 87.5)
 		(property "Reference" "RV1"
-			(at 0 -1.6 0)
+			(at 0 -1.6 87.5)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a9f8ca15-f778-403c-b336-38acdbb50997")
@@ -7399,7 +7369,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -0.1 0)
+			(at 0 -0.1 87.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1445ad33-dbe5-44ea-bc2d-5140a42a22a0")
@@ -7411,7 +7381,7 @@
 			)
 		)
 		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45112A400G/"
-			(at 0 0 0)
+			(at 0 0 87.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7424,7 +7394,7 @@
 			)
 		)
 		(property "Description" "RS45112A400G"
-			(at 0 0 0)
+			(at 0 0 87.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7449,16 +7419,6 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -31.25 -5)
-			(end -31.25 5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1a4fd6e3-abed-40f7-a9f2-628cc71c316b")
-		)
-		(fp_line
-			(start -31.25 -5)
 			(end 31.25 -5)
 			(stroke
 				(width 0.1)
@@ -7468,14 +7428,14 @@
 			(uuid "cefa3a71-0140-45d8-9c94-a1952843dd29")
 		)
 		(fp_line
-			(start -31.25 5)
-			(end 31.25 5)
+			(start -31.25 -5)
+			(end -31.25 5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f12ff378-4319-4b5f-b59c-169a6132c908")
+			(uuid "1a4fd6e3-abed-40f7-a9f2-628cc71c316b")
 		)
 		(fp_line
 			(start 31.25 -5)
@@ -7487,8 +7447,18 @@
 			(layer "F.CrtYd")
 			(uuid "a9bbfcc1-1242-4acc-ae86-1fb61df72c8d")
 		)
+		(fp_line
+			(start -31.25 5)
+			(end 31.25 5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f12ff378-4319-4b5f-b59c-169a6132c908")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.4 0)
+			(at 0 1.4 87.5)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "65a2a5e4-bd22-4259-abc9-ce42a41de571")
@@ -7500,21 +7470,21 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at -17.5 0)
+			(at -17.5 0 87.5)
 			(size 2 2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "6c523c4d-a46c-4f5a-b818-306c50b129d7")
 		)
 		(pad "" np_thru_hole circle
-			(at 15 0)
+			(at 15 0 87.5)
 			(size 2 2)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "bb1ad097-4cbb-41da-8810-6bb67c84dfba")
 		)
 		(pad "1" thru_hole circle
-			(at -27.5 -3.75)
+			(at -27.5 -3.75 87.5)
 			(size 1.7 1.7)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -7524,7 +7494,7 @@
 			(uuid "9db1ddb2-993c-4503-b66e-6d4dc8b4a7b3")
 		)
 		(pad "2" thru_hole circle
-			(at -27.5 -1.25)
+			(at -27.5 -1.25 87.5)
 			(size 1.7 1.7)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -7534,7 +7504,7 @@
 			(uuid "ce221c5c-3473-4598-8f6b-b14d2526d3d1")
 		)
 		(pad "3" thru_hole circle
-			(at 27.5 -1.25)
+			(at 27.5 -1.25 87.5)
 			(size 1.7 1.7)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -7544,7 +7514,7 @@
 			(uuid "f81f813b-b3a4-4bba-8b37-e4c2b4ab2bcc")
 		)
 		(pad "4" thru_hole circle
-			(at -27.5 1.25)
+			(at -27.5 1.25 87.5)
 			(size 1.7 1.7)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -7554,7 +7524,7 @@
 			(uuid "15b29212-2751-48cf-b981-91272ef6f90f")
 		)
 		(pad "5" thru_hole circle
-			(at -27.5 3.75)
+			(at -27.5 3.75 87.5)
 			(size 1.7 1.7)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -7564,7 +7534,7 @@
 			(uuid "94c5910f-1662-461a-b7f9-cb76dfc4fff2")
 		)
 		(pad "6" thru_hole circle
-			(at 27.5 3.75)
+			(at 27.5 3.75 87.5)
 			(size 1.7 1.7)
 			(drill 1.1)
 			(layers "*.Cu" "*.Mask")
@@ -10396,9 +10366,9 @@
 	(footprint "Moje:TACTS-24K-F"
 		(layer "F.Cu")
 		(uuid "c14fd0f3-c17e-4179-818b-b77f6891368e")
-		(at 217.287184 44.25165 135)
+		(at 153.3 44 -135)
 		(property "Reference" "SW4"
-			(at 0 0 135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "af8ccdb5-25b8-4b6d-a094-680c5cc23676")
@@ -10410,7 +10380,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -0.1 135)
+			(at 0 -0.1 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "4aba31f4-44a3-4d3c-b03f-22754f1e6082")
@@ -10422,7 +10392,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 0 0 135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10435,7 +10405,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 0 0 135)
+			(at 0 0 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10450,21 +10420,21 @@
 		(path "/f6cd749b-8811-4ce0-9c45-b8d90989eda4")
 		(sheetname "/")
 		(sheetfile "Kontroler.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(jumper_pad_groups
-			("1" "3")
-			("2" "4")
+		(fp_line
+			(start -6.500001 7.3)
+			(end 6.500001 7.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b8457183-2c30-482d-b44d-4367abc431c0")
 		)
 		(fp_line
-			(start 6.5 -8.500001)
-			(end -6.5 -8.500001)
+			(start 6.500001 -7.3)
+			(end 6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10473,8 +10443,8 @@
 			(uuid "7d1236ba-8b12-45c1-b95e-38d5f6d47544")
 		)
 		(fp_line
-			(start 6.5 -8.500001)
-			(end 6.5 8.500001)
+			(start 6.500001 -7.3)
+			(end -6.500001 -7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10483,8 +10453,8 @@
 			(uuid "f526f7b1-0b97-4632-a2bc-f89552b40229")
 		)
 		(fp_line
-			(start -6.5 -8.500001)
-			(end -6.5 8.500001)
+			(start -6.500001 -7.3)
+			(end -6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10492,18 +10462,8 @@
 			(layer "F.CrtYd")
 			(uuid "368d82e0-d14a-47a8-8830-d1e06d4976f5")
 		)
-		(fp_line
-			(start -6.5 8.500001)
-			(end 6.5 8.500001)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b8457183-2c30-482d-b44d-4367abc431c0")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.399999 135)
+			(at 0 1.399999 225)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "eabe9ce9-e314-4e02-b345-1576843c95ae")
@@ -10515,7 +10475,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 -6.249999 135)
+			(at -2.5 -6.249999 225)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -10525,7 +10485,7 @@
 			(uuid "add500d2-5eb4-4e0b-9106-c97c90e47141")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 -6.249999 135)
+			(at 2.5 -6.249999 225)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -10535,7 +10495,7 @@
 			(uuid "9346d37a-8edb-492c-9703-6386725cf2b4")
 		)
 		(pad "3" thru_hole circle
-			(at -2.5 6.249999 135)
+			(at -2.5 6.249999 225)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -10545,7 +10505,7 @@
 			(uuid "1ab6329b-58c5-478f-820b-49473fff0f06")
 		)
 		(pad "4" thru_hole circle
-			(at 2.5 6.249999 135)
+			(at 2.5 6.249999 225)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -10570,9 +10530,9 @@
 	(footprint "Moje:TACTS-24K-F"
 		(layer "F.Cu")
 		(uuid "c18558f2-653c-4dd1-ba84-790a708cc32e")
-		(at 227.987184 55.35165 45)
+		(at 163.3 54 135)
 		(property "Reference" "SW7"
-			(at 0 0 45)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ca6e38c6-1718-47ca-9e97-8e8bdb6329f1")
@@ -10584,7 +10544,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -0.1 45)
+			(at 0 -0.1 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6bc8fc77-b6cc-4928-bac9-fefc7a58bce3")
@@ -10596,7 +10556,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 0 0 45)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10609,7 +10569,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 0 0 45)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10624,31 +10584,11 @@
 		(path "/a53b387d-2490-41d3-b9d1-95f563dec97f")
 		(sheetname "/")
 		(sheetfile "Kontroler.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "4" "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(jumper_pad_groups
-			("1" "3")
-			("2" "4")
-		)
 		(fp_line
-			(start -6.5 -8.500001)
-			(end -6.5 8.500001)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "905e1c57-5d83-4af7-9c52-7a604e9cd5ac")
-		)
-		(fp_line
-			(start 6.5 -8.500001)
-			(end -6.5 -8.500001)
+			(start 6.500001 -7.3)
+			(end -6.500001 -7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10657,8 +10597,18 @@
 			(uuid "1b4cdceb-9bfa-43f7-b5de-d0f874f9bc18")
 		)
 		(fp_line
-			(start 6.5 -8.500001)
-			(end 6.5 8.500001)
+			(start 6.500001 -7.3)
+			(end 6.500001 7.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "905e1c57-5d83-4af7-9c52-7a604e9cd5ac")
+		)
+		(fp_line
+			(start -6.500001 -7.3)
+			(end -6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10667,8 +10617,8 @@
 			(uuid "f2aa1f1a-d8c4-4f6b-86f8-3be7cd2ea973")
 		)
 		(fp_line
-			(start -6.5 8.500001)
-			(end 6.5 8.500001)
+			(start -6.500001 7.3)
+			(end 6.500001 7.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -10677,7 +10627,7 @@
 			(uuid "b217ed8b-dfb6-4739-b5ba-e6a61cbcf8db")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.399999 45)
+			(at 0 1.399999 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b544b2dc-8798-45f9-bc2d-73779b6d0e28")
@@ -10689,7 +10639,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 -6.249999 45)
+			(at -2.5 -6.249999 135)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -10699,7 +10649,7 @@
 			(uuid "7e3556d2-735e-43ce-ac7b-3a3ed2e25ebb")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 -6.249999 45)
+			(at 2.5 -6.249999 135)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -10709,7 +10659,7 @@
 			(uuid "50c2d154-229e-4845-bb95-a3cd0426cdcb")
 		)
 		(pad "3" thru_hole circle
-			(at -2.5 6.249999 45)
+			(at -2.5 6.249999 135)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -10719,7 +10669,7 @@
 			(uuid "acc6b585-e4f7-48b1-8594-5274cfdbb627")
 		)
 		(pad "4" thru_hole circle
-			(at 2.5 6.249999 45)
+			(at 2.5 6.249999 135)
 			(size 2 2)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -13145,7 +13095,7 @@
 	(footprint "Moje:SW_200MSP1T2B4M2QE"
 		(layer "F.Cu")
 		(uuid "f5c5e0ca-0a95-42f7-915c-13805df2717b")
-		(at 157.905 122.865)
+		(at 64.76 28.5)
 		(property "Reference" "SW1"
 			(at -1.14 -4.425 0)
 			(layer "F.SilkS")
@@ -13532,7 +13482,7 @@
 	(footprint "Moje:LD-BZPN-1705"
 		(layer "F.Cu")
 		(uuid "f8928bdd-9b30-4dbd-ae55-f8d48a177434")
-		(at 132.455 111.875)
+		(at 89.8 92.6)
 		(descr "Generic Buzzer, D14mm height 7mm with pitch 10mm")
 		(tags "buzzer")
 		(property "Reference" "BZ1"
@@ -13710,7 +13660,7 @@
 	(footprint "Moje:1043P"
 		(layer "B.Cu")
 		(uuid "b1c17d13-ee86-42ac-bbdd-d733588f6d38")
-		(at 131 49.6 180)
+		(at 100 50 180)
 		(property "Reference" "BT1"
 			(at -34.925 11.43 180)
 			(layer "B.SilkS")
@@ -14048,6 +13998,396 @@
 			(rotate
 				(xyz -90 -0 -90)
 			)
+		)
+	)
+	(gr_curve
+		(pts
+			(xy 25.504249 74.499312) (xy 25.930553 61.582354) (xy 26.091743 50.834855) (xy 25.987818 42.256816)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d883c51-4982-4679-9b04-b0d9a51d03d9")
+	)
+	(gr_curve
+		(pts
+			(xy 25.987818 42.256816) (xy 25.883893 33.678776) (xy 30.896388 28.757949) (xy 41.025305 27.494335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bb10d030-455a-496f-8b62-07902716ecf4")
+	)
+	(gr_curve
+		(pts
+			(xy 40.136806 94.100398) (xy 29.955464 93.949965) (xy 25.077944 87.416269) (xy 25.504249 74.499312)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4b4ad229-e82c-4b0d-abb2-4fa475fb1332")
+	)
+	(gr_curve
+		(pts
+			(xy 41.025305 27.494335) (xy 51.154222 26.23072) (xy 67.47912 26.065942) (xy 90 27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5c24ff26-dd8d-4dbb-bcc6-d99d60801662")
+	)
+	(gr_circle
+		(center 43 59)
+		(end 43.01 59)
+		(stroke
+			(width 0.0001)
+			(type default)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "788ea724-23d7-4438-af00-078db56ed928")
+	)
+	(gr_curve
+		(pts
+			(xy 61.184346 80.776881) (xy 57.333996 89.809659) (xy 50.318149 94.250831) (xy 40.136806 94.100398)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f149e565-51a7-496a-8488-d86a6ba3e59b")
+	)
+	(gr_curve
+		(pts
+			(xy 83.592656 67.039823) (xy 72.504133 67.165084) (xy 65.034696 71.744103) (xy 61.184346 80.776881)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "05177cff-44f1-47ce-9410-7b6a58b1f04c")
+	)
+	(gr_line
+		(start 90 27)
+		(end 100 27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "318f6c0b-2586-4d1f-b661-254503287ac2")
+	)
+	(gr_circle
+		(center 100 50)
+		(end 100.01 50)
+		(stroke
+			(width 0.0001)
+			(type default)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "cbac6f3d-3df2-4609-b5f7-3a309b1d0c3e")
+	)
+	(gr_line
+		(start 110 27)
+		(end 100 27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "668fd35f-caa0-4496-af0d-a688181046b2")
+	)
+	(gr_line
+		(start 110 27)
+		(end 110 37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "57916b1f-0854-4c4d-8620-3f37586943b8")
+	)
+	(gr_line
+		(start 110 37)
+		(end 122.389099 37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e4750a69-e4dc-4c51-9ab9-53d750215ba8")
+	)
+	(gr_curve
+		(pts
+			(xy 115.956463 67.256315) (xy 105.469115 66.986726) (xy 94.681179 66.914562) (xy 83.592656 67.039823)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "569dc275-5325-4ec3-84ae-a4972a29aaa1")
+	)
+	(gr_curve
+		(pts
+			(xy 123.233472 36.928184) (xy 122.949502 36.9911) (xy 122.668044 37.015038) (xy 122.389099 37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f4667be4-327a-4d60-8851-55926195d7d2")
+	)
+	(gr_curve
+		(pts
+			(xy 124.028909 36.36654) (xy 123.782589 36.678054) (xy 123.517443 36.865269) (xy 123.233472 36.928184)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92e22986-9c48-4a0c-9148-8e967341b3c6")
+	)
+	(gr_curve
+		(pts
+			(xy 124.429871 32.985997) (xy 124.392167 32.145135) (xy 124.567921 31.07034) (xy 124.957131 29.761612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6c8c77d3-b495-4297-80c2-b2372f76a96f")
+	)
+	(gr_curve
+		(pts
+			(xy 124.5 35) (xy 124.43226 35.599513) (xy 124.27523 36.055026) (xy 124.028909 36.36654)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6be69db5-02f9-4eef-a8a2-eaccd23decd1")
+	)
+	(gr_curve
+		(pts
+			(xy 124.5 35) (xy 124.490951 34.498193) (xy 124.467575 33.826859) (xy 124.429871 32.985997)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a780acc0-c1d5-44e0-8545-eef0ad0b7da9")
+	)
+	(gr_curve
+		(pts
+			(xy 124.957131 29.761612) (xy 125.346342 28.452883) (xy 126.110981 27.643352) (xy 127.251047 27.333019)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5748b3b0-6a77-4e38-9860-ca0ea4ed0d25")
+	)
+	(gr_curve
+		(pts
+			(xy 127.251047 27.333019) (xy 128.391114 27.022687) (xy 129.523357 26.895562) (xy 130.647775 26.951645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c8a78f43-0044-4565-872f-e7d72e01a138")
+	)
+	(gr_curve
+		(pts
+			(xy 130.647775 26.951645) (xy 131.772194 27.007729) (xy 133.103436 27.028875) (xy 134.641501 27.015084)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9e4d1ebc-132f-4805-9f84-be134ba474b7")
+	)
+	(gr_curve
+		(pts
+			(xy 134.641501 27.015084) (xy 136.179567 27.001293) (xy 137.786166 26.994972) (xy 139.461299 26.996121)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "34bc4f2c-3376-4079-8e5d-4f44864b814b")
+	)
+	(gr_curve
+		(pts
+			(xy 138.871256 78.368247) (xy 134.082076 71.229881) (xy 126.443811 67.525904) (xy 115.956463 67.256315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ddec11ad-c3a8-4605-a457-314b382ea70d")
+	)
+	(gr_line
+		(start 139.461299 26.996121)
+		(end 144.590702 27.008188)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "62aba5e9-29ca-45a3-9f72-210e458a483e")
+	)
+	(gr_circle
+		(center 141.600505 53)
+		(end 141.610505 53)
+		(stroke
+			(width 0.0001)
+			(type default)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "c5d9dcb8-086c-4740-aa5a-b6ac3e0474a4")
+	)
+	(gr_curve
+		(pts
+			(xy 144.590702 27.008188) (xy 146.335171 27.015082) (xy 148.518766 26.98971) (xy 151.141488 26.932069)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0151eb93-4208-4853-9148-0011898a4205")
+	)
+	(gr_curve
+		(pts
+			(xy 151.141488 26.932069) (xy 153.76421 26.874429) (xy 157.813227 27.236709) (xy 163.288538 28.01891)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "43f92a69-47c7-4f81-acba-ed94fe4932cb")
+	)
+	(gr_circle
+		(center 151.5 43.100505)
+		(end 151.51 43.100505)
+		(stroke
+			(width 0.0001)
+			(type default)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "8370f37c-8835-4596-865f-84c57c064f44")
+	)
+	(gr_circle
+		(center 151.5 62.899495)
+		(end 151.51 62.899495)
+		(stroke
+			(width 0.0001)
+			(type default)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "c4862ed2-5d3e-4372-8aa9-e37a5388e81b")
+	)
+	(gr_curve
+		(pts
+			(xy 159.951039 89.0972) (xy 150.68703 89.08293) (xy 143.660436 85.506612) (xy 138.871256 78.368247)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d6441744-9af5-46ec-a196-7495178b37a5")
+	)
+	(gr_circle
+		(center 161.399495 53)
+		(end 161.409495 53)
+		(stroke
+			(width 0.0001)
+			(type default)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "f3d690e8-0925-4b9a-9170-92a762399351")
+	)
+	(gr_curve
+		(pts
+			(xy 163.288538 28.01891) (xy 168.76385 28.801111) (xy 172.029949 33.392101) (xy 173.086836 41.791881)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "84a25c9d-0cee-436f-830c-767ada53e2af")
+	)
+	(gr_curve
+		(pts
+			(xy 173.086836 41.791881) (xy 174.143723 50.191661) (xy 174.534647 60.179393) (xy 174.259609 71.755078)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0cb80e19-707c-4c9a-9cfa-f47e472d0ff4")
+	)
+	(gr_curve
+		(pts
+			(xy 174.259609 71.755078) (xy 173.984571 83.330762) (xy 169.215048 89.11147) (xy 159.951039 89.0972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8b053009-9960-445a-857c-25f9be6ff553")
+	)
+	(group ""
+		(uuid "f96abecd-2375-4801-882f-f1da2e69230b")
+		(members "0151eb93-4208-4853-9148-0011898a4205" "05177cff-44f1-47ce-9410-7b6a58b1f04c"
+			"0cb80e19-707c-4c9a-9cfa-f47e472d0ff4" "318f6c0b-2586-4d1f-b661-254503287ac2"
+			"34bc4f2c-3376-4079-8e5d-4f44864b814b" "43f92a69-47c7-4f81-acba-ed94fe4932cb"
+			"4b4ad229-e82c-4b0d-abb2-4fa475fb1332" "569dc275-5325-4ec3-84ae-a4972a29aaa1"
+			"5748b3b0-6a77-4e38-9860-ca0ea4ed0d25" "57916b1f-0854-4c4d-8620-3f37586943b8"
+			"5c24ff26-dd8d-4dbb-bcc6-d99d60801662" "62aba5e9-29ca-45a3-9f72-210e458a483e"
+			"668fd35f-caa0-4496-af0d-a688181046b2" "6be69db5-02f9-4eef-a8a2-eaccd23decd1"
+			"6c8c77d3-b495-4297-80c2-b2372f76a96f" "788ea724-23d7-4438-af00-078db56ed928"
+			"7d883c51-4982-4679-9b04-b0d9a51d03d9" "8370f37c-8835-4596-865f-84c57c064f44"
+			"84a25c9d-0cee-436f-830c-767ada53e2af" "8b053009-9960-445a-857c-25f9be6ff553"
+			"92e22986-9c48-4a0c-9148-8e967341b3c6" "9e4d1ebc-132f-4805-9f84-be134ba474b7"
+			"a780acc0-c1d5-44e0-8545-eef0ad0b7da9" "bb10d030-455a-496f-8b62-07902716ecf4"
+			"c4862ed2-5d3e-4372-8aa9-e37a5388e81b" "c5d9dcb8-086c-4740-aa5a-b6ac3e0474a4"
+			"c8a78f43-0044-4565-872f-e7d72e01a138" "cbac6f3d-3df2-4609-b5f7-3a309b1d0c3e"
+			"d6441744-9af5-46ec-a196-7495178b37a5" "ddec11ad-c3a8-4605-a457-314b382ea70d"
+			"e4750a69-e4dc-4c51-9ab9-53d750215ba8" "f149e565-51a7-496a-8488-d86a6ba3e59b"
+			"f3d690e8-0925-4b9a-9170-92a762399351" "f4667be4-327a-4d60-8851-55926195d7d2"
 		)
 	)
 	(embedded_fonts no)
