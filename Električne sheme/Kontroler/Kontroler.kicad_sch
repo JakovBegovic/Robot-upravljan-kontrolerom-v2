@@ -11430,7 +11430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05e5a39e-8058-4730-aa3c-37ead2c6a9dd")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR022"
 			(at 128.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11490,7 +11490,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR018")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -11753,7 +11753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c3e1aa7-14c4-453c-a78c-b787398022fd")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 80.01 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11813,7 +11813,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11831,7 +11831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "165e92bd-52dd-4288-be4d-24a21878ebb5")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 77.47 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11895,7 +11895,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11913,7 +11913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "166c2a7a-8a22-49a8-95a4-36422b838645")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 374.65 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,84 +11977,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 93.98 186.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1701bf2e-ca8a-49ff-96e5-1a5c8849c7e1")
-		(property "Reference" "#PWR053"
-			(at 93.98 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 93.98 182.626 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 93.98 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27d8b1c4-a340-4bdc-a5a3-0e7ec797b6f9")
-		)
-		(instances
-			(project "Kontroler"
-				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR053")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12072,7 +11995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a9a86ea-fa61-404f-bf3e-e9e8af0b0c14")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG03"
 			(at 104.14 213.995 0)
 			(hide yes)
 			(show_name no)
@@ -12132,7 +12055,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#FLG05")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -12149,7 +12072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b43469d-c6dc-466b-bac1-ac1ea0441924")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR049"
 			(at 381 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12209,7 +12132,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR039")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -12304,7 +12227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d54f945-3f59-401a-ba10-7170a3c8d4a9")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 223.52 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12381,7 +12304,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12398,7 +12321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dd01ce1-0f8b-44db-bb56-e743d8970b6a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR017"
 			(at 104.14 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -12458,7 +12381,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR023")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12553,7 +12476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22791bb0-e21b-406b-a427-0cc746a045dd")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR020"
 			(at 121.92 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12613,7 +12536,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR016")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12630,7 +12553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26af124e-fbc5-49ed-bb23-fcc95196c1eb")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 198.12 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12694,7 +12617,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12800,7 +12723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c1c1f2a-d6ad-4f59-bd5e-6b325f0030a2")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 74.93 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12862,7 +12785,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12880,7 +12803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ca84871-f98c-4109-b7ef-ebeb94b87020")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 384.302 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12944,7 +12867,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -12961,7 +12884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e52739e-3aa1-4749-afa0-579b94425f11")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 317.5 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13136,7 +13059,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13153,7 +13076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fee8857-8395-45a0-a07f-acafc10752aa")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 194.31 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13213,7 +13136,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13230,7 +13153,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3251f077-53b4-4e8f-bb4c-69888b413790")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR015"
 			(at 100.33 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -13290,7 +13213,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR055")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13307,7 +13230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34d16695-d0fb-456f-883f-71949ac07a34")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 207.01 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -13367,7 +13290,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13384,7 +13307,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37556530-96fc-4f7d-9aba-1dc39549431c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 335.28 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -13444,7 +13367,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -13461,7 +13384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "382a735d-c283-430e-bf21-f85b35e11c81")
-		(property "Reference" "R20"
+		(property "Reference" "R8"
 			(at 167.64 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13525,7 +13448,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R20")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13542,7 +13465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "393cbe0d-8438-475c-b25f-d15a46ec340a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 127 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13602,7 +13525,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13621,7 +13544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c6c3e2d-3e7b-4721-b662-df2d9743d5e5")
-		(property "Reference" "D11"
+		(property "Reference" "D8"
 			(at 473.71 166.6874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13696,7 +13619,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "D11")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13713,7 +13636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fbc917e-7738-4cb5-be39-8ad796410204")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 267.208 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13777,7 +13700,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13794,7 +13717,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "427f5c66-3ba1-4d5d-a88c-1ad8aa0204b2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR046"
 			(at 361.95 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13854,7 +13777,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR042")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13871,7 +13794,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44a68a98-936b-4a0a-877c-a399d217cfa8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 100.33 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -13931,7 +13854,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13948,7 +13871,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "477053dc-8909-4a51-b132-cfb7610b4e1d")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR050"
 			(at 387.35 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14008,7 +13931,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -14025,7 +13948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d53da61-9182-4d1f-903b-e314348da5f0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 351.79 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14085,7 +14008,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14195,7 +14118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5735f4ce-ca2e-49ab-bbbb-ef160fee2787")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 217.678 239.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14259,7 +14182,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14276,7 +14199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bea2873-0ab5-46d8-b54b-2b26d751519d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 101.6 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14336,7 +14259,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14353,7 +14276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e9d780c-b793-4171-a423-c86097f196a0")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 227.33 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14415,7 +14338,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14432,7 +14355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62a6be2c-6f37-41c6-baa3-323fed112e59")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 367.03 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14494,7 +14417,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14511,7 +14434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6589017c-87e4-432c-bdd2-a265a93c9917")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR04"
 			(at 78.74 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -14571,7 +14494,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR019")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14589,7 +14512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65ed0b0d-e101-47f3-aa7e-b18465f970f5")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 209.55 231.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14651,7 +14574,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14783,7 +14706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67e9cc76-cf8a-4b3e-9180-511d9a145165")
-		(property "Reference" "R38"
+		(property "Reference" "R22"
 			(at 472.44 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14847,7 +14770,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R38")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -14864,7 +14787,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67effa8d-74d0-4a8e-a8df-9b41a0ef86a2")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR052"
 			(at 434.34 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -14924,7 +14847,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR045")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -14941,7 +14864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c19437f-f0ce-4d4e-8684-49972432a5a5")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 203.454 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15005,7 +14928,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15103,7 +15026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "714430f2-ce84-49f4-a66e-bc9a5e926940")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 93.98 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15165,7 +15088,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15182,7 +15105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "721a18ed-ea2a-4287-9490-bf7abf2d2716")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR023"
 			(at 129.54 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15242,7 +15165,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR048")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15259,7 +15182,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7536439e-982d-444a-b1df-991405f532e3")
-		(property "Reference" "C11"
+		(property "Reference" "C5"
 			(at 126.746 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15323,7 +15246,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C11")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15419,7 +15342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77db3d6f-6751-41df-8427-f2087658793c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 237.49 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15479,7 +15402,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -15577,7 +15500,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8265932b-d9d4-4bf3-84bc-e81bc592e2ae")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR029"
 			(at 180.34 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -15637,7 +15560,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR052")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15654,7 +15577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "830da7ac-7433-4c5a-8c86-1f82c1d797bf")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR034"
 			(at 207.01 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -15714,7 +15637,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR026")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15808,7 +15731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85f64aff-687e-4d97-a79d-5797e5e3d2c3")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR026"
 			(at 153.67 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -15869,7 +15792,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR030")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15886,7 +15809,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "895761e9-4b3e-45b6-82e5-3881ba44b7b3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 203.2 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -15946,7 +15869,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16063,8 +15986,8 @@
 				)
 			)
 		)
-		(property "Value" "750 mA quick acting"
-			(at 78.74 48.768 90)
+		(property "Value" "1.2A quick acting"
+			(at 78.74 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16084,7 +16007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/ecfdd435260d1c098174635c0e4fce43/AFA0000C7.pdf"
+		(property "Datasheet" "https://www.schurter.com/en/datasheet/typ_USI_1206.pdf"
 			(at 78.74 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16095,7 +16018,7 @@
 				)
 			)
 		)
-		(property "Description" "ERBRG0R75V"
+		(property "Description" "3413.0217.22"
 			(at 78.74 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16303,7 +16226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "916f0975-ccd7-43b4-bed7-177780512c4c")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 242.57 127 0)
 			(hide yes)
 			(show_name no)
@@ -16363,7 +16286,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16380,7 +16303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91dd8022-4b97-437b-b11b-0301610532b9")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 386.08 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16442,84 +16365,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 186.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "921f9b0b-f3c7-4ea6-a668-6008055e4ae4")
-		(property "Reference" "#PWR054"
-			(at 88.9 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8253f540-3819-465b-89f1-e721205aff1a")
-		)
-		(instances
-			(project "Kontroler"
-				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR054")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -16537,7 +16383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92effa09-1568-4661-88b2-23c128243ce7")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 102.87 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16601,7 +16447,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -16705,7 +16551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b206fb6-8592-4e95-9355-9d0be7c084a1")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 371.348 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16769,7 +16615,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16870,7 +16716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a264fc-5c4c-4e3d-9d00-b0cf7e409989")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 130.81 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16934,7 +16780,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16951,7 +16797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2be29e8-d1cd-4447-a551-d3cf72b782ba")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR024"
 			(at 129.54 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -17011,7 +16857,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR051")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17278,7 +17124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae14479d-6ad4-4755-a91d-27f23bdf5948")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR025"
 			(at 142.24 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -17339,7 +17185,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR050")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17490,7 +17336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b06a1cf3-ccc0-41e1-a27b-8ee2ad1cbff6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 92.71 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17550,7 +17396,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -17568,7 +17414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b382c871-08aa-4d37-88c0-a32aa080fff5")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 73.914 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17632,7 +17478,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17649,7 +17495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b843d759-3c03-4651-8e12-3ea2c826d713")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 100.33 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -17709,7 +17555,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17726,7 +17572,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8557b1b-6e22-44d2-babb-c4538b0162e7")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 241.3 193.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17790,7 +17636,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17807,7 +17653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b88cf258-687d-4e2a-80ff-920efe182a66")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR027"
 			(at 165.1 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -17868,7 +17714,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR049")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17885,7 +17731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9f91083-1239-4a54-842a-fca08a1854f8")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR05"
 			(at 78.74 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -17945,7 +17791,84 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR020")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 88.9 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba6b62a2-1e78-4dea-b218-6a4c45310404")
+		(property "Reference" "#PWR054"
+			(at 88.9 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 88.9 182.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 88.9 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7eba6e21-a9b9-4725-86a2-22e5e3313f85")
+		)
+		(instances
+			(project "Kontroler"
+				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -18044,7 +17967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bba1ecd1-83f9-44cf-a3a0-35413d63d515")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR047"
 			(at 374.65 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -18104,7 +18027,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR043")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -18212,7 +18135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be6d554b-d171-436c-95da-616d34cd86ed")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 110.49 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18272,7 +18195,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -18290,7 +18213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf64a67f-40ff-4c2a-8732-658f47e70cd4")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 153.67 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18364,7 +18287,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -18577,6 +18500,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 93.98 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2f3afd2-df33-4441-ad98-d8fe13b65811")
+		(property "Reference" "#PWR055"
+			(at 93.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8589b6a8-ff19-474a-bf69-da756e715bcf")
+		)
+		(instances
+			(project "Kontroler"
+				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 223.52 200.66 0)
 		(unit 1)
 		(body_style 1)
@@ -18586,7 +18586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3e42967-e99c-42b1-b6cf-e9e11af436da")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR036"
 			(at 223.52 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -18646,7 +18646,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR047")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18843,7 +18843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d36e3cb4-0826-403e-8d1e-4ef45e0572b0")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 418.338 185.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18907,7 +18907,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -18924,7 +18924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d46ba1f0-01ba-4d6d-ad8c-bd05f5876659")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR051"
 			(at 434.34 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18984,7 +18984,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR044")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -19079,7 +19079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddabf504-45b6-455c-9c80-eb007fef5491")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 251.46 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -19139,7 +19139,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19156,7 +19156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb2f8ef-f6ee-4eb4-b1f3-70785f03fc64")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR053"
 			(at 469.9 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -19216,7 +19216,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR010")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -19233,7 +19233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ded17848-2bb9-42ed-b883-65f5599be61c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 82.55 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -19293,7 +19293,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19310,7 +19310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df2cfa3d-e174-4262-b2ea-77fb46f7a6de")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 194.31 127 0)
 			(hide yes)
 			(show_name no)
@@ -19370,7 +19370,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19554,7 +19554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e59170ac-52d5-4b77-9daa-e7ee37cee5a4")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 261.62 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19614,7 +19614,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -19632,7 +19632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e673e01f-eb37-45a8-8961-065e11da7df5")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG04"
 			(at 335.28 165.735 0)
 			(hide yes)
 			(show_name no)
@@ -19692,7 +19692,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#FLG06")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -19791,7 +19791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e910ef8f-19d9-458d-ac90-082821ad83d0")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 84.836 215.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19853,7 +19853,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19870,7 +19870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea70ac5b-04c6-4641-868c-4d72cc092100")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR035"
 			(at 215.9 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -19931,7 +19931,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR027")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -19948,7 +19948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec02ab46-d269-41ac-99d8-fe9dc9610901")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 95.25 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -20008,7 +20008,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -20025,7 +20025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee101e93-1deb-47a3-8e17-bbfda926bde1")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 358.648 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20089,7 +20089,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20106,7 +20106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eebab457-8347-4ff7-8922-0a19b30c6155")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 132.08 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20170,7 +20170,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -20187,7 +20187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f192ca37-33ce-42a5-9039-e3fc4a5caa39")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 237.49 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -20247,7 +20247,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20264,7 +20264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2b9d435-3051-4ecb-a37c-ab3e61835319")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 427.99 192.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20328,7 +20328,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -20540,7 +20540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f501528f-b871-46f4-9814-3f9e1c8db70f")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 350.52 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -20600,7 +20600,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -20617,7 +20617,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5157c4d-1824-4775-b31c-0310aa1dfb8d")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 248.92 59.6901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20681,7 +20681,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -20698,7 +20698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5784720-6bcd-4b70-8fe6-318cd8e98340")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 86.36 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -20758,7 +20758,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -20775,7 +20775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f5a5a561-bbfc-43f8-929a-d38c73423696")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 311.15 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -20835,7 +20835,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -21020,7 +21020,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f75f1528-a07b-4cf3-b1cb-f9ee5d4f4113")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 183.388 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21084,7 +21084,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -21101,7 +21101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fad32e50-6e0b-4f18-ba67-ca80e8c2db4f")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR048"
 			(at 381 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -21161,7 +21161,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR038")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -21178,7 +21178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbbf7f17-f5a2-403b-bc67-2e418495d216")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 100.33 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -21238,7 +21238,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21255,7 +21255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdbcade4-f7bd-4d0c-bd6a-163b27e21e52")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR028"
 			(at 180.34 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -21315,7 +21315,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR09")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -21332,7 +21332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "feb77d2e-2124-48ab-8669-37e8aaed642f")
-		(property "Reference" "R21"
+		(property "Reference" "R7"
 			(at 139.954 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21396,7 +21396,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R21")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -21413,7 +21413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff19dbee-84d4-490b-a2fc-3629020dacf4")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 436.88 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21477,7 +21477,7 @@
 		(instances
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
