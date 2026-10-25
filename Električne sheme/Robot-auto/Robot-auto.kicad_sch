@@ -33517,6 +33517,9 @@
 		(pin "6"
 			(uuid "a275aef6-0071-472c-b470-1df68ad00760")
 		)
+		(pin "9"
+			(uuid "a4a833db-0efc-4469-908a-81c6bbb9e7d0")
+		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -39709,6 +39712,9 @@
 		(pin "6"
 			(uuid "56228a80-4f45-491d-8a67-ba425cde4d4c")
 		)
+		(pin "9"
+			(uuid "0c8de218-3c9a-4d55-876d-e5a6685c78ce")
+		)
 		(instances
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
@@ -40983,6 +40989,9 @@
 		)
 		(pin "6"
 			(uuid "75e8a4d7-ff84-415f-8773-91e471d4d28e")
+		)
+		(pin "9"
+			(uuid "712134c6-137e-4c90-8eb7-a54c49d91ac3")
 		)
 		(instances
 			(project "Robot-auto"
@@ -42775,6 +42784,9 @@
 		)
 		(pin "6"
 			(uuid "e629fdd6-b425-4b19-9dfb-41c1abfff451")
+		)
+		(pin "9"
+			(uuid "cffa8e97-450e-4b17-989e-9090d3346365")
 		)
 		(instances
 			(project "Robot-auto"
