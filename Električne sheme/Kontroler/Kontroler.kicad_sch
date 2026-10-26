@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "1c5f9013-501d-485e-99a0-49bd3342d3d2")
-	(paper "A2")
+	(paper "User" 500 320)
 	(title_block
-		(title "Robot upravljan kontrolerom - kontroler")
-		(date "2025-11-28")
-		(rev "v0.1")
+		(title "Robot upravljan kontrolerom v2 - kontroler")
+		(date "2026-10-26")
+		(rev "v1")
 		(company "Jakov Begović")
 	)
 	(lib_symbols
@@ -7260,8 +7260,8 @@
 		)
 	)
 	(rectangle
-		(start 302.26 152.4)
-		(end 342.9 299.72)
+		(start 259.08 147.32)
+		(end 299.72 294.64)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7296,8 +7296,8 @@
 		(uuid "0fb6d5d9-2432-4018-baec-f1120ecc28d7")
 	)
 	(rectangle
-		(start 403.86 152.4)
-		(end 454.66 210.82)
+		(start 360.68 147.32)
+		(end 411.48 205.74)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7356,8 +7356,8 @@
 		(uuid "5e40aba8-2e62-4bab-b26b-099126f81aa4")
 	)
 	(rectangle
-		(start 459.74 152.4)
-		(end 492.76 190.5)
+		(start 416.56 147.32)
+		(end 449.58 185.42)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7380,8 +7380,8 @@
 		(uuid "c6454a31-3d02-4f2c-9c79-75bdfc94a06e")
 	)
 	(rectangle
-		(start 347.98 152.4)
-		(end 398.78 205.74)
+		(start 304.8 147.32)
+		(end 355.6 200.66)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7405,7 +7405,7 @@
 	)
 	(text "Buzzer"
 		(exclude_from_sim no)
-		(at 403.86 151.384 0)
+		(at 360.68 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,7 +7449,7 @@
 	)
 	(text "Low battery indicator"
 		(exclude_from_sim no)
-		(at 347.98 151.384 0)
+		(at 304.8 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7460,7 +7460,7 @@
 	)
 	(text "Charging indicator"
 		(exclude_from_sim no)
-		(at 459.74 151.384 0)
+		(at 416.56 146.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7471,7 +7471,7 @@
 	)
 	(text "Input commands"
 		(exclude_from_sim no)
-		(at 302.006 151.13 0)
+		(at 258.826 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7570,19 +7570,19 @@
 		(uuid "118d0eea-57a5-467b-818c-8d45a90f2a77")
 	)
 	(junction
-		(at 311.15 270.51)
+		(at 267.97 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "160698bd-d06d-4722-8708-31057c6d6c54")
 	)
 	(junction
-		(at 311.15 248.92)
+		(at 267.97 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1982686a-1198-43f6-8341-4e3e5a83e937")
 	)
 	(junction
-		(at 425.45 187.96)
+		(at 382.27 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e199714-90ee-4b69-9f58-68034ed43b34")
@@ -7612,7 +7612,7 @@
 		(uuid "314f5339-c82e-4141-afd7-da556ec063b5")
 	)
 	(junction
-		(at 311.15 205.74)
+		(at 267.97 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3445b6d3-a42a-426d-b3b2-8354100bb566")
@@ -7660,19 +7660,19 @@
 		(uuid "52992eea-f970-47e2-b18a-6ef9c5d94e79")
 	)
 	(junction
-		(at 434.34 198.12)
+		(at 391.16 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "568b922f-2bd0-4dbd-bcd3-7c9f4855dfd0")
 	)
 	(junction
-		(at 372.11 185.42)
+		(at 328.93 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d1cd12e-5617-417b-99fd-3a3de05bd990")
 	)
 	(junction
-		(at 311.15 227.33)
+		(at 267.97 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60001852-60de-4ea5-a526-978dd5bb59c8")
@@ -7732,7 +7732,7 @@
 		(uuid "88528d1d-1aa0-41d0-900e-134f9912a347")
 	)
 	(junction
-		(at 311.15 168.91)
+		(at 267.97 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9697f189-6ed6-4230-9295-4266f51ac09d")
@@ -7744,7 +7744,7 @@
 		(uuid "9a38843e-0301-45dd-b7b9-10fc59296649")
 	)
 	(junction
-		(at 311.15 184.15)
+		(at 267.97 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c2e9978-2c96-4296-a9d0-89db0bd54a17")
@@ -7780,7 +7780,7 @@
 		(uuid "ce80d4b3-c9fd-42ee-97d6-25a4b4b5ae2c")
 	)
 	(junction
-		(at 335.28 163.83)
+		(at 292.1 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cea67321-6fa1-4084-a84b-1c684cccd4f9")
@@ -7798,7 +7798,7 @@
 		(uuid "d3828a3c-2446-43a1-9b0c-7d81c6ddee3d")
 	)
 	(junction
-		(at 381 195.58)
+		(at 337.82 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d546d193-6cd6-42cd-8bde-b97503616b00")
@@ -7828,7 +7828,7 @@
 		(uuid "e0320b47-d815-4df8-910d-63cc847fc36a")
 	)
 	(junction
-		(at 311.15 172.72)
+		(at 267.97 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec7c09fb-cc15-4984-9f74-2d9b7c50eaba")
@@ -7846,7 +7846,7 @@
 		(uuid "f87d831f-7369-4e0e-9f1a-dee6b2a426f3")
 	)
 	(junction
-		(at 311.15 179.07)
+		(at 267.97 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd1efc8b-270a-4f0c-a633-6f6d5be3e307")
@@ -7957,7 +7957,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 205.74) (xy 317.5 205.74)
+			(xy 267.97 200.66) (xy 274.32 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7967,7 +7967,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 205.74) (xy 326.39 207.01)
+			(xy 283.21 200.66) (xy 283.21 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7977,7 +7977,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 163.83) (xy 335.28 163.83)
+			(xy 285.75 158.75) (xy 292.1 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8177,7 +8177,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 162.56) (xy 335.28 163.83)
+			(xy 292.1 157.48) (xy 292.1 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8217,7 +8217,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 198.12) (xy 434.34 198.12)
+			(xy 382.27 193.04) (xy 391.16 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8227,7 +8227,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 205.74) (xy 328.93 205.74)
+			(xy 283.21 200.66) (xy 285.75 200.66)
 		)
 		(stroke
 			(width 0)
@@ -8267,7 +8267,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 184.15) (xy 311.15 289.56)
+			(xy 267.97 179.07) (xy 267.97 284.48)
 		)
 		(stroke
 			(width 0)
@@ -8307,7 +8307,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 187.96) (xy 426.72 187.96)
+			(xy 382.27 182.88) (xy 383.54 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8337,7 +8337,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 163.83) (xy 313.69 163.83)
+			(xy 267.97 158.75) (xy 270.51 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8437,7 +8437,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 170.18) (xy 434.34 173.99)
+			(xy 391.16 165.1) (xy 391.16 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8447,7 +8447,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 198.12) (xy 425.45 196.85)
+			(xy 382.27 193.04) (xy 382.27 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8457,7 +8457,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 170.18) (xy 381 171.45)
+			(xy 337.82 165.1) (xy 337.82 166.37)
 		)
 		(stroke
 			(width 0)
@@ -8557,7 +8557,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 181.61) (xy 469.9 179.07)
+			(xy 426.72 176.53) (xy 426.72 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8637,7 +8637,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 172.72) (xy 331.47 179.07)
+			(xy 288.29 167.64) (xy 288.29 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8647,7 +8647,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 248.92) (xy 317.5 248.92)
+			(xy 267.97 243.84) (xy 274.32 243.84)
 		)
 		(stroke
 			(width 0)
@@ -8697,7 +8697,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 195.58) (xy 381 195.58)
+			(xy 328.93 190.5) (xy 337.82 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8747,7 +8747,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 248.92) (xy 326.39 250.19)
+			(xy 283.21 243.84) (xy 283.21 245.11)
 		)
 		(stroke
 			(width 0)
@@ -8797,7 +8797,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 187.96) (xy 416.56 187.96)
+			(xy 370.84 182.88) (xy 373.38 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8807,7 +8807,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 179.07) (xy 434.34 182.88)
+			(xy 391.16 173.99) (xy 391.16 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8857,7 +8857,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 179.07) (xy 331.47 179.07)
+			(xy 267.97 173.99) (xy 288.29 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8877,7 +8877,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 163.83) (xy 311.15 184.15)
+			(xy 267.97 158.75) (xy 267.97 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8927,7 +8927,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 185.42) (xy 372.11 185.42)
+			(xy 327.66 180.34) (xy 328.93 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8937,7 +8937,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 161.29) (xy 381 162.56)
+			(xy 337.82 156.21) (xy 337.82 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8987,7 +8987,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 227.33) (xy 317.5 228.6)
+			(xy 274.32 222.25) (xy 274.32 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9007,7 +9007,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 227.33) (xy 317.5 227.33)
+			(xy 267.97 222.25) (xy 274.32 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9027,7 +9027,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 185.42) (xy 326.39 184.15)
+			(xy 283.21 180.34) (xy 283.21 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9087,7 +9087,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 161.29) (xy 469.9 162.56)
+			(xy 426.72 156.21) (xy 426.72 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9107,7 +9107,7 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 187.96) (xy 425.45 187.96)
+			(xy 381 182.88) (xy 382.27 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9197,7 +9197,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 170.18) (xy 469.9 171.45)
+			(xy 426.72 165.1) (xy 426.72 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9217,7 +9217,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 160.02) (xy 313.69 160.02)
+			(xy 267.97 154.94) (xy 270.51 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9227,7 +9227,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 196.85) (xy 381 195.58)
+			(xy 337.82 191.77) (xy 337.82 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9257,7 +9257,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 168.91) (xy 313.69 168.91)
+			(xy 267.97 163.83) (xy 270.51 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9287,7 +9287,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 227.33) (xy 326.39 228.6)
+			(xy 283.21 222.25) (xy 283.21 223.52)
 		)
 		(stroke
 			(width 0)
@@ -9307,7 +9307,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 270.51) (xy 328.93 270.51)
+			(xy 283.21 265.43) (xy 285.75 265.43)
 		)
 		(stroke
 			(width 0)
@@ -9317,7 +9317,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 186.69) (xy 372.11 185.42)
+			(xy 328.93 181.61) (xy 328.93 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9367,7 +9367,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 184.15) (xy 317.5 184.15)
+			(xy 267.97 179.07) (xy 274.32 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9457,7 +9457,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 270.51) (xy 317.5 271.78)
+			(xy 274.32 265.43) (xy 274.32 266.7)
 		)
 		(stroke
 			(width 0)
@@ -9467,7 +9467,7 @@
 	)
 	(wire
 		(pts
-			(xy 425.45 189.23) (xy 425.45 187.96)
+			(xy 382.27 184.15) (xy 382.27 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9497,7 +9497,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 248.92) (xy 317.5 250.19)
+			(xy 274.32 243.84) (xy 274.32 245.11)
 		)
 		(stroke
 			(width 0)
@@ -9507,7 +9507,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 181.61) (xy 469.9 181.61)
+			(xy 429.26 176.53) (xy 426.72 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9607,7 +9607,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 270.51) (xy 326.39 271.78)
+			(xy 283.21 265.43) (xy 283.21 266.7)
 		)
 		(stroke
 			(width 0)
@@ -9647,7 +9647,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 270.51) (xy 317.5 270.51)
+			(xy 267.97 265.43) (xy 274.32 265.43)
 		)
 		(stroke
 			(width 0)
@@ -9677,7 +9677,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 190.5) (xy 381 195.58)
+			(xy 337.82 185.42) (xy 337.82 190.5)
 		)
 		(stroke
 			(width 0)
@@ -9697,7 +9697,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 248.92) (xy 328.93 248.92)
+			(xy 283.21 243.84) (xy 285.75 243.84)
 		)
 		(stroke
 			(width 0)
@@ -9707,7 +9707,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 185.42) (xy 373.38 185.42)
+			(xy 328.93 180.34) (xy 330.2 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9717,7 +9717,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 184.15) (xy 328.93 184.15)
+			(xy 283.21 179.07) (xy 285.75 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9727,7 +9727,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 205.74) (xy 317.5 207.01)
+			(xy 274.32 200.66) (xy 274.32 201.93)
 		)
 		(stroke
 			(width 0)
@@ -9817,7 +9817,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 172.72) (xy 328.93 172.72)
+			(xy 288.29 167.64) (xy 285.75 167.64)
 		)
 		(stroke
 			(width 0)
@@ -9937,7 +9937,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 195.58) (xy 372.11 194.31)
+			(xy 328.93 190.5) (xy 328.93 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9957,7 +9957,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 179.07) (xy 381 180.34)
+			(xy 337.82 173.99) (xy 337.82 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9977,7 +9977,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 161.29) (xy 434.34 162.56)
+			(xy 391.16 156.21) (xy 391.16 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10017,7 +10017,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 227.33) (xy 328.93 227.33)
+			(xy 283.21 222.25) (xy 285.75 222.25)
 		)
 		(stroke
 			(width 0)
@@ -10247,7 +10247,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 184.15) (xy 317.5 185.42)
+			(xy 274.32 179.07) (xy 274.32 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10257,7 +10257,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 199.39) (xy 434.34 198.12)
+			(xy 391.16 194.31) (xy 391.16 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10277,7 +10277,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 172.72) (xy 313.69 172.72)
+			(xy 267.97 167.64) (xy 270.51 167.64)
 		)
 		(stroke
 			(width 0)
@@ -10317,7 +10317,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 185.42) (xy 363.22 185.42)
+			(xy 317.5 180.34) (xy 320.04 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10387,7 +10387,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 193.04) (xy 434.34 198.12)
+			(xy 391.16 187.96) (xy 391.16 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10605,7 +10605,7 @@
 	)
 	(global_label "SW1"
 		(shape output)
-		(at 328.93 184.15 0)
+		(at 285.75 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10615,7 +10615,7 @@
 		)
 		(uuid "29360f3c-c751-4698-807b-ef2c301871c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.7856 184.15 0)
+			(at 292.6056 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10629,7 @@
 	)
 	(global_label "SW5"
 		(shape output)
-		(at 328.93 270.51 0)
+		(at 285.75 265.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10639,7 +10639,7 @@
 		)
 		(uuid "2b006ffd-9191-4210-9978-97d217310570")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.7856 270.51 0)
+			(at 292.6056 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10677,7 +10677,7 @@
 	)
 	(global_label "SW4"
 		(shape output)
-		(at 328.93 248.92 0)
+		(at 285.75 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10687,7 +10687,7 @@
 		)
 		(uuid "4a96de89-dc83-414c-b3f6-225722c921cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.7856 248.92 0)
+			(at 292.6056 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10725,7 +10725,7 @@
 	)
 	(global_label "SW2"
 		(shape output)
-		(at 328.93 205.74 0)
+		(at 285.75 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10735,7 +10735,7 @@
 		)
 		(uuid "4d37a1e8-daa5-4ed3-92a9-b53c8444f71d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.7856 205.74 0)
+			(at 292.6056 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10749,7 +10749,7 @@
 	)
 	(global_label "SW3"
 		(shape output)
-		(at 328.93 227.33 0)
+		(at 285.75 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10759,7 +10759,7 @@
 		)
 		(uuid "4f6f918f-1cad-4697-9bd9-6d4b58bcb265")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.7856 227.33 0)
+			(at 292.6056 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10893,7 +10893,7 @@
 	)
 	(global_label "LEDR"
 		(shape input)
-		(at 360.68 185.42 180)
+		(at 317.5 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10903,7 +10903,7 @@
 		)
 		(uuid "756903b8-b877-4f6c-a5bd-fc50d4361662")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.9777 185.42 0)
+			(at 309.7977 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10941,7 +10941,7 @@
 	)
 	(global_label "~{CHG}"
 		(shape input)
-		(at 472.44 181.61 0)
+		(at 429.26 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10951,7 +10951,7 @@
 		)
 		(uuid "8b3b4279-b550-457a-b067-b097e4fa79a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 479.2957 181.61 0)
+			(at 436.1157 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10989,7 +10989,7 @@
 	)
 	(global_label "BZ"
 		(shape input)
-		(at 414.02 187.96 180)
+		(at 370.84 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10999,7 +10999,7 @@
 		)
 		(uuid "99932ab2-853f-4f3e-90a9-cedb04333e84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 408.5553 187.96 0)
+			(at 365.3753 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11229,7 +11229,7 @@
 	)
 	(global_label "RV1"
 		(shape output)
-		(at 311.15 160.02 180)
+		(at 267.97 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11239,7 +11239,7 @@
 		)
 		(uuid "d007275d-c563-4acd-a2dc-7833e149f9ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.5967 160.02 0)
+			(at 261.4167 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11903,7 +11903,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 372.11 190.5 180)
+		(at 328.93 185.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11914,7 +11914,7 @@
 		(fields_autoplaced yes)
 		(uuid "166c2a7a-8a22-49a8-95a4-36422b838645")
 		(property "Reference" "R17"
-			(at 374.65 189.2299 0)
+			(at 331.47 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11925,7 +11925,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 374.65 191.7699 0)
+			(at 331.47 186.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11936,7 +11936,7 @@
 			)
 		)
 		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 373.888 190.5 90)
+			(at 330.708 185.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11947,7 +11947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 190.5 0)
+			(at 328.93 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +11958,7 @@
 			)
 		)
 		(property "Description" "CRCW080510K0FKEA"
-			(at 372.11 190.5 0)
+			(at 328.93 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12063,7 +12063,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 381 196.85 0)
+		(at 337.82 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12073,7 +12073,7 @@
 		(dnp no)
 		(uuid "1b43469d-c6dc-466b-bac1-ac1ea0441924")
 		(property "Reference" "#PWR049"
-			(at 381 203.2 0)
+			(at 337.82 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12084,7 +12084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 381 200.914 0)
+			(at 337.82 195.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12094,7 +12094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 196.85 0)
+			(at 337.82 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12105,7 +12105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 196.85 0)
+			(at 337.82 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12116,7 +12116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 381 196.85 0)
+			(at 337.82 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12928,7 +12928,7 @@
 				)
 			)
 		)
-		(property "Description" "ESP32-WROVER-E and ESP32-WROVER-IE are two powerful, generic WiFi-BT-BLE MCU modules that target a wide variety of applications, ranging from low-power sensor networks to the most demanding tasks, such as voice encoding, music streaming and MP3 decoding. ESP32-WROVER-E comes with a PCB antenna, and ESP32-WROVER-IE with an IPEX antenna. They both featurea 4 MB external SPI flash and an additional 8 MB SPI Pseudo static RAM (PSRAM)."
+		(property "Description" "ESP32-WROVER-E"
 			(at 350.52 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13457,7 +13457,7 @@
 	(symbol
 		(lib_name "LED_2")
 		(lib_id "Device:LED")
-		(at 469.9 166.37 90)
+		(at 426.72 161.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13468,7 +13468,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6c3e2d-3e7b-4721-b662-df2d9743d5e5")
 		(property "Reference" "D8"
-			(at 473.71 166.6874 90)
+			(at 430.53 161.6074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13479,7 +13479,7 @@
 			)
 		)
 		(property "Value" "LED_B_SMD"
-			(at 473.71 169.2274 90)
+			(at 430.53 164.1474 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13490,7 +13490,7 @@
 			)
 		)
 		(property "Footprint" "Moje:LED_SMD_1204"
-			(at 469.9 166.37 0)
+			(at 426.72 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13501,7 +13501,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.optosupply.com/uppic/20251231172424.pdf"
-			(at 469.9 166.37 0)
+			(at 426.72 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,7 +13512,7 @@
 			)
 		)
 		(property "Description" "OS1204B5"
-			(at 469.9 166.37 0)
+			(at 426.72 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13523,7 +13523,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 469.9 166.37 0)
+			(at 426.72 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13550,7 +13550,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 335.28 162.56 0)
+		(at 292.1 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13560,7 +13560,7 @@
 		(dnp no)
 		(uuid "3d30a82b-0624-409f-a481-3bf1bbec3c60")
 		(property "Reference" "#PWR056"
-			(at 335.28 166.37 0)
+			(at 292.1 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +13571,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 334.518 158.75 0)
+			(at 291.338 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13581,7 +13581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 335.28 162.56 0)
+			(at 292.1 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13592,7 +13592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 162.56 0)
+			(at 292.1 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13603,7 +13603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 335.28 162.56 0)
+			(at 292.1 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14016,7 +14016,7 @@
 	)
 	(symbol
 		(lib_id "Moje:RS45112A400G")
-		(at 316.23 157.48 0)
+		(at 273.05 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14027,7 +14027,7 @@
 		(fields_autoplaced yes)
 		(uuid "50a90028-1d04-4f8d-8f03-eedb2eb3de29")
 		(property "Reference" "RV1"
-			(at 321.31 156.21 0)
+			(at 278.13 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14037,7 +14037,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 157.48 0)
+			(at 273.05 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14047,7 +14047,7 @@
 			)
 		)
 		(property "Footprint" "Moje:RS45112A400G"
-			(at 316.23 157.48 0)
+			(at 273.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14058,7 +14058,7 @@
 			)
 		)
 		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/RS45112A400G/"
-			(at 316.23 157.48 0)
+			(at 273.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14069,7 +14069,7 @@
 			)
 		)
 		(property "Description" "RS45112A400G"
-			(at 316.23 157.48 0)
+			(at 273.05 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14346,7 +14346,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 367.03 185.42 270)
+		(at 323.85 180.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14356,7 +14356,7 @@
 		(dnp no)
 		(uuid "62a6be2c-6f37-41c6-baa3-323fed112e59")
 		(property "Reference" "R16"
-			(at 367.03 182.88 90)
+			(at 323.85 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14366,7 +14366,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 367.03 187.96 90)
+			(at 323.85 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14376,7 +14376,7 @@
 			)
 		)
 		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 367.03 183.642 90)
+			(at 323.85 178.562 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14387,7 +14387,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL"
-			(at 367.03 185.42 0)
+			(at 323.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14398,7 +14398,7 @@
 			)
 		)
 		(property "Description" "RC0805FR-0722R"
-			(at 367.03 185.42 0)
+			(at 323.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14696,7 +14696,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 469.9 175.26 0)
+		(at 426.72 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14707,7 +14707,7 @@
 		(fields_autoplaced yes)
 		(uuid "67e9cc76-cf8a-4b3e-9180-511d9a145165")
 		(property "Reference" "R22"
-			(at 472.44 173.9899 0)
+			(at 429.26 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14718,7 +14718,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 472.44 176.5299 0)
+			(at 429.26 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14729,7 +14729,7 @@
 			)
 		)
 		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 468.122 175.26 90)
+			(at 424.942 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14740,7 +14740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 469.9 175.26 0)
+			(at 426.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14751,7 +14751,7 @@
 			)
 		)
 		(property "Description" "RC0805FR-071K"
-			(at 469.9 175.26 0)
+			(at 426.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14778,7 +14778,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 434.34 199.39 0)
+		(at 391.16 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14788,7 +14788,7 @@
 		(dnp no)
 		(uuid "67effa8d-74d0-4a8e-a8df-9b41a0ef86a2")
 		(property "Reference" "#PWR052"
-			(at 434.34 205.74 0)
+			(at 391.16 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14799,7 +14799,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 434.34 203.454 0)
+			(at 391.16 198.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14809,7 +14809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 434.34 199.39 0)
+			(at 391.16 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14820,7 +14820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 434.34 199.39 0)
+			(at 391.16 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14831,7 +14831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 434.34 199.39 0)
+			(at 391.16 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15877,7 +15877,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 381 175.26 90)
+		(at 337.82 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15887,7 +15887,7 @@
 		(dnp no)
 		(uuid "89d2e011-b4c4-45cd-b184-981c430b1dbb")
 		(property "Reference" "D7"
-			(at 385.826 174.244 90)
+			(at 342.646 169.164 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15897,7 +15897,7 @@
 			)
 		)
 		(property "Value" "LED_R_SMD"
-			(at 389.89 176.53 90)
+			(at 346.71 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15907,7 +15907,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 381 175.26 0)
+			(at 337.82 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15918,7 +15918,7 @@
 			)
 		)
 		(property "Datasheet" "https://everlightamericas.com/datasheets/17-21SURC-S530-A3-4T.pdf"
-			(at 381 175.26 0)
+			(at 337.82 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15929,7 +15929,7 @@
 			)
 		)
 		(property "Description" "17-21SURC/S530-A3"
-			(at 381 175.26 0)
+			(at 337.82 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15940,7 +15940,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 381 175.26 0)
+			(at 337.82 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16294,7 +16294,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 381 166.37 0)
+		(at 337.82 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16304,7 +16304,7 @@
 		(dnp no)
 		(uuid "91dd8022-4b97-437b-b11b-0301610532b9")
 		(property "Reference" "R18"
-			(at 386.08 165.1 0)
+			(at 342.9 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16314,7 +16314,7 @@
 			)
 		)
 		(property "Value" "62"
-			(at 386.08 167.64 0)
+			(at 342.9 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16324,7 +16324,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 379.222 166.37 90)
+			(at 336.042 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16335,7 +16335,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data+Sheet+CRCW_BCe3.pdf"
-			(at 381 166.37 0)
+			(at 337.82 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16346,7 +16346,7 @@
 			)
 		)
 		(property "Description" "CRCW120662R0FKTABC"
-			(at 381 166.37 0)
+			(at 337.82 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16455,7 +16455,7 @@
 	)
 	(symbol
 		(lib_id "Moje:TACTS-24K-F")
-		(at 316.23 240.03 90)
+		(at 273.05 234.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16466,7 +16466,7 @@
 		(fields_autoplaced yes)
 		(uuid "962cc857-e2ec-45c8-bda0-e1ac5ced5b37")
 		(property "Reference" "SW6"
-			(at 328.93 235.5849 90)
+			(at 285.75 230.5049 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16477,7 +16477,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 240.03 0)
+			(at 273.05 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16487,7 +16487,7 @@
 			)
 		)
 		(property "Footprint" "Moje:TACTS-24K-F"
-			(at 316.23 240.03 0)
+			(at 273.05 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16498,7 +16498,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 316.23 240.03 0)
+			(at 273.05 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16509,7 +16509,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 316.23 240.03 0)
+			(at 273.05 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16946,7 +16946,7 @@
 	)
 	(symbol
 		(lib_id "Moje:TACTS-24K-F")
-		(at 316.23 261.62 90)
+		(at 273.05 256.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16957,7 +16957,7 @@
 		(fields_autoplaced yes)
 		(uuid "a53b387d-2490-41d3-b9d1-95f563dec97f")
 		(property "Reference" "SW7"
-			(at 328.93 257.1749 90)
+			(at 285.75 252.0949 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16968,7 +16968,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 261.62 0)
+			(at 273.05 256.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16978,7 +16978,7 @@
 			)
 		)
 		(property "Footprint" "Moje:TACTS-24K-F"
-			(at 316.23 261.62 0)
+			(at 273.05 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16989,7 +16989,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 316.23 261.62 0)
+			(at 273.05 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17000,7 +17000,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 316.23 261.62 0)
+			(at 273.05 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17876,7 +17876,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 436.88 176.53 0)
+		(at 393.7 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17887,7 +17887,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb8507d9-813a-42e9-a076-ae2939403685")
 		(property "Reference" "BZ1"
-			(at 440.69 175.2599 0)
+			(at 397.51 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17898,7 +17898,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 440.69 177.7999 0)
+			(at 397.51 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17909,7 +17909,7 @@
 			)
 		)
 		(property "Footprint" "Moje:LD-BZPN-1705"
-			(at 436.245 173.99 90)
+			(at 393.065 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17920,7 +17920,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/d20c3f3a1176d2b905cb0109d652cbcc/ld-bzpn-1705.pdf"
-			(at 436.245 173.99 90)
+			(at 393.065 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17931,7 +17931,7 @@
 			)
 		)
 		(property "Description" "LD-BZPN-1705"
-			(at 436.88 176.53 0)
+			(at 393.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18295,7 +18295,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 431.8 187.96 0)
+		(at 388.62 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18306,7 +18306,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf83517e-bfe3-4bcb-86f8-b6fd769ee06c")
 		(property "Reference" "Q3"
-			(at 438.15 186.6899 0)
+			(at 394.97 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18317,7 +18317,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 438.15 189.2299 0)
+			(at 394.97 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18328,7 +18328,7 @@
 			)
 		)
 		(property "Footprint" "Moje:SOT-23_editable"
-			(at 436.88 185.42 0)
+			(at 393.7 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18339,7 +18339,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/2n7002.pdf"
-			(at 431.8 200.66 0)
+			(at 388.62 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18350,7 +18350,7 @@
 			)
 		)
 		(property "Description" "2N7002-DIO"
-			(at 431.8 187.96 0)
+			(at 388.62 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18361,7 +18361,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 431.8 205.105 0)
+			(at 388.62 200.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18372,7 +18372,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 431.8 207.01 0)
+			(at 388.62 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18383,7 +18383,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 431.8 203.2 0)
+			(at 388.62 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18413,7 +18413,7 @@
 	)
 	(symbol
 		(lib_id "Moje:TACTS-24K-F")
-		(at 316.23 283.21 90)
+		(at 273.05 278.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18424,7 +18424,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0e459cd-07a3-4208-86b4-69dbadabd60c")
 		(property "Reference" "SW8"
-			(at 328.93 278.7649 90)
+			(at 285.75 273.6849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18435,7 +18435,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 283.21 0)
+			(at 273.05 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18445,7 +18445,7 @@
 			)
 		)
 		(property "Footprint" "Moje:TACTS-24K-F"
-			(at 316.23 283.21 0)
+			(at 273.05 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18456,7 +18456,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 316.23 283.21 0)
+			(at 273.05 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18467,7 +18467,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BRBE"
-			(at 316.23 283.21 0)
+			(at 273.05 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18747,7 +18747,7 @@
 	)
 	(symbol
 		(lib_id "Moje:TACTS-24K-F")
-		(at 316.23 218.44 90)
+		(at 273.05 213.36 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18758,7 +18758,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6b50a79-0e0b-4940-8774-a71ea4721e0e")
 		(property "Reference" "SW5"
-			(at 328.93 213.9949 90)
+			(at 285.75 208.9149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18769,7 +18769,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 218.44 0)
+			(at 273.05 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18779,7 +18779,7 @@
 			)
 		)
 		(property "Footprint" "Moje:TACTS-24K-F"
-			(at 316.23 218.44 0)
+			(at 273.05 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18790,7 +18790,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 316.23 218.44 0)
+			(at 273.05 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18801,7 +18801,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 316.23 218.44 0)
+			(at 273.05 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18834,7 +18834,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 420.37 187.96 90)
+		(at 377.19 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18844,7 +18844,7 @@
 		(dnp no)
 		(uuid "d36e3cb4-0826-403e-8d1e-4ef45e0572b0")
 		(property "Reference" "R19"
-			(at 418.338 185.674 90)
+			(at 375.158 180.594 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18855,7 +18855,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 418.846 190.5 90)
+			(at 375.666 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18866,7 +18866,7 @@
 			)
 		)
 		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 420.37 189.738 90)
+			(at 377.19 184.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18877,7 +18877,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL"
-			(at 420.37 187.96 0)
+			(at 377.19 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18888,7 +18888,7 @@
 			)
 		)
 		(property "Description" "RC0805FR-0722R"
-			(at 420.37 187.96 0)
+			(at 377.19 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18915,7 +18915,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 434.34 161.29 0)
+		(at 391.16 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18925,7 +18925,7 @@
 		(dnp no)
 		(uuid "d46ba1f0-01ba-4d6d-ad8c-bd05f5876659")
 		(property "Reference" "#PWR051"
-			(at 434.34 165.1 0)
+			(at 391.16 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18936,7 +18936,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 433.578 157.48 0)
+			(at 390.398 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18946,7 +18946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 434.34 161.29 0)
+			(at 391.16 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18957,7 +18957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 434.34 161.29 0)
+			(at 391.16 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18968,7 +18968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 434.34 161.29 0)
+			(at 391.16 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19147,7 +19147,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 469.9 161.29 0)
+		(at 426.72 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19157,7 +19157,7 @@
 		(dnp no)
 		(uuid "deb2f8ef-f6ee-4eb4-b1f3-70785f03fc64")
 		(property "Reference" "#PWR053"
-			(at 469.9 165.1 0)
+			(at 426.72 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19168,7 +19168,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 469.9 157.48 0)
+			(at 426.72 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19178,7 +19178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 469.9 161.29 0)
+			(at 426.72 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19189,7 +19189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 469.9 161.29 0)
+			(at 426.72 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19200,7 +19200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 469.9 161.29 0)
+			(at 426.72 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19622,7 +19622,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 335.28 163.83 180)
+		(at 292.1 158.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19633,7 +19633,7 @@
 		(fields_autoplaced yes)
 		(uuid "e673e01f-eb37-45a8-8961-065e11da7df5")
 		(property "Reference" "#FLG04"
-			(at 335.28 165.735 0)
+			(at 292.1 160.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19644,7 +19644,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 335.28 168.91 0)
+			(at 292.1 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19654,7 +19654,7 @@
 			)
 		)
 		(property "Footprint" "Moje:DFN-6-editable"
-			(at 335.28 163.83 0)
+			(at 292.1 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19665,7 +19665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 163.83 0)
+			(at 292.1 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19676,7 +19676,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 335.28 163.83 0)
+			(at 292.1 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20255,7 +20255,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 425.45 193.04 0)
+		(at 382.27 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20265,7 +20265,7 @@
 		(dnp no)
 		(uuid "f2b9d435-3051-4ecb-a37c-ab3e61835319")
 		(property "Reference" "R20"
-			(at 427.99 192.024 0)
+			(at 384.81 186.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20276,7 +20276,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 427.99 194.3099 0)
+			(at 384.81 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20287,7 +20287,7 @@
 			)
 		)
 		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 423.672 193.04 90)
+			(at 380.492 187.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20298,7 +20298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 425.45 193.04 0)
+			(at 382.27 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20309,7 +20309,7 @@
 			)
 		)
 		(property "Description" "CRCW080510K0FKEA"
-			(at 425.45 193.04 0)
+			(at 382.27 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20336,7 +20336,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 378.46 185.42 0)
+		(at 335.28 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20347,7 +20347,7 @@
 		(fields_autoplaced yes)
 		(uuid "f411a3b1-42e1-4905-9596-2c98bff95ab1")
 		(property "Reference" "Q2"
-			(at 384.81 184.1499 0)
+			(at 341.63 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20358,7 +20358,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 384.81 186.6899 0)
+			(at 341.63 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20369,7 +20369,7 @@
 			)
 		)
 		(property "Footprint" "Moje:SOT-23_editable"
-			(at 383.54 182.88 0)
+			(at 340.36 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20380,7 +20380,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/request/datasheet/2n7002.pdf"
-			(at 378.46 198.12 0)
+			(at 335.28 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20391,7 +20391,7 @@
 			)
 		)
 		(property "Description" "2N7002-DIO"
-			(at 378.46 185.42 0)
+			(at 335.28 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20402,7 +20402,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 378.46 202.565 0)
+			(at 335.28 197.485 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20413,7 +20413,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 378.46 204.47 0)
+			(at 335.28 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20424,7 +20424,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 378.46 200.66 0)
+			(at 335.28 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20766,7 +20766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 311.15 289.56 0)
+		(at 267.97 284.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20776,7 +20776,7 @@
 		(dnp no)
 		(uuid "f5a5a561-bbfc-43f8-929a-d38c73423696")
 		(property "Reference" "#PWR042"
-			(at 311.15 295.91 0)
+			(at 267.97 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20787,7 +20787,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 311.15 293.37 0)
+			(at 267.97 288.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20797,7 +20797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 289.56 0)
+			(at 267.97 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20808,7 +20808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 289.56 0)
+			(at 267.97 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20819,7 +20819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 311.15 289.56 0)
+			(at 267.97 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20924,7 +20924,7 @@
 	)
 	(symbol
 		(lib_id "Moje:TACTS-24K-F")
-		(at 316.23 196.85 90)
+		(at 273.05 191.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20935,7 +20935,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6cd749b-8811-4ce0-9c45-b8d90989eda4")
 		(property "Reference" "SW4"
-			(at 328.93 192.4049 90)
+			(at 285.75 187.3249 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20946,7 +20946,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 316.23 196.85 0)
+			(at 273.05 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20956,7 +20956,7 @@
 			)
 		)
 		(property "Footprint" "Moje:TACTS-24K-F"
-			(at 316.23 196.85 0)
+			(at 273.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20967,7 +20967,7 @@
 			)
 		)
 		(property "Datasheet" "https://ninigi.com/gb/en/product/tacts-24k-f/pdf/113048"
-			(at 316.23 196.85 0)
+			(at 273.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20978,7 +20978,7 @@
 			)
 		)
 		(property "Description" "TACTS-24K-F + TACT-2BSWH"
-			(at 316.23 196.85 0)
+			(at 273.05 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21092,7 +21092,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 381 161.29 0)
+		(at 337.82 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21102,7 +21102,7 @@
 		(dnp no)
 		(uuid "fad32e50-6e0b-4f18-ba67-ca80e8c2db4f")
 		(property "Reference" "#PWR048"
-			(at 381 165.1 0)
+			(at 337.82 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21113,7 +21113,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 380.238 157.48 0)
+			(at 337.058 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21123,7 +21123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 381 161.29 0)
+			(at 337.82 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21134,7 +21134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 381 161.29 0)
+			(at 337.82 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21145,7 +21145,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 381 161.29 0)
+			(at 337.82 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21404,7 +21404,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 434.34 166.37 0)
+		(at 391.16 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21414,7 +21414,7 @@
 		(dnp no)
 		(uuid "ff19dbee-84d4-490b-a2fc-3629020dacf4")
 		(property "Reference" "R21"
-			(at 436.88 165.0999 0)
+			(at 393.7 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21425,7 +21425,7 @@
 			)
 		)
 		(property "Value" "3.9k"
-			(at 436.88 167.6399 0)
+			(at 393.7 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21436,7 +21436,7 @@
 			)
 		)
 		(property "Footprint" "Moje:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_editable"
-			(at 432.562 166.37 90)
+			(at 389.382 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21447,7 +21447,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-073K9L"
-			(at 434.34 166.37 0)
+			(at 391.16 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21458,7 +21458,7 @@
 			)
 		)
 		(property "Description" "RC0805FR-073K9L"
-			(at 434.34 166.37 0)
+			(at 391.16 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
