@@ -1,13 +1,12 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       "VBUS",
       "EN",
-      "+3V3",
       "SW3",
       "Net-(J1-CC1)",
       "VCC",
