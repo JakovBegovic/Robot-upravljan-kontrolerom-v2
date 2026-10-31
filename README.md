@@ -1,7 +1,7 @@
 # Robot upravljan kontrolerom v2
 
 Samostalan projekt studenta 2. godine diplomskog studija Jakova Begovića razvijen u svrhu učenja i razvijanja znanja. <br><br>
-Nastao kao unaprjeđenje [projekta](https://github.com/JakovBegovic/Robot-upravljan-kontrolerom) razvijenog na 3. godini preddiplomskog studija.
+Koncipiran kao unaprjeđenje [projekta](https://github.com/JakovBegovic/Robot-upravljan-kontrolerom) razvijenog na 3. godini preddiplomskog studija.
 
 <br><br>
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
