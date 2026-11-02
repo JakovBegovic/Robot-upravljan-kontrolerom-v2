@@ -1809,6 +1809,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -12921,7 +13087,7 @@
 		(uuid "92b831cb-922e-451f-b1a3-924d0f2e9ae3")
 	)
 	(junction
-		(at 104.14 73.66)
+		(at 110.49 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92c816c7-ac78-4764-b284-30cd0d37261f")
@@ -14728,6 +14894,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 83.82) (xy 110.49 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41beb948-c1fd-4162-8a64-0f819a31f923")
+	)
+	(wire
+		(pts
 			(xy 120.65 208.28) (xy 120.65 207.01)
 		)
 		(stroke
@@ -15535,16 +15711,6 @@
 			(type default)
 		)
 		(uuid "62f49dd3-2927-4bb8-9d94-4efb55766e6f")
-	)
-	(wire
-		(pts
-			(xy 109.22 73.66) (xy 104.14 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6305127d-b1ad-4b95-85c9-93811d36143b")
 	)
 	(wire
 		(pts
@@ -16488,7 +16654,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 86.36 77.47)
+			(xy 86.36 68.58) (xy 86.36 74.93)
 		)
 		(stroke
 			(width 0)
@@ -17518,7 +17684,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 82.55) (xy 95.25 81.28)
+			(xy 86.36 83.82) (xy 86.36 82.55)
 		)
 		(stroke
 			(width 0)
@@ -18348,7 +18514,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 80.01 73.66)
+			(xy 80.01 73.66) (xy 115.57 73.66)
 		)
 		(stroke
 			(width 0)
@@ -18368,7 +18534,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 73.66) (xy 104.14 77.47)
+			(xy 110.49 73.66) (xy 110.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -18468,7 +18634,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 109.22 68.58)
+			(xy 86.36 68.58) (xy 115.57 68.58)
 		)
 		(stroke
 			(width 0)
@@ -19650,7 +19816,7 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 109.22 73.66 0)
+		(at 115.57 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19660,7 +19826,7 @@
 		)
 		(uuid "3e430422-81ae-494d-8651-2a83c6bcb907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.1589 73.66 0)
+			(at 122.5089 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20274,7 +20440,7 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 109.22 68.58 0)
+		(at 115.57 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20284,7 +20450,7 @@
 		)
 		(uuid "a62a7a2b-b0ea-40d8-8b94-e279db3398e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.1589 68.58 0)
+			(at 122.5089 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21935,7 +22101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 82.55 0)
+		(at 86.36 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21945,7 +22111,7 @@
 		(dnp no)
 		(uuid "0a13eb85-3c60-4dcb-90aa-6d907d58625b")
 		(property "Reference" "#PWR019"
-			(at 95.25 88.9 0)
+			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21956,7 +22122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 86.36 0)
+			(at 86.36 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21966,7 +22132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 82.55 0)
+			(at 86.36 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21977,7 +22143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 82.55 0)
+			(at 86.36 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21988,7 +22154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 82.55 0)
+			(at 86.36 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25650,6 +25816,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 110.49 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3140bd9e-3be5-4aa6-8907-1dd95097ed05")
+		(property "Reference" "D17"
+			(at 113.03 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "STN101033B101"
+			(at 113.03 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882D"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/ph/en-us/skuPage.STN101033B101.pdf"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STN101033B101"
+			(at 110.49 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77b42cd0-71df-41e6-b1cb-3e916bf5cb33")
+		)
+		(pin "2"
+			(uuid "8eb3391a-5b07-4eaf-bb2e-46fa07c0b7ed")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 86.36 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33460f8c-af9d-4167-9e49-46ea17ae4c21")
+		(property "Reference" "D3"
+			(at 88.9 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "STN101033B101"
+			(at 88.9 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882D"
+			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/ph/en-us/skuPage.STN101033B101.pdf"
+			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STN101033B101"
+			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b18ceac-c02e-4a83-978c-d70fcf696b64")
+		)
+		(pin "2"
+			(uuid "a3c082da-e962-42ea-a212-1aa9bac04da4")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 568.96 306.07 0)
 		(unit 1)
@@ -28335,89 +28665,6 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SM712_SOT23")
-		(at 95.25 77.47 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "554213cd-da91-4da7-ba65-f1456e733a53")
-		(property "Reference" "D3"
-			(at 100.076 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D5V0L2B3SO-7"
-			(at 106.172 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Moje:SOT-23_editable"
-			(at 95.25 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0L2B3SO.pdf"
-			(at 99.06 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "D5V0L2B3SO-7"
-			(at 95.25 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4385b8c0-c7ef-4268-a21f-bd8ec78c84db")
-		)
-		(pin "3"
-			(uuid "4c9155fc-e21e-4494-916d-8da51f877d14")
-		)
-		(pin "2"
-			(uuid "35fb2248-4800-4c7f-985f-74ccd5cb6510")
-		)
-		(instances
-			(project "Robot-auto"
-				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -45025,6 +45272,83 @@
 			(project "Robot-auto"
 				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f77724ce-5814-480b-820b-b973705934f1")
+		(property "Reference" "#PWR0122"
+			(at 110.49 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5dcdfe4-169d-4720-aab4-d4b38ff90d38")
+		)
+		(instances
+			(project "Robot-auto"
+				(path "/03e7400f-0747-4257-bd4a-573ca5ea4d4c"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
