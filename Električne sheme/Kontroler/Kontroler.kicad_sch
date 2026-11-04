@@ -869,6 +869,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Fuse"
 			(pin_numbers
 				(hide yes)
@@ -1517,236 +1683,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:SM712_SOT23"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM712_SOT23"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
-				(at -3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transient voltage suppressor thyrector transil"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SM712_SOT23_0_0"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM712_SOT23_0_1"
-				(polyline
-					(pts
-						(xy -6.35 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 -1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -6.35 1.27) (xy -6.35 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM712_SOT23_1_1"
-				(pin passive line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "common"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7989,7 +7925,7 @@
 		(uuid "75438c20-d752-4198-a99b-68c22aeeca76")
 	)
 	(junction
-		(at 88.9 69.85)
+		(at 95.25 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80c0bab1-0d8a-4bc6-a12b-f02975e8204e")
@@ -8668,6 +8604,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 64.77) (xy 102.87 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27122d9b-9401-4a3a-b9ae-c8239ca98f3f")
+	)
+	(wire
+		(pts
 			(xy 261.62 57.15) (xy 261.62 54.61)
 		)
 		(stroke
@@ -8808,7 +8754,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 69.85) (xy 88.9 73.66)
+			(xy 95.25 69.85) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9258,6 +9204,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 82.55) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a198889-6ebb-48db-a9b2-d8ca0a037658")
+	)
+	(wire
+		(pts
 			(xy 340.36 156.21) (xy 340.36 157.48)
 		)
 		(stroke
@@ -9635,16 +9591,6 @@
 			(type default)
 		)
 		(uuid "8542ceae-142c-4617-8cd2-6c9c02fcbfa2")
-	)
-	(wire
-		(pts
-			(xy 71.12 64.77) (xy 93.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "866c697b-2446-4fe0-bba6-0289b5e350a6")
 	)
 	(wire
 		(pts
@@ -10408,7 +10354,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 69.85) (xy 64.77 69.85)
+			(xy 64.77 69.85) (xy 102.87 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10425,16 +10371,6 @@
 			(type default)
 		)
 		(uuid "d5e109f5-8e94-4e90-909e-682d5d548ce8")
-	)
-	(wire
-		(pts
-			(xy 80.01 78.74) (xy 80.01 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7708396-f0ec-4eee-8a76-8b7df2c90d8b")
 	)
 	(wire
 		(pts
@@ -10568,16 +10504,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 88.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e426acd2-fa9d-4a04-ae9c-b2e50af11d43")
-	)
-	(wire
-		(pts
 			(xy 242.57 106.68) (xy 245.11 106.68)
 		)
 		(stroke
@@ -10605,6 +10531,16 @@
 			(type default)
 		)
 		(uuid "e57b4d16-e895-4b21-bb3d-8b3f07762051")
+	)
+	(wire
+		(pts
+			(xy 71.12 82.55) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f68f3f-d3d5-4533-b109-3e3c95af1bf4")
 	)
 	(wire
 		(pts
@@ -11540,7 +11476,7 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 93.98 64.77 0)
+		(at 102.87 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11550,7 +11486,7 @@
 		)
 		(uuid "af750ffd-bb87-400a-99da-f6d05310e1ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.9189 64.77 0)
+			(at 109.8089 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11828,7 +11764,7 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 93.98 69.85 0)
+		(at 102.87 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11838,7 +11774,7 @@
 		)
 		(uuid "fd23adfc-bb61-47a2-9817-c540a4e1e87c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.9189 69.85 0)
+			(at 109.8089 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12168,83 +12104,6 @@
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 80.01 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c3e1aa7-14c4-453c-a78c-b787398022fd")
-		(property "Reference" "#PWR04"
-			(at 80.01 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "766a4698-f1aa-4cde-916c-403bd96db879")
-		)
-		(instances
-			(project "Kontroler"
-				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14032,6 +13891,88 @@
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 95.25 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bfc617a-8e19-4a35-a1a6-be32ef8d36ad")
+		(property "Reference" "D17"
+			(at 97.79 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "STN101033B101"
+			(at 97.79 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882D"
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/ph/en-us/skuPage.STN101033B101.pdf"
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STN101033B101"
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e20e4094-08e5-4593-bd8b-335018ecb40b")
+		)
+		(pin "2"
+			(uuid "a3f3a6a3-7c5e-4491-8cb0-35cde7a4eba3")
+		)
+		(instances
+			(project "Kontroler"
+				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -16146,6 +16087,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 71.12 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7732c1fa-9721-4a6a-a47a-b14f388445bd")
+		(property "Reference" "D9"
+			(at 73.66 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "STN101033B101"
+			(at 73.66 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882D"
+			(at 71.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.eaton.com/ph/en-us/skuPage.STN101033B101.pdf"
+			(at 71.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STN101033B101"
+			(at 71.12 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7c89734-2aac-4cbc-bf95-c115c6c490fd")
+		)
+		(pin "2"
+			(uuid "b355d53a-7f4b-4a0f-a5fa-dc0afd6f99c6")
+		)
+		(instances
+			(project "Kontroler"
+				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 240.03 200.66 0)
 		(unit 1)
@@ -17510,89 +17533,6 @@
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SM712_SOT23")
-		(at 80.01 73.66 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9bf65e9b-adb7-40b9-b8b5-c691f6270734")
-		(property "Reference" "D1"
-			(at 84.836 77.724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D5V0L2B3SO-7"
-			(at 90.932 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Moje:SOT-23_editable"
-			(at 80.01 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D5V0L2B3SO.pdf"
-			(at 83.82 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "D5V0L2B3SO-7"
-			(at 80.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16f11267-818c-4fb6-9875-915ce2ff649d")
-		)
-		(pin "3"
-			(uuid "bee081d2-8a7d-4b8d-8108-6a35fbbfa18f")
-		)
-		(pin "2"
-			(uuid "318a90d6-32fe-41a6-9ab1-eb36fd21794a")
-		)
-		(instances
-			(project "Kontroler"
-				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -20275,6 +20215,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8832fdb-26d9-4423-be92-cbbd243e8619")
+		(property "Reference" "#PWR0122"
+			(at 95.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e11f51d1-e863-42e5-90da-e5bf381bb98a")
+		)
+		(instances
+			(project "Kontroler"
+				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 88.9 45.72 0)
 		(unit 1)
@@ -22759,6 +22776,83 @@
 			(project "Kontroler"
 				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbe2836a-5944-46a6-8285-53a5261843d1")
+		(property "Reference" "#PWR059"
+			(at 71.12 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e580a86-8059-45ae-8f40-2c7d2fcd646a")
+		)
+		(instances
+			(project "Kontroler"
+				(path "/1c5f9013-501d-485e-99a0-49bd3342d3d2"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
