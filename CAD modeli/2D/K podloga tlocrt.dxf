@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
--86.58818913141944
+-74.52144991494582
  20
--94.98570697438744
+-44.10409445967497
  30
 0
   9
 $EXTMAX
  10
-86.58818913141941
+74.34480096586738
  20
-31.70083925142995
+23.59549216606116
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-80.39041013213482
+52.07739204423912
  22
-26.95630815938648
+34.64501608568931
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-181.5164419253362
+166.7062507632746
  41
 1.879613356766257
  42
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 Construction
  70
-    1
+    0
  62
     6
   6
@@ -6517,9 +6517,9 @@ ByLayer
 100
 AcDbPoint
  10
--57
+0
  20
--9
+0
   0
 POINT
   5
@@ -6527,126 +6527,6 @@ D6
 100
 AcDbEntity
   8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPoint
- 10
-0
- 20
-23
-  0
-POINT
-  5
-D7
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPoint
- 10
-41.6005050633883
- 20
--3
-  0
-POINT
-  5
-D8
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPoint
- 10
-51.5
- 20
-6.89949493661166
-  0
-POINT
-  5
-D9
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPoint
- 10
-61.39949493661169
- 20
--3
-  0
-POINT
-  5
-DA
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPoint
- 10
-51.5
- 20
--12.89949493661166
-  0
-POINT
-  5
-DB
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbPoint
- 10
-0
- 20
-0
-  0
-POINT
-  5
-DC
-100
-AcDbEntity
-  8
 PCB
   6
 ByLayer
@@ -6663,7 +6543,7 @@ AcDbPoint
   0
 POINT
   5
-DD
+D7
 100
 AcDbEntity
   8
@@ -6683,7 +6563,7 @@ AcDbPoint
   0
 POINT
   5
-DE
+D8
 100
 AcDbEntity
   8
@@ -6703,7 +6583,7 @@ AcDbPoint
   0
 POINT
   5
-DF
+D9
 100
 AcDbEntity
   8
@@ -6723,7 +6603,7 @@ AcDbPoint
   0
 POINT
   5
-E0
+DA
 100
 AcDbEntity
   8
@@ -6743,7 +6623,7 @@ AcDbPoint
   0
 POINT
   5
-E1
+DB
 100
 AcDbEntity
   8
@@ -6763,7 +6643,7 @@ AcDbPoint
   0
 INSERT
   5
-E2
+DC
 100
 AcDbEntity
   8
@@ -6803,7 +6683,7 @@ Potenciometar klizni
   0
 SPLINE
   5
-E3
+DD
 100
 AcDbEntity
   8
@@ -7013,7 +6893,7 @@ AcDbSpline
   0
 POINT
   5
-E4
+DE
 100
 AcDbEntity
   8
@@ -7033,7 +6913,7 @@ AcDbPoint
   0
 INSERT
   5
-E5
+DF
 100
 AcDbEntity
   8
@@ -7073,7 +6953,7 @@ M3 rupa
   0
 INSERT
   5
-E6
+E0
 100
 AcDbEntity
   8
@@ -7113,7 +6993,7 @@ M3 rupa
   0
 INSERT
   5
-E7
+E1
 100
 AcDbEntity
   8
@@ -7153,7 +7033,7 @@ M3 rupa
   0
 INSERT
   5
-E8
+E2
 100
 AcDbEntity
   8
@@ -7193,7 +7073,7 @@ M3 rupa
   0
 INSERT
   5
-E9
+E3
 100
 AcDbEntity
   8
@@ -7233,7 +7113,7 @@ M3 rupa
   0
 INSERT
   5
-EA
+E4
 100
 AcDbEntity
   8
@@ -7273,7 +7153,7 @@ M3 rupa
   0
 INSERT
   5
-EB
+E5
 100
 AcDbEntity
   8
@@ -7313,7 +7193,7 @@ M3 rupa
   0
 INSERT
   5
-EC
+E6
 100
 AcDbEntity
   8
@@ -7383,7 +7263,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-ED
+E7
 100
 AcDbPlotSettings
   6
