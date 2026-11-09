@@ -15,7 +15,7 @@ Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu 
   - Razvijeni 2D modeli kućišta robot-auta i kontrolera ✅
   - Razvijeni 3D modeli kućišta robot-auta i kontrolera ❌
   - Isprintani 3D modeli kućišta robot-auta i kontrolera ❌
-  - Električni dijelovi robot-auta i kontrolera povezani na PCB-u ❌
+  - Električni dijelovi robot-auta i kontrolera povezani na PCB-ima ❌
   - Razvijeni programski kod prilagođen za sustave na PCB-ima ❌
 
 <br>
