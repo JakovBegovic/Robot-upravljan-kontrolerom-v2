@@ -33,7 +33,12 @@ Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu 
 
   - VSC + PlatformIO
     - razvoj programskog koda
-             
+
+<br>
+
+### Izjava o korištenju generativne umjetne inteligencije:
+Cjelokupni razvoj sustava se temelji na Internetskim izvorima, knjigama i nastavnim materijalima Sveučilišta u Zagrebu. Generativna umjetna inteligencija nije korištena za razvoj ovoga sustava.
+
 <br><br>
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
