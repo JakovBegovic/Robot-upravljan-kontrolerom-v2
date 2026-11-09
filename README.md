@@ -3,7 +3,20 @@
 <br>
 
 Samostalan projekt studenta 2. godine diplomskog studija Jakova Begovića razvijen u svrhu učenja i razvijanja znanja. <br><br>
-Koncipiran kao unaprjeđenje [projekta](https://github.com/JakovBegovic/Robot-upravljan-kontrolerom) razvijenog na 3. godini preddiplomskog studija.
+Koncipiran kao unaprjeđenje [projekta](https://github.com/JakovBegovic/Robot-upravljan-kontrolerom) razvijenog na 3. godini preddiplomskog studija. <br>
+Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu povećane energetske učinkovitosti, korisničkog iskustva i funkcionalnosti.<br><br>
+
+### Stanje razvoja dizajna za v2:
+  - Razvijen programski kod na prototipima robot-auta i kontrolera ✅
+  - Razvijena električna shema robot-auta i kontrolera ✅
+  - Dizajnirani PCB-i robot-auta i kontrolera ✅
+  - Izrađeni PCB-i robot-auta i kontrolera ✅
+  - Nabavljeni električni dijelovi robot-auta i kontrolera ✅
+  - Razvijeni 2D modeli kućišta robot-auta i kontrolera ✅
+  - Razvijeni 3D modeli kućišta robot-auta i kontrolera ❌
+  - Isprintani 3D modeli kućišta robot-auta i kontrolera ❌
+  - Električni dijelovi robot-auta i kontrolera povezani na PCB-u ❌
+  - Razvijeni programski kod prilagođen za sustave na PCB-ima ❌
 
 <br><br>
 This work is licensed under a
