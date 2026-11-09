@@ -18,6 +18,22 @@ Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu 
   - Električni dijelovi robot-auta i kontrolera povezani na PCB-u ❌
   - Razvijeni programski kod prilagođen za sustave na PCB-ima ❌
 
+<br>
+
+### Korišteni alati:
+  - KiCAD
+    - razvoj električne sheme
+    - dizajn PCB-a
+      
+  - LTSpice
+    - simuliranje rada diskretnih sklopovskih komponenti
+  
+  - LibreCAD     
+    - dizajn obruba PCB-a i 2D modela kućišta
+
+  - VSC + PlatformIO
+    - razvoj programskog koda
+             
 <br><br>
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
