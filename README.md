@@ -11,7 +11,7 @@ Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu 
   - Razvijene električne sheme robot-auta i kontrolera ✅
   - Dizajnirani PCB-i robot-auta i kontrolera ✅
   - Izrađeni PCB-i robot-auta i kontrolera ✅
-  - Nabavljeni električni dijelovi robot-auta i kontrolera ✅
+  - Nabavljeni elektronički dijelovi robot-auta i kontrolera ✅
   - Razvijeni 2D modeli kućišta robot-auta i kontrolera ✅
   - Razvijeni 3D modeli kućišta robot-auta i kontrolera ❌
   - Isprintani 3D modeli kućišta robot-auta i kontrolera ❌
