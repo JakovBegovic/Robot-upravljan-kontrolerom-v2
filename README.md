@@ -7,7 +7,7 @@ Koncipiran kao unaprjeđenje [projekta](https://github.com/JakovBegovic/Robot-up
 Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu povećane energetske učinkovitosti, korisničkog iskustva i funkcionalnosti.<br><br>
 
 ### Stanje razvoja dizajna za v2:
-  - Razvijen programski kod na prototipima robot-auta i kontrolera ✅
+  - Razvijen programski kod na prototipima shema robot-auta i kontrolera ✅
   - Razvijena električna shema robot-auta i kontrolera ✅
   - Dizajnirani PCB-i robot-auta i kontrolera ✅
   - Izrađeni PCB-i robot-auta i kontrolera ✅
