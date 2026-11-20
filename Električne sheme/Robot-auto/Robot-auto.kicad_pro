@@ -705,7 +705,7 @@
           "show": false
         }
       ],
-      "filter_string": "sw",
+      "filter_string": "d",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
