@@ -36,9 +36,9 @@ Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu 
 
 <br>
 
-### Izjava o korištenju generativne umjetne inteligencije: 
+### Izjava o korištenju umjetne inteligencije: 
 
-Generativna umjetna inteligencija nije korištena za razvoj ovoga sustava, kao ni za istraživanje u svrhu istog. <br>
+Umjetna inteligencija nije korištena za razvoj ovoga sustava, kao ni za istraživanje u svrhu istog. <br>
 Istraživanje je provedeno koristeći knjige, Internetske izvore i nastavne materijale pohađanih fakulteta.
 <br><br>
 This work is licensed under a
