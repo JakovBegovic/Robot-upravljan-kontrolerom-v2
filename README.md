@@ -36,9 +36,10 @@ Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu 
 
 <br>
 
-### Izjava o korištenju generativne umjetne inteligencije:
-Cjelokupni razvoj sustava se temelji na Internetskim izvorima, knjigama i nastavnim materijalima Sveučilišta u Zagrebu. Generativna umjetna inteligencija nije korištena za razvoj ovoga sustava.
+### Izjava o korištenju generativne umjetne inteligencije: 
 
+Generativna umjetna inteligencija nije korištena za razvoj ovoga sustava, kao ni za istraživanje u svrhu istog. <br>
+Istraživanje je provedeno koristeći knjige, Internetske izvore i nastavne materijale pohađanih fakulteta.
 <br><br>
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
