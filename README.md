@@ -39,7 +39,7 @@ Uzima inspiraciju od prvotnog projekta i unaprjeđuje njegove značajke u svrhu 
 ### Izjava o korištenju umjetne inteligencije: 
 
 Umjetna inteligencija nije korištena za razvoj ovoga sustava, kao ni za istraživanje u svrhu istog. <br>
-Istraživanje je provedeno koristeći knjige, Internetske izvore i nastavne materijale pohađanih fakulteta.
+Istraživanje je provedeno koristeći knjige, Internetske izvore i nastavne materijale pohađanih fakulteta te kroz razgovor s radnicima u struci, s profesorima i s kolegama na fakultetima.
 <br><br>
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
